@@ -52346,3 +52346,27 @@ Fri Jan  1 03:21:04 2021:Object: /cmds/player/chan, program: /cmds/player/chan, 
   14 _main             /sys/lib/modules/m_command (/cmds/player/chan)
  245 main              /cmds/player/chan
 
+:Failed to compile "/sys/obj/user.c"
+Sat Jul  2 21:48:16 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/sys/cmds/admin/warmboot)
+  13 _F_call_out2      /kernel/lib/auto (/sys/cmds/admin/warmboot)
+ 231 next_stage        /sys/cmds/admin/warmboot
+ 197 rebuild_world     /sys/cmds/admin/warmboot
+ 143 upgrade_uobj      /sys/cmds/admin/warmboot
+  33 compile_object    /kernel/lib/auto (/sys/cmds/admin/warmboot)
+ 184 compile_object    /kernel/sys/driver
+
+:Failed to compile "/sys/obj/user.c"
+Sat Jul  2 21:48:35 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+ 554 receive_message   /sys/obj/user (#120)
+ 169 receive           /sys/lib/telnet (/sys/obj/user#120)
+ 549 _receive_message  /sys/obj/user (#120)
+1644 receive_message   /sys/obj/player (#269)
+ 155 command           /sys/lib/modules/m_cmds (/sys/obj/player#269)
+ 156 exec_command      /sys/daemons/command_d
+  14 _main             /sys/lib/modules/m_command (/sys/cmds/wiz/update)
+ 160 main              /sys/cmds/wiz/update
+  71 recompile_object  /sys/cmds/wiz/update
+  33 compile_object    /kernel/lib/auto (/sys/cmds/wiz/update)
+ 184 compile_object    /kernel/sys/driver
+

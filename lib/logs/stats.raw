@@ -6253,3 +6253,6 @@ enter: /domains/required/rooms/start.c:Brubby
 enter: /domains/required/rooms/transport.c:Brubby
 enter: /domains/core/rooms/city/x40y-90z0.c:Brubby
 enter: /domains/core/rooms/city/x40y-90z0.c:Steve
+enter: /domains/core/rooms/city/x40y-90z0.c:Evilmog
+enter: /domains/core/rooms/city/x40y-90z0.c:Steve
+enter: /domains/required/rooms/start.c:Mog

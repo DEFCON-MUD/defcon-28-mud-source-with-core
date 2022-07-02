@@ -1,5 +1,5 @@
 #!/bin/bash
-ROOT=/home/defcon/gurba/
+ROOT=/home/gurba/defcon-28-mud-source-with-core/
 
 if [ -d $ROOT/lib/logs ]; then
 	LOG=$ROOT/lib/logs/gurba-driver.log

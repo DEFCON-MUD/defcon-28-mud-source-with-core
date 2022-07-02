@@ -1,8 +1,3 @@
-Jul 15 06:27:49 ** DGD 1.6.12 running GurbaLib v0.52.
-Jul 15 06:27:49 ** State restored.
-Jul 15 07:28:28 ** New telnet connection from <unknown>:0
-Jul 15 12:20:34 ** New telnet connection from <unknown>:0
-Jul 15 12:39:51 ** New telnet connection from <unknown>:0
-Jul 15 14:24:23 ** New telnet connection from <unknown>:0
-Jul 15 19:10:21 ** New telnet connection from <unknown>:0
-Fatal error: driver->binary_connect() did not return persistent object
+Jul  2 21:41:44 ** DGD 1.6.20 running GurbaLib v0.52.
+Jul  2 21:41:44 ** State restored.
+Jul  2 21:43:15 ** Shutting down.

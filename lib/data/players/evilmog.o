@@ -12,7 +12,7 @@ cur_mana 53
 max_mana 53
 cur_end 66
 max_end 66
-player_age 10536
+player_age 10648
 kills 24
 killed_by ([0|])
 wimpy_dir ""
@@ -21,18 +21,18 @@ race "hacker"
 hit_string "hit"
 followers ({0|})
 living_name "evilmog"
-autoload_string "/domains/core/objects/shop/weapon/sword20.c:wield^!/domains/core/objects/shop/armour/boots20.c:wear^!/domains/core/objects/shop/weapon/sword20.c:wield^!/domains/core/objects/shop/armour/ring20.c:wear^!*^!"
+autoload_string "/domains/core/objects/shop/armour/ring20.c:wear^!/domains/core/objects/shop/weapon/sword20.c:wield^!/domains/core/objects/shop/armour/boots20.c:wear^!/domains/core/objects/shop/weapon/sword20.c:wield^!*^!"
 skills ([3|"combat/defense":14,"combat/sharp/small":27,"combat/unarmed":2,])
 hit_skill "combat/unarmed"
 searchpath ({3|"/cmds/player/","/sys/cmds/wiz/","/sys/cmds/admin/",})
-history ({20|"motd","look","home","ls","cd woodland","ls","cd ..","cd woodland","cd objects","cd ..","cd rooms","ls","goto 5_16.c","go south ","cd /domains/required","cd rooms","ls","go north ","go west ","who",})
+history ({20|"cd ..","cd woodland","cd objects","cd ..","cd rooms","ls","goto 5_16.c","go south ","cd /domains/required","cd rooms","ls","go north ","go west ","who","warmboot","update /sys/user.c","ls","ls /sys","update /sys/obj/user.c","warmboot",})
 last_tell "ohmmn"
-environment_variables ([2|"cwd":"/domains/required/rooms","cwf":"/sys/daemons/flag_d_secure.c",])
+environment_variables ([2|"cwd":"/domains/required/rooms","cwf":"/sys/obj/user.c",])
 title "$N the %^EXT_45%^Vice President%^RESET%^"
 channels ({3|"gossip","announce","dgd",})
 ignored ({0|})
 alias ([0|])
-last_login 1625972438
+last_login 1656798255
 ansi 1
 lastmined 506
 custom_colors ([0|])
