@@ -7,7 +7,7 @@ void setup(void) {
 
    set_short("A large open field");
    set_long("You are in a large open field.  To the north you see a large " +
-      "dead tree with some sort of sign on it. \n\n%^RED%^*%^YELLOW%^*%^RESET%^%^RED%^* %^HRED%^WARNING: %^RESET%^Permadeath is active in this game, you can buy death insurance. Right now the game is configured to drop you to level 1 on death.");
+      "dead tree with some sort of sign on it. \n\n%^RED%^*%^YELLOW%^*%^RESET%^%^RED%^* %^HRED%^WARNING: %^RESET%^Permadeath is active in this game, you can buy death insurance. Right now the game is configured to drop you to level 1 on death without death proof insurance. 3 deaths and we delete your character.");
    add_action("fuck", "fuck");
 
    add_object( "/domains/dungeon/objects/sign.c", 9);
