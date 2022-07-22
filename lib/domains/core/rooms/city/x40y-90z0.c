@@ -18,6 +18,7 @@ void setup( void ) {
  DIR+"/monsters/magnus.c"
 );
  set_exits( ([
-  "north" : DIR+"/rooms/city/x40y-80z0.c"
+  "north" : DIR+"/rooms/city/x40y-80z0.c",
+  "up" : "/domains/required/rooms/start"
   ]) );
 }

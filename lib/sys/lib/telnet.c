@@ -102,9 +102,10 @@ static void receive(mixed tls, string str) {
     string rc;
 
     /* find telnet commands in input */
+    /* stop jerks from running cat /dev/urandom | nc mudname 4000 and crashing */
     rc = catch(({ strings, partial }) = TELNET_PARSER->parse_telnet(partial + str));
     if (rc) {
-      destruct_object(this_player());
+       destruct_object(this_player());
     }
 
     for (i = 0; i < sizeof(strings); i++) {
