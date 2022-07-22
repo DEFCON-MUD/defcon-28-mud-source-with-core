@@ -11,10 +11,10 @@ void setup( void ) {
   set_dimensions(({ 10, 10 }));
 
   set_short( "Labyrinth" );
-  set_long( "This is a cramped tunnel, illuminated only by the red glow of the gunk in this dump. The walls and floors are covered with liquid. The air smells like it hasn't been cycled in a while, you are getting dizzy.%^RESET%^" );
+  set_long( "This is a broad hallway, illuminated only by the blue glow of the radioactive waste in this hellhole. The walls and floors are covered with liquid. It smells like a combination of diesel fuel, dirt and decay.%^RESET%^" );
 
   set_objects(
-    DIR+"/npc/enforcer.c"
+    DIR+"/npc/glorzo.c"
   );
  set_exits( ([
   "northwest" : DIR+"/rooms/7_4_-2.c",

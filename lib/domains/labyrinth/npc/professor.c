@@ -5,11 +5,11 @@ void setup( void ) {
    set_name("professor");
    set_short("A professor");
    set_long("A professor");
-   set_gender("female");
+   set_gender("male");
    set_race("professor");
    set_hit_skill("combat/unarmed");
-   set_skill("combat/unarmed", 120);
-   set_skill("combat/defense", 120);
-   set_level(6);
+   set_skill("combat/unarmed", 100);
+   set_skill("combat/defense", 100);
+   set_level(5);
 }
 

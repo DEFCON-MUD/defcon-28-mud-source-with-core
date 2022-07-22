@@ -8,13 +8,13 @@ void setup( void ) {
   add_area("labyrinth");
   set_domainname("labyrinth");
   set_coords(({ 4, 2, -2 }));
-  set_dimensions(({ 10, 10 }));
+  set_dimensions(({ 64, 64 }));
 
-  set_short( "Labyrinth" );
-  set_long( "This is a broad hallway, illuminated only by the orange glow of the muck in this hellhole. The walls and floors are covered with slime. It smells like a combination of diesel fuel, dirt and decay.%^RESET%^" );
+  set_short( "Passage" );
+  set_long( "This is a cramped tunnel, illuminated only by the red glow of the muck in this pit. The walls and floors are covered with mud. The smell is outright dreadful.%^RESET%^" );
 
   set_objects(
-    DIR+"/npc/coder.c"
+    DIR+"/npc/professor.c"
   );
  set_exits( ([
   "west" : DIR+"/rooms/3_2_-2.c",

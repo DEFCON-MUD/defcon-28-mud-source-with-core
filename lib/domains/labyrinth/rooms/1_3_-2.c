@@ -10,11 +10,11 @@ void setup( void ) {
   set_coords(({ 1, 3, -2 }));
   set_dimensions(({ 10, 10 }));
 
-  set_short( "Labyrinth" );
-  set_long( "This is a cramped tunnel, illuminated only by the red glow of the pile of put kevin back stickers in this stink-pit. The walls and floors are covered with dust. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^" );
+  set_short( "Passage" );
+  set_long( "This is a cramped corridor, illuminated only by the blue glow of the radioactive waste in this dump. The walls and floors are covered with liquid. It smells like a hacker convention in here.%^RESET%^" );
 
   set_objects(
-    DIR+"/npc/coder.c"
+    DIR+"/npc/technician.c"
   );
  set_exits( ([
   "north" : DIR+"/rooms/1_2_-2.c",

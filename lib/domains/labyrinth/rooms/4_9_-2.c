@@ -11,10 +11,10 @@ void setup( void ) {
   set_dimensions(({ 10, 10 }));
 
   set_short( "Passage" );
-  set_long( "This is a wide hallway, illuminated only by the green glow of the radioactive waste in this hellhole. The walls and floors are covered with liquid. The air is rather stagnant.%^RESET%^" );
+  set_long( "This is a wide corridor, illuminated only by the orange glow of the glorzo in this hellhole. The walls and floors are covered with oil. The air is rather stagnant.%^RESET%^" );
 
   set_objects(
-    DIR+"/npc/Gl0Rz0.c"
+    DIR+"/npc/professor.c"
   );
  set_exits( ([
   "northwest" : DIR+"/rooms/3_8_-2.c",

@@ -8,17 +8,17 @@ void setup( void ) {
   add_area("labyrinth");
   set_domainname("labyrinth");
   set_coords(({ 7, 2, -2 }));
-  set_dimensions(({ 10, 10 }));
+  set_dimensions(({ 64, 64 }));
 
-  set_short( "Hallway" );
-  set_long( "This is a broad corridor, illuminated only by the purple glow of the sludge in this stink-pit. The walls and floors are covered with blood. It smells like a hacker convention in here.%^RESET%^" );
+  set_short( "Passage" );
+  set_long( "This is a narrow tunnel, illuminated only by the red glow of the crap in this area. The walls and floors are covered with mud. It smells like a hacker convention in here.%^RESET%^" );
 
   set_objects(
-    DIR+"/npc/agent.c"
+    DIR+"/npc/politician.c"
   );
  set_exits( ([
-  "northwest" : DIR+"/rooms/6_1_-2.c",
-  "south" : DIR+"/rooms/7_3_-2.c"
+  "east" : DIR+"/rooms/8_2_-2.c",
+  "north" : DIR+"/rooms/7_1_-2.c"
   ]) );
 
 }

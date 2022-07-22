@@ -8,18 +8,16 @@ void setup( void ) {
   add_area("labyrinth");
   set_domainname("labyrinth");
   set_coords(({ 7, 6, -2 }));
-  set_dimensions(({ 10, 10 }));
+  set_dimensions(({ 64, 64 }));
 
-  set_short( "Hallway" );
-  set_long( "This is a broad hallway, illuminated only by the orange glow of the crap in this pit. The walls and floors are covered with liquid. The air is rather stagnant.%^RESET%^" );
+  set_short( "Passage" );
+  set_long( "This is a broad hallway, illuminated only by the orange glow of the random junk evilmog thought up in this pit. The walls and floors are covered with dust. To add to that, the smell here isn't exactly perfumy either.%^RESET%^" );
 
   set_objects(
-    DIR+"/npc/analyst.c"
+    DIR+"/npc/professor.c"
   );
  set_exits( ([
-  "north" : DIR+"/rooms/7_5_-2.c",
-  "south" : DIR+"/rooms/7_7_-2.c",
-  "northeast" : DIR+"/rooms/8_5_-2.c"
+  "west" : DIR+"/rooms/6_6_-2.c"
   ]) );
 
 }

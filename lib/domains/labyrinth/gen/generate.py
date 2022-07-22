@@ -1,19 +1,19 @@
 from random import *
 import random
 
-genpath="/home/git/gurba/lib/domains/labyrinth/gen"
-syspath = "/home/git/gurba/lib/domains/labyrinth/rooms"
-mobpath="/home/git/gurba/lib/domains/labyrinth/npc"
-roompath="/home/git/gurba/lib/domains/labyrinth/rooms"
+genpath="/home/gurba/defcon-28-mud-source-with-core/lib/domains/labyrinth/gen"
+syspath = "/home/gurba/defcon-28-mud-source-with-core/lib/domains/labyrinth/rooms"
+mobpath="/home/gurba/defcon-28-mud-source-with-core/lib/domains/labyrinth/npc"
+roompath="/home/gurba/defcon-28-mud-source-with-core/lib/domains/labyrinth/rooms"
 incdir=""
 area="labyrinth"
 
 room_array = []
-dimensions = ["10", "10"]
+dimensions = ["64", "64"]
 
 mob_array = ["coder","analyst","droid","politician", "agent", "salesdroid", "glorzo", "Gl0Rz0", "auditor", "dba", "monkey", "banker", "technician", "goon", "enforcer", "stoner", "teacher", "professor"]
 room_mobs = []
-level_range = [6, 14]
+level_range = [1, 20]
 
 floors = ['stone', 'jade', 'marble', 'obsidian', 'limestone', 'quartz', 'basalt']
 walls = ['slime', 'blood', 'oil', 'mud', 'dust', 'liquid']

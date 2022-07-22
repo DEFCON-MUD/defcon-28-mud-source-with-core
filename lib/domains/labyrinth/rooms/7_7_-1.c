@@ -11,10 +11,10 @@ void setup( void ) {
   set_dimensions(({ 10, 10 }));
 
   set_short( "Labyrinth" );
-  set_long( "This is a wide corridor, illuminated only by the iridium glow of the pile of GPU's that burned so bright they went radioactive in this stink-pit. The walls and floors are covered with slime. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^" );
+  set_long( "This is a broad tunnel, illuminated only by the iridium glow of the muck in this sty. The walls and floors are covered with mud. Musty air that doesn't seem to have been ventilated for a while brushes up against you as you move around here.%^RESET%^" );
 
   set_objects(
-    DIR+"/npc/droid.c"
+    DIR+"/npc/goon.c"
   );
  set_exits( ([
   "west" : DIR+"/rooms/6_7_-1.c",

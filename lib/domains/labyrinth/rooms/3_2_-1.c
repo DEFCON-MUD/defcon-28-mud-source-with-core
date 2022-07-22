@@ -8,16 +8,17 @@ void setup( void ) {
   add_area("labyrinth");
   set_domainname("labyrinth");
   set_coords(({ 3, 2, -1 }));
-  set_dimensions(({ 10, 10 }));
+  set_dimensions(({ 64, 64 }));
 
-  set_short( "Passage" );
-  set_long( "This is a narrow corridor, illuminated only by the green glow of the crap in this dump. The walls and floors are covered with dust. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^" );
+  set_short( "Labyrinth" );
+  set_long( "This is a wide corridor, illuminated only by the orange glow of the gunk in this sty. The walls and floors are covered with oil. It smells like a combination of diesel fuel, dirt and decay.%^RESET%^" );
 
   set_objects(
-    DIR+"/npc/professor.c"
+    DIR+"/npc/technician.c"
   );
  set_exits( ([
-  "north" : DIR+"/rooms/3_1_-1.c"
+  "west" : DIR+"/rooms/2_2_-1.c",
+  "east" : DIR+"/rooms/4_2_-1.c"
   ]) );
 
 }

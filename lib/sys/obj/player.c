@@ -254,9 +254,6 @@ int increment_death(void) {
   name = this_object()->query_name();
   tmp_lives = this_object()->query_lives();
 
-  /* Disabled Permadeath on 10/01/2021 by EvilMog */
-  return 1;
-
   if (tmp_lives < 1) {
     this_object()->message("%^EXT_215%^2 lives remaining...%^RESET%^");
     this_object()->set_lives(1);

@@ -8,8 +8,8 @@ void setup( void ) {
    set_gender("male");
    set_race("teacher");
    set_hit_skill("combat/unarmed");
-   set_skill("combat/unarmed", 220);
-   set_skill("combat/defense", 220);
-   set_level(11);
+   set_skill("combat/unarmed", 260);
+   set_skill("combat/defense", 260);
+   set_level(13);
 }
 

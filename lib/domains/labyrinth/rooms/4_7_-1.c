@@ -10,11 +10,11 @@ void setup( void ) {
   set_coords(({ 4, 7, -1 }));
   set_dimensions(({ 10, 10 }));
 
-  set_short( "Passage" );
-  set_long( "This is a cramped hallway, illuminated only by the red glow of the radioactive waste in this dump. The walls and floors are covered with blood. The air is rather stagnant.%^RESET%^" );
+  set_short( "Hallway" );
+  set_long( "This is a cramped hallway, illuminated only by the iridium glow of the pile of put kevin back stickers in this stink-pit. The walls and floors are covered with blood. The air is rather stagnant.%^RESET%^" );
 
   set_objects(
-    DIR+"/npc/analyst.c"
+    DIR+"/npc/salesdroid.c"
   );
  set_exits( ([
   "west" : DIR+"/rooms/3_7_-1.c",

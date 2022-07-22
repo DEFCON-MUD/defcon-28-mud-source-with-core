@@ -10,11 +10,11 @@ void setup( void ) {
   set_coords(({ 8, 3, -2 }));
   set_dimensions(({ 10, 10 }));
 
-  set_short( "Hallway" );
-  set_long( "This is a narrow corridor, illuminated only by the purple glow of the crud in this sty. The walls and floors are covered with oil. Musty air that doesn't seem to have been ventilated for a while brushes up against you as you move around here.%^RESET%^" );
+  set_short( "Labyrinth" );
+  set_long( "This is a cramped tunnel, illuminated only by the blue glow of the crappy sales material in this stink-pit. The walls and floors are covered with liquid. The air is rather stagnant.%^RESET%^" );
 
   set_objects(
-    DIR+"/npc/enforcer.c"
+    DIR+"/npc/agent.c"
   );
  set_exits( ([
   "southeast" : DIR+"/rooms/9_4_-2.c"

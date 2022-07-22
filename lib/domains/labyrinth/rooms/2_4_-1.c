@@ -10,11 +10,11 @@ void setup( void ) {
   set_coords(({ 2, 4, -1 }));
   set_dimensions(({ 10, 10 }));
 
-  set_short( "Labyrinth" );
-  set_long( "This is a cramped tunnel, illuminated only by the red glow of the pile of put kevin back stickers in this dump. The walls and floors are covered with mud. It smells like a hacker convention in here.%^RESET%^" );
+  set_short( "Hallway" );
+  set_long( "This is a wide tunnel, illuminated only by the red glow of the crap in this hellhole. The walls and floors are covered with oil. It smells like a hacker convention in here.%^RESET%^" );
 
   set_objects(
-    DIR+"/npc/politician.c"
+    DIR+"/npc/agent.c"
   );
  set_exits( ([
   "west" : DIR+"/rooms/1_4_-1.c",

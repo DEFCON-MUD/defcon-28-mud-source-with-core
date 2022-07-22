@@ -8,18 +8,17 @@ void setup( void ) {
   add_area("labyrinth");
   set_domainname("labyrinth");
   set_coords(({ 4, 4, -1 }));
-  set_dimensions(({ 10, 10 }));
+  set_dimensions(({ 64, 64 }));
 
-  set_short( "Passage" );
-  set_long( "This is a broad hallway, illuminated only by the green glow of the crud in this sty. The walls and floors are covered with oil. The air is rather stagnant.%^RESET%^" );
+  set_short( "Hallway" );
+  set_long( "This is a wide tunnel, illuminated only by the red glow of the gunk in this stink-pit. The walls and floors are covered with blood. The air is rather stagnant.%^RESET%^" );
 
   set_objects(
     DIR+"/npc/banker.c"
   );
  set_exits( ([
-  "southwest" : DIR+"/rooms/3_5_-1.c",
-  "northwest" : DIR+"/rooms/3_3_-1.c",
-  "northeast" : DIR+"/rooms/5_3_-1.c"
+  "west" : DIR+"/rooms/3_4_-1.c",
+  "east" : DIR+"/rooms/5_4_-1.c"
   ]) );
 
 }

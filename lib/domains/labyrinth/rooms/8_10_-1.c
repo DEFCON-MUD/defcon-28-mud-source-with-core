@@ -8,13 +8,13 @@ void setup( void ) {
   add_area("labyrinth");
   set_domainname("labyrinth");
   set_coords(({ 8, 10, -1 }));
-  set_dimensions(({ 10, 10 }));
+  set_dimensions(({ 64, 64 }));
 
-  set_short( "Labyrinth" );
-  set_long( "This is a narrow tunnel, illuminated only by the blue glow of the pile of GPU's that burned so bright they went radioactive in this sty. The walls and floors are covered with liquid. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^" );
+  set_short( "Hallway" );
+  set_long( "This is a cramped corridor, illuminated only by the orange glow of the crappy sales material in this area. The walls and floors are covered with blood. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^" );
 
   set_objects(
-    DIR+"/npc/goon.c"
+    DIR+"/npc/stoner.c"
   );
  set_exits( ([
   "west" : DIR+"/rooms/7_10_-1.c",

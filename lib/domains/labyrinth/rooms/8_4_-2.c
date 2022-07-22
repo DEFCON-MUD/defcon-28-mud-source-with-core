@@ -10,11 +10,11 @@ void setup( void ) {
   set_coords(({ 8, 4, -2 }));
   set_dimensions(({ 10, 10 }));
 
-  set_short( "Passage" );
-  set_long( "This is a narrow tunnel, illuminated only by the blue glow of the radioactive waste in this area. The walls and floors are covered with mud. The air smells like it hasn't been cycled in a while, you are getting dizzy.%^RESET%^" );
+  set_short( "Labyrinth" );
+  set_long( "This is a broad hallway, illuminated only by the purple glow of the radioactive waste in this dump. The walls and floors are covered with liquid. Musty air that doesn't seem to have been ventilated for a while brushes up against you as you move around here.%^RESET%^" );
 
   set_objects(
-    DIR+"/npc/salesdroid.c"
+    DIR+"/npc/enforcer.c"
   );
  set_exits( ([
   "northwest" : DIR+"/rooms/7_3_-2.c",

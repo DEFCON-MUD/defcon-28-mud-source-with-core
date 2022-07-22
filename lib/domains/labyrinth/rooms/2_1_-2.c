@@ -10,11 +10,11 @@ void setup( void ) {
   set_coords(({ 2, 1, -2 }));
   set_dimensions(({ 10, 10 }));
 
-  set_short( "Hallway" );
-  set_long( "This is a broad tunnel, illuminated only by the red glow of the pile of GPU's that burned so bright they went radioactive in this area. The walls and floors are covered with dust. The smell is outright dreadful.%^RESET%^" );
+  set_short( "Passage" );
+  set_long( "This is a narrow corridor, illuminated only by the green glow of the random junk evilmog thought up in this hellhole. The walls and floors are covered with oil. The smell is outright dreadful.%^RESET%^" );
 
   set_objects(
-    DIR+"/npc/monkey.c"
+    DIR+"/npc/droid.c"
   );
  set_exits( ([
   "west" : DIR+"/rooms/1_1_-2.c",

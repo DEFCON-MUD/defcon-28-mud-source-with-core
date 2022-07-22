@@ -11,7 +11,7 @@ void setup( void ) {
   set_dimensions(({ 10, 10 }));
 
   set_short( "Labyrinth" );
-  set_long( "This is a wide hallway, illuminated only by the orange glow of the crud in this pit. The walls and floors are covered with mud. It smells like a hacker convention in here.%^RESET%^" );
+  set_long( "This is a cramped corridor, illuminated only by the green glow of the sludge in this pit. The walls and floors are covered with slime. Musty air that doesn't seem to have been ventilated for a while brushes up against you as you move around here.%^RESET%^" );
 
   set_objects(
     DIR+"/npc/professor.c"

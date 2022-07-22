@@ -11,10 +11,10 @@ void setup( void ) {
   set_dimensions(({ 10, 10 }));
 
   set_short( "Labyrinth" );
-  set_long( "This is a broad corridor, illuminated only by the iridium glow of the random junk evilmog thought up in this area. The walls and floors are covered with oil. To add to that, the smell here isn't exactly perfumy either.%^RESET%^" );
+  set_long( "This is a narrow hallway, illuminated only by the red glow of the pile of GPU's that burned so bright they went radioactive in this sty. The walls and floors are covered with mud. It smells like a hacker convention in here.%^RESET%^" );
 
   set_objects(
-    DIR+"/npc/agent.c"
+    DIR+"/npc/banker.c"
   );
  set_exits( ([
   "west" : DIR+"/rooms/2_1_-2.c",

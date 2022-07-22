@@ -10,11 +10,11 @@ void setup( void ) {
   set_coords(({ 7, 1, -2 }));
   set_dimensions(({ 10, 10 }));
 
-  set_short( "Labyrinth" );
-  set_long( "This is a wide hallway, illuminated only by the iridium glow of the crud in this sty. The walls and floors are covered with mud. Musty air that doesn't seem to have been ventilated for a while brushes up against you as you move around here.%^RESET%^" );
+  set_short( "Passage" );
+  set_long( "This is a cramped corridor, illuminated only by the orange glow of the crap in this area. The walls and floors are covered with dust. To add to that, the smell here isn't exactly perfumy either.%^RESET%^" );
 
   set_objects(
-    DIR+"/npc/glorzo.c"
+    DIR+"/npc/coder.c"
   );
  set_exits( ([
   "west" : DIR+"/rooms/6_1_-2.c",

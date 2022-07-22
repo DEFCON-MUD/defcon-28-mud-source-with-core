@@ -10,11 +10,11 @@ void setup( void ) {
   set_coords(({ 6, 5, -2 }));
   set_dimensions(({ 10, 10 }));
 
-  set_short( "Passage" );
-  set_long( "This is a narrow hallway, illuminated only by the green glow of the pile of put kevin back stickers in this dump. The walls and floors are covered with liquid. To add to that, the smell here isn't exactly perfumy either.%^RESET%^" );
+  set_short( "Hallway" );
+  set_long( "This is a broad hallway, illuminated only by the orange glow of the gunk in this area. The walls and floors are covered with blood. Musty air that doesn't seem to have been ventilated for a while brushes up against you as you move around here.%^RESET%^" );
 
   set_objects(
-    DIR+"/npc/coder.c"
+    DIR+"/npc/glorzo.c"
   );
  set_exits( ([
   "north" : DIR+"/rooms/6_4_-2.c",

@@ -11,10 +11,10 @@ void setup( void ) {
   set_dimensions(({ 10, 10 }));
 
   set_short( "Hallway" );
-  set_long( "This is a narrow corridor, illuminated only by the purple glow of the radioactive waste in this dump. The walls and floors are covered with liquid. It smells like a combination of diesel fuel, dirt and decay.%^RESET%^" );
+  set_long( "This is a wide hallway, illuminated only by the red glow of the pile of put kevin back stickers in this hellhole. The walls and floors are covered with dust. The air is rather stagnant.%^RESET%^" );
 
   set_objects(
-    DIR+"/npc/technician.c"
+    DIR+"/npc/stoner.c"
   );
  set_exits( ([
   "south" : DIR+"/rooms/6_6_-1.c",

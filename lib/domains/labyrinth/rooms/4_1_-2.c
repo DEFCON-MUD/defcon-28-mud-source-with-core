@@ -10,11 +10,11 @@ void setup( void ) {
   set_coords(({ 4, 1, -2 }));
   set_dimensions(({ 10, 10 }));
 
-  set_short( "Hallway" );
-  set_long( "This is a wide tunnel, illuminated only by the orange glow of the glorzo in this sty. The walls and floors are covered with mud. The air smells like it hasn't been cycled in a while, you are getting dizzy.%^RESET%^" );
+  set_short( "Passage" );
+  set_long( "This is a wide tunnel, illuminated only by the iridium glow of the glorzo in this area. The walls and floors are covered with oil. The air is rather stagnant.%^RESET%^" );
 
   set_objects(
-    DIR+"/npc/enforcer.c"
+    DIR+"/npc/monkey.c"
   );
  set_exits( ([
   "west" : DIR+"/rooms/3_1_-2.c",

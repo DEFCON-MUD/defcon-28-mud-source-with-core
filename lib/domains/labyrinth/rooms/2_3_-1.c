@@ -10,11 +10,11 @@ void setup( void ) {
   set_coords(({ 2, 3, -1 }));
   set_dimensions(({ 10, 10 }));
 
-  set_short( "Passage" );
-  set_long( "This is a cramped corridor, illuminated only by the iridium glow of the random junk evilmog thought up in this pit. The walls and floors are covered with liquid. Musty air that doesn't seem to have been ventilated for a while brushes up against you as you move around here.%^RESET%^" );
+  set_short( "Labyrinth" );
+  set_long( "This is a wide hallway, illuminated only by the red glow of the pile of GPU's that burned so bright they went radioactive in this area. The walls and floors are covered with blood. The air smells like it hasn't been cycled in a while, you are getting dizzy.%^RESET%^" );
 
   set_objects(
-    DIR+"/npc/droid.c"
+    DIR+"/npc/professor.c"
   );
  set_exits( ([
   "east" : DIR+"/rooms/3_3_-1.c"

@@ -8,16 +8,16 @@ void setup( void ) {
   add_area("labyrinth");
   set_domainname("labyrinth");
   set_coords(({ 3, 6, -1 }));
-  set_dimensions(({ 10, 10 }));
+  set_dimensions(({ 64, 64 }));
 
-  set_short( "Hallway" );
-  set_long( "This is a wide corridor, illuminated only by the red glow of the radioactive waste in this stink-pit. The walls and floors are covered with slime. The air is rather stagnant.%^RESET%^" );
+  set_short( "Labyrinth" );
+  set_long( "This is a wide tunnel, illuminated only by the red glow of the random junk evilmog thought up in this dump. The walls and floors are covered with mud. The air is rather stagnant.%^RESET%^" );
 
   set_objects(
-    DIR+"/npc/agent.c"
+    DIR+"/npc/teacher.c"
   );
  set_exits( ([
-  "southwest" : DIR+"/rooms/2_7_-1.c",
+  "south" : DIR+"/rooms/3_7_-1.c",
   "east" : DIR+"/rooms/4_6_-1.c"
   ]) );
 

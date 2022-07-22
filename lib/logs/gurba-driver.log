@@ -1,34 +1,301 @@
-Jul  2 21:43:15 ** DGD 1.6.20 running GurbaLib v0.52.
-Jul  2 21:43:15 ** State restored.
-Jul  2 21:43:43 ** New telnet connection from <unknown>:0
-Jul  2 21:48:16 ** Sat Jul  2 21:48:16 2022: DRIVER :/sys/obj/user.c, 208: syntax error
-Jul  2 21:48:16 ** Sat Jul  2 21:48:16 2022: DRIVER :/sys/obj/user.c, 212: declaration after statement
-Jul  2 21:48:16 ** Sat Jul  2 21:48:16 2022: DRIVER :/sys/obj/user.c, 213: declaration after statement
-Jul  2 21:48:16 ** :Failed to compile "/sys/obj/user.c"
-Jul  2 21:48:16 ** Sat Jul  2 21:48:16 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
-Jul  2 21:48:16 **   21 _F_call_out       /kernel/lib/auto (/sys/cmds/admin/warmboot)
-Jul  2 21:48:16 **   13 _F_call_out2      /kernel/lib/auto (/sys/cmds/admin/warmboot)
-Jul  2 21:48:16 **  231 next_stage        /sys/cmds/admin/warmboot
-Jul  2 21:48:16 **  197 rebuild_world     /sys/cmds/admin/warmboot
-Jul  2 21:48:16 **  143 upgrade_uobj      /sys/cmds/admin/warmboot
-Jul  2 21:48:16 **   33 compile_object    /kernel/lib/auto (/sys/cmds/admin/warmboot)
-Jul  2 21:48:16 **  184 compile_object    /kernel/sys/driver
-Jul  2 21:48:35 ** Sat Jul  2 21:48:35 2022:evilmog:/sys/obj/user.c, 208: syntax error
-Jul  2 21:48:35 ** Sat Jul  2 21:48:35 2022:evilmog:/sys/obj/user.c, 212: declaration after statement
-Jul  2 21:48:35 ** Sat Jul  2 21:48:35 2022:evilmog:/sys/obj/user.c, 213: declaration after statement
-Jul  2 21:48:35 ** :Failed to compile "/sys/obj/user.c"
-Jul  2 21:48:35 ** Sat Jul  2 21:48:35 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
-Jul  2 21:48:35 **  554 receive_message   /sys/obj/user (#120)
-Jul  2 21:48:35 **  169 receive           /sys/lib/telnet (/sys/obj/user#120)
-Jul  2 21:48:35 **  549 _receive_message  /sys/obj/user (#120)
-Jul  2 21:48:35 ** 1644 receive_message   /sys/obj/player (#269)
-Jul  2 21:48:35 **  155 command           /sys/lib/modules/m_cmds (/sys/obj/player#269)
-Jul  2 21:48:35 **  156 exec_command      /sys/daemons/command_d
-Jul  2 21:48:35 **   14 _main             /sys/lib/modules/m_command (/sys/cmds/wiz/update)
-Jul  2 21:48:35 **  160 main              /sys/cmds/wiz/update
-Jul  2 21:48:35 **   71 recompile_object  /sys/cmds/wiz/update
-Jul  2 21:48:35 **   33 compile_object    /kernel/lib/auto (/sys/cmds/wiz/update)
-Jul  2 21:48:35 **  184 compile_object    /kernel/sys/driver
-Jul  2 21:50:01 ** New telnet connection from <unknown>:0
-Jul  2 21:51:12 ** New telnet connection from <unknown>:0
-Jul  2 21:51:40 ** New telnet connection from <unknown>:0
+Jul 10 18:23:48 ** DGD 1.6.20 running GurbaLib v0.52.
+Jul 10 18:23:48 ** State restored.
+Jul 11 11:12:20 ** New telnet connection from <unknown>:0
+Jul 11 11:30:01 ** New telnet connection from <unknown>:0
+Jul 11 16:34:23 ** New telnet connection from <unknown>:0
+Jul 11 16:34:26 ** New telnet connection from <unknown>:0
+Jul 11 16:34:56 ** New telnet connection from <unknown>:0
+Jul 11 16:34:56 ** New telnet connection from <unknown>:0
+Jul 11 16:34:56 ** New telnet connection from <unknown>:0
+Jul 12 00:11:21 ** New telnet connection from <unknown>:0
+Jul 12 02:40:42 ** New telnet connection from <unknown>:0
+Jul 12 02:40:45 ** New telnet connection from <unknown>:0
+Jul 12 06:18:57 ** New telnet connection from <unknown>:0
+Jul 12 06:36:51 ** New telnet connection from <unknown>:0
+Jul 12 07:37:09 ** New telnet connection from <unknown>:0
+Jul 12 09:39:58 ** New telnet connection from <unknown>:0
+Jul 12 11:35:28 ** New telnet connection from <unknown>:0
+Jul 12 18:23:19 ** New telnet connection from <unknown>:0
+Jul 12 18:23:19 ** New telnet connection from <unknown>:0
+Jul 12 18:23:19 ** New telnet connection from <unknown>:0
+Jul 12 20:03:16 ** New telnet connection from <unknown>:0
+Jul 13 04:03:17 ** New telnet connection from <unknown>:0
+Jul 13 04:03:20 ** New telnet connection from <unknown>:0
+Jul 13 11:25:42 ** New telnet connection from <unknown>:0
+Jul 13 11:25:45 ** New telnet connection from <unknown>:0
+Jul 13 11:47:20 ** New telnet connection from <unknown>:0
+Jul 13 12:50:07 ** New telnet connection from <unknown>:0
+Jul 13 15:27:38 ** New telnet connection from <unknown>:0
+Jul 13 15:27:49 ** New telnet connection from <unknown>:0
+Jul 13 15:27:54 ** New telnet connection from <unknown>:0
+Jul 13 15:27:59 ** New telnet connection from <unknown>:0
+Jul 13 15:28:07 ** New telnet connection from <unknown>:0
+Jul 13 15:28:15 ** New telnet connection from <unknown>:0
+Jul 13 15:28:20 ** New telnet connection from <unknown>:0
+Jul 13 15:28:25 ** New telnet connection from <unknown>:0
+Jul 13 15:28:25 ** New telnet connection from <unknown>:0
+Jul 13 15:28:30 ** New telnet connection from <unknown>:0
+Jul 13 20:00:51 ** New telnet connection from <unknown>:0
+Jul 13 20:01:14 ** New telnet connection from <unknown>:0
+Jul 14 03:39:11 ** New telnet connection from <unknown>:0
+Jul 14 04:08:52 ** New telnet connection from <unknown>:0
+Jul 14 04:08:52 ** New telnet connection from <unknown>:0
+Jul 14 04:08:52 ** New telnet connection from <unknown>:0
+Jul 14 04:08:53 ** New telnet connection from <unknown>:0
+Jul 14 04:08:53 ** New telnet connection from <unknown>:0
+Jul 14 04:08:53 ** New telnet connection from <unknown>:0
+Jul 14 04:08:53 ** New telnet connection from <unknown>:0
+Jul 14 04:08:53 ** New telnet connection from <unknown>:0
+Jul 14 09:43:35 ** New telnet connection from <unknown>:0
+Jul 14 10:41:50 ** New telnet connection from <unknown>:0
+Jul 14 10:45:07 ** New telnet connection from <unknown>:0
+Jul 14 10:45:10 ** New telnet connection from <unknown>:0
+Jul 14 15:41:58 ** New telnet connection from <unknown>:0
+Jul 14 15:58:03 ** New telnet connection from <unknown>:0
+Jul 14 23:10:09 ** New telnet connection from <unknown>:0
+Jul 14 23:10:09 ** New telnet connection from <unknown>:0
+Jul 14 23:10:09 ** New telnet connection from <unknown>:0
+Jul 15 12:47:40 ** New telnet connection from <unknown>:0
+Jul 15 12:47:43 ** New telnet connection from <unknown>:0
+Jul 15 12:58:11 ** New telnet connection from <unknown>:0
+Jul 15 16:09:33 ** New telnet connection from <unknown>:0
+Jul 15 17:16:21 ** New telnet connection from <unknown>:0
+Jul 15 17:16:21 ** New telnet connection from <unknown>:0
+Jul 15 17:16:21 ** New telnet connection from <unknown>:0
+Jul 16 01:01:18 ** New telnet connection from <unknown>:0
+Jul 16 03:25:24 ** New telnet connection from <unknown>:0
+Jul 16 03:25:24 ** New telnet connection from <unknown>:0
+Jul 16 03:25:24 ** New telnet connection from <unknown>:0
+Jul 16 06:44:04 ** New telnet connection from <unknown>:0
+Jul 16 07:29:53 ** New telnet connection from <unknown>:0
+Jul 16 08:13:11 ** New telnet connection from <unknown>:0
+Jul 16 08:58:41 ** New telnet connection from <unknown>:0
+Jul 16 08:58:44 ** New telnet connection from <unknown>:0
+Jul 16 09:43:05 ** New telnet connection from <unknown>:0
+Jul 16 09:55:07 ** New telnet connection from <unknown>:0
+Jul 16 10:49:41 ** New telnet connection from <unknown>:0
+Jul 16 11:38:28 ** New telnet connection from <unknown>:0
+Jul 16 12:18:07 ** New telnet connection from <unknown>:0
+Jul 16 13:25:38 ** New telnet connection from <unknown>:0
+Jul 16 14:16:29 ** New telnet connection from <unknown>:0
+Jul 16 15:47:07 ** New telnet connection from <unknown>:0
+Jul 16 16:15:10 ** New telnet connection from <unknown>:0
+Jul 16 16:42:11 ** New telnet connection from <unknown>:0
+Jul 16 17:27:59 ** New telnet connection from <unknown>:0
+Jul 16 18:31:42 ** New telnet connection from <unknown>:0
+Jul 16 18:36:49 ** New telnet connection from <unknown>:0
+Jul 16 19:33:35 ** New telnet connection from <unknown>:0
+Jul 16 20:37:11 ** New telnet connection from <unknown>:0
+Jul 16 21:20:30 ** New telnet connection from <unknown>:0
+Jul 16 22:55:20 ** New telnet connection from <unknown>:0
+Jul 16 23:25:25 ** New telnet connection from <unknown>:0
+Jul 17 00:32:42 ** New telnet connection from <unknown>:0
+Jul 17 01:39:07 ** New telnet connection from <unknown>:0
+Jul 17 01:39:07 ** New telnet connection from <unknown>:0
+Jul 17 01:39:07 ** New telnet connection from <unknown>:0
+Jul 17 01:41:39 ** New telnet connection from <unknown>:0
+Jul 17 02:51:16 ** New telnet connection from <unknown>:0
+Jul 17 03:29:07 ** New telnet connection from <unknown>:0
+Jul 17 04:54:11 ** New telnet connection from <unknown>:0
+Jul 17 05:43:33 ** New telnet connection from <unknown>:0
+Jul 17 06:44:16 ** New telnet connection from <unknown>:0
+Jul 17 07:12:59 ** New telnet connection from <unknown>:0
+Jul 17 07:13:01 ** New telnet connection from <unknown>:0
+Jul 17 07:13:03 ** New telnet connection from <unknown>:0
+Jul 17 07:13:04 ** New telnet connection from <unknown>:0
+Jul 17 07:13:06 ** New telnet connection from <unknown>:0
+Jul 17 07:13:08 ** New telnet connection from <unknown>:0
+Jul 17 07:13:09 ** New telnet connection from <unknown>:0
+Jul 17 07:13:11 ** New telnet connection from <unknown>:0
+Jul 17 07:13:13 ** New telnet connection from <unknown>:0
+Jul 17 07:13:15 ** New telnet connection from <unknown>:0
+Jul 17 07:13:16 ** New telnet connection from <unknown>:0
+Jul 17 07:13:18 ** New telnet connection from <unknown>:0
+Jul 17 07:13:20 ** New telnet connection from <unknown>:0
+Jul 17 07:13:21 ** New telnet connection from <unknown>:0
+Jul 17 07:45:51 ** New telnet connection from <unknown>:0
+Jul 17 08:35:36 ** New telnet connection from <unknown>:0
+Jul 17 09:24:25 ** New telnet connection from <unknown>:0
+Jul 17 10:42:27 ** New telnet connection from <unknown>:0
+Jul 17 11:51:55 ** New telnet connection from <unknown>:0
+Jul 17 12:24:32 ** New telnet connection from <unknown>:0
+Jul 17 13:53:53 ** New telnet connection from <unknown>:0
+Jul 17 14:50:05 ** New telnet connection from <unknown>:0
+Jul 17 15:55:25 ** New telnet connection from <unknown>:0
+Jul 17 16:15:04 ** New telnet connection from <unknown>:0
+Jul 17 17:31:18 ** New telnet connection from <unknown>:0
+Jul 17 18:29:36 ** New telnet connection from <unknown>:0
+Jul 17 19:26:52 ** New telnet connection from <unknown>:0
+Jul 17 20:35:39 ** New telnet connection from <unknown>:0
+Jul 17 21:33:35 ** New telnet connection from <unknown>:0
+Jul 17 22:45:30 ** New telnet connection from <unknown>:0
+Jul 17 23:28:12 ** New telnet connection from <unknown>:0
+Jul 17 23:56:57 ** New telnet connection from <unknown>:0
+Jul 17 23:57:00 ** New telnet connection from <unknown>:0
+Jul 18 00:42:06 ** New telnet connection from <unknown>:0
+Jul 18 01:39:02 ** New telnet connection from <unknown>:0
+Jul 18 02:36:14 ** New telnet connection from <unknown>:0
+Jul 18 03:32:48 ** New telnet connection from <unknown>:0
+Jul 18 03:46:13 ** New telnet connection from <unknown>:0
+Jul 18 03:46:13 ** New telnet connection from <unknown>:0
+Jul 18 03:46:13 ** New telnet connection from <unknown>:0
+Jul 18 04:48:44 ** New telnet connection from <unknown>:0
+Jul 18 05:31:32 ** New telnet connection from <unknown>:0
+Jul 18 05:55:31 ** New telnet connection from <unknown>:0
+Jul 18 06:00:41 ** New telnet connection from <unknown>:0
+Jul 18 06:00:45 ** New telnet connection from <unknown>:0
+Jul 18 06:46:41 ** New telnet connection from <unknown>:0
+Jul 18 07:13:31 ** New telnet connection from <unknown>:0
+Jul 18 08:27:07 ** New telnet connection from <unknown>:0
+Jul 18 09:43:59 ** New telnet connection from <unknown>:0
+Jul 18 10:14:15 ** New telnet connection from <unknown>:0
+Jul 18 10:14:15 ** New telnet connection from <unknown>:0
+Jul 18 10:14:16 ** New telnet connection from <unknown>:0
+Jul 18 10:32:20 ** New telnet connection from <unknown>:0
+Jul 18 11:24:26 ** New telnet connection from <unknown>:0
+Jul 18 12:38:32 ** New telnet connection from <unknown>:0
+Jul 18 13:51:44 ** New telnet connection from <unknown>:0
+Jul 18 14:50:21 ** New telnet connection from <unknown>:0
+Jul 18 15:18:01 ** New telnet connection from <unknown>:0
+Jul 18 16:06:40 ** New telnet connection from <unknown>:0
+Jul 18 16:06:40 ** New telnet connection from <unknown>:0
+Jul 18 16:06:41 ** New telnet connection from <unknown>:0
+Jul 18 16:21:58 ** New telnet connection from <unknown>:0
+Jul 18 17:34:50 ** New telnet connection from <unknown>:0
+Jul 18 18:37:39 ** New telnet connection from <unknown>:0
+Jul 18 19:45:10 ** New telnet connection from <unknown>:0
+Jul 18 20:55:58 ** New telnet connection from <unknown>:0
+Jul 18 21:24:40 ** New telnet connection from <unknown>:0
+Jul 18 22:34:51 ** New telnet connection from <unknown>:0
+Jul 19 00:53:34 ** New telnet connection from <unknown>:0
+Jul 19 02:15:28 ** New telnet connection from <unknown>:0
+Jul 19 03:25:03 ** New telnet connection from <unknown>:0
+Jul 19 04:25:28 ** New telnet connection from <unknown>:0
+Jul 19 05:40:33 ** New telnet connection from <unknown>:0
+Jul 19 05:44:07 ** New telnet connection from <unknown>:0
+Jul 19 06:10:32 ** New telnet connection from <unknown>:0
+Jul 19 06:38:55 ** New telnet connection from <unknown>:0
+Jul 19 07:36:11 ** New telnet connection from <unknown>:0
+Jul 19 08:51:51 ** New telnet connection from <unknown>:0
+Jul 19 09:11:51 ** New telnet connection from <unknown>:0
+Jul 19 09:11:51 ** New telnet connection from <unknown>:0
+Jul 19 09:11:51 ** New telnet connection from <unknown>:0
+Jul 19 09:39:43 ** New telnet connection from <unknown>:0
+Jul 19 10:17:23 ** New telnet connection from <unknown>:0
+Jul 19 11:18:16 ** New telnet connection from <unknown>:0
+Jul 19 12:54:03 ** New telnet connection from <unknown>:0
+Jul 19 13:20:46 ** New telnet connection from <unknown>:0
+Jul 19 14:47:31 ** New telnet connection from <unknown>:0
+Jul 19 15:32:59 ** New telnet connection from <unknown>:0
+Jul 19 16:27:27 ** New telnet connection from <unknown>:0
+Jul 19 17:09:51 ** New telnet connection from <unknown>:0
+Jul 19 17:09:54 ** New telnet connection from <unknown>:0
+Jul 19 17:20:03 ** New telnet connection from <unknown>:0
+Jul 19 18:48:51 ** New telnet connection from <unknown>:0
+Jul 19 19:53:28 ** New telnet connection from <unknown>:0
+Jul 19 20:53:55 ** New telnet connection from <unknown>:0
+Jul 19 21:27:17 ** New telnet connection from <unknown>:0
+Jul 19 22:21:02 ** New telnet connection from <unknown>:0
+Jul 19 23:36:21 ** New telnet connection from <unknown>:0
+Jul 20 00:36:34 ** New telnet connection from <unknown>:0
+Jul 20 01:20:22 ** New telnet connection from <unknown>:0
+Jul 20 02:20:22 ** New telnet connection from <unknown>:0
+Jul 20 03:20:39 ** New telnet connection from <unknown>:0
+Jul 20 03:27:14 ** New telnet connection from <unknown>:0
+Jul 20 04:34:42 ** New telnet connection from <unknown>:0
+Jul 20 05:26:16 ** New telnet connection from <unknown>:0
+Jul 20 06:13:43 ** New telnet connection from <unknown>:0
+Jul 20 06:25:33 ** New telnet connection from <unknown>:0
+Jul 20 07:39:40 ** New telnet connection from <unknown>:0
+Jul 20 08:49:28 ** New telnet connection from <unknown>:0
+Jul 20 08:49:31 ** New telnet connection from <unknown>:0
+Jul 20 08:55:20 ** New telnet connection from <unknown>:0
+Jul 20 09:41:45 ** New telnet connection from <unknown>:0
+Jul 20 10:14:21 ** New telnet connection from <unknown>:0
+Jul 20 11:54:42 ** New telnet connection from <unknown>:0
+Jul 20 12:33:55 ** New telnet connection from <unknown>:0
+Jul 20 13:22:01 ** New telnet connection from <unknown>:0
+Jul 20 13:36:48 ** New telnet connection from <unknown>:0
+Jul 20 14:28:34 ** New telnet connection from <unknown>:0
+Jul 20 15:54:09 ** New telnet connection from <unknown>:0
+Jul 20 16:23:52 ** New telnet connection from <unknown>:0
+Jul 20 16:55:47 ** New telnet connection from <unknown>:0
+Jul 20 17:33:38 ** New telnet connection from <unknown>:0
+Jul 20 18:22:56 ** New telnet connection from <unknown>:0
+Jul 20 18:22:56 ** New telnet connection from <unknown>:0
+Jul 20 18:22:56 ** New telnet connection from <unknown>:0
+Jul 20 18:31:24 ** New telnet connection from <unknown>:0
+Jul 20 19:19:55 ** New telnet connection from <unknown>:0
+Jul 20 20:26:49 ** New telnet connection from <unknown>:0
+Jul 20 21:13:53 ** New telnet connection from <unknown>:0
+Jul 20 22:31:06 ** New telnet connection from <unknown>:0
+Jul 20 23:52:47 ** New telnet connection from <unknown>:0
+Jul 21 00:15:07 ** New telnet connection from <unknown>:0
+Jul 21 00:15:15 ** New telnet connection from <unknown>:0
+Jul 21 00:15:15 ** New telnet connection from <unknown>:0
+Jul 21 00:15:15 ** New telnet connection from <unknown>:0
+Jul 21 00:15:15 ** New telnet connection from <unknown>:0
+Jul 21 00:15:16 ** New telnet connection from <unknown>:0
+Jul 21 00:15:16 ** New telnet connection from <unknown>:0
+Jul 21 00:15:16 ** New telnet connection from <unknown>:0
+Jul 21 00:15:16 ** New telnet connection from <unknown>:0
+Jul 21 01:53:09 ** New telnet connection from <unknown>:0
+Jul 21 02:23:09 ** New telnet connection from <unknown>:0
+Jul 21 03:25:23 ** New telnet connection from <unknown>:0
+Jul 21 04:15:23 ** New telnet connection from <unknown>:0
+Jul 21 05:57:10 ** New telnet connection from <unknown>:0
+Jul 21 06:18:29 ** New telnet connection from <unknown>:0
+Jul 21 06:39:18 ** New telnet connection from <unknown>:0
+Jul 21 07:33:00 ** New telnet connection from <unknown>:0
+Jul 21 08:17:17 ** New telnet connection from <unknown>:0
+Jul 21 09:52:51 ** New telnet connection from <unknown>:0
+Jul 21 10:42:23 ** New telnet connection from <unknown>:0
+Jul 21 11:20:26 ** New telnet connection from <unknown>:0
+Jul 21 12:22:31 ** New telnet connection from <unknown>:0
+Jul 21 12:35:39 ** New telnet connection from <unknown>:0
+Jul 21 12:57:22 ** New telnet connection from <unknown>:0
+Jul 21 13:31:23 ** New telnet connection from <unknown>:0
+Jul 21 13:56:52 ** New telnet connection from <unknown>:0
+Jul 21 14:44:53 ** New telnet connection from <unknown>:0
+Jul 21 14:58:50 ** New telnet connection from <unknown>:0
+Jul 21 14:58:53 ** New telnet connection from <unknown>:0
+Jul 21 15:09:10 ** New telnet connection from <unknown>:0
+Jul 21 15:55:24 ** New telnet connection from <unknown>:0
+Jul 21 16:07:59 ** New telnet connection from <unknown>:0
+Jul 21 16:39:06 ** New telnet connection from <unknown>:0
+Jul 21 16:42:01 ** New telnet connection from <unknown>:0
+Jul 21 17:56:12 ** New telnet connection from <unknown>:0
+Jul 21 18:17:21 ** New telnet connection from <unknown>:0
+Jul 21 19:14:58 ** New telnet connection from <unknown>:0
+Jul 21 20:26:17 ** New telnet connection from <unknown>:0
+Jul 21 21:29:32 ** New telnet connection from <unknown>:0
+Jul 21 21:29:35 ** New telnet connection from <unknown>:0
+Jul 21 21:34:35 ** New telnet connection from <unknown>:0
+Jul 21 22:29:52 ** New telnet connection from <unknown>:0
+Jul 21 22:31:21 ** New telnet connection from <unknown>:0
+Jul 21 23:26:08 ** New telnet connection from <unknown>:0
+Jul 21 23:53:11 ** New telnet connection from <unknown>:0
+Jul 21 23:56:16 ** Bad argument 1 for kfun query_editor
+Jul 21 23:56:16 ** Thu Jul 21 23:56:16 2022:Object: /sys/obj/player#215, program: /sys/lib/editor, line 14
+Jul 21 23:56:16 **  559 receive_message   /sys/obj/user (#314)
+Jul 21 23:56:16 **  169 receive           /sys/lib/telnet (/sys/obj/user#314)
+Jul 21 23:56:16 **  554 _receive_message  /sys/obj/user (#314)
+Jul 21 23:56:16 ** 1683 receive_message   /sys/obj/player (#215)
+Jul 21 23:56:16 **   14 is_editing        /sys/lib/editor (/sys/obj/player#215)
+Jul 21 23:56:33 ** New telnet connection from <unknown>:0
+Jul 21 23:56:50 ** New telnet connection from <unknown>:0
+Jul 21 23:57:10 ** Bad argument 1 for kfun query_editor
+Jul 21 23:57:10 ** Thu Jul 21 23:57:10 2022:Object: /sys/obj/player#102, program: /sys/lib/editor, line 14
+Jul 21 23:57:10 **  559 receive_message   /sys/obj/user (#215)
+Jul 21 23:57:10 **  169 receive           /sys/lib/telnet (/sys/obj/user#215)
+Jul 21 23:57:10 **  554 _receive_message  /sys/obj/user (#215)
+Jul 21 23:57:10 ** 1683 receive_message   /sys/obj/player (#102)
+Jul 21 23:57:10 **   14 is_editing        /sys/lib/editor (/sys/obj/player#102)
+Jul 21 23:57:17 ** New telnet connection from <unknown>:0
+Jul 21 23:58:26 ** New telnet connection from <unknown>:0
+Jul 21 23:58:38 ** Bad argument 1 for kfun call_other
+Jul 21 23:58:38 ** Thu Jul 21 23:58:38 2022:Object: /domains/required/rooms/start, program: /domains/required/rooms/start, line 28
+Jul 21 23:58:38 **   21 _F_call_out       /kernel/lib/auto (/domains/required/rooms/start)
+Jul 21 23:58:38 **   15 _F_call_out2      /kernel/lib/auto (/domains/required/rooms/start)
+Jul 21 23:58:38 **   28 do_core3          /domains/required/rooms/start
+Jul 21 23:58:38 ** Access to /logs/errors/runtime would have been denied, ignoring...

@@ -1,0 +1,7 @@
+from turn wheel:
+With all your strength, you turn the wheel. There appears to be a sudden
+shift in the low humming of the large boilers around you. A loud clanking
+sound resounds in the pipes, only to die away in echos. There is a muffled
+beeping noise, and one of the dots on a screen near the wheel fades away.
+The dot was located in the northeast quadrant of the sewers.
+

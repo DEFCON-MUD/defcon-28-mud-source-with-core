@@ -11,10 +11,10 @@ void setup( void ) {
   set_dimensions(({ 10, 10 }));
 
   set_short( "Hallway" );
-  set_long( "This is a broad tunnel, illuminated only by the green glow of the glorzo in this sty. The walls and floors are covered with slime. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^" );
+  set_long( "This is a cramped corridor, illuminated only by the purple glow of the pile of GPU's that burned so bright they went radioactive in this sty. The walls and floors are covered with dust. To add to that, the smell here isn't exactly perfumy either.%^RESET%^" );
 
   set_objects(
-    DIR+"/npc/goon.c"
+    DIR+"/npc/salesdroid.c"
   );
  set_exits( ([
   "west" : DIR+"/rooms/8_5_-1.c",

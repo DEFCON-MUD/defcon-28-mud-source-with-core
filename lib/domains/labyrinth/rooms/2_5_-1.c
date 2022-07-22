@@ -10,11 +10,11 @@ void setup( void ) {
   set_coords(({ 2, 5, -1 }));
   set_dimensions(({ 10, 10 }));
 
-  set_short( "Passage" );
-  set_long( "This is a wide hallway, illuminated only by the iridium glow of the pile of GPU's that burned so bright they went radioactive in this sty. The walls and floors are covered with slime. The air smells like it hasn't been cycled in a while, you are getting dizzy.%^RESET%^" );
+  set_short( "Hallway" );
+  set_long( "This is a cramped hallway, illuminated only by the green glow of the pile of put kevin back stickers in this stink-pit. The walls and floors are covered with slime. The smell is outright dreadful.%^RESET%^" );
 
   set_objects(
-    DIR+"/npc/teacher.c"
+    DIR+"/npc/politician.c"
   );
  set_exits( ([
   "west" : DIR+"/rooms/1_5_-1.c",

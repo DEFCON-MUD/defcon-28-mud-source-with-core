@@ -52370,3 +52370,52 @@ Sat Jul  2 21:48:35 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver
   33 compile_object    /kernel/lib/auto (/sys/cmds/wiz/update)
  184 compile_object    /kernel/sys/driver
 
+Bad argument 1 for kfun call_other
+Sun Jul  3 19:40:57 2022:Object: /domains/core/rooms/city/x-10y-40z0, program: /domains/core/rooms/city/x-10y-40z0, line 12
+  21 _F_call_out       /kernel/lib/auto (/daemons/schedule_d)
+  15 _F_call_out2      /kernel/lib/auto (/daemons/schedule_d)
+ 150 micro_beat        /daemons/schedule_d
+ 135 second_tick       /daemons/schedule_d
+  85 heart_beat        /daemons/schedule_d
+ 126 event             /daemons/event_d
+  89 dispatch_event    /daemons/event_d
+  66 event_heart_beat  /std/body/heart_beat (/sys/obj/player#212)
+ 290 die               /std/body/heart_beat (/sys/obj/player#212)
+ 225 move              /std/object (/sys/obj/player#212)
+  99 _F_create         /kernel/lib/auto (/domains/core/rooms/city/x-10y-40z0)
+1017 create            /std/room (/domains/core/rooms/city/x-10y-40z0)
+  12 setup             /domains/core/rooms/city/x-10y-40z0
+
+Bad argument 1 to write (needs string)
+Thu Jul  7 03:35:16 2022:Object: /sys/cmds/wiz/last, program: /sys/cmds/wiz/last, line 56
+ 559 receive_message   /sys/obj/user (#102)
+ 169 receive           /sys/lib/telnet (/sys/obj/user#102)
+ 554 _receive_message  /sys/obj/user (#102)
+1644 receive_message   /sys/obj/player (#216)
+ 155 command           /sys/lib/modules/m_cmds (/sys/obj/player#216)
+ 156 exec_command      /sys/daemons/command_d
+  14 _main             /sys/lib/modules/m_command (/sys/cmds/wiz/last)
+  56 main              /sys/cmds/wiz/last
+
+Bad argument 1 for kfun query_editor
+Thu Jul 21 23:56:16 2022:Object: /sys/obj/player#215, program: /sys/lib/editor, line 14
+ 559 receive_message   /sys/obj/user (#314)
+ 169 receive           /sys/lib/telnet (/sys/obj/user#314)
+ 554 _receive_message  /sys/obj/user (#314)
+1683 receive_message   /sys/obj/player (#215)
+  14 is_editing        /sys/lib/editor (/sys/obj/player#215)
+
+Bad argument 1 for kfun query_editor
+Thu Jul 21 23:57:10 2022:Object: /sys/obj/player#102, program: /sys/lib/editor, line 14
+ 559 receive_message   /sys/obj/user (#215)
+ 169 receive           /sys/lib/telnet (/sys/obj/user#215)
+ 554 _receive_message  /sys/obj/user (#215)
+1683 receive_message   /sys/obj/player (#102)
+  14 is_editing        /sys/lib/editor (/sys/obj/player#102)
+
+Bad argument 1 for kfun call_other
+Thu Jul 21 23:58:38 2022:Object: /domains/required/rooms/start, program: /domains/required/rooms/start, line 28
+  21 _F_call_out       /kernel/lib/auto (/domains/required/rooms/start)
+  15 _F_call_out2      /kernel/lib/auto (/domains/required/rooms/start)
+  28 do_core3          /domains/required/rooms/start
+

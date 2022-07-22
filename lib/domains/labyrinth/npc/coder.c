@@ -5,7 +5,7 @@ void setup( void ) {
    set_name("coder");
    set_short("A coder");
    set_long("A coder");
-   set_gender("female");
+   set_gender("male");
    set_race("coder");
    set_hit_skill("combat/unarmed");
    set_skill("combat/unarmed", 140);
