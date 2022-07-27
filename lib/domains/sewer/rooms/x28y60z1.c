@@ -1,0 +1,15 @@
+inherit "/std/room";
+
+#include "../domain.h"
+
+void setup( void ) {
+  add_area( "labyrinth" );
+  set_coords(({ 28, 60, 1 }));
+  set_short( "Corridor - x28y60z1" );
+set_objects( DIR+"/monsters/jkbk.c");
+ set_exits( ([
+  "west" : DIR+"/rooms/x27y60z1.c",
+  "east" : DIR+"/rooms/x29y60z1.c"
+  ]) );
+  set_long( "This is a broad corridor, illuminated only by the orange glow of the crud in this dump. The walls and floors are covered with oil. The air smells like it hasn't been cycled in a while, you are getting dizzy.%^RESET%^\n\nThe horror continues to the west, and east.%^RESET%^");
+}

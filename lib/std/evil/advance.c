@@ -61,7 +61,7 @@ int do_quest(string arg) {
       write("\tKey 4 - Prison\n");
     }
     if(key_tracker[4] != 1) {
-      write("\tKey 5 - Nympho\n");
+      write("\tKey 5 - Casino\n");
     }
     if(key_tracker[5] != 1) {
       write("\tKey 6 - City\n");

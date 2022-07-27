@@ -63,12 +63,12 @@ void list_vars(void) {
     names += ({ "realname", "email", "website" });
   }
   if (this_player()->query_difficulty() == 0) {
-    names += ({ "autoload", "save_on_quit", "start_room" });
+    names += ({ "autoload", "save_on_quit" });
   }
   if (query_wizard(this_player() ) ) {
     names += ({ "hidden", 
          "quit_message", "debug_commands", "verbose_errors",
-         "display_caught" });
+         "display_caught", "start_room" });
   }
   for (i = 0; i < sizeof(names); i++) {
     out_unmod(names[i] + "=" + call_other(this_player(), "query_" +

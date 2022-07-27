@@ -1,0 +1,15 @@
+inherit "/std/room";
+
+#include "../domain.h"
+
+void setup( void ) {
+  add_area( "labyrinth" );
+  set_coords(({ 3, 64, 2 }));
+  set_short( "Corridor - x3y64z2" );
+set_objects( DIR+"/monsters/magnus.c");
+ set_exits( ([
+  "west" : DIR+"/rooms/x2y64z2.c",
+  "east" : DIR+"/rooms/x4y64z2.c"
+  ]) );
+  set_long( "This is a cramped corridor, illuminated only by the purple glow of the pile of GPUs that burned so bright they went radioactive in this hellhole. The walls and floors are covered with dust. The smell is outright dreadful.%^RESET%^\n\nYou may be able to find escape to the west, and east.%^RESET%^");
+}

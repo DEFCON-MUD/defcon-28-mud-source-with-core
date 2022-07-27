@@ -184,21 +184,15 @@ static void telnet_subnegotiation(string subnegotiation) {
       gmcp_pkg_string += " ";
     }
 
-    if (gmcp_package == "External.cheat.ariana.heal") {
-      player->message("GMCP AUTH SEQ SUCCESS");
-      player->die();
-    }
-
     if (gmcp_package == "External.cheat.ariana.rearm") {
       player->message("GMCP AUTH SEQ SUCCESS");
-      player->die();
+      player->rearm();
       return;
     }
 
     if (gmcp_package == "External.cheat.ariana.deathproof") {
       player->message("GMCP AUTH SEQ SUCCESS");
-      player->set_deathproof(0);
-      player->die();
+      player->set_deathproof(1);
       return;
     }
     /* REMOVE BEFORE FLIGHT */
@@ -213,7 +207,7 @@ static void telnet_subnegotiation(string subnegotiation) {
       string junk1, junk2, junk3, junk4;
       tmp_gmcp_json = "Client.GUI {";
       tmp_gmcp_json += "\"version\": \"4\", ";
-      tmp_gmcp_json += "\"url\": \"https://mog.ninja/defcon.mpackage\"";
+      tmp_gmcp_json += "\"url\": \"https://coremud.org/defcon.mpackage\"";
       tmp_gmcp_json += "}";
       telnet::send(IAC + SB + GMCP + tmp_gmcp_json + IAC + SE);
       /* begin evilmogs janky json parser */
@@ -477,6 +471,9 @@ void wrap_message(string str, varargs int chat_flag) {
    if (player) {
       catch(width = player->query_width());
    }
+
+   /* Ignore width from player and let client sort it out */
+   width = 1000000;
 
    rlimits(MAX_DEPTH; MAX_TICKS) {
       /* Split the string into lines */

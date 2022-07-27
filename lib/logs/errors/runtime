@@ -52419,3 +52419,73 @@ Thu Jul 21 23:58:38 2022:Object: /domains/required/rooms/start, program: /domain
   15 _F_call_out2      /kernel/lib/auto (/domains/required/rooms/start)
   28 do_core3          /domains/required/rooms/start
 
+Bad argument 1 for kfun call_other
+Wed Jul 27 03:42:32 2022:Object: /sys/obj/player#362, program: /sys/obj/player, line 1247
+  21 _F_call_out       /kernel/lib/auto (/daemons/schedule_d)
+  15 _F_call_out2      /kernel/lib/auto (/daemons/schedule_d)
+ 150 micro_beat        /daemons/schedule_d
+ 135 second_tick       /daemons/schedule_d
+  85 heart_beat        /daemons/schedule_d
+ 126 event             /daemons/event_d
+  89 dispatch_event    /daemons/event_d
+  66 event_heart_beat  /std/body/heart_beat (/sys/obj/player#362)
+ 308 die               /std/body/heart_beat (/sys/obj/player#362)
+1247 do_look           /sys/obj/player (#362)
+
+:Failed to compile "/domains/core/rooms/sewer/x-50y80z-10.c"
+Wed Jul 27 04:17:44 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/sys/cmds/admin/warmboot)
+  13 _F_call_out2      /kernel/lib/auto (/sys/cmds/admin/warmboot)
+ 231 next_stage        /sys/cmds/admin/warmboot
+ 197 rebuild_world     /sys/cmds/admin/warmboot
+ 143 upgrade_uobj      /sys/cmds/admin/warmboot
+  33 compile_object    /kernel/lib/auto (/sys/cmds/admin/warmboot)
+ 184 compile_object    /kernel/sys/driver
+
+:Failed to compile "/domains/dungeon/rooms/1-a.c"
+Wed Jul 27 04:18:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+ 553 receive_message   /sys/obj/user (#289)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#289)
+ 548 _receive_message  /sys/obj/user (#289)
+1641 receive_message   /sys/obj/player (#367)
+ 155 command           /sys/lib/modules/m_cmds (/sys/obj/player#367)
+ 156 exec_command      /sys/daemons/command_d
+  14 _main             /sys/lib/modules/m_command (/sys/cmds/wiz/update)
+ 160 main              /sys/cmds/wiz/update
+  71 recompile_object  /sys/cmds/wiz/update
+  33 compile_object    /kernel/lib/auto (/sys/cmds/wiz/update)
+ 184 compile_object    /kernel/sys/driver
+
+String too long
+Wed Jul 27 20:30:48 2022:Object: /sys/cmds/wiz/ls, program: /sys/cmds/wiz/ls, line 196
+ 556 receive_message   /sys/obj/user (#119)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#119)
+ 551 _receive_message  /sys/obj/user (#119)
+1641 receive_message   /sys/obj/player (#285)
+ 155 command           /sys/lib/modules/m_cmds (/sys/obj/player#285)
+ 156 exec_command      /sys/daemons/command_d
+  14 _main             /sys/lib/modules/m_command (/sys/cmds/wiz/ls)
+ 196 main              /sys/cmds/wiz/ls
+
+String too long
+Wed Jul 27 20:31:10 2022:Object: /sys/cmds/wiz/ls, program: /sys/cmds/wiz/ls, line 196
+ 556 receive_message   /sys/obj/user (#119)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#119)
+ 551 _receive_message  /sys/obj/user (#119)
+1641 receive_message   /sys/obj/player (#285)
+ 155 command           /sys/lib/modules/m_cmds (/sys/obj/player#285)
+ 156 exec_command      /sys/daemons/command_d
+  14 _main             /sys/lib/modules/m_command (/sys/cmds/wiz/ls)
+ 196 main              /sys/cmds/wiz/ls
+
+Bad argument 1 to write (needs string)
+Wed Jul 27 22:53:13 2022:Object: /sys/cmds/wiz/last, program: /sys/cmds/wiz/last, line 56
+ 556 receive_message   /sys/obj/user (#307)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#307)
+ 551 _receive_message  /sys/obj/user (#307)
+1641 receive_message   /sys/obj/player (#285)
+ 155 command           /sys/lib/modules/m_cmds (/sys/obj/player#285)
+ 156 exec_command      /sys/daemons/command_d
+  14 _main             /sys/lib/modules/m_command (/sys/cmds/wiz/last)
+  56 main              /sys/cmds/wiz/last
+

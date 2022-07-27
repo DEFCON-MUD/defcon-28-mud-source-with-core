@@ -13,7 +13,9 @@ void setup(void) {
    add_object( "/domains/dungeon/objects/sign.c", 9);
    set_exits(([
       "north" : "/domains/newbie/rooms/tree",
-      "down" : "/domains/core/rooms/city/x40y-90z0"
+      "core" : "/domains/core/rooms/city/x40y-90z0",
+      "dungeon": "/domains/dungeon/rooms/1-a.c",
+      "sewer": "/domains/sewer/rooms/4-e.c"
    ]));
 }
 

@@ -14,7 +14,7 @@ void setup( void ) {
   set_long( "You are at the top of an access shaft, one of the vertical passages built to allow movement between the different levels of the City sewers. The room is very plain and cold, being made of just steel and nothing else." );
 
  set_exits( ([
-  "west" : DIR+"/rooms/sewer/x-60y80z-10.c",
-  "down" : "/domains/dungeon/rooms/1-a.c"
+  "west" : DIR+"/rooms/sewer/x-60y80z-10.c"
+/* "down" : DIR+"/domains/dungeon/rooms/1-a.c" */
   ]) );
 }

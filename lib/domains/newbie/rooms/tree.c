@@ -10,7 +10,7 @@ void setup(void) {
    set_short("North end of the field");
    set_long("You are in a large open field, next to an old dead tree. " +
       " To the South you see a road leading to a clearing.  There is an odd " +
-      "hole in a hill to the east. A vast forest is to the north." +
+      "hole in a hill to the east. A vast forest is to the north. " +
       "The newbie advancement room is to the west.");
 
    set_exits(([
