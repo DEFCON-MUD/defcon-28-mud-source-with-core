@@ -9,7 +9,7 @@ cur_mana 51
 max_mana 46
 cur_end 68
 max_end 54
-player_age 2872
+player_age 3400
 killed_by ([0|])
 wimpy_dir ""
 gender "male"
@@ -20,8 +20,8 @@ autoload_string "/domains/core/objects/shop/weapon/sword20.c:none^!/domains/core
 skills ([0|])
 hit_skill "combat/unarmed"
 searchpath ({3|"/cmds/player/","/sys/cmds/wiz/","/sys/cmds/admin/",})
-history ({20|"warmboot","ls","cd labyrinth","ls","cd rooms","goto x0y0z0.c","ls *z0.c","who","look","warmboot","look","dest cow","cat here","cat /domains/dungeon/rooms/2-b.c","ls","look","cd","ls","cd rooms","ls",})
-environment_variables ([2|"cwd":"/wiz/evilmog","cwf":"/domains/core/rooms/sewer/x-50y80z-10.c",])
+history ({20|"go west ","go south ","go west ","go north ","go west ","look","warmboot","look","cat /domains/sewer/monsters/jenny.c","cat here","look","cat /domains/sewer/rooms/x35y62z9.c","cat ../domain.h","look","warmboot","look","cat /domains/sewer/rooms/x35y62z9.c","goto /domains/labyrinth/rooms/x35y62z9.c","cat /domains/labyrinth/rooms/x35y62z9.c","update /domains/labyrinth/rooms/x35y62z9.c",})
+environment_variables ([2|"cwd":"/wiz/evilmog","cwf":"/domains/labyrinth/rooms/x35y62z9.c",])
 title "$N the newbie"
 channels ({3|"gossip","announce","dgd",})
 ignored ({0|})

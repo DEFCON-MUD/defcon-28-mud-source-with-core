@@ -1,0 +1,15 @@
+inherit "/std/room";
+
+#include "../domain.h"
+
+void setup( void ) {
+  add_area( "labyrinth" );
+  set_coords(({ 53, 60, 5 }));
+  set_short( "Hallway - x53y60z5" );
+set_objects( DIR+"/npc/clara.c");
+ set_exits( ([
+  "west" : DIR+"/rooms/x52y60z5.c",
+  "north" : DIR+"/rooms/x53y61z5.c"
+  ]) );
+  set_long( "This is a narrow tunnel, illuminated only by the blue glow of the pile of GPUs that burned so bright they went radioactive in this sty. The walls and floors are covered with slime. It smells like a hacker convention in here.%^RESET%^\n\nYou may be able to find escape to the west, and north.%^RESET%^");
+}

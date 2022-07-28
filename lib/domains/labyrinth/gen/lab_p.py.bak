@@ -1,185 +1,158 @@
-from random import *
+import argparse
 import random
 
-genpath="/home/git/gurba/lib/domains/labyrinth/gen"
-syspath = "/home/git/gurba/lib/domains/labyrinth/rooms"
-mobpath="/home/git/gurba/lib/domains/labyrinth/npc"
-incdir=""
-area="labyrinth"
-
-room_array = []
-dimensions = ["10", "10"]
-
-mob_array = ["squirrel", "rabbit", "beaver", "bear", "porcupine", "skunk", "chipmunk", "mouse", "raccoon", "chickadee", "wolf", "fox", "badger", "grouse", "mole", "unicorn", "coyote"]
-room_mobs = []
-level_range = [6, 10]
+syspath = "/home/gurba/defcon-28-mud-source-with-core/lib/domains/labyrinth/rooms/"
+domain = "../domain.h"
 
 floors = ['stone', 'jade', 'marble', 'obsidian', 'limestone', 'quartz', 'basalt']
 walls = ['slime', 'blood', 'oil', 'mud', 'dust', 'liquid']
 colors = ['red', 'green', 'purple', 'blue', 'orange', 'iridium']
+mobs = ["Gl0Rz0","agent","alexis","analyst","andy","angryweevil","anthonyfox","antoinnete","arnie","atriumrat","auditor","autobot","autodoc","baboon","banker","bartender","biddleman","billy","blob","boa","boar","bob","bol","bouncer","bouncer2","brian","buddypetersen","bugsy","cagedancer","captain","carrierpigeon","carson","cellguard","child","clara","clerk","clubbouncer","clubdancer","cockroach","coder","colleen","constrictor","craig","csccagent","cscccaptain","culprit","cyberslime","cyclophant","dancer","dba","debra","deformedweevil","doe","domeguard","droid","drone","eastauthorizer","eastclerk","eastfilingclerk","eastformatter","eastmaintenancedroid","edwardio","enforcer","eric","evilclown","fern","ferret","fieldmouse","fireant","floorvine","freddy","gana","glorzo","goldfish","goon","gorilla","greenslime","greensnake","groupie","grunt","guard","hans","heckle","heptosquid","horace","housingofficer","iguana","jackback","jackie","jacob","james","japanesebeetle","jeff","jenny","john","johnson","josef","kavi","ken","kendall","koretech","largeheptopsquid","largeheptosquid","leader","lil","log","loser","lrak","lulams","lyndia","magnus","maintainer","maintenancedroid","mamba","manny","massiveweevil","maxim","mei","mike","mila","monitor","monkey","monzema","mosquito","mutatedcockroach","neelo","norman","northdomeguard","officer","olasha","outfitterrobot","panther","pasties","peter","planner","poledancer","politician","pottles","powerdrone","prisonfreddie","prisonguard","probe","professor","python","queenrat","queenslug","r1alan","r1carmella","r1elaine","r1engineer","r1hannah","r1mandrone","r1marilynn","r1physicist","r1radiologist","r1radsensor","r1serviceman","r1zerky","rachel","raddgoo","raddyzoon","radgoo","randy","rat","ratqueen","rattlesnake","repairdroid","rick","roger","salesdroid","salik","sandworm","securityofficer","sewerboss","shelledheptosquid","slime","slowzombie","slug","smallweevil","snake","snapperjaw","sparrow","steve","stoner","tangleweed","tawny","teacher","tech","technician","tiffany","tinyweevil","tom","torga","treelizard","ursula","valerie","vampire","varysstark","vern","vipbouncer","vlarapp","vonnewman","wardenbrocke","warrior","wasteworm","watersnake","weevil","wellin","wendall","wendy","zaryem","zombie"]
 
 l_desc_option_list_1a = ['broad', 'narrow', 'wide', 'cramped']
 l_desc_option_list_1b = ['corridor', 'hallway', 'tunnel']
 l_desc_option_list_1c = ['red', 'green', 'purple', 'blue', 'orange', 'iridium']
-l_desc_option_list_1d = ['gunk', 'sludge', 'muck', 'crud', 'crap', 'radioactive waste', 'crappy sales material', 'random junk evilmog thought up', 'glorzo', 'pile of put kevin back stickers', 'pile of GPU\'s that burned so bright they went radioactive']
-l_desc_option_list_1e = ['area', 'hellhole', 'stink-pit', 'sty', 'dump', 'pit']
+l_desc_option_list_1d = ['gunk', 'sludge', 'muck', 'crud', 'crap', 'radioactive waste', 'crappy sales material', 'random junk evilmog thought up', 'glorzo', 'pile of put kevin back stickers', 'pile of GPUs that burned so bright they went radioactive']
+l_desc_option_list_1e = ['area', 'hellhole', 'stink-pit', 'sty', 'dump', 'joint']
 l_desc_option_list_1f = [1, 2, 3, 4, 5, 6, 7, 8]
+l_option_1f = random.choice(l_desc_option_list_1f)
+if l_option_1f == 1:
+    l_desc_option_f = 'The air is rather stagnant'
+if l_option_1f == 2:
+    l_desc_option_f = 'Musty air that doesn\'t seem to have been ventilated for a while brushes up against you as you move around here'
+if l_option_1f == 3:
+    l_desc_option_f = 'To add to that, the smell here isn\'t exactly perfumy either'
+if l_option_1f == 4:
+    l_desc_option_f = 'It smells like a hacker convention in here'
+if l_option_1f == 5:
+    l_desc_option_f = 'The smell is outright dreadful'
+if l_option_1f == 6:
+    l_desc_option_f = 'It smells like a combination of diesel fuel, dirt and decay'
+if l_option_1f == 7:
+    l_desc_option_f = 'The air smells like it hasn\'t been cycled in a while, you are getting dizzy'
+if l_option_1f == 8:
+    l_desc_option_f = 'The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON'
+
+
+ldesc = "This is a " + random.choice(l_desc_option_list_1a) + " " + random.choice(
+    l_desc_option_list_1b) + ", illuminated only by the " + random.choice(
+    l_desc_option_list_1c) + " glow of the " + random.choice(l_desc_option_list_1d) + " in this " + random.choice(
+    l_desc_option_list_1e) + ". The walls and floors are covered with " + random.choice(
+    walls) + ". " + l_desc_option_f + ".%^RESET%^"
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--name', help='room name', required=True)
+parser.add_argument('--area', help='area', required=True)
+parser.add_argument('--north', help='path to north exit', required=False)
+parser.add_argument('--south', help='path to south exit', required=False)
+parser.add_argument('--east', help='path to east exit', required=False)
+parser.add_argument('--west', help='path to west exit', required=False)
+parser.add_argument('--northeast', help='path to northeast exit', required=False)
+parser.add_argument('--northwest', help='path to northwest exit', required=False)
+parser.add_argument('--southeast', help='path to southeast exit', required=False)
+parser.add_argument('--southwest', help='path to southwest exit', required=False)
+parser.add_argument('--up', help='path to up exit', required=False)
+parser.add_argument('--down', help='path to down exit', required=False)
+parser.add_argument('--x', help='x coords', required=True)
+parser.add_argument('--y', help='y coords', required=True)
+parser.add_argument('--z', help='z coords', required=True)
+
+args = parser.parse_args()
+
 s_desc_option = [1, 2, 3]
+s_desc_choice = random.choice(s_desc_option)
+if s_desc_choice == 1:
+    s_desc = 'Corridor - ' + args.name
+if s_desc_choice == 2:
+    s_desc = 'Hallway - ' + args.name
+if s_desc_choice == 3:
+    s_desc = 'Passage - ' + args.name
 
+roomfile = open(syspath + args.name + ".c", "w")
+print syspath + args.name + ".c"
+coords = [args.x, args.y, args.z]
 
-fh = open(genpath + '/labyrinth_gen.txt')
+roomfile.write('inherit "/std/room";\n\n')
+roomfile.write('#include "' + domain + '"\n\n')
 
-seed(random())
-for line in fh:
-	exits = line.rstrip().split(":")[1].split(",")
-	tmp_roomname = line.rstrip().split(":")[0]
-	coords = [ tmp_roomname.split(",")[0], tmp_roomname.split(",")[1], tmp_roomname.split(",")[2] ]
-	roomname = coords[0] + "_" + coords[1] + "_" + coords[2]
-	translated = []
-	map_x = coords[0]
-    map_y = coords[1]
-    map_z = coords[2]
-    for exit in exits:
-    	if exit == "w":
-    		translated.append(["west",str(int(map_x) - 1) + "_" + str(map_y) + "_" + str(map_z)])
-		if exit == "e":
-			translated.append(["east",str(int(map_x) + 1) + "_" + str(map_y) + "_" + str(map_z)])
-		if exit == "n":
-			translated.append(["north",str(map_x) + "_" + str(int(map_y) - 1) + "_" + str(map_z)])
-		if exit == "s":
-			translated.append(["south",str(map_x) + "_" + str(int(map_y) + 1) + "_" + str(map_z)])
-		if exit == "nw":
-			translated.append(["northwest",str(int(map_x) - 1) + "_" + str(int(map_y) - 1) + "_" + str(map_z)])
-		if exit == "ne":
-			translated.append(["northeast",str(int(map_x) + 1) + "_" + str(int(map_y) - 1)] + "_" + str(map_z))
-		if exit == "sw":
-			translated.append(["southwest",str(int(map_x) - 1) + "_" + str(int(map_y) + 1)] + "_" + str(map_z))
-		if exit == "se":
-			translated.append(["southeast",str(int(map_x) + 1) + "_" + str(int(map_y) + 1)] + "_" + str(map_z))
-		if exit == "u":
-			translated.append(["up",str(map_x) + "_" + str(map_y) + "_" + str(int(map_z) + 1)])
-		if exit == "d":
-			translated.append(["down",str(map_y) + "_" + str(map_y) + "_" + str(int(map_z) - 1)])
-	    room_array.append([roomname, translated])
-    seed(randint(0, 16))
-    seed(randint(0, 16))
-    if randint(0, 2) == randint(0, 2):
-      if len(mob_array) > 0:
-        mobindex = randint(0, (len(mob_array) - 1))
-        mobname = mob_array[mobindex]
-        mob_array.remove(mobname)
-        room_mobs.append([roomname, mobname])
+roomfile.write('void setup( void ) {\n')
+roomfile.write('  add_area( "' + args.area + '" );\n')
+roomfile.write('  set_coords(({ ' + coords[0] + ', ' + coords[1] + ', ' + coords[2] + ' }));\n')
+roomfile.write('  set_short( "' + s_desc + '" );\n')
 
-fh.close()
+# exits code here
+exits = []
+exit_list = []
 
-mob_count = -1
-for mob in room_mobs:
-	mob_count = mob_count + 1
-	gender=["male", "female"]
-	mobfile = open(mobpath + "/" + mob[1] + ".c", "w")
-	mobfile.write('inherit "/std/monster";\n')
-	mobfile.write('#include "../domain.h" \n\n')
-	mobfile.write('void setup( void ) {\n')
-	mobfile.write('   set_name("' + mob[1] + '");\n')
-	mobfile.write('   set_short("A ' + mob[1] + '");\n')
-	mobfile.write('   set_long("A ' + mob[1] + '");\n')
-	mobfile.write('   set_gender("' + gender[randint(0,1)] + '");\n')
-	mobfile.write('   set_race("' + mob[1] + '");\n')
-	seed(randint(0, 16))
-	seed(randint(0, 16))
-	moblevel = randint(level_range[0], level_range[1])
-	mobfile.write('   set_hit_skill("combat/unarmed");\n')
-	mobfile.write('   set_skill("combat/unarmed", ' + str(20 * moblevel) + ');\n')
-	mobfile.write('   set_skill("combat/defense", ' + str(20 * moblevel) + ');\n')
-	mobfile.write('   set_level(' + str(moblevel) + ');\n')
-	mobfile.write('}\n\n')
-	mobfile.close()
+if args.west is not None:
+    print int(coords[0]) - 1
+    exits.append(["west", "x" + str(int(coords[0]) - 1) + "y" + coords[1] + "z" + coords[2]])
+    exit_list.append(["west"])
+if args.east is not None:
+    exits.append(["east", "x" + str(int(coords[0]) + 1) + "y" + coords[1] + "z" + coords[2]])
+    exit_list.append(["east"])
+if args.north is not None:
+    exits.append(["north", "x" + coords[0] + "y" + str(int(coords[1]) + 1) + "z" + coords[2]])
+    exit_list.append(["north"])
+if args.south is not None:
+    exits.append(["south", "x" + coords[0] + "y" + str(int(coords[1]) - 1) + "z" + coords[2]])
+    exit_list.append(["west"])
+if args.northeast is not None:
+    exits.append(["northeast", "x" + str(int(coords[0]) + 1) + "y" + str(int(coords[1]) + 1) + "z" + coords[2]])
+    exit_list.append(["northeast"])
+if args.northwest is not None:
+    exits.append(["northwest", "x" + str(int(coords[0]) - 1) + "y" + str(int(coords[1]) + 1) + "z" + coords[2]])
+    exit_list.append(["northwest"])
+if args.southeast is not None:
+    exits.append(["southeast", "x" + str(int(coords[0]) + 1) + "y" + str(int(coords[1]) - 1) + "z" + coords[2]])
+    exit_list.append(["southeast"])
+if args.southwest is not None:
+    exits.append(["southwest", "x" + str(int(coords[0]) - 1) + "y" + str(int(coords[1]) - 1) + "z" + coords[2]])
+    exit_list.append(["southwest"])
+if args.up is not None:
+    exits.append(["up", "x" + coords[0] + "y" + coords[1] + "z" + str(int(coords[2]) + 1)])
+    exit_list.append(["up"])
+if args.down is not None:
+    exits.append(["up", "x" + coords[0] + "y" + coords[1] + "z" + str(int(coords[2]) - 1)])
+    exit_list.append(["down"])
 
-for rn in room_array:
-	roomname = rn[0]
-	exit_array = rn[1]
-	room_moblist = [s for s in room_mobs if roomname in s]
-	if room_moblist:
-		print (room_moblist)
-	coords = roomname.split("_")
-	map_x = coords[0]
-    map_y = coords[1]
-    map_z = coords[2]
+roomfile.write('set_objects( DIR+"/npc/' + random.choice(mobs) + '.c");\n')
 
-    rshort = random.choice(s_desc_option)
-    if rshort == 1:
-    	s_desc = 'Labyrinth'
-	if rshort == 2:
-		s_desc = 'Hallway'
-	if rshort == 3:
-		s_desc = 'Passage'
+if exits:
+    roomfile.write(' set_exits( ([\n')
+    exitcount = len(exits)
+    exitnum = 0
+    for roomexit in exits:
+        exitnum += 1
+        if exitcount == exitnum:
+          roomfile.write('  "' + roomexit[0] + '" : ' + 'DIR+"/rooms/' + roomexit[1] + '.c"\n')
+        else:
+          roomfile.write('  "' + roomexit[0] + '" : ' + 'DIR+"/rooms/' + roomexit[1] + '.c",\n')
 
-	l_option_1f = random.choice(l_desc_option_list_1f)
-	if l_option_1f == 1:
-		l_desc_option_f = 'The air is rather stagnant'
-	if l_option_1f == 2:
-		l_desc_option_f = 'Musty air that doesn\'t seem to have been ventilated for a while brushes up against you as you move around here'
-	if l_option_1f == 3:
-		    l_desc_option_f = 'To add to that, the smell here isn\'t exactly perfumy either'
-	if l_option_1f == 4:
-		l_desc_option_f = 'It smells like a hacker convention in here'
-	if l_option_1f == 5:
-		l_desc_option_f = 'The smell is outright dreadful'
-	if l_option_1f == 6:
-		l_desc_option_f = 'It smells like a combination of diesel fuel, dirt and decay'
-	if l_option_1f == 7:
-		l_desc_option_f = 'The air smells like it hasn\'t been cycled in a while, you are getting dizzy'
-	if l_option_1f == 8:
-		l_desc_option_f = 'The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON'
+roomfile.write('  ]) );\n')
 
-	ldesc = "This is a " + random.choice(l_desc_option_list_1a) + " " + random.choice(
-		l_desc_option_list_1b) + ", illuminated only by the " + random.choice(
-		l_desc_option_list_1c) + " glow of the " + random.choice(l_desc_option_list_1d) + " in this " + random.choice(
-		l_desc_option_list_1e) + ". The walls and floors are covered with " + random.choice(
-		walls) + ". " + l_desc_option_f + ".%^RESET%^"
+roomfile.write('  set_long( "' + ldesc)
 
-	roomfile = open(roompath + "/" + roomname + ".c", "w")
-	roomfile.write('inherit "/std/room";\n\n')
-	roomfile.write('#include "../domain.h" \n\n')
-	roomfile.write('void setup( void ) {\n\n')
-	roomfile.write('  #include "area.h"\n')
-	roomfile.write('  add_area("labyrinth");\n')
-	roomfile.write('  set_domainname("labyrinth");\n')
-	roomfile.write('  set_coords(({ ' + coords[0] + ', ' + coords[1] + ', ' + coords[2]' }));\n')
-	roomfile.write('  set_dimensions(({ ' + dimensions[0] + ', ' + dimensions[1] + ' }));\n\n')
-	roomfile.write('  set_short( "' + rshort + '" );\n')
-	roomfile.write('  set_long( "' + rlong + '" );\n\n')
-	if room_moblist:
-		mobnum = 0
-		mobcount = len(room_moblist)
-		roomfile.write('  set_objects(\n')
-		for mob in room_moblist:
-			mobnum += 1
-			if mobcount == mobnum:
-				roomfile.write('    DIR+"/npc/' + mob[1] + '.c"\n')
-			else:
-				roomfile.write('    DIR+"/npc/' + mob[1] + '.c",\n')
-		roomfile.write('  );\n')
+dexit_array = ['The sewer continues to the', 'Tunnels can be found to the', 'The horror continues to the',
+               'You may be able to find escape to the']
 
-	if exit_array:
-		roomfile.write(' set_exits( ([\n')
-		exitcount = len(exit_array)
-		exitnum = 0
-		for rexit in exit_array:
-			exitnum += 1
-			print roomname + " " + rexit[0] + " " + rexit[1]
-			if exitcount == exitnum:
-				roomfile.write('  "' + rexit[0] + '" : ' + 'DIR+"/rooms/' + rexit[1] + '.c"\n')
-			else:
-				roomfile.write('  "' + rexit[0] + '" : ' + 'DIR+"/rooms/' + rexit[1] + '.c",\n')
-		roomfile.write('  ]) );\n\n')
-	roomfile.write('}\n\n')
+if exit_list:
+    roomfile.write('\\n\\n' + random.choice(dexit_array) + " ")
+    exitcountl = len(exit_list)
+    exitl_num = 0
+    for exit_l in exit_list:
+        exitl_num += 1
+        if exitl_num == exitcountl:
+            if exitcountl == 1:
+                roomfile.write(exit_l[0] + ".%^RESET%^\");\n")
+            else:
+                roomfile.write("and " + exit_l[0] + ".%^RESET%^\");\n")
+        else:
+            roomfile.write(exit_l[0] + ", ")
 
-	if room_moblist:
-    	roomfile.write('int do_search(void) {\n')
-    	roomfile.write('   this_environment()->setup();')
-    	roomfile.write('   return 1;\n}\n')
-    	roomfile.close
+print exit_list
 
+# end code here
+roomfile.write('}\n')
 
-
+roomfile.close

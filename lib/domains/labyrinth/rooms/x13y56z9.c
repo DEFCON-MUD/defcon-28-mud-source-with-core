@@ -1,0 +1,15 @@
+inherit "/std/room";
+
+#include "../domain.h"
+
+void setup( void ) {
+  add_area( "labyrinth" );
+  set_coords(({ 13, 56, 9 }));
+  set_short( "Passage - x13y56z9" );
+set_objects( DIR+"/npc/teacher.c");
+ set_exits( ([
+  "west" : DIR+"/rooms/x12y56z9.c",
+  "north" : DIR+"/rooms/x13y57z9.c"
+  ]) );
+  set_long( "This is a narrow hallway, illuminated only by the purple glow of the crap in this joint. The walls and floors are covered with blood. The air smells like it hasn't been cycled in a while, you are getting dizzy.%^RESET%^\n\nYou may be able to find escape to the west, and north.%^RESET%^");
+}

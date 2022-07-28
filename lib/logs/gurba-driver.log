@@ -572,3 +572,1739 @@ Jul 27 22:53:13 **  155 command           /sys/lib/modules/m_cmds (/sys/obj/play
 Jul 27 22:53:13 **  156 exec_command      /sys/daemons/command_d
 Jul 27 22:53:13 **   14 _main             /sys/lib/modules/m_command (/sys/cmds/wiz/last)
 Jul 27 22:53:13 **   56 main              /sys/cmds/wiz/last
+Jul 27 23:47:47 ** New telnet connection from <unknown>:0
+Jul 27 23:53:06 ** Could not compile "/domains/sewer/monsters/jenny.c"
+Jul 27 23:53:06 ** Wed Jul 27 23:53:06 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:06 **  556 receive_message   /sys/obj/user (#307)
+Jul 27 23:53:06 **  170 receive           /sys/lib/telnet (/sys/obj/user#307)
+Jul 27 23:53:06 **  551 _receive_message  /sys/obj/user (#307)
+Jul 27 23:53:06 ** 1592 receive_message   /sys/obj/player (#285)
+Jul 27 23:53:06 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:06 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:06 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x35y62z9)
+Jul 27 23:53:06 **  997 upgraded          /std/room (/domains/sewer/rooms/x35y62z9)
+Jul 27 23:53:06 **    9 setup             /domains/sewer/rooms/x35y62z9
+Jul 27 23:53:06 **  325 set_objects       /std/container (/domains/sewer/rooms/x35y62z9)
+Jul 27 23:53:06 **  263 add_object        /std/container (/domains/sewer/rooms/x35y62z9)
+Jul 27 23:53:06 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x35y62z9)
+Jul 27 23:53:06 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x35y62z9)
+Jul 27 23:53:06 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:06 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/agent.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/schedule_d)
+Jul 27 23:53:07 **   15 _F_call_out2      /kernel/lib/auto (/daemons/schedule_d)
+Jul 27 23:53:07 **  150 micro_beat        /daemons/schedule_d
+Jul 27 23:53:07 **  135 second_tick       /daemons/schedule_d
+Jul 27 23:53:07 **   85 heart_beat        /daemons/schedule_d
+Jul 27 23:53:07 **  126 event             /daemons/event_d
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x37y62z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x37y62z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x37y62z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x37y62z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x37y62z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x37y62z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x37y62z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/roger.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x36y62z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x36y62z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x36y62z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x36y62z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x36y62z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x36y62z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x36y62z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/log.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x25y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x25y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x25y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x25y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x25y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x25y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x25y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/goon.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x45y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x45y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x45y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x45y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x45y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x45y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x45y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/radgoo.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x40y62z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x40y62z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x40y62z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x40y62z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x40y62z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x40y62z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x40y62z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/carrierpigeon.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x43y62z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x43y62z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x43y62z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x43y62z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x43y62z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x43y62z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x43y62z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/captain.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x39y62z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x39y62z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x39y62z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x39y62z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x39y62z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x39y62z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x39y62z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/slug.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x42y62z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x42y62z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x42y62z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x42y62z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x42y62z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x42y62z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x42y62z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/groupie.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x29y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x29y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x29y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x29y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x29y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x29y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x29y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/ferret.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x44y62z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x44y62z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x44y62z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x44y62z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x44y62z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x44y62z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x44y62z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/autod.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x28y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x28y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x28y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x28y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x28y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x28y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x28y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/wendy.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x55y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x55y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x55y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x55y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x55y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x55y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x55y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/northdomeguard.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x54y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x54y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x54y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x54y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x54y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x54y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x54y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/wardenbrke.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x41y62z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x41y62z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x41y62z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x41y62z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x41y62z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x41y62z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x41y62z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/norman.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x27y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x27y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x27y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x27y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x27y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x27y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x27y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/pasties.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x26y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x26y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x26y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x26y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x26y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x26y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x26y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/queenrat.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x42y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x42y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x42y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x42y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x42y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x42y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x42y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/probe.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x48y60z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x48y60z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x48y60z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x48y60z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x48y60z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x48y60z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x48y60z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/blob.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x46y62z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x46y62z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x46y62z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x46y62z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x46y62z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x46y62z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x46y62z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/lrak.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x31y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x31y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x31y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x31y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x31y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x31y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x31y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/prisonguard.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x47y62z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x47y62z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x47y62z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x47y62z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x47y62z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x47y62z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x47y62z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/treelizard.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x36y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x36y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x36y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x36y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x36y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x36y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x36y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/carrierpigeon.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x35y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x35y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x35y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x35y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x35y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x35y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x35y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/panther.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x34y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x34y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x34y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x34y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x34y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x34y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x34y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/probe.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x52y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x52y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x52y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x52y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x52y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x52y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x52y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/rattlesnake.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x45y62z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x45y62z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x45y62z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x45y62z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x45y62z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x45y62z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x45y62z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/salesdroid.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x53y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x53y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x53y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x53y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x53y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x53y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x53y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/r1hannah.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x38y62z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x38y62z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x38y62z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x38y62z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x38y62z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x38y62z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x38y62z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/radgoo.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x33y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x33y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x33y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x33y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x33y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x33y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x33y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/torga.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x32y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x32y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x32y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x32y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x32y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x32y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x32y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/antoinnete.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x47y60z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x47y60z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x47y60z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x47y60z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x47y60z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x47y60z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x47y60z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/r1alan.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x41y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x41y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x41y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x41y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x41y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x41y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x41y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/largeheptosquid.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x40y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x40y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x40y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x40y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x40y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x40y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x40y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/wasteworm.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x39y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x39y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x39y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x39y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x39y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x39y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x39y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/culprit.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x44y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x44y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x44y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x44y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x44y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x44y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x44y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/freddy.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x47y61z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x47y61z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x47y61z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x47y61z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x47y61z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x47y61z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x47y61z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/mei.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x37y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x37y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x37y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x37y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x37y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x37y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x37y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/drone.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x46y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x46y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x46y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x46y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x46y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x46y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x46y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/cagedaer.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x38y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x38y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x38y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x38y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x38y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x38y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x38y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/boar.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x50y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x50y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x50y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x50y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x50y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x50y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x50y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/daer.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x49y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x49y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x49y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x49y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x49y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x49y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x49y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/child.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x48y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x48y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x48y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x48y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x48y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x48y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x48y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/planner.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x47y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x47y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x47y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x47y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x47y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x47y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x47y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/gorilla.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x43y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x43y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x43y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x43y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x43y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x43y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x43y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/raddgoo.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x51y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x51y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x51y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x51y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x51y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x51y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x51y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/blob.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x49y61z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x49y61z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x49y61z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x49y61z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x49y61z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x49y61z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x49y61z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/clerk.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x49y60z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x49y60z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x49y60z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x49y60z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x49y60z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x49y60z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x49y60z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/domeguard.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x30y64z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x30y64z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x30y64z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x30y64z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x30y64z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x30y64z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x30y64z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/vern.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x49y63z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x49y63z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x49y63z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x49y63z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x49y63z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x49y63z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x49y63z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 27 23:53:07 ** Could not compile "/domains/sewer/monsters/grunt.c"
+Jul 27 23:53:07 ** Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 27 23:53:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 27 23:53:07 **   82 dispatch_event    /daemons/event_d
+Jul 27 23:53:07 **  778 touch             /kernel/sys/driver
+Jul 27 23:53:07 **  773 _touch            /kernel/sys/driver
+Jul 27 23:53:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x49y62z9)
+Jul 27 23:53:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x49y62z9)
+Jul 27 23:53:07 **    9 setup             /domains/sewer/rooms/x49y62z9
+Jul 27 23:53:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x49y62z9)
+Jul 27 23:53:07 **  263 add_object        /std/container (/domains/sewer/rooms/x49y62z9)
+Jul 27 23:53:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x49y62z9)
+Jul 27 23:53:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x49y62z9)
+Jul 27 23:53:07 **  184 compile_object    /kernel/sys/driver
+Jul 27 23:53:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:06 ** Could not compile "/domains/sewer/monsters/jenny.c"
+Jul 28 00:05:06 ** Thu Jul 28 00:05:06 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:06 **  556 receive_message   /sys/obj/user (#307)
+Jul 28 00:05:06 **  170 receive           /sys/lib/telnet (/sys/obj/user#307)
+Jul 28 00:05:06 **  551 _receive_message  /sys/obj/user (#307)
+Jul 28 00:05:06 ** 1592 receive_message   /sys/obj/player (#285)
+Jul 28 00:05:06 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:06 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:06 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x35y62z9)
+Jul 28 00:05:06 **  997 upgraded          /std/room (/domains/sewer/rooms/x35y62z9)
+Jul 28 00:05:06 **    9 setup             /domains/sewer/rooms/x35y62z9
+Jul 28 00:05:06 **  325 set_objects       /std/container (/domains/sewer/rooms/x35y62z9)
+Jul 28 00:05:06 **  263 add_object        /std/container (/domains/sewer/rooms/x35y62z9)
+Jul 28 00:05:06 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x35y62z9)
+Jul 28 00:05:06 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x35y62z9)
+Jul 28 00:05:06 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:06 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/agent.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/schedule_d)
+Jul 28 00:05:07 **   15 _F_call_out2      /kernel/lib/auto (/daemons/schedule_d)
+Jul 28 00:05:07 **  150 micro_beat        /daemons/schedule_d
+Jul 28 00:05:07 **  135 second_tick       /daemons/schedule_d
+Jul 28 00:05:07 **   85 heart_beat        /daemons/schedule_d
+Jul 28 00:05:07 **  126 event             /daemons/event_d
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x37y62z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x37y62z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x37y62z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x37y62z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x37y62z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x37y62z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x37y62z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/roger.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x36y62z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x36y62z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x36y62z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x36y62z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x36y62z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x36y62z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x36y62z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/log.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x25y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x25y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x25y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x25y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x25y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x25y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x25y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/goon.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x45y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x45y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x45y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x45y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x45y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x45y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x45y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/radgoo.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x40y62z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x40y62z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x40y62z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x40y62z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x40y62z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x40y62z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x40y62z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/carrierpigeon.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x43y62z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x43y62z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x43y62z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x43y62z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x43y62z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x43y62z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x43y62z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/captain.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x39y62z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x39y62z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x39y62z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x39y62z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x39y62z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x39y62z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x39y62z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/slug.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x42y62z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x42y62z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x42y62z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x42y62z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x42y62z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x42y62z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x42y62z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/groupie.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x29y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x29y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x29y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x29y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x29y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x29y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x29y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/ferret.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x44y62z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x44y62z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x44y62z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x44y62z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x44y62z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x44y62z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x44y62z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/autod.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x28y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x28y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x28y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x28y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x28y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x28y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x28y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/wendy.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x55y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x55y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x55y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x55y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x55y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x55y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x55y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/northdomeguard.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x54y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x54y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x54y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x54y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x54y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x54y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x54y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/wardenbrke.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x41y62z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x41y62z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x41y62z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x41y62z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x41y62z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x41y62z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x41y62z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/norman.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x27y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x27y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x27y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x27y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x27y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x27y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x27y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/pasties.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x26y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x26y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x26y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x26y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x26y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x26y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x26y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/queenrat.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x42y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x42y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x42y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x42y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x42y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x42y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x42y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/probe.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x48y60z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x48y60z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x48y60z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x48y60z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x48y60z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x48y60z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x48y60z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/blob.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x46y62z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x46y62z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x46y62z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x46y62z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x46y62z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x46y62z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x46y62z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/lrak.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x31y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x31y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x31y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x31y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x31y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x31y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x31y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/prisonguard.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x47y62z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x47y62z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x47y62z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x47y62z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x47y62z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x47y62z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x47y62z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/treelizard.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x36y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x36y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x36y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x36y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x36y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x36y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x36y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/carrierpigeon.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x35y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x35y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x35y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x35y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x35y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x35y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x35y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/panther.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x34y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x34y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x34y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x34y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x34y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x34y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x34y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/probe.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x52y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x52y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x52y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x52y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x52y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x52y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x52y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/rattlesnake.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x45y62z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x45y62z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x45y62z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x45y62z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x45y62z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x45y62z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x45y62z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/salesdroid.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x53y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x53y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x53y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x53y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x53y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x53y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x53y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/r1hannah.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x38y62z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x38y62z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x38y62z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x38y62z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x38y62z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x38y62z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x38y62z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/radgoo.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x33y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x33y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x33y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x33y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x33y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x33y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x33y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/torga.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x32y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x32y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x32y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x32y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x32y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x32y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x32y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/antoinnete.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x47y60z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x47y60z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x47y60z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x47y60z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x47y60z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x47y60z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x47y60z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/r1alan.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x41y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x41y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x41y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x41y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x41y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x41y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x41y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/largeheptosquid.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x40y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x40y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x40y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x40y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x40y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x40y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x40y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/wasteworm.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x39y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x39y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x39y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x39y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x39y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x39y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x39y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/culprit.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x44y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x44y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x44y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x44y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x44y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x44y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x44y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/freddy.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x47y61z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x47y61z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x47y61z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x47y61z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x47y61z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x47y61z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x47y61z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/mei.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x37y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x37y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x37y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x37y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x37y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x37y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x37y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/drone.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x46y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x46y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x46y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x46y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x46y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x46y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x46y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/cagedaer.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x38y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x38y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x38y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x38y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x38y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x38y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x38y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/boar.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x50y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x50y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x50y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x50y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x50y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x50y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x50y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/daer.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x49y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x49y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x49y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x49y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x49y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x49y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x49y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/child.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x48y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x48y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x48y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x48y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x48y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x48y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x48y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/planner.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x47y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x47y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x47y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x47y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x47y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x47y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x47y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/gorilla.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x43y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x43y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x43y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x43y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x43y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x43y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x43y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/raddgoo.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x51y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x51y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x51y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x51y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x51y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x51y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x51y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/blob.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x49y61z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x49y61z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x49y61z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x49y61z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x49y61z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x49y61z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x49y61z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/clerk.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x49y60z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x49y60z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x49y60z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x49y60z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x49y60z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x49y60z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x49y60z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/domeguard.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x30y64z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x30y64z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x30y64z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x30y64z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x30y64z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x30y64z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x30y64z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/vern.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x49y63z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x49y63z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x49y63z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x49y63z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x49y63z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x49y63z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x49y63z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:05:07 ** Could not compile "/domains/sewer/monsters/grunt.c"
+Jul 28 00:05:07 ** Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:05:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+Jul 28 00:05:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:05:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:05:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:05:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x49y62z9)
+Jul 28 00:05:07 **  997 upgraded          /std/room (/domains/sewer/rooms/x49y62z9)
+Jul 28 00:05:07 **    9 setup             /domains/sewer/rooms/x49y62z9
+Jul 28 00:05:07 **  325 set_objects       /std/container (/domains/sewer/rooms/x49y62z9)
+Jul 28 00:05:07 **  263 add_object        /std/container (/domains/sewer/rooms/x49y62z9)
+Jul 28 00:05:07 **   41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x49y62z9)
+Jul 28 00:05:07 **   33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x49y62z9)
+Jul 28 00:05:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:05:07 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:06:01 ** Could not compile "/domains/labyrinth/monsters/r1engineer.c"
+Jul 28 00:06:01 ** Thu Jul 28 00:06:01 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:06:01 **  556 receive_message   /sys/obj/user (#307)
+Jul 28 00:06:01 **  170 receive           /sys/lib/telnet (/sys/obj/user#307)
+Jul 28 00:06:01 **  551 _receive_message  /sys/obj/user (#307)
+Jul 28 00:06:01 ** 1684 receive_message   /sys/obj/player (#285)
+Jul 28 00:06:01 ** 1021 write_prompt      /sys/obj/player (#285)
+Jul 28 00:06:01 **  778 touch             /kernel/sys/driver
+Jul 28 00:06:01 **  773 _touch            /kernel/sys/driver
+Jul 28 00:06:01 **    7 _F_upgraded       /kernel/lib/auto (/domains/labyrinth/rooms/x35y62z9)
+Jul 28 00:06:01 **  997 upgraded          /std/room (/domains/labyrinth/rooms/x35y62z9)
+Jul 28 00:06:01 **    9 setup             /domains/labyrinth/rooms/x35y62z9
+Jul 28 00:06:01 **  325 set_objects       /std/container (/domains/labyrinth/rooms/x35y62z9)
+Jul 28 00:06:01 **  263 add_object        /std/container (/domains/labyrinth/rooms/x35y62z9)
+Jul 28 00:06:01 **   41 clone_object      /kernel/lib/auto (/domains/labyrinth/rooms/x35y62z9)
+Jul 28 00:06:01 **   33 compile_object    /kernel/lib/auto (/domains/labyrinth/rooms/x35y62z9)
+Jul 28 00:06:01 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:06:01 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:06:31 ** Could not compile "/domains/labyrinth/monsters/r1engineer.c"
+Jul 28 00:06:31 ** Thu Jul 28 00:06:31 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:06:31 **  556 receive_message   /sys/obj/user (#307)
+Jul 28 00:06:31 **  170 receive           /sys/lib/telnet (/sys/obj/user#307)
+Jul 28 00:06:31 **  551 _receive_message  /sys/obj/user (#307)
+Jul 28 00:06:31 ** 1684 receive_message   /sys/obj/player (#285)
+Jul 28 00:06:31 ** 1021 write_prompt      /sys/obj/player (#285)
+Jul 28 00:06:31 **  778 touch             /kernel/sys/driver
+Jul 28 00:06:31 **  773 _touch            /kernel/sys/driver
+Jul 28 00:06:31 **    7 _F_upgraded       /kernel/lib/auto (/domains/labyrinth/rooms/x35y62z9)
+Jul 28 00:06:31 **  997 upgraded          /std/room (/domains/labyrinth/rooms/x35y62z9)
+Jul 28 00:06:31 **    9 setup             /domains/labyrinth/rooms/x35y62z9
+Jul 28 00:06:31 **  325 set_objects       /std/container (/domains/labyrinth/rooms/x35y62z9)
+Jul 28 00:06:31 **  263 add_object        /std/container (/domains/labyrinth/rooms/x35y62z9)
+Jul 28 00:06:31 **   41 clone_object      /kernel/lib/auto (/domains/labyrinth/rooms/x35y62z9)
+Jul 28 00:06:31 **   33 compile_object    /kernel/lib/auto (/domains/labyrinth/rooms/x35y62z9)
+Jul 28 00:06:31 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:06:31 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:06:42 ** Could not compile "/domains/labyrinth/monsters/r1engineer.c"
+Jul 28 00:06:42 ** Thu Jul 28 00:06:42 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:06:42 **  556 receive_message   /sys/obj/user (#307)
+Jul 28 00:06:42 **  170 receive           /sys/lib/telnet (/sys/obj/user#307)
+Jul 28 00:06:42 **  551 _receive_message  /sys/obj/user (#307)
+Jul 28 00:06:42 ** 1684 receive_message   /sys/obj/player (#285)
+Jul 28 00:06:42 ** 1021 write_prompt      /sys/obj/player (#285)
+Jul 28 00:06:42 **  778 touch             /kernel/sys/driver
+Jul 28 00:06:42 **  773 _touch            /kernel/sys/driver
+Jul 28 00:06:42 **    7 _F_upgraded       /kernel/lib/auto (/domains/labyrinth/rooms/x35y62z9)
+Jul 28 00:06:42 **  997 upgraded          /std/room (/domains/labyrinth/rooms/x35y62z9)
+Jul 28 00:06:42 **    9 setup             /domains/labyrinth/rooms/x35y62z9
+Jul 28 00:06:42 **  325 set_objects       /std/container (/domains/labyrinth/rooms/x35y62z9)
+Jul 28 00:06:42 **  263 add_object        /std/container (/domains/labyrinth/rooms/x35y62z9)
+Jul 28 00:06:42 **   41 clone_object      /kernel/lib/auto (/domains/labyrinth/rooms/x35y62z9)
+Jul 28 00:06:42 **   33 compile_object    /kernel/lib/auto (/domains/labyrinth/rooms/x35y62z9)
+Jul 28 00:06:42 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:06:42 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:06:54 ** Could not compile "/domains/labyrinth/monsters/r1engineer.c"
+Jul 28 00:06:54 ** Thu Jul 28 00:06:54 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:06:54 **  556 receive_message   /sys/obj/user (#307)
+Jul 28 00:06:54 **  170 receive           /sys/lib/telnet (/sys/obj/user#307)
+Jul 28 00:06:54 **  551 _receive_message  /sys/obj/user (#307)
+Jul 28 00:06:54 ** 1684 receive_message   /sys/obj/player (#285)
+Jul 28 00:06:54 ** 1021 write_prompt      /sys/obj/player (#285)
+Jul 28 00:06:54 **  778 touch             /kernel/sys/driver
+Jul 28 00:06:54 **  773 _touch            /kernel/sys/driver
+Jul 28 00:06:54 **    7 _F_upgraded       /kernel/lib/auto (/domains/labyrinth/rooms/x35y62z9)
+Jul 28 00:06:54 **  997 upgraded          /std/room (/domains/labyrinth/rooms/x35y62z9)
+Jul 28 00:06:54 **    9 setup             /domains/labyrinth/rooms/x35y62z9
+Jul 28 00:06:54 **  325 set_objects       /std/container (/domains/labyrinth/rooms/x35y62z9)
+Jul 28 00:06:54 **  263 add_object        /std/container (/domains/labyrinth/rooms/x35y62z9)
+Jul 28 00:06:54 **   41 clone_object      /kernel/lib/auto (/domains/labyrinth/rooms/x35y62z9)
+Jul 28 00:06:54 **   33 compile_object    /kernel/lib/auto (/domains/labyrinth/rooms/x35y62z9)
+Jul 28 00:06:54 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:06:54 ** Access to /logs/errors/runtime would have been denied, ignoring...
+Jul 28 00:37:43 ** New telnet connection from <unknown>:0
+Jul 28 00:59:07 ** Could not compile "/domains/labyrinth/npc/er.c"
+Jul 28 00:59:07 ** Thu Jul 28 00:59:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+Jul 28 00:59:07 **   21 _F_call_out       /kernel/lib/auto (/daemons/schedule_d)
+Jul 28 00:59:07 **   15 _F_call_out2      /kernel/lib/auto (/daemons/schedule_d)
+Jul 28 00:59:07 **  150 micro_beat        /daemons/schedule_d
+Jul 28 00:59:07 **  135 second_tick       /daemons/schedule_d
+Jul 28 00:59:07 **   85 heart_beat        /daemons/schedule_d
+Jul 28 00:59:07 **  126 event             /daemons/event_d
+Jul 28 00:59:07 **   82 dispatch_event    /daemons/event_d
+Jul 28 00:59:07 **  778 touch             /kernel/sys/driver
+Jul 28 00:59:07 **  773 _touch            /kernel/sys/driver
+Jul 28 00:59:07 **    7 _F_upgraded       /kernel/lib/auto (/domains/labyrinth/rooms/x35y61z9)
+Jul 28 00:59:07 **  997 upgraded          /std/room (/domains/labyrinth/rooms/x35y61z9)
+Jul 28 00:59:07 **    9 setup             /domains/labyrinth/rooms/x35y61z9
+Jul 28 00:59:07 **  325 set_objects       /std/container (/domains/labyrinth/rooms/x35y61z9)
+Jul 28 00:59:07 **  263 add_object        /std/container (/domains/labyrinth/rooms/x35y61z9)
+Jul 28 00:59:07 **   41 clone_object      /kernel/lib/auto (/domains/labyrinth/rooms/x35y61z9)
+Jul 28 00:59:07 **   33 compile_object    /kernel/lib/auto (/domains/labyrinth/rooms/x35y61z9)
+Jul 28 00:59:07 **  184 compile_object    /kernel/sys/driver
+Jul 28 00:59:07 ** Access to /logs/errors/runtime would have been denied, ignoring...

@@ -52489,3 +52489,1737 @@ Wed Jul 27 22:53:13 2022:Object: /sys/cmds/wiz/last, program: /sys/cmds/wiz/last
   14 _main             /sys/lib/modules/m_command (/sys/cmds/wiz/last)
   56 main              /sys/cmds/wiz/last
 
+Could not compile "/domains/sewer/monsters/jenny.c"
+Wed Jul 27 23:53:06 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+ 556 receive_message   /sys/obj/user (#307)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#307)
+ 551 _receive_message  /sys/obj/user (#307)
+1592 receive_message   /sys/obj/player (#285)
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x35y62z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x35y62z9)
+   9 setup             /domains/sewer/rooms/x35y62z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x35y62z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x35y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x35y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x35y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/agent.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/schedule_d)
+  15 _F_call_out2      /kernel/lib/auto (/daemons/schedule_d)
+ 150 micro_beat        /daemons/schedule_d
+ 135 second_tick       /daemons/schedule_d
+  85 heart_beat        /daemons/schedule_d
+ 126 event             /daemons/event_d
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x37y62z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x37y62z9)
+   9 setup             /domains/sewer/rooms/x37y62z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x37y62z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x37y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x37y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x37y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/roger.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x36y62z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x36y62z9)
+   9 setup             /domains/sewer/rooms/x36y62z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x36y62z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x36y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x36y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x36y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/log.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x25y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x25y64z9)
+   9 setup             /domains/sewer/rooms/x25y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x25y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x25y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x25y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x25y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/goon.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x45y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x45y64z9)
+   9 setup             /domains/sewer/rooms/x45y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x45y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x45y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x45y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x45y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/radgoo.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x40y62z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x40y62z9)
+   9 setup             /domains/sewer/rooms/x40y62z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x40y62z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x40y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x40y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x40y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/carrierpigeon.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x43y62z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x43y62z9)
+   9 setup             /domains/sewer/rooms/x43y62z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x43y62z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x43y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x43y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x43y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/captain.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x39y62z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x39y62z9)
+   9 setup             /domains/sewer/rooms/x39y62z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x39y62z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x39y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x39y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x39y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/slug.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x42y62z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x42y62z9)
+   9 setup             /domains/sewer/rooms/x42y62z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x42y62z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x42y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x42y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x42y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/groupie.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x29y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x29y64z9)
+   9 setup             /domains/sewer/rooms/x29y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x29y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x29y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x29y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x29y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/ferret.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x44y62z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x44y62z9)
+   9 setup             /domains/sewer/rooms/x44y62z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x44y62z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x44y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x44y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x44y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/autod.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x28y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x28y64z9)
+   9 setup             /domains/sewer/rooms/x28y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x28y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x28y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x28y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x28y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/wendy.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x55y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x55y64z9)
+   9 setup             /domains/sewer/rooms/x55y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x55y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x55y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x55y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x55y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/northdomeguard.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x54y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x54y64z9)
+   9 setup             /domains/sewer/rooms/x54y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x54y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x54y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x54y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x54y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/wardenbrke.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x41y62z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x41y62z9)
+   9 setup             /domains/sewer/rooms/x41y62z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x41y62z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x41y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x41y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x41y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/norman.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x27y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x27y64z9)
+   9 setup             /domains/sewer/rooms/x27y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x27y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x27y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x27y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x27y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/pasties.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x26y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x26y64z9)
+   9 setup             /domains/sewer/rooms/x26y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x26y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x26y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x26y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x26y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/queenrat.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x42y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x42y64z9)
+   9 setup             /domains/sewer/rooms/x42y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x42y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x42y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x42y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x42y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/probe.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x48y60z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x48y60z9)
+   9 setup             /domains/sewer/rooms/x48y60z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x48y60z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x48y60z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x48y60z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x48y60z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/blob.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x46y62z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x46y62z9)
+   9 setup             /domains/sewer/rooms/x46y62z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x46y62z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x46y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x46y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x46y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/lrak.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x31y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x31y64z9)
+   9 setup             /domains/sewer/rooms/x31y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x31y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x31y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x31y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x31y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/prisonguard.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x47y62z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x47y62z9)
+   9 setup             /domains/sewer/rooms/x47y62z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x47y62z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x47y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x47y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x47y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/treelizard.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x36y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x36y64z9)
+   9 setup             /domains/sewer/rooms/x36y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x36y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x36y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x36y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x36y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/carrierpigeon.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x35y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x35y64z9)
+   9 setup             /domains/sewer/rooms/x35y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x35y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x35y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x35y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x35y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/panther.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x34y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x34y64z9)
+   9 setup             /domains/sewer/rooms/x34y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x34y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x34y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x34y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x34y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/probe.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x52y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x52y64z9)
+   9 setup             /domains/sewer/rooms/x52y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x52y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x52y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x52y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x52y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/rattlesnake.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x45y62z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x45y62z9)
+   9 setup             /domains/sewer/rooms/x45y62z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x45y62z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x45y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x45y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x45y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/salesdroid.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x53y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x53y64z9)
+   9 setup             /domains/sewer/rooms/x53y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x53y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x53y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x53y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x53y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/r1hannah.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x38y62z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x38y62z9)
+   9 setup             /domains/sewer/rooms/x38y62z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x38y62z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x38y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x38y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x38y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/radgoo.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x33y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x33y64z9)
+   9 setup             /domains/sewer/rooms/x33y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x33y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x33y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x33y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x33y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/torga.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x32y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x32y64z9)
+   9 setup             /domains/sewer/rooms/x32y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x32y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x32y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x32y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x32y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/antoinnete.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x47y60z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x47y60z9)
+   9 setup             /domains/sewer/rooms/x47y60z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x47y60z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x47y60z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x47y60z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x47y60z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/r1alan.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x41y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x41y64z9)
+   9 setup             /domains/sewer/rooms/x41y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x41y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x41y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x41y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x41y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/largeheptosquid.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x40y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x40y64z9)
+   9 setup             /domains/sewer/rooms/x40y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x40y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x40y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x40y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x40y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/wasteworm.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x39y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x39y64z9)
+   9 setup             /domains/sewer/rooms/x39y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x39y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x39y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x39y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x39y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/culprit.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x44y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x44y64z9)
+   9 setup             /domains/sewer/rooms/x44y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x44y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x44y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x44y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x44y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/freddy.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x47y61z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x47y61z9)
+   9 setup             /domains/sewer/rooms/x47y61z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x47y61z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x47y61z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x47y61z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x47y61z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/mei.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x37y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x37y64z9)
+   9 setup             /domains/sewer/rooms/x37y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x37y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x37y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x37y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x37y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/drone.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x46y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x46y64z9)
+   9 setup             /domains/sewer/rooms/x46y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x46y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x46y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x46y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x46y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/cagedaer.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x38y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x38y64z9)
+   9 setup             /domains/sewer/rooms/x38y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x38y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x38y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x38y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x38y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/boar.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x50y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x50y64z9)
+   9 setup             /domains/sewer/rooms/x50y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x50y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x50y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x50y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x50y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/daer.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x49y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x49y64z9)
+   9 setup             /domains/sewer/rooms/x49y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x49y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x49y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x49y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x49y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/child.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x48y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x48y64z9)
+   9 setup             /domains/sewer/rooms/x48y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x48y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x48y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x48y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x48y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/planner.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x47y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x47y64z9)
+   9 setup             /domains/sewer/rooms/x47y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x47y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x47y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x47y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x47y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/gorilla.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x43y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x43y64z9)
+   9 setup             /domains/sewer/rooms/x43y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x43y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x43y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x43y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x43y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/raddgoo.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x51y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x51y64z9)
+   9 setup             /domains/sewer/rooms/x51y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x51y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x51y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x51y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x51y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/blob.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x49y61z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x49y61z9)
+   9 setup             /domains/sewer/rooms/x49y61z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x49y61z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x49y61z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x49y61z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x49y61z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/clerk.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x49y60z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x49y60z9)
+   9 setup             /domains/sewer/rooms/x49y60z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x49y60z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x49y60z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x49y60z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x49y60z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/domeguard.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x30y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x30y64z9)
+   9 setup             /domains/sewer/rooms/x30y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x30y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x30y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x30y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x30y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/vern.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x49y63z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x49y63z9)
+   9 setup             /domains/sewer/rooms/x49y63z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x49y63z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x49y63z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x49y63z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x49y63z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/grunt.c"
+Wed Jul 27 23:53:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x49y62z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x49y62z9)
+   9 setup             /domains/sewer/rooms/x49y62z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x49y62z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x49y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x49y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x49y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/jenny.c"
+Thu Jul 28 00:05:06 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+ 556 receive_message   /sys/obj/user (#307)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#307)
+ 551 _receive_message  /sys/obj/user (#307)
+1592 receive_message   /sys/obj/player (#285)
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x35y62z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x35y62z9)
+   9 setup             /domains/sewer/rooms/x35y62z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x35y62z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x35y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x35y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x35y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/agent.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/schedule_d)
+  15 _F_call_out2      /kernel/lib/auto (/daemons/schedule_d)
+ 150 micro_beat        /daemons/schedule_d
+ 135 second_tick       /daemons/schedule_d
+  85 heart_beat        /daemons/schedule_d
+ 126 event             /daemons/event_d
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x37y62z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x37y62z9)
+   9 setup             /domains/sewer/rooms/x37y62z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x37y62z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x37y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x37y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x37y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/roger.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x36y62z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x36y62z9)
+   9 setup             /domains/sewer/rooms/x36y62z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x36y62z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x36y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x36y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x36y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/log.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x25y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x25y64z9)
+   9 setup             /domains/sewer/rooms/x25y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x25y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x25y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x25y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x25y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/goon.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x45y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x45y64z9)
+   9 setup             /domains/sewer/rooms/x45y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x45y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x45y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x45y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x45y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/radgoo.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x40y62z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x40y62z9)
+   9 setup             /domains/sewer/rooms/x40y62z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x40y62z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x40y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x40y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x40y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/carrierpigeon.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x43y62z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x43y62z9)
+   9 setup             /domains/sewer/rooms/x43y62z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x43y62z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x43y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x43y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x43y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/captain.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x39y62z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x39y62z9)
+   9 setup             /domains/sewer/rooms/x39y62z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x39y62z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x39y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x39y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x39y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/slug.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x42y62z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x42y62z9)
+   9 setup             /domains/sewer/rooms/x42y62z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x42y62z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x42y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x42y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x42y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/groupie.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x29y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x29y64z9)
+   9 setup             /domains/sewer/rooms/x29y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x29y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x29y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x29y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x29y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/ferret.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x44y62z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x44y62z9)
+   9 setup             /domains/sewer/rooms/x44y62z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x44y62z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x44y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x44y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x44y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/autod.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x28y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x28y64z9)
+   9 setup             /domains/sewer/rooms/x28y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x28y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x28y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x28y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x28y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/wendy.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x55y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x55y64z9)
+   9 setup             /domains/sewer/rooms/x55y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x55y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x55y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x55y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x55y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/northdomeguard.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x54y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x54y64z9)
+   9 setup             /domains/sewer/rooms/x54y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x54y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x54y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x54y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x54y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/wardenbrke.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x41y62z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x41y62z9)
+   9 setup             /domains/sewer/rooms/x41y62z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x41y62z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x41y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x41y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x41y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/norman.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x27y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x27y64z9)
+   9 setup             /domains/sewer/rooms/x27y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x27y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x27y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x27y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x27y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/pasties.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x26y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x26y64z9)
+   9 setup             /domains/sewer/rooms/x26y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x26y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x26y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x26y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x26y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/queenrat.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x42y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x42y64z9)
+   9 setup             /domains/sewer/rooms/x42y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x42y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x42y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x42y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x42y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/probe.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x48y60z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x48y60z9)
+   9 setup             /domains/sewer/rooms/x48y60z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x48y60z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x48y60z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x48y60z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x48y60z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/blob.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x46y62z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x46y62z9)
+   9 setup             /domains/sewer/rooms/x46y62z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x46y62z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x46y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x46y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x46y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/lrak.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x31y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x31y64z9)
+   9 setup             /domains/sewer/rooms/x31y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x31y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x31y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x31y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x31y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/prisonguard.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x47y62z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x47y62z9)
+   9 setup             /domains/sewer/rooms/x47y62z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x47y62z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x47y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x47y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x47y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/treelizard.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x36y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x36y64z9)
+   9 setup             /domains/sewer/rooms/x36y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x36y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x36y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x36y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x36y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/carrierpigeon.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x35y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x35y64z9)
+   9 setup             /domains/sewer/rooms/x35y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x35y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x35y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x35y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x35y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/panther.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x34y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x34y64z9)
+   9 setup             /domains/sewer/rooms/x34y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x34y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x34y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x34y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x34y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/probe.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x52y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x52y64z9)
+   9 setup             /domains/sewer/rooms/x52y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x52y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x52y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x52y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x52y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/rattlesnake.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x45y62z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x45y62z9)
+   9 setup             /domains/sewer/rooms/x45y62z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x45y62z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x45y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x45y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x45y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/salesdroid.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x53y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x53y64z9)
+   9 setup             /domains/sewer/rooms/x53y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x53y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x53y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x53y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x53y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/r1hannah.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x38y62z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x38y62z9)
+   9 setup             /domains/sewer/rooms/x38y62z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x38y62z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x38y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x38y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x38y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/radgoo.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x33y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x33y64z9)
+   9 setup             /domains/sewer/rooms/x33y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x33y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x33y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x33y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x33y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/torga.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x32y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x32y64z9)
+   9 setup             /domains/sewer/rooms/x32y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x32y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x32y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x32y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x32y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/antoinnete.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x47y60z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x47y60z9)
+   9 setup             /domains/sewer/rooms/x47y60z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x47y60z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x47y60z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x47y60z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x47y60z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/r1alan.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x41y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x41y64z9)
+   9 setup             /domains/sewer/rooms/x41y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x41y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x41y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x41y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x41y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/largeheptosquid.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x40y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x40y64z9)
+   9 setup             /domains/sewer/rooms/x40y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x40y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x40y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x40y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x40y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/wasteworm.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x39y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x39y64z9)
+   9 setup             /domains/sewer/rooms/x39y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x39y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x39y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x39y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x39y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/culprit.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x44y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x44y64z9)
+   9 setup             /domains/sewer/rooms/x44y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x44y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x44y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x44y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x44y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/freddy.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x47y61z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x47y61z9)
+   9 setup             /domains/sewer/rooms/x47y61z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x47y61z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x47y61z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x47y61z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x47y61z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/mei.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x37y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x37y64z9)
+   9 setup             /domains/sewer/rooms/x37y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x37y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x37y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x37y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x37y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/drone.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x46y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x46y64z9)
+   9 setup             /domains/sewer/rooms/x46y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x46y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x46y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x46y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x46y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/cagedaer.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x38y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x38y64z9)
+   9 setup             /domains/sewer/rooms/x38y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x38y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x38y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x38y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x38y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/boar.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x50y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x50y64z9)
+   9 setup             /domains/sewer/rooms/x50y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x50y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x50y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x50y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x50y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/daer.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x49y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x49y64z9)
+   9 setup             /domains/sewer/rooms/x49y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x49y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x49y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x49y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x49y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/child.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x48y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x48y64z9)
+   9 setup             /domains/sewer/rooms/x48y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x48y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x48y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x48y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x48y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/planner.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x47y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x47y64z9)
+   9 setup             /domains/sewer/rooms/x47y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x47y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x47y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x47y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x47y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/gorilla.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x43y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x43y64z9)
+   9 setup             /domains/sewer/rooms/x43y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x43y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x43y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x43y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x43y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/raddgoo.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x51y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x51y64z9)
+   9 setup             /domains/sewer/rooms/x51y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x51y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x51y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x51y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x51y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/blob.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x49y61z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x49y61z9)
+   9 setup             /domains/sewer/rooms/x49y61z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x49y61z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x49y61z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x49y61z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x49y61z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/clerk.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x49y60z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x49y60z9)
+   9 setup             /domains/sewer/rooms/x49y60z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x49y60z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x49y60z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x49y60z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x49y60z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/domeguard.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x30y64z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x30y64z9)
+   9 setup             /domains/sewer/rooms/x30y64z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x30y64z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x30y64z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x30y64z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x30y64z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/vern.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x49y63z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x49y63z9)
+   9 setup             /domains/sewer/rooms/x49y63z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x49y63z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x49y63z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x49y63z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x49y63z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/sewer/monsters/grunt.c"
+Thu Jul 28 00:05:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/event_d)
+  13 _F_call_out2      /kernel/lib/auto (/daemons/event_d)
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/sewer/rooms/x49y62z9)
+ 997 upgraded          /std/room (/domains/sewer/rooms/x49y62z9)
+   9 setup             /domains/sewer/rooms/x49y62z9
+ 325 set_objects       /std/container (/domains/sewer/rooms/x49y62z9)
+ 263 add_object        /std/container (/domains/sewer/rooms/x49y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/sewer/rooms/x49y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/sewer/rooms/x49y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/labyrinth/monsters/r1engineer.c"
+Thu Jul 28 00:06:01 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+ 556 receive_message   /sys/obj/user (#307)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#307)
+ 551 _receive_message  /sys/obj/user (#307)
+1684 receive_message   /sys/obj/player (#285)
+1021 write_prompt      /sys/obj/player (#285)
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/labyrinth/rooms/x35y62z9)
+ 997 upgraded          /std/room (/domains/labyrinth/rooms/x35y62z9)
+   9 setup             /domains/labyrinth/rooms/x35y62z9
+ 325 set_objects       /std/container (/domains/labyrinth/rooms/x35y62z9)
+ 263 add_object        /std/container (/domains/labyrinth/rooms/x35y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/labyrinth/rooms/x35y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/labyrinth/rooms/x35y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/labyrinth/monsters/r1engineer.c"
+Thu Jul 28 00:06:31 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+ 556 receive_message   /sys/obj/user (#307)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#307)
+ 551 _receive_message  /sys/obj/user (#307)
+1684 receive_message   /sys/obj/player (#285)
+1021 write_prompt      /sys/obj/player (#285)
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/labyrinth/rooms/x35y62z9)
+ 997 upgraded          /std/room (/domains/labyrinth/rooms/x35y62z9)
+   9 setup             /domains/labyrinth/rooms/x35y62z9
+ 325 set_objects       /std/container (/domains/labyrinth/rooms/x35y62z9)
+ 263 add_object        /std/container (/domains/labyrinth/rooms/x35y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/labyrinth/rooms/x35y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/labyrinth/rooms/x35y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/labyrinth/monsters/r1engineer.c"
+Thu Jul 28 00:06:42 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+ 556 receive_message   /sys/obj/user (#307)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#307)
+ 551 _receive_message  /sys/obj/user (#307)
+1684 receive_message   /sys/obj/player (#285)
+1021 write_prompt      /sys/obj/player (#285)
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/labyrinth/rooms/x35y62z9)
+ 997 upgraded          /std/room (/domains/labyrinth/rooms/x35y62z9)
+   9 setup             /domains/labyrinth/rooms/x35y62z9
+ 325 set_objects       /std/container (/domains/labyrinth/rooms/x35y62z9)
+ 263 add_object        /std/container (/domains/labyrinth/rooms/x35y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/labyrinth/rooms/x35y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/labyrinth/rooms/x35y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/labyrinth/monsters/r1engineer.c"
+Thu Jul 28 00:06:54 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+ 556 receive_message   /sys/obj/user (#307)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#307)
+ 551 _receive_message  /sys/obj/user (#307)
+1684 receive_message   /sys/obj/player (#285)
+1021 write_prompt      /sys/obj/player (#285)
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/labyrinth/rooms/x35y62z9)
+ 997 upgraded          /std/room (/domains/labyrinth/rooms/x35y62z9)
+   9 setup             /domains/labyrinth/rooms/x35y62z9
+ 325 set_objects       /std/container (/domains/labyrinth/rooms/x35y62z9)
+ 263 add_object        /std/container (/domains/labyrinth/rooms/x35y62z9)
+  41 clone_object      /kernel/lib/auto (/domains/labyrinth/rooms/x35y62z9)
+  33 compile_object    /kernel/lib/auto (/domains/labyrinth/rooms/x35y62z9)
+ 184 compile_object    /kernel/sys/driver
+
+Could not compile "/domains/labyrinth/npc/er.c"
+Thu Jul 28 00:59:07 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/daemons/schedule_d)
+  15 _F_call_out2      /kernel/lib/auto (/daemons/schedule_d)
+ 150 micro_beat        /daemons/schedule_d
+ 135 second_tick       /daemons/schedule_d
+  85 heart_beat        /daemons/schedule_d
+ 126 event             /daemons/event_d
+  82 dispatch_event    /daemons/event_d
+ 778 touch             /kernel/sys/driver
+ 773 _touch            /kernel/sys/driver
+   7 _F_upgraded       /kernel/lib/auto (/domains/labyrinth/rooms/x35y61z9)
+ 997 upgraded          /std/room (/domains/labyrinth/rooms/x35y61z9)
+   9 setup             /domains/labyrinth/rooms/x35y61z9
+ 325 set_objects       /std/container (/domains/labyrinth/rooms/x35y61z9)
+ 263 add_object        /std/container (/domains/labyrinth/rooms/x35y61z9)
+  41 clone_object      /kernel/lib/auto (/domains/labyrinth/rooms/x35y61z9)
+  33 compile_object    /kernel/lib/auto (/domains/labyrinth/rooms/x35y61z9)
+ 184 compile_object    /kernel/sys/driver
+
