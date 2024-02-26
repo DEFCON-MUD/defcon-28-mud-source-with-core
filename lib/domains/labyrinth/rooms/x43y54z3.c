@@ -11,5 +11,5 @@ set_objects( DIR+"/npc/antoinnete.c");
   "north" : DIR+"/rooms/x43y55z3.c",
   "south" : DIR+"/rooms/x43y53z3.c"
   ]) );
-  set_long( "This is a broad hallway, illuminated only by the green glow of the gunk in this area. The walls and floors are covered with mud. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nThe horror continues to the north, and west.%^RESET%^");
+  set_long( "This is a broad hallway, illuminated only by the green glow of the gunk in this area. The walls and floors are covered with mud. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nThe horror continues to the north, and west.%^RESET%^");
 }

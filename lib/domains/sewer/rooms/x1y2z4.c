@@ -12,5 +12,5 @@ set_objects( DIR+"/monsters/r1hannah.c");
   "north" : DIR+"/rooms/x1y3z4.c",
   "south" : DIR+"/rooms/x1y1z4.c"
   ]) );
-  set_long( "This is a narrow hallway, illuminated only by the green glow of the radioactive waste in this dump. The walls and floors are covered with blood. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nThe horror continues to the east, north, and west.%^RESET%^");
+  set_long( "This is a narrow hallway, illuminated only by the green glow of the radioactive waste in this dump. The walls and floors are covered with blood. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nThe horror continues to the east, north, and west.%^RESET%^");
 }

@@ -8,4 +8,4 @@ void setup( void ) {
   set_short( "Corridor - x1y0z7" );
 set_objects( DIR+"/monsters/jkie.c");
   ]) );
-  set_long( "This is a cramped tunnel, illuminated only by the red glow of the muck in this joint. The walls and floors are covered with slime. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^}
+  set_long( "This is a cramped tunnel, illuminated only by the red glow of the muck in this joint. The walls and floors are covered with slime. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^}

@@ -11,5 +11,5 @@ set_objects( DIR+"/npc/shelledheptosquid.c");
   "east" : DIR+"/rooms/x48y30z3.c",
   "north" : DIR+"/rooms/x47y31z3.c"
   ]) );
-  set_long( "This is a wide hallway, illuminated only by the iridium glow of the sludge in this hellhole. The walls and floors are covered with oil. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nThe horror continues to the east, and north.%^RESET%^");
+  set_long( "This is a wide hallway, illuminated only by the iridium glow of the sludge in this hellhole. The walls and floors are covered with oil. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nThe horror continues to the east, and north.%^RESET%^");
 }

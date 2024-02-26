@@ -11,5 +11,5 @@ set_objects( DIR+"/monsters/jeff.c");
   "west" : DIR+"/rooms/x3y16z9.c",
   "east" : DIR+"/rooms/x5y16z9.c"
   ]) );
-  set_long( "This is a cramped hallway, illuminated only by the red glow of the crap in this area. The walls and floors are covered with slime. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nYou may be able to find escape to the west, and east.%^RESET%^");
+  set_long( "This is a cramped hallway, illuminated only by the red glow of the crap in this area. The walls and floors are covered with slime. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nYou may be able to find escape to the west, and east.%^RESET%^");
 }

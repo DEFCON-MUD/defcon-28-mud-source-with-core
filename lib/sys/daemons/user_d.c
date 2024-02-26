@@ -318,7 +318,7 @@ int _delete_user(string name) {
 /* deletes the users file */
 int delete_user(string name) {
    /* This is disabled because evilmog is crazy */
-   /* DEFCON SHENANIGANS FOR DELETE USERS BYPASS */
+   /* CypherCon SHENANIGANS FOR DELETE USERS BYPASS */
    /* secure(); */
 
    return unguarded("_delete_user", name);
@@ -971,10 +971,10 @@ string *list_players(int long_flag) {
       line = "%^RESET%^";
       /* color for admins */
       if (query_admin(usr[i])) {
-        line += "%^GREY%^";
+        line += "%^ORANGE%^";
       /* color for wizards */
       } else if (query_wizard(usr[i])) {
-        line += "%^GREY%^";
+        line += "%^CYAN%^";
       }
       /* look up the players title */
       /* $N doesn't get processed any more */

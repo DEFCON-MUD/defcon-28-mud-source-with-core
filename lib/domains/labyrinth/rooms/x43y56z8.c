@@ -12,5 +12,5 @@ set_objects( DIR+"/npc/raddgoo.c");
   "east" : DIR+"/rooms/x44y56z8.c",
   "north" : DIR+"/rooms/x43y57z8.c"
   ]) );
-  set_long( "This is a wide tunnel, illuminated only by the blue glow of the pile of put kevin back stickers in this dump. The walls and floors are covered with liquid. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nYou may be able to find escape to the west, east, and north.%^RESET%^");
+  set_long( "This is a wide tunnel, illuminated only by the blue glow of the pile of put kevin back stickers in this dump. The walls and floors are covered with liquid. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nYou may be able to find escape to the west, east, and north.%^RESET%^");
 }

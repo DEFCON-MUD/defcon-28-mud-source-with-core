@@ -11,5 +11,5 @@ set_objects( DIR+"/monsters/olasha.c");
   "north" : DIR+"/rooms/x33y32z8.c",
   "south" : DIR+"/rooms/x33y30z8.c"
   ]) );
-  set_long( "This is a cramped hallway, illuminated only by the red glow of the crud in this area. The walls and floors are covered with dust. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nTunnels can be found to the north, and west.%^RESET%^");
+  set_long( "This is a cramped hallway, illuminated only by the red glow of the crud in this area. The walls and floors are covered with dust. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nTunnels can be found to the north, and west.%^RESET%^");
 }

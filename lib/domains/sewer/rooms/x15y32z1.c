@@ -12,5 +12,5 @@ set_objects( DIR+"/monsters/snapperjaw.c");
   "north" : DIR+"/rooms/x15y33z1.c",
   "south" : DIR+"/rooms/x15y31z1.c"
   ]) );
-  set_long( "This is a narrow tunnel, illuminated only by the red glow of the muck in this hellhole. The walls and floors are covered with slime. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nYou may be able to find escape to the east, north, and west.%^RESET%^");
+  set_long( "This is a narrow tunnel, illuminated only by the red glow of the muck in this hellhole. The walls and floors are covered with slime. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nYou may be able to find escape to the east, north, and west.%^RESET%^");
 }

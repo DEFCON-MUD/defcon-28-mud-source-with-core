@@ -13,5 +13,5 @@ set_objects( DIR+"/monsters/largeheptosquid.c");
   "north" : DIR+"/rooms/x55y35z8.c",
   "south" : DIR+"/rooms/x55y33z8.c"
   ]) );
-  set_long( "This is a wide corridor, illuminated only by the blue glow of the pile of put kevin back stickers in this hellhole. The walls and floors are covered with blood. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nYou may be able to find escape to the west, east, north, and west.%^RESET%^");
+  set_long( "This is a wide corridor, illuminated only by the blue glow of the pile of put kevin back stickers in this hellhole. The walls and floors are covered with blood. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nYou may be able to find escape to the west, east, north, and west.%^RESET%^");
 }

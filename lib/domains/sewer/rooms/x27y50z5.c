@@ -12,5 +12,5 @@ set_objects( DIR+"/monsters/rhel.c");
   "north" : DIR+"/rooms/x27y51z5.c",
   "south" : DIR+"/rooms/x27y49z5.c"
   ]) );
-  set_long( "This is a broad corridor, illuminated only by the green glow of the pile of put kevin back stickers in this dump. The walls and floors are covered with mud. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nThe horror continues to the east, north, and west.%^RESET%^");
+  set_long( "This is a broad corridor, illuminated only by the green glow of the pile of put kevin back stickers in this dump. The walls and floors are covered with mud. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nThe horror continues to the east, north, and west.%^RESET%^");
 }

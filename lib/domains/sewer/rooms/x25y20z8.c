@@ -12,5 +12,5 @@ set_objects( DIR+"/monsters/japanesebeetle.c");
   "east" : DIR+"/rooms/x26y20z8.c",
   "north" : DIR+"/rooms/x25y21z8.c"
   ]) );
-  set_long( "This is a broad corridor, illuminated only by the purple glow of the muck in this sty. The walls and floors are covered with slime. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nThe sewer continues to the west, east, and north.%^RESET%^");
+  set_long( "This is a broad corridor, illuminated only by the purple glow of the muck in this sty. The walls and floors are covered with slime. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nThe sewer continues to the west, east, and north.%^RESET%^");
 }

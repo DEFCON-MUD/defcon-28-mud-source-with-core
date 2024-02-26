@@ -11,5 +11,5 @@ set_objects( DIR+"/monsters/largeheptopsquid.c");
   "west" : DIR+"/rooms/x9y20z6.c",
   "east" : DIR+"/rooms/x11y20z6.c"
   ]) );
-  set_long( "This is a cramped tunnel, illuminated only by the purple glow of the muck in this sty. The walls and floors are covered with oil. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nTunnels can be found to the west, and east.%^RESET%^");
+  set_long( "This is a cramped tunnel, illuminated only by the purple glow of the muck in this sty. The walls and floors are covered with oil. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nTunnels can be found to the west, and east.%^RESET%^");
 }

@@ -12,5 +12,5 @@ set_objects( DIR+"/monsters/log.c");
   "north" : DIR+"/rooms/x35y55z7.c",
   "south" : DIR+"/rooms/x35y53z7.c"
   ]) );
-  set_long( "This is a broad tunnel, illuminated only by the red glow of the sludge in this sty. The walls and floors are covered with blood. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nYou may be able to find escape to the east, north, and west.%^RESET%^");
+  set_long( "This is a broad tunnel, illuminated only by the red glow of the sludge in this sty. The walls and floors are covered with blood. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nYou may be able to find escape to the east, north, and west.%^RESET%^");
 }

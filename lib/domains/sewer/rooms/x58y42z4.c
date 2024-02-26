@@ -11,5 +11,5 @@ set_objects( DIR+"/monsters/probe.c");
   "west" : DIR+"/rooms/x57y42z4.c",
   "east" : DIR+"/rooms/x59y42z4.c"
   ]) );
-  set_long( "This is a broad corridor, illuminated only by the red glow of the crud in this joint. The walls and floors are covered with liquid. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nTunnels can be found to the west, and east.%^RESET%^");
+  set_long( "This is a broad corridor, illuminated only by the red glow of the crud in this joint. The walls and floors are covered with liquid. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nTunnels can be found to the west, and east.%^RESET%^");
 }

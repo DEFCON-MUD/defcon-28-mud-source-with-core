@@ -115,6 +115,11 @@ static void main(string arg) {
    }
 
    file = normalize_path(arg, "/doc/help/");
+
+   if (strcmp(file[0..9], "/doc/help/") != 0) {
+      this_player()->taint();
+   }
+
    if (show_help(file)) {
       return;
    }

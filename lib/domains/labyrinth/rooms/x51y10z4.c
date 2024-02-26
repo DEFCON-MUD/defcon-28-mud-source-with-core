@@ -12,5 +12,5 @@ set_objects( DIR+"/npc/warrior.c");
   "north" : DIR+"/rooms/x51y11z4.c",
   "south" : DIR+"/rooms/x51y9z4.c"
   ]) );
-  set_long( "This is a cramped tunnel, illuminated only by the red glow of the gunk in this hellhole. The walls and floors are covered with dust. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nThe horror continues to the west, north, and west.%^RESET%^");
+  set_long( "This is a cramped tunnel, illuminated only by the red glow of the gunk in this hellhole. The walls and floors are covered with dust. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nThe horror continues to the west, north, and west.%^RESET%^");
 }

@@ -205,6 +205,10 @@ string *query_env_indices(void) {
 }
 
 int query_ansi(void) {
+   if(gmcp() == 1)
+   {
+      return 1;
+   }
    return ansi;
 }
 
@@ -286,17 +290,15 @@ int re_arm(void) {
 }
 
 int query_mxp_support() {
-  if (this_player()->query_race() == "fed") {
-    return 0;
-  }
-  return user->mxp_support();
+   return user->mxp_support();
 }
 
 int query_mxp(void) {
-  if (this_player()->query_race() == "fed") {
-    return 0;
-  }
-   return mxp | user->mxp_support();
+   if(mxp == 1)
+   {
+      return 1;
+   }
+   return 0;
 }
 
 void set_mxp(int state) {
@@ -345,28 +347,35 @@ int query_deathproof(void) {
 }
 
 int cheater(void) {
-  if (user->cheat_override() > 0) {
-    return 0;
+   /* early abort if override */
+  /* early escape if a cheater */
+  if (cheater == 1)
+  {
+   return 1;
   }
-  if (cheater > 0) {
-    /* taint the user */
-    cheater = 1;
-    /* save the user */
-    save_me();
-    return 1;
-  } else {
-    return 0;
-  }
+
+  return 0;
 }
 
 void taint(void) {
-  cheater = 1;
-  save_me();
+   if(cheater == 1)
+   {
+      return;
+   }
+   cheater = 1;
+   save_me();
 }
+
+/* Remove BEFORE FLIGHT */
+/* Set to clear cheater status during testing */
+/* void untaint(void) {
+   cheater = 0;
+   save_me();
+} */
 
 int query_cheat(void) {
   if (cheater != 1) {
-    return user->cheat();
+    return 0;
   } else {
     return 1;
   }
@@ -601,9 +610,6 @@ int query_height(void) {
 void set_height(int i) {
    if (i < 0 || i == 1) {
       terminal_height = 23;
-   }
-   else if (i == 0) {
-      terminal_height = INT_MAX;
    }
    else if (i < 5) {
       terminal_height = 5;

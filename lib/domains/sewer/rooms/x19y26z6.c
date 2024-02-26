@@ -12,5 +12,5 @@ set_objects( DIR+"/monsters/powerdrone.c");
   "north" : DIR+"/rooms/x19y27z6.c",
   "south" : DIR+"/rooms/x19y25z6.c"
   ]) );
-  set_long( "This is a broad corridor, illuminated only by the purple glow of the random junk evilmog thought up in this joint. The walls and floors are covered with mud. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nThe sewer continues to the east, north, and west.%^RESET%^");
+  set_long( "This is a broad corridor, illuminated only by the purple glow of the random junk evilmog thought up in this joint. The walls and floors are covered with mud. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nThe sewer continues to the east, north, and west.%^RESET%^");
 }

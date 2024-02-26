@@ -12,5 +12,5 @@ set_objects( DIR+"/npc/weevil.c");
   "north" : DIR+"/rooms/x33y31z9.c",
   "south" : DIR+"/rooms/x33y29z9.c"
   ]) );
-  set_long( "This is a wide tunnel, illuminated only by the iridium glow of the muck in this joint. The walls and floors are covered with liquid. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nThe horror continues to the east, north, and west.%^RESET%^");
+  set_long( "This is a wide tunnel, illuminated only by the iridium glow of the muck in this joint. The walls and floors are covered with liquid. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nThe horror continues to the east, north, and west.%^RESET%^");
 }

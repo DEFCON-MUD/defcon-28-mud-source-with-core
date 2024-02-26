@@ -11,5 +11,5 @@ set_objects( DIR+"/npc/edwardio.c");
   "north" : DIR+"/rooms/x5y59z1.c",
   "south" : DIR+"/rooms/x5y57z1.c"
   ]) );
-  set_long( "This is a broad hallway, illuminated only by the orange glow of the crud in this area. The walls and floors are covered with dust. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nThe sewer continues to the north, and west.%^RESET%^");
+  set_long( "This is a broad hallway, illuminated only by the orange glow of the crud in this area. The walls and floors are covered with dust. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nThe sewer continues to the north, and west.%^RESET%^");
 }

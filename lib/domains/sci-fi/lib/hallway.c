@@ -23,7 +23,7 @@ string do_long(void) {
   		case 8:
   			return "This is yet another hallway in the journey to enlightenment, consider that it is not the room that changes but instead it is your perception of the room that changes.";
   		case 9:
-  			return "This is yet another hallway, EvilMog is bored as hell making these. One of these days he's going to invite the DEFCON Furs crew to redecorate.";
+  			return "This is yet another hallway, EvilMog is bored as hell making these. One of these days he's going to invite the CypherCon Furs crew to redecorate.";
   		case 10:
   			return "This is a hallway, its basically an exact duplicate of all the other hallways and no originality went into this room.";
   		case 11:

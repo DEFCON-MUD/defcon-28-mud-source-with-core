@@ -70,8 +70,7 @@ static string do_fmenu(void) {
   menu = ( { } );
 
   if (player->query_cheat() < 1) {
-    /* Cheat console disabled for redcon */
-    /* player->taint(); */
+    player->taint();
   }
 
   if (player->query_cheat() > 0) {

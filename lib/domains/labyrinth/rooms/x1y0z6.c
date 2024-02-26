@@ -8,4 +8,4 @@ void setup( void ) {
   set_short( "Corridor - x1y0z6" );
 set_objects( DIR+"/npc/vipbouncer.c");
   ]) );
-  set_long( "This is a broad hallway, illuminated only by the green glow of the gunk in this sty. The walls and floors are covered with mud. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^}
+  set_long( "This is a broad hallway, illuminated only by the green glow of the gunk in this sty. The walls and floors are covered with mud. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^}

@@ -4,7 +4,7 @@ inherit "/std/race";
 void create(void) {
    ::create();
 
-   set_race_short_desc("Goons are player killing enabled denizens of the DEFCON MUD");
+   set_race_short_desc("Goons are player killing enabled denizens of the CypherCon MUD");
    set_race_long_desc("This is a goon, they like to player kill, remember, hug a goon today.");
    set_language("english");
 

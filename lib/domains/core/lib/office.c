@@ -13,7 +13,7 @@ string do_long(void) {
                 case 2:
 			return "This appears to be the remains of an old modchip shop. The air still smells of rotting flesh and the walls are still stained with blood of various colours. The autobots have been removed but the smell remains......";
 		case 3:
-			return "It appears as if this bay has been abandoned long ago. The floors are dusty and the lights are off. One day something new may fill this space.  THe dust in the floor spells out \"DEFCON 28 cancelled....\" and some sort of grafiti is on the walls.";
+			return "It appears as if this bay has been abandoned long ago. The floors are dusty and the lights are off. One day something new may fill this space.  THe dust in the floor spells out \"CypherCon 28 cancelled....\" and some sort of grafiti is on the walls.";
                 case 4:
 			return "This bay used to be a hub of activity but no longer. Smashed terminals are in a heap, autobot track is everywhere, frayed wires come out from the walls. Whoever had this bay before definitely isn't getting their deposit back.";
 		case 5:

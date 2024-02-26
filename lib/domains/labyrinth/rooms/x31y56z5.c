@@ -12,5 +12,5 @@ set_objects( DIR+"/npc/vonnewman.c");
   "north" : DIR+"/rooms/x31y57z5.c",
   "south" : DIR+"/rooms/x31y55z5.c"
   ]) );
-  set_long( "This is a cramped corridor, illuminated only by the iridium glow of the glorzo in this area. The walls and floors are covered with oil. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nTunnels can be found to the east, north, and west.%^RESET%^");
+  set_long( "This is a cramped corridor, illuminated only by the iridium glow of the glorzo in this area. The walls and floors are covered with oil. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nTunnels can be found to the east, north, and west.%^RESET%^");
 }

@@ -11,5 +11,5 @@ set_objects( DIR+"/npc/outfitterrobot.c");
   "east" : DIR+"/rooms/x2y38z6.c",
   "north" : DIR+"/rooms/x1y39z6.c"
   ]) );
-  set_long( "This is a wide corridor, illuminated only by the red glow of the gunk in this area. The walls and floors are covered with oil. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nThe sewer continues to the east, and north.%^RESET%^");
+  set_long( "This is a wide corridor, illuminated only by the red glow of the gunk in this area. The walls and floors are covered with oil. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nThe sewer continues to the east, and north.%^RESET%^");
 }

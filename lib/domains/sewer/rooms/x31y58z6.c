@@ -11,5 +11,5 @@ set_objects( DIR+"/monsters/floorvine.c");
   "west" : DIR+"/rooms/x30y58z6.c",
   "south" : DIR+"/rooms/x31y57z6.c"
   ]) );
-  set_long( "This is a cramped tunnel, illuminated only by the green glow of the crappy sales material in this sty. The walls and floors are covered with oil. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nThe horror continues to the west, and west.%^RESET%^");
+  set_long( "This is a cramped tunnel, illuminated only by the green glow of the crappy sales material in this sty. The walls and floors are covered with oil. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nThe horror continues to the west, and west.%^RESET%^");
 }

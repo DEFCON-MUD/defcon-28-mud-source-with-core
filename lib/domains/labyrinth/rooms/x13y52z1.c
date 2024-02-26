@@ -13,5 +13,5 @@ set_objects( DIR+"/npc/coder.c");
   "north" : DIR+"/rooms/x13y53z1.c",
   "south" : DIR+"/rooms/x13y51z1.c"
   ]) );
-  set_long( "This is a cramped tunnel, illuminated only by the purple glow of the gunk in this area. The walls and floors are covered with liquid. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nTunnels can be found to the west, east, north, and west.%^RESET%^");
+  set_long( "This is a cramped tunnel, illuminated only by the purple glow of the gunk in this area. The walls and floors are covered with liquid. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nTunnels can be found to the west, east, north, and west.%^RESET%^");
 }

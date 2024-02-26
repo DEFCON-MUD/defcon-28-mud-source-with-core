@@ -11,5 +11,5 @@ set_objects( DIR+"/monsters/buddypetersen.c");
   "north" : DIR+"/rooms/x1y38z3.c",
   "south" : DIR+"/rooms/x1y36z3.c"
   ]) );
-  set_long( "This is a broad corridor, illuminated only by the red glow of the crud in this sty. The walls and floors are covered with slime. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nThe sewer continues to the north, and west.%^RESET%^");
+  set_long( "This is a broad corridor, illuminated only by the red glow of the crud in this sty. The walls and floors are covered with slime. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nThe sewer continues to the north, and west.%^RESET%^");
 }

@@ -1,14 +1,11 @@
-Sun Sep 20 22:31:25 2020: DRIVER :/sys/obj/user.c, 286: syntax error
-Sun Sep 20 22:31:36 2020: DRIVER :/sys/obj/user.c, 286: syntax error
-Sun Sep 20 22:31:51 2020: DRIVER :/sys/obj/user.c, 286: syntax error
-Sun Dec 20 15:30:18 2020:exash:/sys/cmds/wiz/addchange.c, 20: undeclared variable CHANGES_D
-Sun Dec 20 15:38:04 2020:exash:/sys/cmds/wiz/changes.c, 34: undeclared variable CHANGES_D
-Sat Jul  2 21:48:16 2022: DRIVER :/sys/obj/user.c, 208: syntax error
-Sat Jul  2 21:48:16 2022: DRIVER :/sys/obj/user.c, 212: declaration after statement
-Sat Jul  2 21:48:16 2022: DRIVER :/sys/obj/user.c, 213: declaration after statement
-Sat Jul  2 21:48:35 2022:evilmog:/sys/obj/user.c, 208: syntax error
-Sat Jul  2 21:48:35 2022:evilmog:/sys/obj/user.c, 212: declaration after statement
-Sat Jul  2 21:48:35 2022:evilmog:/sys/obj/user.c, 213: declaration after statement
-Wed Jul 27 04:14:16 2022:evilmog:/domains/core/rooms/sewer/x-50y80z-10.c, 18: syntax error
-Wed Jul 27 04:17:44 2022: DRIVER :/domains/core/rooms/sewer/x-50y80z-10.c, 18: syntax error
-Wed Jul 27 04:18:07 2022:evilmog:/domains/dungeon/rooms/1-a.c, 12: syntax error
+
+Mon Jul 24 00:28:50 2023: DRIVER :/sys/obj/player.c, 211: undeclared variable ptype
+Fri Feb 23 17:32:21 2024: DRIVER :/daemons/channel_d.c, 203: undeclared variable READ_ONLY
+Fri Feb 23 17:35:39 2024: DRIVER :/daemons/channel_d.c, 203: undeclared variable READ_ONLY
+Sun Feb 25 19:47:33 2024: DRIVER :/sys/obj/user.c, 264: syntax error
+Sun Feb 25 19:47:33 2024: DRIVER :/sys/obj/user.c, 289: syntax error
+
+Sun Feb 25 19:48:25 2024: DRIVER :/sys/obj/user.c, 264: syntax error
+Sun Feb 25 19:48:25 2024: DRIVER :/sys/obj/user.c, 289: syntax error
+Sun Feb 25 19:48:43 2024: DRIVER :/sys/obj/user.c, 264: syntax error
+Sun Feb 25 19:48:43 2024: DRIVER :/sys/obj/user.c, 289: syntax error

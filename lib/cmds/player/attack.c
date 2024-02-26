@@ -69,7 +69,7 @@ static void main(string str) {
       return;
    }
 
-   /* removed by evilmog for DEFCON */
+   /* removed by evilmog for CypherCon */
    /* if (this_player()->is_fighting() ) {
       write("You are already in combat.\n");
       return;

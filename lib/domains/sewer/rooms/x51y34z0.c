@@ -11,5 +11,5 @@ set_objects( DIR+"/monsters/eastmaintenaedroid.c");
   "east" : DIR+"/rooms/x52y34z0.c",
   "north" : DIR+"/rooms/x51y35z0.c"
   ]) );
-  set_long( "This is a cramped tunnel, illuminated only by the orange glow of the glorzo in this dump. The walls and floors are covered with liquid. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nThe sewer continues to the east, and north.%^RESET%^");
+  set_long( "This is a cramped tunnel, illuminated only by the orange glow of the glorzo in this dump. The walls and floors are covered with liquid. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nThe sewer continues to the east, and north.%^RESET%^");
 }

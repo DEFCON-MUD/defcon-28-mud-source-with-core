@@ -10,16 +10,16 @@ You should at least modify the first 3 entries.
 */
 
 /* What you want your mud to be called (avoid spaces) */
-#define MUD_NAME  "DEFCON CTF MUD"
+#define MUD_NAME  "CypherCon MUD"
 
 /* Name for your mud on Intermud (avoid spaces) */
-#define IMUD_NAME "DEFCON CTF MUD"
+#define IMUD_NAME "CypherCon MUD"
 
 /* To define your email address: */
 #define ADMIN_EMAIL             "EvilMog@somewhereclassified.com"
 
 /* Website for the mud if you have one, if not comment this out */
-#define WEBSITE "https://mog.ninja"
+#define WEBSITE "https://evil.af"
 
 /* To set the linkdeadth timeout in seconds (after this time, linkdead
 	players will be disconnected) */
@@ -127,4 +127,4 @@ You should at least modify the first 3 entries.
 /* #define DEBUG_STACK_SECURITY 1 */
 /* uncomment the line below to get even more debug output.. */
 /* #define DEBUG_STACK_SECURITY_DEEP 1 */
-#define DO_STATS 1
+#define DO_STATS 0

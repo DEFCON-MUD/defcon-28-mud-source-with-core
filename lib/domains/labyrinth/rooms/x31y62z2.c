@@ -10,5 +10,5 @@ set_objects( DIR+"/npc/cagedancer.c");
  set_exits( ([
   "east" : DIR+"/rooms/x32y62z2.c"
   ]) );
-  set_long( "This is a cramped corridor, illuminated only by the green glow of the muck in this dump. The walls and floors are covered with dust. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nThe horror continues to the east.%^RESET%^");
+  set_long( "This is a cramped corridor, illuminated only by the green glow of the muck in this dump. The walls and floors are covered with dust. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nThe horror continues to the east.%^RESET%^");
 }

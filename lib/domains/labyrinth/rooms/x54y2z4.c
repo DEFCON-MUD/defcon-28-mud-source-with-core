@@ -11,5 +11,5 @@ set_objects( DIR+"/npc/wendall.c");
   "west" : DIR+"/rooms/x53y2z4.c",
   "east" : DIR+"/rooms/x55y2z4.c"
   ]) );
-  set_long( "This is a cramped corridor, illuminated only by the red glow of the crap in this area. The walls and floors are covered with liquid. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nYou may be able to find escape to the west, and east.%^RESET%^");
+  set_long( "This is a cramped corridor, illuminated only by the red glow of the crap in this area. The walls and floors are covered with liquid. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nYou may be able to find escape to the west, and east.%^RESET%^");
 }

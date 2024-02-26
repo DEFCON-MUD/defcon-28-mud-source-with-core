@@ -11,5 +11,5 @@ set_objects( DIR+"/npc/lyndia.c");
   "west" : DIR+"/rooms/x6y20z2.c",
   "north" : DIR+"/rooms/x7y21z2.c"
   ]) );
-  set_long( "This is a broad corridor, illuminated only by the orange glow of the crud in this dump. The walls and floors are covered with oil. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nThe sewer continues to the west, and north.%^RESET%^");
+  set_long( "This is a broad corridor, illuminated only by the orange glow of the crud in this dump. The walls and floors are covered with oil. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nThe sewer continues to the west, and north.%^RESET%^");
 }

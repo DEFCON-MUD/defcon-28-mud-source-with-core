@@ -126,7 +126,7 @@ for rn in room_array:
   if l_option_1f == 7:
     l_desc_option_f = 'The air smells like it hasn\'t been cycled in a while, you are getting dizzy'
   if l_option_1f == 8:
-    l_desc_option_f = 'The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON'
+    l_desc_option_f = 'The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon'
   random.seed()
   ldesc = "This is a " + random.choice(l_desc_option_list_1a) + " "
   random.seed()

@@ -11,5 +11,5 @@ set_objects( DIR+"/monsters/radgoo.c");
   "west" : DIR+"/rooms/x23y18z4.c",
   "east" : DIR+"/rooms/x25y18z4.c"
   ]) );
-  set_long( "This is a narrow hallway, illuminated only by the orange glow of the glorzo in this joint. The walls and floors are covered with oil. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nThe sewer continues to the west, and east.%^RESET%^");
+  set_long( "This is a narrow hallway, illuminated only by the orange glow of the glorzo in this joint. The walls and floors are covered with oil. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nThe sewer continues to the west, and east.%^RESET%^");
 }

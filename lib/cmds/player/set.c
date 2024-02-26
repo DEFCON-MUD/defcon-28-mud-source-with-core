@@ -78,20 +78,23 @@ void list_vars(void) {
 
 static void main(string str) {
    string name, value;
+   object player;
    int i;
 
    if (!alsos) {
       setup_alsos();
    }
 
+   player = this_player();
+
    if (empty_str(str)) {
       list_vars();
    } else if (sscanf(str, "-%s", str)) {
-      this_player()->more(usage());
+      player->more(usage());
       return;
    } else if ((sscanf(str, "%s %s", name, value) != 2) &&
       (sscanf(str, "%s=%s", name, value) != 2)) {
-      this_player()->more(usage());
+      player->more(usage());
       return;
    } else {
         if (value == "on") {
@@ -108,30 +111,34 @@ static void main(string str) {
 		   case "gender":
            case "email":
            case "website":
-              if (query_guest(this_player()->query_name() ) ) {
+              if (query_guest(player->query_name() ) ) {
                  write("You must be logged in with a character.");
               return;
               }
               break;
            case "hidden":
-              if (query_wizard(this_player() ) )  {
+              player->taint();
+              if (query_wizard(player) )  {
                  break;
-              } else if (this_player()->query_difficulty() == 0) {
+              } else if (player->query_difficulty() == 0) {
                 break;
               } 
            case "autoload":
+              player->taint();
               if (query_wizard(this_player() ) )  {
                  break;
               } else if (this_player()->query_difficulty() == 0) {
                 break;
               } 
            case "save_on_quit":
+              player->taint();
               if (query_wizard(this_player() ) )  {
                  break;
               } else if (this_player()->query_difficulty() == 0) {
                 break;
               } 
            case "debug_commands":
+              player->taint();
               if (query_wizard(this_player() ) )  {
                  break;
               } else if (this_player()->query_difficulty() == 0) {
@@ -145,6 +152,7 @@ static void main(string str) {
               }
            case "quit_message":
            case "start_room":
+               player->taint();
               if (query_wizard(this_player() ) )  {
                  break;
               } else if (this_player()->query_difficulty() == 0) {

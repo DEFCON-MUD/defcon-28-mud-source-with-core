@@ -12,5 +12,5 @@ set_objects( DIR+"/npc/vampire.c");
   "north" : DIR+"/rooms/x43y41z2.c",
   "south" : DIR+"/rooms/x43y39z2.c"
   ]) );
-  set_long( "This is a wide corridor, illuminated only by the green glow of the muck in this joint. The walls and floors are covered with slime. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nYou may be able to find escape to the west, north, and west.%^RESET%^");
+  set_long( "This is a wide corridor, illuminated only by the green glow of the muck in this joint. The walls and floors are covered with slime. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nYou may be able to find escape to the west, north, and west.%^RESET%^");
 }

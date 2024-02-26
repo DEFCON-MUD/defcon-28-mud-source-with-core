@@ -11,5 +11,5 @@ set_objects( DIR+"/npc/lulams.c");
   "west" : DIR+"/rooms/x58y30z9.c",
   "east" : DIR+"/rooms/x60y30z9.c"
   ]) );
-  set_long( "This is a broad hallway, illuminated only by the green glow of the muck in this dump. The walls and floors are covered with mud. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nTunnels can be found to the west, and east.%^RESET%^");
+  set_long( "This is a broad hallway, illuminated only by the green glow of the muck in this dump. The walls and floors are covered with mud. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nTunnels can be found to the west, and east.%^RESET%^");
 }

@@ -11,5 +11,5 @@ set_objects( DIR+"/npc/wardenbrocke.c");
   "east" : DIR+"/rooms/x48y14z9.c",
   "south" : DIR+"/rooms/x47y13z9.c"
   ]) );
-  set_long( "This is a broad corridor, illuminated only by the green glow of the crap in this area. The walls and floors are covered with dust. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nThe sewer continues to the east, and west.%^RESET%^");
+  set_long( "This is a broad corridor, illuminated only by the green glow of the crap in this area. The walls and floors are covered with dust. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nThe sewer continues to the east, and west.%^RESET%^");
 }

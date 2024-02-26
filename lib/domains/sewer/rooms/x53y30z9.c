@@ -11,5 +11,5 @@ set_objects( DIR+"/monsters/doe.c");
   "east" : DIR+"/rooms/x54y30z9.c",
   "north" : DIR+"/rooms/x53y31z9.c"
   ]) );
-  set_long( "This is a cramped tunnel, illuminated only by the orange glow of the crud in this sty. The walls and floors are covered with liquid. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......DEFCON.%^RESET%^\n\nThe horror continues to the east, and north.%^RESET%^");
+  set_long( "This is a cramped tunnel, illuminated only by the orange glow of the crud in this sty. The walls and floors are covered with liquid. The smell.....that musty smell.....nothing else quite smells like that.....it smells like.......CypherCon.%^RESET%^\n\nThe horror continues to the east, and north.%^RESET%^");
 }

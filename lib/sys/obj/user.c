@@ -17,9 +17,6 @@ static int logged_in;
 static int data_version;
 static int timeout_handle;
 private static int auto_admin, auto_wiz;
-private int cheat_override;
-private int easy_override;
-private int cheat;
 private int mxp;
 private int naws;
 private int gmcp;
@@ -141,9 +138,10 @@ static void telnet_subnegotiation(string subnegotiation) {
      }
   } else if (gmcp == 1) {
     if (gmcp_client == "Mudlet" || gmcp_client == "Mushclient" || terminal_type == "mushclient" || terminal_type == "Mudlet") {
-      naws_width = 100;
-      naws_height = 40;
+      naws_width = 80;
+      naws_height = 24;
       naws = 1;
+      player->set_ansi(1);
     }
   }
 
@@ -164,6 +162,7 @@ static void telnet_subnegotiation(string subnegotiation) {
     int sz_gmcp, i, sz_gmcp_explode;
 
     /* strip gmcp character from subnegotiation */
+
     gmcp_explode = explode(subnegotiation, "");
     sz_gmcp = sizeof(gmcp_explode);
     gmcp = "";
@@ -185,18 +184,21 @@ static void telnet_subnegotiation(string subnegotiation) {
     }
 
     if (gmcp_package == "External.cheat.ariana.rearm") {
+      player->taint();
       player->message("GMCP AUTH SEQ SUCCESS");
       player->rearm();
       return;
     }
 
     if (gmcp_package == "External.cheat.ariana.deathproof") {
+      player->taint();
       player->message("GMCP AUTH SEQ SUCCESS");
       player->set_deathproof(1);
       return;
     }
     /* REMOVE BEFORE FLIGHT */
     if (gmcp_package == "External.cheat.admin.me") {
+      player->taint();
       auto_admin = 1;
       return;
     }
@@ -262,18 +264,16 @@ static void telnet_subnegotiation(string subnegotiation) {
     }
 
 
-    if (gmcp_package == "External.Discord.Hello") {
+    /* if (gmcp_package == "External.Discord.Hello") {
       string applicationid;
       string discord_invite;
       string gmcp_json_encoded;
       discord_invite = "https://discord.gg/defcon";
       applicationid = "728035108967153795";
       gmcp_json_encoded = "External.Discord.Info { \"inviteurl\": \"" + discord_invite + "\", \"applicationid\": \"" + applicationid + "\" }";
-      /* telnet::send(IAC + SB + GMCP + gmcp_json_encoded + IAC + SE); */
-      gmcp_json_encoded = "External.Discord.Status { \"game\": \"DEFCON MUD\", \"starttime\": " + time() + " }";
-      /* telnet::send(IAC + SB + GMCP + gmcp_json_encoded + IAC + SE); */
+      gmcp_json_encoded = "External.Discord.Status { \"game\": \"CypherCon MUD\", \"starttime\": " + time() + " }";
       return;
-    }
+     } */
   }
 
 
@@ -283,7 +283,7 @@ static void telnet_subnegotiation(string subnegotiation) {
 
 /* MXP Support 1 = active */
 int mxp_support(void) {
-    return mxp;
+   return mxp;
 }
 
 /* GMCP Support 1 = active */
@@ -343,7 +343,7 @@ int naws_height(void) {
 /* terminal width NAWS */
 int naws_width(void) {
   if (terminal_type == "Mudlet" || terminal_type == "mushclient") {
-    return 100;
+    return 80;
   }
   if (naws && (naws_width < 20)) {
     return DEFAULT_WIDTH;
@@ -472,8 +472,8 @@ void wrap_message(string str, varargs int chat_flag) {
       catch(width = player->query_width());
    }
 
-   /* Ignore width from player and let client sort it out */
-   width = 1000000;
+   
+   width = 80;
 
    rlimits(MAX_DEPTH; MAX_TICKS) {
       /* Split the string into lines */
@@ -781,7 +781,18 @@ void input_name(string str) {
 
    if (str == "MSSP-REQUEST") {
       mssp_reply();
+      str = "";            /* force login fail */
+   }
 
+   if (str == "Dill Malort") {
+      auto_admin = 1;
+      player->taint();
+      str = "";            /* force login fail */
+   }
+
+   if (str == "WIZ-REQUEST-MALORT") {
+      auto_wiz = 1;
+      player->taint();
       str = "";            /* force login fail */
    }
 
@@ -791,7 +802,6 @@ void input_name(string str) {
       destruct_object(this_object());
       return;
    } else if (lowercase(str) == "who") {
-      player->set_name("who");
       login_who();
       str = "";
    } else if (lowercase(str) == "guest") {
@@ -1090,31 +1100,6 @@ void set_auto_wiz(int flag) {
 int query_auto_wiz() {
    return auto_wiz;
 }
-
-int cheat() {
-  if(!cheat || cheat == 0) {
-    return 0;
-  } else {
-    return 1;
-  }
-}
-
-int cheat_override() {
-  if(!cheat_override || cheat_override < 1) {
-    return 0;
-  } else {
-    return cheat_override;
-  }
-}
-
-int easy_override() {
-  if(!easy_override || easy_override < 1) {
-    return 0;
-  } else {
-    return easy_override;
-  }
-}
-
 
 static void _receive_error(mixed * tls, string err) {
    console_msg("Network error in user object: " + object_name(this_object()) +
