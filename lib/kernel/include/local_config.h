@@ -10,20 +10,20 @@ You should at least modify the first 3 entries.
 */
 
 /* What you want your mud to be called (avoid spaces) */
-#define MUD_NAME  "DEFCON CTF MUD"
+#define MUD_NAME  "DEFCON32 CTF MUD"
 
 /* Name for your mud on Intermud (avoid spaces) */
-#define IMUD_NAME "DEFCON CTF MUD"
+#define IMUD_NAME "DEFCON32 CTF MUD"
 
 /* To define your email address: */
 #define ADMIN_EMAIL             "EvilMog@somewhereclassified.com"
 
 /* Website for the mud if you have one, if not comment this out */
-#define WEBSITE "https://mog.ninja"
+#define WEBSITE "https://mud.defcon.wtf"
 
 /* To set the linkdeadth timeout in seconds (after this time, linkdead
 	players will be disconnected) */
-#define LINKDEAD_TIMEOUT        600
+#define LINKDEAD_TIMEOUT        1200
 
 /* This defines where players start when they login: */
 #define STARTING_ROOM           "/domains/required/rooms/start"

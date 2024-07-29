@@ -59,6 +59,7 @@
 #define COLOR_D      "/daemons/evil/color_d"
 #define VNUM_D       "/daemons/evil/vnum_d"
 #define MINE_D       "/daemons/evil/mine_d"
+#define SCORE_D     "/daemons/evil/score_d"
 
 #define CONNECTION      "/kernel/obj/net/connection"
 #define PORT            "/kernel/obj/net/port"

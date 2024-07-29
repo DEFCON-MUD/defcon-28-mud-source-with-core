@@ -17,6 +17,7 @@ string *query_quests_completed(void) {
 
 int clear_completed_quests() {
   quests = ({ });
+  SCORE_D->set_score(this_player()->query_name());
 }
 
 int add_completed_quest(string quest) {
@@ -33,6 +34,7 @@ int add_completed_quest(string quest) {
    } else {
       quests = ({quest});
    }
+   SCORE_D->set_score(this_player()->query_name());
    return 1;
 }
 

@@ -12531,3 +12531,1903 @@ Wed Jul 27 23:47:47 2022	97.118.243.210	opening connection
 Wed Jul 27 23:47:47 2022	<NO IP>		who disconnects
 Thu Jul 28 00:37:43 2022	97.118.243.210	opening connection
 Thu Jul 28 00:38:00 2022	<NO IP>		who disconnects
+Sun Jul 23 05:12:12 2023	137.186.107.203	opening connection
+Sun Jul 23 05:12:23 2023	137.186.107.203	evilmog connects
+Sun Jul 23 05:12:57 2023	137.186.107.203	opening connection
+Sun Jul 23 05:13:16 2023	137.186.107.203	evilmog connects
+Sun Jul 23 05:23:13 2023	137.186.107.203	evilmog quits
+Sun Jul 23 05:23:17 2023	137.186.107.203	opening connection
+Sun Jul 23 05:23:29 2023	137.186.107.203	evilmog connects
+Sun Jul 23 05:23:31 2023	137.186.107.203	evilmog quits
+Sun Jul 23 05:24:28 2023	137.186.107.203	opening connection
+Sun Jul 23 05:24:33 2023	137.186.107.203	evilmog connects
+Sun Jul 23 05:24:39 2023	137.186.107.203	evilmog quits
+Sun Jul 23 05:24:42 2023	137.186.107.203	opening connection
+Sun Jul 23 05:24:47 2023	137.186.107.203	mog connects
+Sun Jul 23 05:24:57 2023	137.186.107.203	opening connection
+Sun Jul 23 05:25:34 2023	137.186.107.203	mog connects
+Sun Jul 23 05:26:42 2023	143.110.248.86	opening connection
+Sun Jul 23 05:27:13 2023	<NO IP>		who disconnects
+Sun Jul 23 05:28:58 2023	137.186.107.203	mog quits
+Sun Jul 23 05:29:02 2023	137.186.107.203	opening connection
+Sun Jul 23 05:29:05 2023	137.186.107.203	mog connects
+Sun Jul 23 05:29:11 2023	137.186.107.203	opening connection
+Sun Jul 23 05:29:56 2023	137.186.107.203	mog connects
+Sun Jul 23 05:30:03 2023	137.186.107.203	mog quits
+Sun Jul 23 05:30:07 2023	137.186.107.203	opening connection
+Sun Jul 23 05:30:09 2023	137.186.107.203	mog connects
+Sun Jul 23 05:30:20 2023	137.186.107.203	opening connection
+Sun Jul 23 05:30:37 2023	137.186.107.203	mog connects
+Sun Jul 23 05:33:24 2023	137.186.107.203	opening connection
+Sun Jul 23 05:33:40 2023	137.186.107.203	mog connects
+Sun Jul 23 05:33:47 2023	137.186.107.203	mog quits
+Sun Jul 23 05:33:52 2023	137.186.107.203	opening connection
+Sun Jul 23 05:34:05 2023	137.186.107.203	mog connects
+Sun Jul 23 05:34:15 2023	198.235.24.68	opening connection
+Sun Jul 23 05:34:15 2023	<NO IP>		who disconnects
+Sun Jul 23 05:34:16 2023	137.186.107.203	mog quits
+Sun Jul 23 05:34:20 2023	137.186.107.203	opening connection
+Sun Jul 23 05:34:26 2023	137.186.107.203	mog connects
+Sun Jul 23 05:34:31 2023	137.186.107.203	mog quits
+Sun Jul 23 05:34:34 2023	137.186.107.203	opening connection
+Sun Jul 23 05:34:37 2023	137.186.107.203	mog connects
+Sun Jul 23 05:41:16 2023	<NO IP>		mog disconnects
+Sun Jul 23 05:51:16 2023			mog LD quits
+Sun Jul 23 05:57:31 2023	161.35.147.36	opening connection
+Sun Jul 23 05:57:31 2023	161.35.147.36	opening connection
+Sun Jul 23 05:57:31 2023	<NO IP>		who disconnects
+Sun Jul 23 05:57:31 2023	<NO IP>		who disconnects
+Sun Jul 23 05:57:31 2023	161.35.147.36	opening connection
+Sun Jul 23 05:57:31 2023	<NO IP>		who disconnects
+Sun Jul 23 05:57:31 2023	161.35.147.36	opening connection
+Sun Jul 23 05:57:32 2023	<NO IP>		who disconnects
+Sun Jul 23 07:02:55 2023	23.31.96.97	opening connection
+Sun Jul 23 07:03:25 2023	<NO IP>		who disconnects
+Sun Jul 23 08:09:28 2023	45.227.254.49	opening connection
+Sun Jul 23 08:09:28 2023	<NO IP>		who disconnects
+Sun Jul 23 09:01:11 2023	205.210.31.168	opening connection
+Sun Jul 23 09:01:44 2023	<NO IP>		who disconnects
+Sun Jul 23 11:00:32 2023	64.225.10.182	opening connection
+Sun Jul 23 11:00:32 2023	64.225.10.182	opening connection
+Sun Jul 23 11:00:32 2023	<NO IP>		who disconnects
+Sun Jul 23 11:00:32 2023	<NO IP>		who disconnects
+Sun Jul 23 11:00:32 2023	64.225.10.182	opening connection
+Sun Jul 23 11:00:32 2023	<NO IP>		who disconnects
+Sun Jul 23 11:00:32 2023	64.225.10.182	opening connection
+Sun Jul 23 11:00:32 2023	<NO IP>		who disconnects
+Sun Jul 23 13:03:46 2023	161.35.136.6	opening connection
+Sun Jul 23 13:04:18 2023	<NO IP>		who disconnects
+Sun Jul 23 13:19:00 2023	161.35.136.6	opening connection
+Sun Jul 23 13:19:00 2023	<NO IP>		who disconnects
+Sun Jul 23 16:23:19 2023	185.170.144.3	opening connection
+Sun Jul 23 16:23:20 2023	<NO IP>		who disconnects
+Sun Jul 23 18:47:37 2023	167.94.146.60	opening connection
+Sun Jul 23 18:47:37 2023	<NO IP>		who disconnects
+Sun Jul 23 18:47:41 2023	167.94.146.60	opening connection
+Sun Jul 23 18:47:56 2023	<NO IP>		who disconnects
+Sun Jul 23 18:50:09 2023	137.186.107.203	opening connection
+Sun Jul 23 18:50:20 2023	137.186.107.203	evilmog connects
+Sun Jul 23 18:53:55 2023	92.118.112.9	opening connection
+Sun Jul 23 18:53:55 2023	<NO IP>		who disconnects
+Sun Jul 23 18:53:55 2023	92.118.112.9	opening connection
+Sun Jul 23 18:53:55 2023	<NO IP>		who disconnects
+Sun Jul 23 19:50:41 2023	198.235.24.241	opening connection
+Sun Jul 23 19:50:41 2023	<NO IP>		who disconnects
+Sun Jul 23 22:01:18 2023	<NO IP>		evilmog disconnects
+Sun Jul 23 22:01:40 2023	137.186.107.203	opening connection
+Sun Jul 23 22:02:13 2023	137.186.107.203	mog connects
+Sun Jul 23 22:11:17 2023			evilmog LD quits
+Sun Jul 23 22:32:17 2023	137.186.107.203	mog quits
+Sun Jul 23 22:32:21 2023	137.186.107.203	opening connection
+Sun Jul 23 22:32:39 2023	137.186.107.203	test <- banished name
+Sun Jul 23 22:32:44 2023	137.186.107.203	opening connection
+Sun Jul 23 22:33:05 2023	137.186.107.203	newmog connects
+Sun Jul 23 22:33:21 2023	137.186.107.203	opening connection
+Sun Jul 23 22:33:25 2023	137.186.107.203	mog connects
+Sun Jul 23 22:51:24 2023	137.186.107.203	mog quits
+Sun Jul 23 22:51:29 2023	137.186.107.203	opening connection
+Sun Jul 23 22:51:33 2023	137.186.107.203	evilmog connects
+Sun Jul 23 22:59:13 2023	137.186.107.203	evilmog quits
+Sun Jul 23 22:59:19 2023	137.186.107.203	opening connection
+Sun Jul 23 22:59:24 2023	137.186.107.203	evilmog connects
+Sun Jul 23 23:03:26 2023	137.186.107.203	evilmog quits
+Sun Jul 23 23:03:29 2023	137.186.107.203	opening connection
+Sun Jul 23 23:03:34 2023	137.186.107.203	mog connects
+Sun Jul 23 23:04:03 2023	137.186.107.203	mog quits
+Sun Jul 23 23:04:06 2023	137.186.107.203	opening connection
+Sun Jul 23 23:04:10 2023	137.186.107.203	mog connects
+Sun Jul 23 23:04:30 2023	137.186.107.203	mog quits
+Sun Jul 23 23:04:39 2023	137.186.107.203	opening connection
+Sun Jul 23 23:04:46 2023	137.186.107.203	mog connects
+Sun Jul 23 23:09:46 2023	137.186.107.203	mog quits
+Sun Jul 23 23:09:50 2023	137.186.107.203	opening connection
+Sun Jul 23 23:09:55 2023	137.186.107.203	evilmog connects
+Sun Jul 23 23:34:32 2023	137.186.107.203	opening connection
+Sun Jul 23 23:34:48 2023	137.186.107.203	steve connects
+Sun Jul 23 23:48:19 2023	137.186.107.203	opening connection
+Sun Jul 23 23:48:31 2023	137.186.107.203	testmog connects
+Sun Jul 23 23:50:52 2023	137.186.107.203	testmog quits
+Sun Jul 23 23:50:59 2023	137.186.107.203	opening connection
+Sun Jul 23 23:51:03 2023	137.186.107.203	testmog connects
+Sun Jul 23 23:52:03 2023	137.186.107.203	testmog quits
+Sun Jul 23 23:52:04 2023	137.186.107.203	opening connection
+Sun Jul 23 23:52:07 2023	137.186.107.203	testmog connects
+Sun Jul 23 23:56:03 2023	137.186.107.203	testmog quits
+Sun Jul 23 23:56:05 2023	137.186.107.203	opening connection
+Sun Jul 23 23:56:08 2023	137.186.107.203	testmog connects
+Mon Jul 24 00:03:12 2023	137.186.107.203	testmog quits
+Mon Jul 24 00:03:13 2023	137.186.107.203	opening connection
+Mon Jul 24 00:03:19 2023	137.186.107.203	testmog connects
+Mon Jul 24 00:04:22 2023	137.186.107.203	testmog quits
+Mon Jul 24 00:04:23 2023	137.186.107.203	opening connection
+Mon Jul 24 00:04:33 2023	137.186.107.203	testmog connects
+Mon Jul 24 00:06:10 2023	137.186.107.203	testmog quits
+Mon Jul 24 00:06:11 2023	137.186.107.203	opening connection
+Mon Jul 24 00:06:17 2023	137.186.107.203	opening connection
+Mon Jul 24 00:06:21 2023	137.186.107.203	testmog connects
+Mon Jul 24 00:17:41 2023	137.186.107.203	testmog quits
+Mon Jul 24 00:17:41 2023	137.186.107.203	evilmog quits
+Mon Jul 24 00:18:07 2023	137.186.107.203	opening connection
+Mon Jul 24 00:18:12 2023	137.186.107.203	mog connects
+Mon Jul 24 00:18:16 2023	137.186.107.203	opening connection
+Mon Jul 24 00:18:20 2023	137.186.107.203	testmog connects
+Mon Jul 24 00:18:26 2023	137.186.107.203	opening connection
+Mon Jul 24 00:18:36 2023	137.186.107.203	testmog connects
+Mon Jul 24 00:24:06 2023	137.186.107.203	testmog quits
+Mon Jul 24 00:24:06 2023	137.186.107.203	opening connection
+Mon Jul 24 00:24:10 2023	137.186.107.203	testmog connects
+Mon Jul 24 00:25:33 2023	137.186.107.203	opening connection
+Mon Jul 24 00:25:45 2023	137.186.107.203	testmog connects
+Mon Jul 24 00:26:04 2023	137.186.107.203	testmog quits
+Mon Jul 24 00:26:06 2023	137.186.107.203	opening connection
+Mon Jul 24 00:26:15 2023	137.186.107.203	testmog connects
+Mon Jul 24 00:29:40 2023	137.186.107.203	testmog quits
+Mon Jul 24 00:29:41 2023	137.186.107.203	opening connection
+Mon Jul 24 00:29:47 2023	137.186.107.203	opening connection
+Mon Jul 24 00:29:50 2023	137.186.107.203	testmog connects
+Mon Jul 24 00:30:00 2023	137.186.107.203	opening connection
+Mon Jul 24 00:30:24 2023	137.186.107.203	testmog connects
+Mon Jul 24 00:34:23 2023	137.186.107.203	opening connection
+Mon Jul 24 00:34:35 2023	137.186.107.203	testmog connects
+Mon Jul 24 00:37:40 2023	137.186.107.203	testmog quits
+Mon Jul 24 00:37:41 2023	137.186.107.203	opening connection
+Mon Jul 24 00:37:45 2023	137.186.107.203	testmog connects
+Mon Jul 24 00:40:54 2023	137.186.107.203	testmog quits
+Mon Jul 24 00:41:01 2023	137.186.107.203	opening connection
+Mon Jul 24 00:41:04 2023	137.186.107.203	testmog connects
+Mon Jul 24 00:41:10 2023	137.186.107.203	opening connection
+Mon Jul 24 00:41:24 2023	137.186.107.203	testmog connects
+Mon Jul 24 00:42:03 2023	137.186.107.203	testmog quits
+Mon Jul 24 00:42:04 2023	137.186.107.203	opening connection
+Mon Jul 24 00:42:07 2023	137.186.107.203	testmog connects
+Mon Jul 24 00:42:12 2023	137.186.107.203	opening connection
+Mon Jul 24 00:42:22 2023	137.186.107.203	testmog connects
+Mon Jul 24 00:44:29 2023	137.186.107.203	mog quits
+Mon Jul 24 00:44:33 2023	137.186.107.203	opening connection
+Mon Jul 24 00:44:41 2023	137.186.107.203	opening connection
+Mon Jul 24 00:44:43 2023	137.186.107.203	evilmog connects
+Mon Jul 24 00:45:40 2023	137.186.107.203	testmog quits
+Mon Jul 24 04:08:55 2023	139.59.174.1	opening connection
+Mon Jul 24 04:08:55 2023	<NO IP>		who disconnects
+Mon Jul 24 04:22:23 2023	<NO IP>		evilmog disconnects
+Mon Jul 24 04:32:22 2023			evilmog LD quits
+Mon Jul 24 05:05:48 2023	194.165.16.37	opening connection
+Mon Jul 24 05:05:48 2023	<NO IP>		who disconnects
+Mon Jul 24 07:03:46 2023	23.31.96.97	opening connection
+Mon Jul 24 07:04:16 2023	<NO IP>		who disconnects
+Mon Jul 24 07:48:24 2023	162.142.125.216	opening connection
+Mon Jul 24 07:48:24 2023	<NO IP>		who disconnects
+Mon Jul 24 07:48:27 2023	162.142.125.216	opening connection
+Mon Jul 24 07:48:42 2023	<NO IP>		who disconnects
+Mon Jul 24 08:02:38 2023	185.170.144.3	opening connection
+Mon Jul 24 08:02:38 2023	<NO IP>		who disconnects
+Mon Jul 24 08:51:36 2023	198.235.24.253	opening connection
+Mon Jul 24 08:52:08 2023	<NO IP>		who disconnects
+Mon Jul 24 12:01:25 2023	206.189.25.109	opening connection
+Mon Jul 24 12:01:25 2023	206.189.25.109	opening connection
+Mon Jul 24 12:01:25 2023	<NO IP>		who disconnects
+Mon Jul 24 12:01:25 2023	<NO IP>		who disconnects
+Mon Jul 24 12:01:25 2023	206.189.25.109	opening connection
+Mon Jul 24 12:01:25 2023	<NO IP>		who disconnects
+Mon Jul 24 12:01:25 2023	206.189.25.109	opening connection
+Mon Jul 24 12:01:25 2023	<NO IP>		who disconnects
+Mon Jul 24 14:36:12 2023	159.223.140.32	opening connection
+Mon Jul 24 14:36:12 2023	<NO IP>		who disconnects
+Mon Jul 24 14:51:33 2023	167.94.138.52	opening connection
+Mon Jul 24 14:51:33 2023	<NO IP>		who disconnects
+Mon Jul 24 14:51:36 2023	167.94.138.52	opening connection
+Mon Jul 24 14:51:51 2023	<NO IP>		who disconnects
+Mon Jul 24 17:06:34 2023	193.37.69.150	opening connection
+Mon Jul 24 17:06:34 2023	<NO IP>		who disconnects
+Mon Jul 24 22:01:52 2023	173.214.80.202	opening connection
+Mon Jul 24 22:01:55 2023	<NO IP>		who disconnects
+Mon Jul 24 23:00:32 2023	205.210.31.170	opening connection
+Mon Jul 24 23:00:32 2023	<NO IP>		who disconnects
+Tue Jul 25 01:09:39 2023	185.224.128.17	opening connection
+Tue Jul 25 01:09:39 2023	185.224.128.17	opening connection
+Tue Jul 25 01:09:39 2023	185.224.128.17	opening connection
+Tue Jul 25 01:09:40 2023	<NO IP>		who disconnects
+Tue Jul 25 01:09:40 2023	<NO IP>		who disconnects
+Tue Jul 25 01:09:40 2023	<NO IP>		who disconnects
+Tue Jul 25 03:29:41 2023	216.219.80.43	opening connection
+Tue Jul 25 03:29:42 2023	<NO IP>		who disconnects
+Tue Jul 25 03:31:17 2023	198.235.24.29	opening connection
+Tue Jul 25 03:31:17 2023	<NO IP>		who disconnects
+Tue Jul 25 03:44:35 2023	216.219.80.35	opening connection
+Tue Jul 25 03:44:36 2023	<NO IP>		who disconnects
+Tue Jul 25 03:46:35 2023	216.219.80.43	opening connection
+Tue Jul 25 03:46:35 2023	<NO IP>		who disconnects
+Tue Jul 25 03:46:35 2023	216.219.80.43	opening connection
+Tue Jul 25 03:46:35 2023	<NO IP>		who disconnects
+Tue Jul 25 06:17:22 2023	198.235.24.91	opening connection
+Tue Jul 25 06:17:22 2023	<NO IP>		who disconnects
+Tue Jul 25 06:22:49 2023	198.235.24.216	opening connection
+Tue Jul 25 06:23:22 2023	<NO IP>		who disconnects
+Tue Jul 25 07:04:20 2023	23.31.96.97	opening connection
+Tue Jul 25 07:04:50 2023	<NO IP>		who disconnects
+Tue Jul 25 08:46:04 2023	45.227.254.55	opening connection
+Tue Jul 25 08:46:04 2023	<NO IP>		who disconnects
+Tue Jul 25 14:54:36 2023	198.235.24.168	opening connection
+Tue Jul 25 14:54:36 2023	<NO IP>		who disconnects
+Tue Jul 25 16:50:36 2023	94.232.43.50	opening connection
+Tue Jul 25 16:50:36 2023	<NO IP>		who disconnects
+Tue Jul 25 18:03:59 2023	170.64.149.44	opening connection
+Tue Jul 25 18:03:59 2023	170.64.149.44	opening connection
+Tue Jul 25 18:03:59 2023	<NO IP>		who disconnects
+Tue Jul 25 18:03:59 2023	<NO IP>		who disconnects
+Tue Jul 25 18:04:00 2023	170.64.149.44	opening connection
+Tue Jul 25 18:04:00 2023	<NO IP>		who disconnects
+Tue Jul 25 18:04:00 2023	170.64.149.44	opening connection
+Tue Jul 25 18:04:00 2023	<NO IP>		who disconnects
+Tue Jul 25 18:51:25 2023	205.210.31.49	opening connection
+Tue Jul 25 18:51:25 2023	<NO IP>		who disconnects
+Tue Jul 25 19:40:34 2023	198.199.107.20	opening connection
+Tue Jul 25 19:40:34 2023	<NO IP>		who disconnects
+Tue Jul 25 20:02:35 2023	161.35.163.95	opening connection
+Tue Jul 25 20:02:36 2023	<NO IP>		who disconnects
+Tue Jul 25 20:28:16 2023	205.210.31.165	opening connection
+Tue Jul 25 20:28:17 2023	<NO IP>		who disconnects
+Tue Jul 25 21:32:28 2023	198.235.24.37	opening connection
+Tue Jul 25 21:32:29 2023	<NO IP>		who disconnects
+Tue Jul 25 22:41:34 2023	198.235.24.192	opening connection
+Tue Jul 25 22:42:06 2023	<NO IP>		who disconnects
+Wed Jul 26 02:11:16 2023	198.235.24.167	opening connection
+Wed Jul 26 02:11:17 2023	<NO IP>		who disconnects
+Wed Jul 26 05:51:55 2023	151.106.35.129	opening connection
+Wed Jul 26 05:51:55 2023	<NO IP>		who disconnects
+Wed Jul 26 07:05:14 2023	23.31.96.97	opening connection
+Wed Jul 26 07:05:44 2023	<NO IP>		who disconnects
+Wed Jul 26 07:06:40 2023	78.131.112.4	opening connection
+Wed Jul 26 07:07:19 2023	<NO IP>		who disconnects
+Wed Jul 26 07:50:15 2023	205.210.31.25	opening connection
+Wed Jul 26 07:50:15 2023	<NO IP>		who disconnects
+Wed Jul 26 11:23:45 2023	71.6.134.233	opening connection
+Wed Jul 26 11:23:45 2023	<NO IP>		who disconnects
+Wed Jul 26 11:39:13 2023	71.6.134.233	opening connection
+Wed Jul 26 12:25:53 2023	151.106.35.129	opening connection
+Wed Jul 26 12:25:54 2023	<NO IP>		who disconnects
+Wed Jul 26 12:32:24 2023	167.248.133.124	opening connection
+Wed Jul 26 12:32:24 2023	<NO IP>		who disconnects
+Wed Jul 26 12:32:27 2023	167.248.133.124	opening connection
+Wed Jul 26 12:32:42 2023	<NO IP>		who disconnects
+Wed Jul 26 16:59:04 2023	151.106.35.129	opening connection
+Wed Jul 26 16:59:04 2023	<NO IP>		who disconnects
+Wed Jul 26 20:39:49 2023	151.106.35.129	opening connection
+Wed Jul 26 20:39:49 2023	<NO IP>		who disconnects
+Wed Jul 26 23:00:56 2023	43.129.35.207	opening connection
+Wed Jul 26 23:00:58 2023	<NO IP>		who disconnects
+Wed Jul 26 23:00:58 2023	43.129.35.207	opening connection
+Wed Jul 26 23:01:08 2023	<NO IP>		who disconnects
+Wed Jul 26 23:28:34 2023	162.216.149.197	opening connection
+Wed Jul 26 23:28:34 2023	<NO IP>		who disconnects
+Thu Jul 27 00:02:43 2023	165.232.97.151	opening connection
+Thu Jul 27 00:02:43 2023	165.232.97.151	opening connection
+Thu Jul 27 00:02:43 2023	<NO IP>		who disconnects
+Thu Jul 27 00:02:43 2023	<NO IP>		who disconnects
+Thu Jul 27 00:02:43 2023	165.232.97.151	opening connection
+Thu Jul 27 00:02:43 2023	<NO IP>		who disconnects
+Thu Jul 27 00:02:43 2023	165.232.97.151	opening connection
+Thu Jul 27 00:02:43 2023	<NO IP>		who disconnects
+Thu Jul 27 00:23:14 2023	205.210.31.221	opening connection
+Thu Jul 27 00:23:15 2023	<NO IP>		who disconnects
+Thu Jul 27 00:52:06 2023	45.227.254.49	opening connection
+Thu Jul 27 00:52:06 2023	<NO IP>		who disconnects
+Thu Jul 27 01:09:26 2023	151.106.35.129	opening connection
+Thu Jul 27 01:09:26 2023	<NO IP>		who disconnects
+Thu Jul 27 02:53:41 2023	183.136.225.31	opening connection
+Thu Jul 27 02:53:41 2023	<NO IP>		who disconnects
+Thu Jul 27 04:01:56 2023	205.210.31.138	opening connection
+Thu Jul 27 04:02:28 2023	<NO IP>		who disconnects
+Thu Jul 27 04:42:23 2023	161.35.47.29	opening connection
+Thu Jul 27 04:42:23 2023	<NO IP>		who disconnects
+Thu Jul 27 05:54:48 2023	151.106.35.129	opening connection
+Thu Jul 27 05:54:48 2023	<NO IP>		who disconnects
+Thu Jul 27 07:05:55 2023	23.31.96.97	opening connection
+Thu Jul 27 07:06:25 2023	<NO IP>		who disconnects
+Thu Jul 27 07:44:56 2023	46.101.81.44	opening connection
+Thu Jul 27 07:44:56 2023	<NO IP>		who disconnects
+Thu Jul 27 07:45:20 2023	142.93.33.168	opening connection
+Thu Jul 27 07:45:21 2023	142.93.33.168	opening connection
+Thu Jul 27 07:45:21 2023	<NO IP>		who disconnects
+Thu Jul 27 07:45:21 2023	<NO IP>		who disconnects
+Thu Jul 27 07:45:21 2023	142.93.33.168	opening connection
+Thu Jul 27 07:45:21 2023	<NO IP>		who disconnects
+Thu Jul 27 07:45:21 2023	142.93.33.168	opening connection
+Thu Jul 27 07:45:21 2023	<NO IP>		who disconnects
+Thu Jul 27 09:51:48 2023	45.128.232.84	opening connection
+Thu Jul 27 09:51:48 2023	<NO IP>		who disconnects
+Thu Jul 27 10:37:41 2023	151.106.35.129	opening connection
+Thu Jul 27 10:37:42 2023	<NO IP>		who disconnects
+Thu Jul 27 13:02:38 2023	147.182.168.210	opening connection
+Thu Jul 27 13:02:39 2023	<NO IP>		who disconnects
+Thu Jul 27 13:02:39 2023	147.182.168.210	opening connection
+Thu Jul 27 13:02:48 2023	<NO IP>		help disconnects
+Thu Jul 27 13:21:00 2023	151.106.35.129	opening connection
+Thu Jul 27 13:21:00 2023	<NO IP>		who disconnects
+Thu Jul 27 15:07:43 2023	128.14.209.30	opening connection
+Thu Jul 27 15:07:43 2023	<NO IP>		who disconnects
+Thu Jul 27 15:07:43 2023	128.14.209.30	opening connection
+Thu Jul 27 15:07:43 2023	<NO IP>		who disconnects
+Thu Jul 27 15:07:44 2023	128.14.209.30	opening connection
+Thu Jul 27 15:07:48 2023	<NO IP>		who disconnects
+Thu Jul 27 15:07:49 2023	128.14.209.30	opening connection
+Thu Jul 27 15:07:49 2023	<NO IP>		who disconnects
+Thu Jul 27 15:07:49 2023	128.14.209.30	opening connection
+Thu Jul 27 15:07:49 2023	<NO IP>		who disconnects
+Thu Jul 27 15:07:49 2023	23.251.102.254	opening connection
+Thu Jul 27 15:07:54 2023	<NO IP>		who disconnects
+Thu Jul 27 16:27:15 2023	151.106.35.129	opening connection
+Thu Jul 27 16:27:15 2023	<NO IP>		who disconnects
+Thu Jul 27 17:18:18 2023	94.102.61.47	opening connection
+Thu Jul 27 17:18:18 2023	<NO IP>		who disconnects
+Thu Jul 27 20:20:35 2023	151.106.35.129	opening connection
+Thu Jul 27 20:20:35 2023	<NO IP>		who disconnects
+Thu Jul 27 22:49:02 2023	194.165.16.37	opening connection
+Thu Jul 27 22:49:03 2023	<NO IP>		who disconnects
+Thu Jul 27 23:30:31 2023	134.209.15.36	opening connection
+Thu Jul 27 23:30:36 2023	<NO IP>		who disconnects
+Fri Jul 28 00:22:01 2023	151.106.35.129	opening connection
+Fri Jul 28 00:22:01 2023	<NO IP>		who disconnects
+Fri Jul 28 01:26:09 2023	205.210.31.34	opening connection
+Fri Jul 28 01:26:10 2023	<NO IP>		who disconnects
+Fri Jul 28 02:35:45 2023	107.170.248.34	opening connection
+Fri Jul 28 02:35:45 2023	<NO IP>		who disconnects
+Fri Jul 28 03:05:56 2023	66.161.170.130	opening connection
+Fri Jul 28 03:05:56 2023	<NO IP>		who disconnects
+Fri Jul 28 04:51:39 2023	151.106.35.129	opening connection
+Fri Jul 28 04:51:39 2023	<NO IP>		who disconnects
+Fri Jul 28 04:58:58 2023	143.110.165.212	opening connection
+Fri Jul 28 04:58:59 2023	<NO IP>		who disconnects
+Fri Jul 28 06:06:52 2023	138.68.232.59	opening connection
+Fri Jul 28 06:06:52 2023	138.68.232.59	opening connection
+Fri Jul 28 06:06:52 2023	<NO IP>		who disconnects
+Fri Jul 28 06:06:52 2023	<NO IP>		who disconnects
+Fri Jul 28 06:06:52 2023	138.68.232.59	opening connection
+Fri Jul 28 06:06:52 2023	<NO IP>		who disconnects
+Fri Jul 28 06:06:52 2023	138.68.232.59	opening connection
+Fri Jul 28 06:06:52 2023	<NO IP>		who disconnects
+Fri Jul 28 07:06:45 2023	23.31.96.97	opening connection
+Fri Jul 28 07:07:15 2023	<NO IP>		who disconnects
+Fri Jul 28 07:29:38 2023	205.210.31.93	opening connection
+Fri Jul 28 07:30:10 2023	<NO IP>		who disconnects
+Fri Jul 28 07:41:42 2023	192.241.207.42	opening connection
+Fri Jul 28 07:41:42 2023	<NO IP>		who disconnects
+Fri Jul 28 08:44:44 2023	198.235.24.11	opening connection
+Fri Jul 28 08:44:44 2023	<NO IP>		who disconnects
+Fri Jul 28 09:00:03 2023	212.129.45.218	opening connection
+Fri Jul 28 09:00:03 2023	<NO IP>		who disconnects
+Fri Jul 28 09:09:56 2023	45.95.169.184	opening connection
+Fri Jul 28 09:09:57 2023	<NO IP>		who disconnects
+Fri Jul 28 09:19:38 2023	151.106.35.129	opening connection
+Fri Jul 28 09:19:38 2023	<NO IP>		who disconnects
+Fri Jul 28 10:47:49 2023	185.233.19.143	opening connection
+Fri Jul 28 10:47:50 2023	<NO IP>		who disconnects
+Fri Jul 28 10:47:50 2023	185.233.19.143	opening connection
+Fri Jul 28 10:47:50 2023	<NO IP>		who disconnects
+Fri Jul 28 10:47:50 2023	185.233.19.143	opening connection
+Fri Jul 28 10:47:50 2023	<NO IP>		who disconnects
+Fri Jul 28 10:47:51 2023	185.233.19.143	opening connection
+Fri Jul 28 10:47:51 2023	<NO IP>		who disconnects
+Fri Jul 28 10:47:51 2023	185.233.19.143	opening connection
+Fri Jul 28 10:47:51 2023	<NO IP>		who disconnects
+Fri Jul 28 10:47:51 2023	185.233.19.143	opening connection
+Fri Jul 28 10:48:11 2023	<NO IP>		who disconnects
+Fri Jul 28 10:48:11 2023	185.233.19.143	opening connection
+Fri Jul 28 10:48:12 2023	<NO IP>		who disconnects
+Fri Jul 28 10:48:12 2023	185.233.19.143	opening connection
+Fri Jul 28 10:48:12 2023	<NO IP>		who disconnects
+Fri Jul 28 10:48:12 2023	185.233.19.143	opening connection
+Fri Jul 28 10:48:12 2023	<NO IP>		who disconnects
+Fri Jul 28 10:48:13 2023	185.233.19.143	opening connection
+Fri Jul 28 10:48:13 2023	<NO IP>		who disconnects
+Fri Jul 28 14:28:15 2023	151.106.35.129	opening connection
+Fri Jul 28 14:28:15 2023	<NO IP>		who disconnects
+Fri Jul 28 15:06:47 2023	205.210.31.94	opening connection
+Fri Jul 28 15:06:47 2023	<NO IP>		who disconnects
+Fri Jul 28 15:14:35 2023	205.210.31.53	opening connection
+Fri Jul 28 15:14:35 2023	<NO IP>		who disconnects
+Fri Jul 28 17:16:53 2023	167.248.133.126	opening connection
+Fri Jul 28 17:16:53 2023	<NO IP>		who disconnects
+Fri Jul 28 17:16:56 2023	167.248.133.126	opening connection
+Fri Jul 28 17:17:11 2023	<NO IP>		who disconnects
+Fri Jul 28 17:38:47 2023	198.235.24.184	opening connection
+Fri Jul 28 17:38:47 2023	<NO IP>		who disconnects
+Fri Jul 28 19:17:32 2023	188.166.87.67	opening connection
+Fri Jul 28 19:17:32 2023	<NO IP>		who disconnects
+Fri Jul 28 20:22:28 2023	151.106.35.129	opening connection
+Fri Jul 28 20:22:28 2023	<NO IP>		who disconnects
+Fri Jul 28 21:34:43 2023	205.210.31.220	opening connection
+Fri Jul 28 21:34:44 2023	<NO IP>		who disconnects
+Fri Jul 28 22:26:04 2023	198.235.24.120	opening connection
+Fri Jul 28 22:26:04 2023	<NO IP>		who disconnects
+Fri Jul 28 23:37:02 2023	198.235.24.241	opening connection
+Fri Jul 28 23:37:02 2023	<NO IP>		who disconnects
+Sat Jul 29 00:16:11 2023	194.165.16.76	opening connection
+Sat Jul 29 00:16:11 2023	<NO IP>		who disconnects
+Sat Jul 29 01:57:28 2023	151.106.35.129	opening connection
+Sat Jul 29 01:57:28 2023	<NO IP>		who disconnects
+Sat Jul 29 02:55:38 2023	205.210.31.219	opening connection
+Sat Jul 29 02:55:38 2023	<NO IP>		who disconnects
+Sat Jul 29 03:52:07 2023	205.210.31.207	opening connection
+Sat Jul 29 03:52:38 2023	<NO IP>		who disconnects
+Sat Jul 29 04:11:50 2023	209.97.134.106	opening connection
+Sat Jul 29 04:11:50 2023	<NO IP>		who disconnects
+Sat Jul 29 06:31:18 2023	151.106.35.129	opening connection
+Sat Jul 29 06:31:18 2023	<NO IP>		who disconnects
+Sat Jul 29 07:03:53 2023	167.94.138.50	opening connection
+Sat Jul 29 07:03:53 2023	<NO IP>		who disconnects
+Sat Jul 29 07:03:56 2023	167.94.138.50	opening connection
+Sat Jul 29 07:04:11 2023	<NO IP>		who disconnects
+Sat Jul 29 07:07:18 2023	23.31.96.97	opening connection
+Sat Jul 29 07:07:48 2023	<NO IP>		who disconnects
+Sat Jul 29 10:46:48 2023	151.106.35.129	opening connection
+Sat Jul 29 10:46:48 2023	<NO IP>		who disconnects
+Sat Jul 29 11:13:54 2023	46.101.83.30	opening connection
+Sat Jul 29 11:13:54 2023	46.101.83.30	opening connection
+Sat Jul 29 11:13:54 2023	<NO IP>		who disconnects
+Sat Jul 29 11:13:54 2023	<NO IP>		who disconnects
+Sat Jul 29 11:13:55 2023	46.101.83.30	opening connection
+Sat Jul 29 11:13:55 2023	<NO IP>		who disconnects
+Sat Jul 29 11:13:55 2023	46.101.83.30	opening connection
+Sat Jul 29 11:13:55 2023	<NO IP>		who disconnects
+Sat Jul 29 15:08:19 2023	151.106.35.129	opening connection
+Sat Jul 29 15:08:19 2023	<NO IP>		who disconnects
+Sat Jul 29 18:23:24 2023	205.210.31.42	opening connection
+Sat Jul 29 18:23:56 2023	<NO IP>		who disconnects
+Sat Jul 29 18:27:45 2023	185.180.143.6	opening connection
+Sat Jul 29 18:27:45 2023	<NO IP>		who disconnects
+Sat Jul 29 19:35:41 2023	151.106.35.129	opening connection
+Sat Jul 29 19:35:41 2023	<NO IP>		who disconnects
+Sat Jul 29 23:24:27 2023	194.165.16.37	opening connection
+Sat Jul 29 23:24:27 2023	<NO IP>		who disconnects
+Sun Jul 30 00:08:23 2023	151.106.35.129	opening connection
+Sun Jul 30 00:08:23 2023	<NO IP>		who disconnects
+Sun Jul 30 00:59:17 2023	91.191.209.202	opening connection
+Sun Jul 30 00:59:17 2023	<NO IP>		who disconnects
+Sun Jul 30 04:27:18 2023	143.110.165.33	opening connection
+Sun Jul 30 04:27:18 2023	<NO IP>		who disconnects
+Sun Jul 30 04:47:05 2023	151.106.35.129	opening connection
+Sun Jul 30 04:47:05 2023	<NO IP>		who disconnects
+Sun Jul 30 05:27:27 2023	198.235.24.106	opening connection
+Sun Jul 30 05:27:27 2023	<NO IP>		who disconnects
+Sun Jul 30 05:36:25 2023	185.170.144.3	opening connection
+Sun Jul 30 05:36:25 2023	<NO IP>		who disconnects
+Sun Jul 30 06:43:30 2023	71.6.134.235	opening connection
+Sun Jul 30 06:43:30 2023	<NO IP>		who disconnects
+Sun Jul 30 06:58:58 2023	71.6.134.235	opening connection
+Sun Jul 30 07:08:13 2023	23.31.96.97	opening connection
+Sun Jul 30 07:08:43 2023	<NO IP>		who disconnects
+Sun Jul 30 09:29:15 2023	151.106.35.129	opening connection
+Sun Jul 30 09:29:15 2023	<NO IP>		who disconnects
+Sun Jul 30 10:01:22 2023	45.79.163.53	opening connection
+Sun Jul 30 10:01:24 2023	<NO IP>		who disconnects
+Sun Jul 30 12:03:02 2023	45.79.181.251	opening connection
+Sun Jul 30 12:03:02 2023	<NO IP>		who disconnects
+Sun Jul 30 12:06:16 2023	147.78.47.10	opening connection
+Sun Jul 30 12:06:16 2023	<NO IP>		who disconnects
+Sun Jul 30 12:28:39 2023	152.89.198.113	opening connection
+Sun Jul 30 12:28:39 2023	<NO IP>		who disconnects
+Sun Jul 30 13:42:59 2023	62.233.50.179	opening connection
+Sun Jul 30 13:42:59 2023	<NO IP>		who disconnects
+Sun Jul 30 13:46:41 2023	167.248.133.184	opening connection
+Sun Jul 30 13:46:56 2023	<NO IP>		who disconnects
+Sun Jul 30 14:41:30 2023	92.63.196.50	opening connection
+Sun Jul 30 14:41:30 2023	<NO IP>		who disconnects
+Sun Jul 30 15:29:21 2023	178.62.22.101	opening connection
+Sun Jul 30 15:29:21 2023	178.62.22.101	opening connection
+Sun Jul 30 15:29:21 2023	<NO IP>		who disconnects
+Sun Jul 30 15:29:21 2023	<NO IP>		who disconnects
+Sun Jul 30 15:29:21 2023	178.62.22.101	opening connection
+Sun Jul 30 15:29:21 2023	<NO IP>		who disconnects
+Sun Jul 30 15:29:22 2023	178.62.22.101	opening connection
+Sun Jul 30 15:29:22 2023	<NO IP>		who disconnects
+Sun Jul 30 17:38:11 2023	2.57.122.217	opening connection
+Sun Jul 30 17:38:11 2023	<NO IP>		who disconnects
+Sun Jul 30 17:53:29 2023	152.89.198.113	opening connection
+Sun Jul 30 17:53:52 2023	<NO IP>		who disconnects
+Sun Jul 30 19:10:32 2023	198.235.24.213	opening connection
+Sun Jul 30 19:10:32 2023	<NO IP>		who disconnects
+Sun Jul 30 19:16:58 2023	205.210.31.32	opening connection
+Sun Jul 30 19:17:30 2023	<NO IP>		who disconnects
+Sun Jul 30 20:47:10 2023	185.224.128.17	opening connection
+Sun Jul 30 20:47:10 2023	185.224.128.17	opening connection
+Sun Jul 30 20:47:10 2023	185.224.128.17	opening connection
+Sun Jul 30 20:47:10 2023	<NO IP>		who disconnects
+Sun Jul 30 20:47:10 2023	<NO IP>		who disconnects
+Sun Jul 30 20:47:10 2023	<NO IP>		who disconnects
+Sun Jul 30 22:10:19 2023	194.165.16.10	opening connection
+Sun Jul 30 22:10:19 2023	<NO IP>		who disconnects
+Sun Jul 30 23:23:27 2023	185.233.19.147	opening connection
+Sun Jul 30 23:23:27 2023	<NO IP>		who disconnects
+Sun Jul 30 23:23:27 2023	185.233.19.147	opening connection
+Sun Jul 30 23:23:27 2023	<NO IP>		who disconnects
+Sun Jul 30 23:23:28 2023	185.233.19.147	opening connection
+Sun Jul 30 23:23:28 2023	<NO IP>		who disconnects
+Sun Jul 30 23:23:28 2023	185.233.19.147	opening connection
+Sun Jul 30 23:23:28 2023	<NO IP>		who disconnects
+Sun Jul 30 23:23:28 2023	185.233.19.147	opening connection
+Sun Jul 30 23:23:28 2023	<NO IP>		who disconnects
+Sun Jul 30 23:23:29 2023	185.233.19.147	opening connection
+Sun Jul 30 23:23:48 2023	<NO IP>		who disconnects
+Sun Jul 30 23:23:49 2023	185.233.19.147	opening connection
+Sun Jul 30 23:23:49 2023	<NO IP>		who disconnects
+Sun Jul 30 23:23:49 2023	185.233.19.147	opening connection
+Sun Jul 30 23:23:49 2023	<NO IP>		who disconnects
+Sun Jul 30 23:23:50 2023	185.233.19.147	opening connection
+Sun Jul 30 23:23:50 2023	<NO IP>		who disconnects
+Sun Jul 30 23:23:50 2023	185.233.19.147	opening connection
+Sun Jul 30 23:23:50 2023	<NO IP>		who disconnects
+Mon Jul 31 00:56:19 2023	151.106.35.129	opening connection
+Mon Jul 31 00:56:19 2023	<NO IP>		who disconnects
+Mon Jul 31 04:39:16 2023	162.142.125.223	opening connection
+Mon Jul 31 04:39:16 2023	<NO IP>		who disconnects
+Mon Jul 31 04:39:19 2023	162.142.125.223	opening connection
+Mon Jul 31 04:39:34 2023	<NO IP>		who disconnects
+Mon Jul 31 07:08:48 2023	23.31.96.97	opening connection
+Mon Jul 31 07:09:18 2023	<NO IP>		who disconnects
+Mon Jul 31 09:25:16 2023	151.106.35.129	opening connection
+Mon Jul 31 09:25:16 2023	<NO IP>		who disconnects
+Mon Jul 31 09:41:56 2023	159.203.192.17	opening connection
+Mon Jul 31 09:41:56 2023	<NO IP>		who disconnects
+Mon Jul 31 16:32:27 2023	151.106.35.129	opening connection
+Mon Jul 31 16:32:27 2023	<NO IP>		who disconnects
+Mon Jul 31 19:29:26 2023	173.160.197.213	opening connection
+Mon Jul 31 19:29:26 2023	<NO IP>		who disconnects
+Mon Jul 31 20:40:57 2023	205.210.31.242	opening connection
+Mon Jul 31 20:40:57 2023	<NO IP>		who disconnects
+Mon Jul 31 20:57:41 2023	62.233.50.179	opening connection
+Mon Jul 31 20:57:41 2023	<NO IP>		who disconnects
+Mon Jul 31 21:12:35 2023	178.128.233.21	opening connection
+Mon Jul 31 21:12:35 2023	178.128.233.21	opening connection
+Mon Jul 31 21:12:35 2023	<NO IP>		who disconnects
+Mon Jul 31 21:12:35 2023	<NO IP>		who disconnects
+Mon Jul 31 21:12:35 2023	178.128.233.21	opening connection
+Mon Jul 31 21:12:35 2023	<NO IP>		who disconnects
+Mon Jul 31 21:12:35 2023	178.128.233.21	opening connection
+Mon Jul 31 21:12:35 2023	<NO IP>		who disconnects
+Mon Jul 31 22:31:12 2023	205.210.31.205	opening connection
+Mon Jul 31 22:31:12 2023	<NO IP>		who disconnects
+Mon Jul 31 22:36:40 2023	80.66.88.211	opening connection
+Mon Jul 31 22:36:40 2023	<NO IP>		who disconnects
+Mon Jul 31 22:59:31 2023	198.235.24.166	opening connection
+Mon Jul 31 22:59:32 2023	<NO IP>		who disconnects
+Mon Jul 31 23:21:49 2023	151.106.35.129	opening connection
+Mon Jul 31 23:21:49 2023	<NO IP>		who disconnects
+Mon Jul 31 23:37:13 2023	205.210.31.60	opening connection
+Mon Jul 31 23:37:46 2023	<NO IP>		who disconnects
+Tue Aug  1 00:30:18 2023	167.248.133.36	opening connection
+Tue Aug  1 00:30:18 2023	<NO IP>		who disconnects
+Tue Aug  1 00:30:21 2023	167.248.133.36	opening connection
+Tue Aug  1 00:30:36 2023	<NO IP>		who disconnects
+Tue Aug  1 02:53:25 2023	205.210.31.64	opening connection
+Tue Aug  1 02:53:25 2023	<NO IP>		who disconnects
+Tue Aug  1 03:15:28 2023	205.210.31.196	opening connection
+Tue Aug  1 03:15:29 2023	<NO IP>		who disconnects
+Tue Aug  1 04:05:39 2023	98.153.163.86	opening connection
+Tue Aug  1 04:05:56 2023	98.153.163.86	opening connection
+Tue Aug  1 04:06:41 2023	98.153.163.86	opening connection
+Tue Aug  1 04:06:41 2023	98.153.163.86	opening connection
+Tue Aug  1 04:06:43 2023	98.153.163.86	opening connection
+Tue Aug  1 04:06:51 2023	137.186.107.203	opening connection
+Tue Aug  1 04:06:59 2023	137.186.107.203	evilmog connects
+Tue Aug  1 04:07:12 2023	98.153.163.86	opening connection
+Tue Aug  1 04:07:13 2023	98.153.163.86	opening connection
+Tue Aug  1 04:07:15 2023	98.153.163.86	opening connection
+Tue Aug  1 04:07:39 2023	98.153.163.86	opening connection
+Tue Aug  1 04:07:56 2023	98.153.163.86	opening connection
+Tue Aug  1 04:08:06 2023	98.153.163.86	opening connection
+Tue Aug  1 04:08:41 2023	98.153.163.86	opening connection
+Tue Aug  1 04:08:41 2023	98.153.163.86	opening connection
+Tue Aug  1 04:08:43 2023	98.153.163.86	opening connection
+Tue Aug  1 04:09:12 2023	98.153.163.86	opening connection
+Tue Aug  1 04:09:13 2023	98.153.163.86	opening connection
+Tue Aug  1 04:09:15 2023	98.153.163.86	opening connection
+Tue Aug  1 04:09:39 2023	98.153.163.86	opening connection
+Tue Aug  1 04:09:56 2023	98.153.163.86	opening connection
+Tue Aug  1 04:10:04 2023	137.186.107.203	opening connection
+Tue Aug  1 04:10:06 2023	98.153.163.86	opening connection
+Tue Aug  1 04:10:20 2023	137.186.107.203	opening connection
+Tue Aug  1 04:10:22 2023	137.186.107.203	mog connects
+Tue Aug  1 04:10:41 2023	98.153.163.86	opening connection
+Tue Aug  1 04:10:41 2023	98.153.163.86	opening connection
+Tue Aug  1 04:10:43 2023	98.153.163.86	opening connection
+Tue Aug  1 04:11:12 2023	98.153.163.86	opening connection
+Tue Aug  1 04:11:13 2023	98.153.163.86	opening connection
+Tue Aug  1 04:11:15 2023	98.153.163.86	opening connection
+Tue Aug  1 04:11:39 2023	98.153.163.86	opening connection
+Tue Aug  1 04:11:56 2023	98.153.163.86	opening connection
+Tue Aug  1 04:12:06 2023	98.153.163.86	opening connection
+Tue Aug  1 04:12:41 2023	98.153.163.86	opening connection
+Tue Aug  1 04:12:41 2023	98.153.163.86	opening connection
+Tue Aug  1 04:12:43 2023	98.153.163.86	opening connection
+Tue Aug  1 04:13:12 2023	98.153.163.86	opening connection
+Tue Aug  1 04:13:13 2023	98.153.163.86	opening connection
+Tue Aug  1 04:13:15 2023	98.153.163.86	opening connection
+Tue Aug  1 04:13:39 2023	98.153.163.86	opening connection
+Tue Aug  1 04:13:56 2023	98.153.163.86	opening connection
+Tue Aug  1 04:14:06 2023	98.153.163.86	opening connection
+Tue Aug  1 04:14:41 2023	98.153.163.86	opening connection
+Tue Aug  1 04:14:41 2023	98.153.163.86	opening connection
+Tue Aug  1 04:14:43 2023	98.153.163.86	opening connection
+Tue Aug  1 04:15:12 2023	98.153.163.86	opening connection
+Tue Aug  1 04:15:13 2023	98.153.163.86	opening connection
+Tue Aug  1 04:15:15 2023	98.153.163.86	opening connection
+Tue Aug  1 04:15:39 2023	98.153.163.86	opening connection
+Tue Aug  1 04:15:56 2023	98.153.163.86	opening connection
+Tue Aug  1 04:16:06 2023	98.153.163.86	opening connection
+Tue Aug  1 04:16:41 2023	98.153.163.86	opening connection
+Tue Aug  1 04:16:41 2023	98.153.163.86	opening connection
+Tue Aug  1 04:16:43 2023	98.153.163.86	opening connection
+Tue Aug  1 04:17:12 2023	98.153.163.86	opening connection
+Tue Aug  1 04:17:13 2023	98.153.163.86	opening connection
+Tue Aug  1 04:17:15 2023	98.153.163.86	opening connection
+Tue Aug  1 04:17:39 2023	98.153.163.86	opening connection
+Tue Aug  1 04:17:56 2023	98.153.163.86	opening connection
+Tue Aug  1 04:18:06 2023	98.153.163.86	opening connection
+Tue Aug  1 04:18:41 2023	98.153.163.86	opening connection
+Tue Aug  1 04:18:41 2023	98.153.163.86	opening connection
+Tue Aug  1 04:18:43 2023	98.153.163.86	opening connection
+Tue Aug  1 04:19:12 2023	98.153.163.86	opening connection
+Tue Aug  1 04:19:13 2023	98.153.163.86	opening connection
+Tue Aug  1 04:19:15 2023	98.153.163.86	opening connection
+Tue Aug  1 04:19:39 2023	98.153.163.86	opening connection
+Tue Aug  1 04:19:56 2023	98.153.163.86	opening connection
+Tue Aug  1 04:20:06 2023	98.153.163.86	opening connection
+Tue Aug  1 04:20:41 2023	98.153.163.86	opening connection
+Tue Aug  1 04:20:41 2023	98.153.163.86	opening connection
+Tue Aug  1 04:20:43 2023	98.153.163.86	opening connection
+Tue Aug  1 04:21:12 2023	98.153.163.86	opening connection
+Tue Aug  1 04:21:13 2023	98.153.163.86	opening connection
+Tue Aug  1 04:21:15 2023	98.153.163.86	opening connection
+Tue Aug  1 04:21:39 2023	98.153.163.86	opening connection
+Tue Aug  1 04:21:56 2023	98.153.163.86	opening connection
+Tue Aug  1 04:22:06 2023	98.153.163.86	opening connection
+Tue Aug  1 04:22:41 2023	98.153.163.86	opening connection
+Tue Aug  1 04:22:41 2023	98.153.163.86	opening connection
+Tue Aug  1 04:22:43 2023	98.153.163.86	opening connection
+Tue Aug  1 04:23:12 2023	98.153.163.86	opening connection
+Tue Aug  1 04:23:13 2023	98.153.163.86	opening connection
+Tue Aug  1 04:23:15 2023	98.153.163.86	opening connection
+Tue Aug  1 04:23:39 2023	98.153.163.86	opening connection
+Tue Aug  1 04:23:56 2023	98.153.163.86	opening connection
+Tue Aug  1 04:24:06 2023	98.153.163.86	opening connection
+Tue Aug  1 04:24:41 2023	98.153.163.86	opening connection
+Tue Aug  1 04:24:41 2023	98.153.163.86	opening connection
+Tue Aug  1 04:24:43 2023	98.153.163.86	opening connection
+Tue Aug  1 04:25:12 2023	98.153.163.86	opening connection
+Tue Aug  1 04:25:13 2023	98.153.163.86	opening connection
+Tue Aug  1 04:25:15 2023	98.153.163.86	opening connection
+Tue Aug  1 04:25:39 2023	98.153.163.86	opening connection
+Tue Aug  1 04:25:56 2023	98.153.163.86	opening connection
+Tue Aug  1 04:26:06 2023	98.153.163.86	opening connection
+Tue Aug  1 04:26:41 2023	98.153.163.86	opening connection
+Tue Aug  1 04:26:41 2023	98.153.163.86	opening connection
+Tue Aug  1 04:26:43 2023	98.153.163.86	opening connection
+Tue Aug  1 04:27:12 2023	98.153.163.86	opening connection
+Tue Aug  1 04:27:13 2023	98.153.163.86	opening connection
+Tue Aug  1 04:27:15 2023	98.153.163.86	opening connection
+Tue Aug  1 04:27:39 2023	98.153.163.86	opening connection
+Tue Aug  1 04:27:56 2023	98.153.163.86	opening connection
+Tue Aug  1 04:28:06 2023	98.153.163.86	opening connection
+Tue Aug  1 04:28:16 2023	98.153.163.86	opening connection
+Tue Aug  1 04:28:41 2023	98.153.163.86	opening connection
+Tue Aug  1 04:32:37 2023	137.186.107.203	evilmog quits
+Tue Aug  1 04:32:37 2023	137.186.107.203	mog quits
+Thu Aug 10 19:49:13 2023	<NO IP>		who disconnects
+Thu Aug 10 19:49:13 2023	<NO IP>		who disconnects
+Thu Aug 10 19:49:13 2023	<NO IP>		who disconnects
+Thu Aug 10 19:49:13 2023	<NO IP>		who disconnects
+Thu Aug 10 19:49:13 2023	<NO IP>		who disconnects
+Thu Aug 10 19:49:13 2023	<NO IP>		evilmog disconnects
+Thu Aug 10 19:49:13 2023	<NO IP>		who disconnects
+Thu Aug 10 19:49:13 2023	<NO IP>		who disconnects
+Thu Aug 10 19:49:13 2023	<NO IP>		who disconnects
+Thu Aug 10 19:49:13 2023	<NO IP>		who disconnects
+Thu Aug 10 19:49:13 2023	<NO IP>		mog disconnects
+Thu Aug 10 19:54:22 2023	192.99.10.40	opening connection
+Thu Aug 10 19:55:29 2023	128.64.152.98	opening connection
+Thu Aug 10 19:55:29 2023	128.64.152.98	opening connection
+Thu Aug 10 19:55:29 2023	128.64.152.98	opening connection
+Thu Aug 10 19:55:29 2023	128.64.152.98	opening connection
+Thu Aug 10 19:55:29 2023	128.64.152.98	opening connection
+Thu Aug 10 19:55:29 2023	128.64.152.98	opening connection
+Thu Aug 10 19:55:29 2023	128.64.152.98	opening connection
+Thu Aug 10 19:55:33 2023	128.64.152.98	opening connection
+Thu Aug 10 19:55:33 2023	128.64.152.98	opening connection
+Thu Aug 10 19:55:33 2023	128.64.152.98	opening connection
+Thu Aug 10 19:55:34 2023	128.64.152.98	opening connection
+Thu Aug 10 19:57:04 2023	172.56.208.226	opening connection
+Thu Aug 10 19:57:29 2023	128.64.152.98	opening connection
+Thu Aug 10 19:57:29 2023	128.64.152.98	opening connection
+Thu Aug 10 19:57:29 2023	128.64.152.98	opening connection
+Thu Aug 10 19:57:29 2023	128.64.152.98	opening connection
+Thu Aug 10 19:57:29 2023	128.64.152.98	opening connection
+Thu Aug 10 19:57:29 2023	128.64.152.98	opening connection
+Thu Aug 10 19:57:29 2023	128.64.152.98	opening connection
+Thu Aug 10 19:57:33 2023	128.64.152.98	opening connection
+Thu Aug 10 19:57:33 2023	128.64.152.98	opening connection
+Thu Aug 10 19:57:33 2023	128.64.152.98	opening connection
+Thu Aug 10 19:57:34 2023	128.64.152.98	opening connection
+Thu Aug 10 19:57:51 2023	159.203.67.128	opening connection
+Thu Aug 10 19:58:00 2023	159.203.67.128	opening connection
+Sun Sep  3 23:30:29 2023	192.99.10.40	opening connection
+Sun Sep  3 23:30:40 2023	192.99.10.40	mog connects
+Sun Sep  3 23:30:59 2023	192.99.10.40	mog quits
+Sat Sep  9 04:38:00 2023	137.186.107.203	opening connection
+Sat Sep  9 04:38:10 2023	137.186.107.203	mog connects
+Sat Sep  9 04:55:12 2023	45.227.254.48	opening connection
+Sat Sep  9 04:55:12 2023	<NO IP>		who disconnects
+Sat Sep  9 05:07:25 2023	<NO IP>		mog disconnects
+Sat Sep  9 05:17:24 2023			mog LD quits
+Sat Sep  9 05:50:38 2023	198.235.24.107	opening connection
+Sat Sep  9 05:50:38 2023	<NO IP>		who disconnects
+Sat Sep  9 06:47:57 2023	171.67.71.80	opening connection
+Sat Sep  9 06:47:58 2023	<NO IP>		who disconnects
+Sat Sep  9 07:53:13 2023	185.100.87.136	opening connection
+Sat Sep  9 07:53:13 2023	<NO IP>		who disconnects
+Sat Sep  9 08:31:24 2023	205.210.31.103	opening connection
+Sat Sep  9 08:31:24 2023	<NO IP>		who disconnects
+Sat Sep  9 11:47:24 2023	167.94.145.59	opening connection
+Sat Sep  9 11:47:24 2023	<NO IP>		who disconnects
+Sat Sep  9 11:47:27 2023	167.94.145.59	opening connection
+Sat Sep  9 11:47:43 2023	<NO IP>		who disconnects
+Sat Sep  9 12:32:35 2023	183.136.225.42	opening connection
+Sat Sep  9 12:32:36 2023	<NO IP>		who disconnects
+Sat Sep  9 19:01:28 2023	205.210.31.251	opening connection
+Sat Sep  9 19:01:28 2023	<NO IP>		who disconnects
+Sat Sep  9 21:12:28 2023	205.210.31.228	opening connection
+Sat Sep  9 21:13:00 2023	<NO IP>		who disconnects
+Sat Sep  9 21:52:34 2023	23.31.96.97	opening connection
+Sat Sep  9 21:53:04 2023	<NO IP>		who disconnects
+Sat Sep  9 22:28:18 2023	188.166.87.67	opening connection
+Sat Sep  9 22:28:18 2023	<NO IP>		who disconnects
+Sun Sep 10 05:07:18 2023	80.66.88.211	opening connection
+Sun Sep 10 05:07:18 2023	<NO IP>		who disconnects
+Sun Sep 10 06:51:03 2023	167.248.133.33	opening connection
+Sun Sep 10 06:51:03 2023	<NO IP>		who disconnects
+Sun Sep 10 06:51:06 2023	167.248.133.33	opening connection
+Sun Sep 10 06:51:22 2023	<NO IP>		who disconnects
+Sun Sep 10 13:05:47 2023	179.43.191.162	opening connection
+Sun Sep 10 13:05:47 2023	<NO IP>		who disconnects
+Sun Sep 10 20:21:32 2023	148.113.165.19	opening connection
+Sun Sep 10 20:21:32 2023	<NO IP>		who disconnects
+Sun Sep 10 21:45:33 2023	198.235.24.248	opening connection
+Sun Sep 10 21:46:05 2023	<NO IP>		who disconnects
+Sun Sep 10 21:55:55 2023	23.31.96.97	opening connection
+Sun Sep 10 21:56:25 2023	<NO IP>		who disconnects
+Mon Sep 11 01:57:38 2023	167.94.146.58	opening connection
+Mon Sep 11 01:57:38 2023	<NO IP>		who disconnects
+Mon Sep 11 01:57:41 2023	167.94.146.58	opening connection
+Mon Sep 11 01:57:56 2023	<NO IP>		who disconnects
+Mon Sep 11 03:45:38 2023	45.227.254.49	opening connection
+Mon Sep 11 03:45:39 2023	<NO IP>		who disconnects
+Mon Sep 11 07:15:33 2023	216.68.166.34	opening connection
+Mon Sep 11 07:15:33 2023	<NO IP>		who disconnects
+Mon Sep 11 08:14:08 2023	171.67.70.84	opening connection
+Mon Sep 11 08:14:08 2023	<NO IP>		who disconnects
+Mon Sep 11 10:19:28 2023	205.210.31.129	opening connection
+Mon Sep 11 10:19:28 2023	<NO IP>		who disconnects
+Mon Sep 11 11:23:35 2023	91.191.209.202	opening connection
+Mon Sep 11 11:23:35 2023	<NO IP>		who disconnects
+Mon Sep 11 13:49:28 2023	167.248.133.36	opening connection
+Mon Sep 11 13:49:28 2023	<NO IP>		who disconnects
+Mon Sep 11 13:49:31 2023	167.248.133.36	opening connection
+Mon Sep 11 13:49:46 2023	<NO IP>		who disconnects
+Mon Sep 11 14:12:19 2023	35.203.210.184	opening connection
+Mon Sep 11 14:12:22 2023	<NO IP>		who disconnects
+Mon Sep 11 14:46:00 2023	206.189.123.100	opening connection
+Mon Sep 11 14:46:00 2023	<NO IP>		who disconnects
+Mon Sep 11 18:52:42 2023	167.94.145.55	opening connection
+Mon Sep 11 18:52:42 2023	<NO IP>		who disconnects
+Mon Sep 11 18:52:45 2023	167.94.145.55	opening connection
+Mon Sep 11 18:53:00 2023	<NO IP>		who disconnects
+Mon Sep 11 21:56:41 2023	23.31.96.97	opening connection
+Mon Sep 11 21:57:11 2023	<NO IP>		who disconnects
+Mon Sep 11 22:19:51 2023	205.210.31.139	opening connection
+Mon Sep 11 22:19:51 2023	<NO IP>		who disconnects
+Tue Sep 12 00:19:05 2023	198.235.24.99	opening connection
+Tue Sep 12 00:19:06 2023	<NO IP>		who disconnects
+Tue Sep 12 01:15:07 2023	198.235.24.46	opening connection
+Tue Sep 12 01:15:07 2023	<NO IP>		who disconnects
+Tue Sep 12 03:22:06 2023	167.71.140.233	opening connection
+Tue Sep 12 03:22:06 2023	<NO IP>		who disconnects
+Tue Sep 12 04:10:58 2023	162.243.133.35	opening connection
+Tue Sep 12 04:10:58 2023	<NO IP>		who disconnects
+Tue Sep 12 05:53:23 2023	185.224.128.17	opening connection
+Tue Sep 12 05:53:23 2023	185.224.128.17	opening connection
+Tue Sep 12 05:53:23 2023	185.224.128.17	opening connection
+Tue Sep 12 05:53:23 2023	<NO IP>		who disconnects
+Tue Sep 12 05:53:23 2023	<NO IP>		who disconnects
+Tue Sep 12 05:53:23 2023	<NO IP>		who disconnects
+Tue Sep 12 06:36:03 2023	198.235.24.162	opening connection
+Tue Sep 12 06:36:34 2023	<NO IP>		who disconnects
+Tue Sep 12 08:40:56 2023	198.235.24.124	opening connection
+Tue Sep 12 08:40:56 2023	<NO IP>		who disconnects
+Tue Sep 12 08:52:46 2023	198.235.24.11	opening connection
+Tue Sep 12 08:52:47 2023	<NO IP>		who disconnects
+Tue Sep 12 10:42:59 2023	142.93.101.55	opening connection
+Tue Sep 12 10:42:59 2023	142.93.101.55	opening connection
+Tue Sep 12 10:42:59 2023	<NO IP>		who disconnects
+Tue Sep 12 10:42:59 2023	<NO IP>		who disconnects
+Tue Sep 12 10:42:59 2023	142.93.101.55	opening connection
+Tue Sep 12 10:42:59 2023	<NO IP>		who disconnects
+Tue Sep 12 10:42:59 2023	142.93.101.55	opening connection
+Tue Sep 12 10:43:00 2023	<NO IP>		who disconnects
+Tue Sep 12 11:00:14 2023	205.210.31.41	opening connection
+Tue Sep 12 11:00:14 2023	<NO IP>		who disconnects
+Tue Sep 12 11:35:18 2023	162.142.125.217	opening connection
+Tue Sep 12 11:35:18 2023	<NO IP>		who disconnects
+Tue Sep 12 11:35:22 2023	162.142.125.217	opening connection
+Tue Sep 12 11:35:37 2023	<NO IP>		who disconnects
+Tue Sep 12 15:38:29 2023	94.102.61.47	opening connection
+Tue Sep 12 15:38:29 2023	<NO IP>		who disconnects
+Tue Sep 12 20:46:54 2023	198.235.24.53	opening connection
+Tue Sep 12 20:47:25 2023	<NO IP>		who disconnects
+Tue Sep 12 21:57:21 2023	23.31.96.97	opening connection
+Tue Sep 12 21:57:51 2023	<NO IP>		who disconnects
+Tue Sep 12 23:33:10 2023	198.235.24.164	opening connection
+Tue Sep 12 23:33:10 2023	<NO IP>		who disconnects
+Wed Sep 13 10:19:28 2023	205.210.31.210	opening connection
+Wed Sep 13 10:19:29 2023	<NO IP>		who disconnects
+Wed Sep 13 17:03:00 2023	147.78.47.10	opening connection
+Wed Sep 13 17:03:00 2023	<NO IP>		who disconnects
+Wed Sep 13 17:45:10 2023	128.199.30.248	opening connection
+Wed Sep 13 17:45:10 2023	128.199.30.248	opening connection
+Wed Sep 13 17:45:10 2023	<NO IP>		who disconnects
+Wed Sep 13 17:45:10 2023	<NO IP>		who disconnects
+Wed Sep 13 17:45:11 2023	128.199.30.248	opening connection
+Wed Sep 13 17:45:11 2023	<NO IP>		who disconnects
+Wed Sep 13 17:45:11 2023	128.199.30.248	opening connection
+Wed Sep 13 17:45:11 2023	<NO IP>		who disconnects
+Thu Sep 14 00:01:37 2023	80.66.88.215	opening connection
+Thu Sep 14 00:01:37 2023	<NO IP>		who disconnects
+Thu Sep 14 00:08:23 2023	198.235.24.96	opening connection
+Thu Sep 14 00:08:53 2023	<NO IP>		who disconnects
+Thu Sep 14 01:53:59 2023	185.180.143.73	opening connection
+Thu Sep 14 01:53:59 2023	<NO IP>		who disconnects
+Thu Sep 14 01:54:02 2023	185.180.143.73	opening connection
+Thu Sep 14 01:54:02 2023	<NO IP>		who disconnects
+Thu Sep 14 01:54:03 2023	185.180.143.73	opening connection
+Thu Sep 14 01:54:08 2023	<NO IP>		who disconnects
+Thu Sep 14 01:54:10 2023	185.180.143.73	opening connection
+Thu Sep 14 01:54:10 2023	<NO IP>		who disconnects
+Thu Sep 14 01:54:11 2023	185.180.143.73	opening connection
+Thu Sep 14 01:54:11 2023	<NO IP>		who disconnects
+Thu Sep 14 01:54:11 2023	185.180.143.82	opening connection
+Thu Sep 14 01:54:16 2023	<NO IP>		who disconnects
+Thu Sep 14 01:54:48 2023	23.31.96.97	opening connection
+Thu Sep 14 01:55:18 2023	<NO IP>		who disconnects
+Thu Sep 14 02:27:27 2023	71.6.134.230	opening connection
+Thu Sep 14 02:27:27 2023	<NO IP>		who disconnects
+Thu Sep 14 02:28:41 2023	167.248.133.125	opening connection
+Thu Sep 14 02:28:56 2023	<NO IP>		who disconnects
+Thu Sep 14 02:46:10 2023	71.6.134.230	opening connection
+Thu Sep 14 07:13:55 2023	205.210.31.249	opening connection
+Thu Sep 14 07:13:55 2023	<NO IP>		who disconnects
+Thu Sep 14 08:49:44 2023	167.94.146.60	opening connection
+Thu Sep 14 08:49:44 2023	<NO IP>		who disconnects
+Thu Sep 14 08:49:47 2023	167.94.146.60	opening connection
+Thu Sep 14 08:50:02 2023	<NO IP>		who disconnects
+Thu Sep 14 08:52:23 2023	80.66.76.80	opening connection
+Thu Sep 14 08:52:23 2023	<NO IP>		who disconnects
+Thu Sep 14 08:52:23 2023	80.66.76.80	opening connection
+Thu Sep 14 08:52:23 2023	<NO IP>		who disconnects
+Thu Sep 14 08:52:23 2023	80.66.76.80	opening connection
+Thu Sep 14 08:52:23 2023	<NO IP>		who disconnects
+Thu Sep 14 08:52:23 2023	80.66.76.80	opening connection
+Thu Sep 14 08:52:23 2023	<NO IP>		who disconnects
+Thu Sep 14 08:58:18 2023	185.170.144.3	opening connection
+Thu Sep 14 08:58:18 2023	<NO IP>		who disconnects
+Thu Sep 14 11:28:00 2023	43.157.54.73	opening connection
+Thu Sep 14 11:28:02 2023	<NO IP>		who disconnects
+Thu Sep 14 11:28:02 2023	43.157.54.73	opening connection
+Thu Sep 14 11:28:12 2023	<NO IP>		who disconnects
+Thu Sep 14 14:29:25 2023	193.37.69.150	opening connection
+Thu Sep 14 14:29:25 2023	<NO IP>		who disconnects
+Thu Sep 14 14:55:45 2023	167.248.133.36	opening connection
+Thu Sep 14 14:55:45 2023	<NO IP>		who disconnects
+Thu Sep 14 14:55:48 2023	167.248.133.36	opening connection
+Thu Sep 14 14:56:03 2023	<NO IP>		who disconnects
+Thu Sep 14 16:06:49 2023	176.113.115.65	opening connection
+Thu Sep 14 16:06:49 2023	<NO IP>		who disconnects
+Thu Sep 14 22:51:34 2023	198.235.24.253	opening connection
+Thu Sep 14 22:51:34 2023	<NO IP>		who disconnects
+Thu Sep 14 23:33:03 2023	164.68.124.86	opening connection
+Fri Sep 15 00:14:09 2023	198.235.24.165	opening connection
+Fri Sep 15 00:14:09 2023	<NO IP>		who disconnects
+Fri Sep 15 00:29:29 2023	167.172.188.30	opening connection
+Fri Sep 15 00:29:29 2023	167.172.188.30	opening connection
+Fri Sep 15 00:29:29 2023	<NO IP>		who disconnects
+Fri Sep 15 00:29:29 2023	<NO IP>		who disconnects
+Fri Sep 15 00:29:29 2023	167.172.188.30	opening connection
+Fri Sep 15 00:29:29 2023	<NO IP>		who disconnects
+Fri Sep 15 00:29:30 2023	167.172.188.30	opening connection
+Fri Sep 15 00:29:30 2023	<NO IP>		who disconnects
+Fri Sep 15 01:55:21 2023	23.31.96.97	opening connection
+Fri Sep 15 01:55:51 2023	<NO IP>		who disconnects
+Fri Sep 15 03:07:26 2023	205.210.31.164	opening connection
+Fri Sep 15 03:07:27 2023	<NO IP>		who disconnects
+Fri Sep 15 03:28:39 2023	167.71.142.178	opening connection
+Fri Sep 15 03:28:39 2023	<NO IP>		who disconnects
+Fri Sep 15 04:01:56 2023	193.37.69.150	opening connection
+Fri Sep 15 04:01:56 2023	<NO IP>		who disconnects
+Fri Sep 15 08:46:28 2023	205.210.31.110	opening connection
+Fri Sep 15 08:46:28 2023	<NO IP>		who disconnects
+Fri Sep 15 09:32:45 2023	178.128.171.48	opening connection
+Fri Sep 15 09:32:45 2023	<NO IP>		who disconnects
+Fri Sep 15 09:54:35 2023	205.210.31.33	opening connection
+Fri Sep 15 09:55:06 2023	<NO IP>		who disconnects
+Fri Sep 15 10:44:55 2023	192.241.204.39	opening connection
+Fri Sep 15 10:44:55 2023	<NO IP>		who disconnects
+Fri Sep 15 12:31:47 2023	167.248.133.39	opening connection
+Fri Sep 15 12:31:47 2023	<NO IP>		who disconnects
+Fri Sep 15 12:31:50 2023	167.248.133.39	opening connection
+Fri Sep 15 12:32:05 2023	<NO IP>		who disconnects
+Fri Sep 15 13:40:20 2023	45.79.168.172	opening connection
+Fri Sep 15 13:40:21 2023	<NO IP>		who disconnects
+Fri Sep 15 20:35:06 2023	185.224.128.17	opening connection
+Fri Sep 15 20:35:06 2023	185.224.128.17	opening connection
+Fri Sep 15 20:35:06 2023	185.224.128.17	opening connection
+Fri Sep 15 20:35:06 2023	<NO IP>		who disconnects
+Fri Sep 15 20:35:06 2023	<NO IP>		who disconnects
+Fri Sep 15 20:35:06 2023	<NO IP>		who disconnects
+Sat Sep 16 00:52:18 2023	205.210.31.49	opening connection
+Sat Sep 16 00:52:18 2023	<NO IP>		who disconnects
+Sat Sep 16 01:19:12 2023	194.165.16.76	opening connection
+Sat Sep 16 01:19:12 2023	<NO IP>		who disconnects
+Sat Sep 16 01:55:53 2023	23.31.96.97	opening connection
+Sat Sep 16 01:56:23 2023	<NO IP>		who disconnects
+Sat Sep 16 02:02:14 2023	205.210.31.251	opening connection
+Sat Sep 16 02:02:45 2023	<NO IP>		who disconnects
+Sat Sep 16 02:32:02 2023	198.235.24.114	opening connection
+Sat Sep 16 02:32:02 2023	<NO IP>		who disconnects
+Sat Sep 16 03:09:05 2023	43.129.219.189	opening connection
+Sat Sep 16 03:09:05 2023	<NO IP>		who disconnects
+Sat Sep 16 03:09:06 2023	43.129.219.189	opening connection
+Sat Sep 16 03:09:06 2023	43.129.219.189	opening connection
+Sat Sep 16 03:09:07 2023	43.129.219.189	opening connection
+Sat Sep 16 03:09:07 2023	<NO IP>		who disconnects
+Sat Sep 16 03:09:08 2023	<NO IP>		who disconnects
+Sat Sep 16 03:09:08 2023	<NO IP>		who disconnects
+Sat Sep 16 05:15:18 2023	66.175.213.4	opening connection
+Sat Sep 16 05:15:18 2023	<NO IP>		who disconnects
+Sat Sep 16 05:38:19 2023	183.136.225.42	opening connection
+Sat Sep 16 05:38:20 2023	<NO IP>		who disconnects
+Sat Sep 16 06:10:12 2023	81.209.179.149	opening connection
+Sat Sep 16 06:10:17 2023	<NO IP>		who disconnects
+Sat Sep 16 08:56:15 2023	205.210.31.164	opening connection
+Sat Sep 16 08:56:15 2023	<NO IP>		who disconnects
+Sat Sep 16 10:38:35 2023	198.235.24.112	opening connection
+Sat Sep 16 10:38:35 2023	<NO IP>		who disconnects
+Sat Sep 16 11:41:19 2023	45.95.169.184	opening connection
+Sat Sep 16 11:41:19 2023	<NO IP>		who disconnects
+Sat Sep 16 13:17:50 2023	185.16.38.158	opening connection
+Sat Sep 16 13:17:50 2023	<NO IP>		who disconnects
+Sat Sep 16 18:24:54 2023	147.78.47.10	opening connection
+Sat Sep 16 18:24:54 2023	<NO IP>		who disconnects
+Sat Sep 16 20:58:26 2023	91.237.182.96	opening connection
+Sat Sep 16 20:58:26 2023	<NO IP>		who disconnects
+Sat Sep 16 23:08:04 2023	45.227.254.8	opening connection
+Sat Sep 16 23:08:04 2023	<NO IP>		who disconnects
+Sun Sep 17 01:00:13 2023	167.99.4.170	opening connection
+Sun Sep 17 01:00:13 2023	167.99.4.170	opening connection
+Sun Sep 17 01:00:13 2023	<NO IP>		who disconnects
+Sun Sep 17 01:00:13 2023	<NO IP>		who disconnects
+Sun Sep 17 01:00:13 2023	167.99.4.170	opening connection
+Sun Sep 17 01:00:13 2023	<NO IP>		who disconnects
+Sun Sep 17 01:00:13 2023	167.99.4.170	opening connection
+Sun Sep 17 01:00:13 2023	<NO IP>		who disconnects
+Sun Sep 17 01:56:24 2023	23.31.96.97	opening connection
+Sun Sep 17 01:56:54 2023	<NO IP>		who disconnects
+Sun Sep 17 04:02:12 2023	216.68.166.34	opening connection
+Sun Sep 17 04:02:12 2023	<NO IP>		who disconnects
+Sun Sep 17 05:24:24 2023	174.138.61.44	opening connection
+Sun Sep 17 05:24:24 2023	<NO IP>		who disconnects
+Sun Sep 17 09:16:05 2023	198.235.24.168	opening connection
+Sun Sep 17 09:16:05 2023	<NO IP>		who disconnects
+Sun Sep 17 12:55:07 2023	198.235.24.153	opening connection
+Sun Sep 17 12:55:38 2023	<NO IP>		who disconnects
+Sun Sep 17 14:16:40 2023	194.26.135.170	opening connection
+Sun Sep 17 14:16:40 2023	<NO IP>		who disconnects
+Sun Sep 17 16:26:24 2023	185.234.216.63	opening connection
+Sun Sep 17 16:26:24 2023	<NO IP>		who disconnects
+Sun Sep 17 20:06:44 2023	198.235.24.211	opening connection
+Sun Sep 17 20:07:15 2023	<NO IP>		who disconnects
+Sun Sep 17 21:08:26 2023	205.210.31.50	opening connection
+Sun Sep 17 21:08:26 2023	<NO IP>		who disconnects
+Sun Sep 17 22:39:48 2023	194.165.16.78	opening connection
+Sun Sep 17 22:39:48 2023	<NO IP>		who disconnects
+Sun Sep 17 23:22:27 2023	173.199.115.184	opening connection
+Sun Sep 17 23:22:27 2023	<NO IP>		who disconnects
+Mon Sep 18 01:00:56 2023	92.38.133.193	opening connection
+Mon Sep 18 01:00:56 2023	<NO IP>		who disconnects
+Mon Sep 18 01:56:56 2023	23.31.96.97	opening connection
+Mon Sep 18 01:57:26 2023	<NO IP>		who disconnects
+Mon Sep 18 03:18:00 2023	162.142.125.215	opening connection
+Mon Sep 18 03:18:00 2023	<NO IP>		who disconnects
+Mon Sep 18 03:18:03 2023	162.142.125.215	opening connection
+Mon Sep 18 03:18:18 2023	<NO IP>		who disconnects
+Thu Jul 18 00:59:05 2024	127.0.0.1	opening connection
+Thu Jul 18 00:59:13 2024	127.0.0.1	mog connects
+Thu Jul 18 01:21:06 2024	127.0.0.1	opening connection
+Thu Jul 18 01:21:18 2024	127.0.0.1	mog connects
+Thu Jul 18 01:24:49 2024	127.0.0.1	opening connection
+Thu Jul 18 01:28:39 2024	127.0.0.1	opening connection
+Thu Jul 18 01:28:54 2024	127.0.0.1	mog connects
+Thu Jul 18 02:00:35 2024	127.0.0.1	opening connection
+Thu Jul 18 02:00:38 2024	127.0.0.1	mog connects
+Thu Jul 18 02:00:47 2024	127.0.0.1	mog quits
+Thu Jul 18 02:01:35 2024	127.0.0.1	opening connection
+Thu Jul 18 02:01:37 2024	127.0.0.1	mog connects
+Thu Jul 18 02:01:41 2024	127.0.0.1	opening connection
+Thu Jul 18 02:01:52 2024	127.0.0.1	mog connects
+Thu Jul 18 02:02:53 2024	127.0.0.1	opening connection
+Thu Jul 18 02:03:04 2024	127.0.0.1	mog connects
+Thu Jul 18 02:03:28 2024	127.0.0.1	opening connection
+Thu Jul 18 02:03:41 2024	127.0.0.1	mog connects
+Thu Jul 18 02:04:43 2024	127.0.0.1	opening connection
+Thu Jul 18 02:04:53 2024	127.0.0.1	mog connects
+Thu Jul 18 02:05:33 2024	127.0.0.1	opening connection
+Thu Jul 18 02:05:42 2024	127.0.0.1	mog connects
+Thu Jul 18 02:10:39 2024	127.0.0.1	opening connection
+Thu Jul 18 02:10:48 2024	127.0.0.1	mog connects
+Thu Jul 18 02:13:16 2024	127.0.0.1	opening connection
+Thu Jul 18 02:13:35 2024	127.0.0.1	mog connects
+Thu Jul 18 02:14:24 2024	127.0.0.1	mog quits
+Thu Jul 18 02:14:26 2024	127.0.0.1	opening connection
+Thu Jul 18 02:14:35 2024	127.0.0.1	mog connects
+Thu Jul 18 02:14:58 2024	127.0.0.1	mog quits
+Thu Jul 18 02:15:22 2024	127.0.0.1	opening connection
+Thu Jul 18 02:15:39 2024	127.0.0.1	mog connects
+Thu Jul 18 02:18:01 2024	127.0.0.1	mog quits
+Thu Jul 18 02:18:02 2024	127.0.0.1	opening connection
+Thu Jul 18 02:18:04 2024	127.0.0.1	mog connects
+Thu Jul 18 02:24:00 2024	127.0.0.1	mog quits
+Thu Jul 18 02:24:02 2024	127.0.0.1	opening connection
+Thu Jul 18 02:28:06 2024	127.0.0.1	opening connection
+Thu Jul 18 02:28:09 2024	127.0.0.1	mog connects
+Thu Jul 18 02:32:33 2024	127.0.0.1	opening connection
+Thu Jul 18 02:34:35 2024	127.0.0.1	opening connection
+Thu Jul 18 02:34:48 2024	127.0.0.1	mog connects
+Thu Jul 18 02:35:04 2024	127.0.0.1	mog quits
+Thu Jul 18 02:35:04 2024	127.0.0.1	opening connection
+Thu Jul 18 02:35:07 2024	127.0.0.1	mog connects
+Fri Jul 19 17:36:39 2024	75.155.43.240	opening connection
+Fri Jul 19 17:36:55 2024	75.155.43.240	mog connects
+Fri Jul 19 17:40:00 2024	75.155.43.240	mog quits
+Fri Jul 19 17:40:04 2024	75.155.43.240	opening connection
+Fri Jul 19 17:40:07 2024	75.155.43.240	mog connects
+Fri Jul 19 17:40:22 2024	75.155.43.240	opening connection
+Fri Jul 19 17:40:33 2024	75.155.43.240	mog connects
+Fri Jul 19 17:40:49 2024	75.155.43.240	mog quits
+Fri Jul 19 17:40:52 2024	75.155.43.240	opening connection
+Fri Jul 19 17:40:56 2024	75.155.43.240	mog connects
+Fri Jul 19 17:40:58 2024	75.155.43.240	mog quits
+Fri Jul 19 17:41:19 2024	75.155.43.240	opening connection
+Fri Jul 19 17:41:22 2024	75.155.43.240	mog connects
+Fri Jul 19 17:41:33 2024	75.155.43.240	opening connection
+Fri Jul 19 17:41:43 2024	75.155.43.240	mog connects
+Fri Jul 19 17:41:48 2024	75.155.43.240	mog quits
+Fri Jul 19 17:41:52 2024	75.155.43.240	opening connection
+Fri Jul 19 17:41:54 2024	75.155.43.240	mog connects
+Fri Jul 19 18:26:30 2024	75.155.43.240	mog quits
+Fri Jul 19 18:26:55 2024	75.155.43.240	opening connection
+Fri Jul 19 18:26:58 2024	75.155.43.240	mog connects
+Fri Jul 19 20:10:14 2024	75.155.43.240	mog quits
+Fri Jul 19 20:10:19 2024	75.155.43.240	opening connection
+Fri Jul 19 20:10:21 2024	75.155.43.240	mog connects
+Fri Jul 19 20:20:19 2024	75.155.43.240	mog quits
+Fri Jul 19 20:20:38 2024	75.155.43.240	opening connection
+Fri Jul 19 20:20:41 2024	75.155.43.240	mog connects
+Fri Jul 19 21:48:35 2024	104.248.5.166	opening connection
+Fri Jul 19 21:48:55 2024	68.55.160.244	opening connection
+Fri Jul 19 21:48:55 2024	<NO IP>		who disconnects
+Fri Jul 19 21:49:11 2024	68.55.160.244	opening connection
+Fri Jul 19 21:51:20 2024	75.155.43.240	mog quits
+Fri Jul 19 21:51:28 2024	185.189.25.2	opening connection
+Fri Jul 19 21:52:04 2024	75.155.43.240	opening connection
+Fri Jul 19 21:52:07 2024	75.155.43.240	mog connects
+Fri Jul 19 21:52:21 2024	68.55.160.244	opening connection
+Fri Jul 19 21:52:29 2024	<NO IP>		n3tl0kr disconnects
+Fri Jul 19 21:52:43 2024	68.55.160.244	opening connection
+Fri Jul 19 21:53:09 2024	68.55.160.244	n3tl0kr connects
+Fri Jul 19 21:53:41 2024	185.189.25.2	opening connection
+Fri Jul 19 21:55:11 2024	185.189.25.2	slugger connects
+Fri Jul 19 21:58:28 2024	108.216.94.223	opening connection
+Fri Jul 19 21:59:07 2024	108.216.94.223	hootie connects
+Fri Jul 19 22:06:40 2024	<NO IP>		hootie disconnects
+Fri Jul 19 22:16:35 2024	<NO IP>		n3tl0kr disconnects
+Fri Jul 19 22:16:35 2024	68.55.160.244	opening connection
+Fri Jul 19 22:16:38 2024			n3tl0kr LD quits
+Fri Jul 19 22:16:38 2024	68.55.160.244	n3tl0kr reconnects
+Fri Jul 19 22:26:40 2024			hootie LD quits
+Fri Jul 19 23:24:03 2024	199.45.154.129	opening connection
+Fri Jul 19 23:24:03 2024	<NO IP>		who disconnects
+Fri Jul 19 23:24:07 2024	199.45.154.129	opening connection
+Fri Jul 19 23:24:23 2024	<NO IP>		who disconnects
+Fri Jul 19 23:44:34 2024	172.250.27.145	opening connection
+Fri Jul 19 23:45:26 2024	172.250.27.145	johndoe connects
+Sat Jul 20 00:18:06 2024	<NO IP>		johndoe disconnects
+Sat Jul 20 00:38:06 2024			johndoe LD quits
+Sat Jul 20 00:44:23 2024	24.130.227.19	opening connection
+Sat Jul 20 00:52:53 2024	107.132.32.7	opening connection
+Sat Jul 20 00:53:58 2024	107.132.32.7	sof connects
+Sat Jul 20 00:55:43 2024	<NO IP>		sof disconnects
+Sat Jul 20 01:10:28 2024	<NO IP>		n3tl0kr disconnects
+Sat Jul 20 01:15:43 2024			sof LD quits
+Sat Jul 20 01:30:28 2024			n3tl0kr LD quits
+Sat Jul 20 02:15:03 2024	205.210.31.167	opening connection
+Sat Jul 20 02:15:34 2024	<NO IP>		who disconnects
+Sat Jul 20 02:54:08 2024	75.84.27.234	opening connection
+Sat Jul 20 02:54:40 2024	75.84.27.234	acer connects
+Sat Jul 20 02:56:36 2024	75.84.27.234	acer quits
+Sat Jul 20 03:38:12 2024	68.55.160.244	opening connection
+Sat Jul 20 03:38:15 2024	68.55.160.244	n3tl0kr connects
+Sat Jul 20 04:06:29 2024	24.130.227.19	opening connection
+Sat Jul 20 04:06:50 2024	24.130.227.19	opening connection
+Sat Jul 20 04:08:28 2024	24.130.227.19	lonewolf connects
+Sat Jul 20 04:18:07 2024	75.155.43.240	opening connection
+Sat Jul 20 04:18:17 2024	75.155.43.240	mog quits
+Sat Jul 20 04:18:17 2024	75.155.43.240	mog reconnects
+Sat Jul 20 04:19:15 2024	24.130.227.19	lonewolf quits
+Sat Jul 20 04:19:20 2024	24.130.227.19	opening connection
+Sat Jul 20 04:19:32 2024	24.130.227.19	lonewolf connects
+Sat Jul 20 04:25:28 2024	75.155.43.240	opening connection
+Sat Jul 20 04:25:37 2024	75.155.43.240	mog quits
+Sat Jul 20 04:25:37 2024	75.155.43.240	mog reconnects
+Sat Jul 20 04:26:18 2024	75.155.43.240	opening connection
+Sat Jul 20 04:26:26 2024	75.155.43.240	mog quits
+Sat Jul 20 04:26:26 2024	75.155.43.240	mog reconnects
+Sat Jul 20 04:41:53 2024	24.130.227.19	lonewolf quits
+Sat Jul 20 05:44:46 2024	<NO IP>		mog disconnects
+Sat Jul 20 06:02:30 2024	73.165.134.51	opening connection
+Sat Jul 20 06:03:39 2024	<NO IP>		dafinga disconnects
+Sat Jul 20 06:03:49 2024	73.165.134.51	opening connection
+Sat Jul 20 06:04:46 2024			mog LD quits
+Sat Jul 20 06:05:20 2024	73.165.134.51	dafinga connects
+Sat Jul 20 06:10:37 2024	73.165.134.51	dafinga quits
+Sat Jul 20 06:38:19 2024	185.189.25.10	opening connection
+Sat Jul 20 06:38:39 2024	185.189.25.10	opening connection
+Sat Jul 20 06:38:51 2024	185.189.25.2	slugger quits
+Sat Jul 20 06:38:51 2024	185.189.25.10	slugger reconnects
+Sat Jul 20 06:59:42 2024	147.185.132.69	opening connection
+Sat Jul 20 06:59:42 2024	<NO IP>		who disconnects
+Sat Jul 20 07:45:23 2024	<NO IP>		n3tl0kr disconnects
+Sat Jul 20 07:53:49 2024	185.189.25.10	slugger quits
+Sat Jul 20 07:54:00 2024	185.189.25.10	opening connection
+Sat Jul 20 07:54:12 2024	185.189.25.10	slugger connects
+Sat Jul 20 08:05:23 2024			n3tl0kr LD quits
+Sat Jul 20 08:42:14 2024	185.189.25.10	slugger quits
+Sat Jul 20 09:20:18 2024	94.211.41.124	opening connection
+Sat Jul 20 09:21:20 2024	94.211.41.124	iscripters connects
+Sat Jul 20 09:37:06 2024	<NO IP>		iscripters disconnects
+Sat Jul 20 09:37:06 2024	94.211.41.124	opening connection
+Sat Jul 20 09:37:11 2024	<NO IP>		who disconnects
+Sat Jul 20 09:37:25 2024	94.211.41.124	opening connection
+Sat Jul 20 09:37:44 2024			iscripters LD quits
+Sat Jul 20 09:37:44 2024	94.211.41.124	iscripters reconnects
+Sat Jul 20 10:04:18 2024	94.211.41.124	iscripters quits
+Sat Jul 20 13:16:06 2024	45.128.232.98	opening connection
+Sat Jul 20 13:16:06 2024	<NO IP>		who disconnects
+Sat Jul 20 14:00:16 2024	185.195.233.219	opening connection
+Sat Jul 20 14:00:49 2024	<NO IP>		who disconnects
+Sat Jul 20 14:03:07 2024	185.195.233.219	opening connection
+Sat Jul 20 14:04:04 2024	185.195.233.219	vxstink connects
+Sat Jul 20 14:24:46 2024	68.55.160.244	opening connection
+Sat Jul 20 14:24:49 2024	68.55.160.244	n3tl0kr connects
+Sat Jul 20 14:41:17 2024	181.168.31.211	opening connection
+Sat Jul 20 14:44:00 2024	181.168.31.211	opening connection
+Sat Jul 20 14:44:34 2024	181.168.31.211	pancho connects
+Sat Jul 20 14:57:20 2024	<NO IP>		pancho disconnects
+Sat Jul 20 15:17:20 2024			pancho LD quits
+Sat Jul 20 15:28:56 2024	138.84.41.45	opening connection
+Sat Jul 20 15:29:58 2024	138.84.41.45	acm3 connects
+Sat Jul 20 15:30:53 2024	138.84.41.45	acm3 quits
+Sat Jul 20 15:39:13 2024	24.130.227.19	opening connection
+Sat Jul 20 15:49:09 2024	24.130.227.19	opening connection
+Sat Jul 20 16:08:04 2024	4.151.38.26	opening connection
+Sat Jul 20 16:08:05 2024	<NO IP>		who disconnects
+Sat Jul 20 16:18:29 2024	69.140.60.19	opening connection
+Sat Jul 20 16:19:32 2024	69.140.60.19	evilbotnet connects
+Sat Jul 20 16:33:53 2024	69.140.60.19	evilbotnet quits
+Sat Jul 20 16:36:01 2024	<NO IP>		n3tl0kr disconnects
+Sat Jul 20 16:36:02 2024	185.189.25.5	opening connection
+Sat Jul 20 16:36:05 2024	185.189.25.5	slugger connects
+Sat Jul 20 16:36:26 2024	50.158.72.27	opening connection
+Sat Jul 20 16:37:25 2024	50.158.72.27	thedrak connects
+Sat Jul 20 16:38:40 2024	75.155.43.240	opening connection
+Sat Jul 20 16:38:47 2024	75.155.43.240	mog connects
+Sat Jul 20 16:56:01 2024			n3tl0kr LD quits
+Sat Jul 20 17:13:58 2024	75.155.43.240	mog quits
+Sat Jul 20 17:21:47 2024	170.117.172.237	opening connection
+Sat Jul 20 17:24:37 2024	170.117.172.237	opening connection
+Sat Jul 20 17:25:31 2024	170.117.172.237	thejennydix connects
+Sat Jul 20 17:28:40 2024	<NO IP>		thejennydix disconnects
+Sat Jul 20 17:48:40 2024			thejennydix LD quits
+Sat Jul 20 17:50:34 2024	185.189.25.5	slugger quits
+Sat Jul 20 17:50:34 2024	185.189.25.5	opening connection
+Sat Jul 20 17:50:37 2024	185.189.25.5	slugger connects
+Sat Jul 20 17:51:00 2024	185.189.25.5	slugger quits
+Sat Jul 20 17:51:00 2024	185.189.25.5	opening connection
+Sat Jul 20 17:51:03 2024	185.189.25.5	slugger connects
+Sat Jul 20 17:51:29 2024	<NO IP>		slugger disconnects
+Sat Jul 20 17:51:29 2024	185.189.25.5	opening connection
+Sat Jul 20 17:51:32 2024			slugger LD quits
+Sat Jul 20 17:51:32 2024	185.189.25.5	slugger reconnects
+Sat Jul 20 17:51:43 2024	185.189.25.5	slugger quits
+Sat Jul 20 17:51:43 2024	185.189.25.5	opening connection
+Sat Jul 20 17:51:45 2024	185.189.25.5	opening connection
+Sat Jul 20 17:51:48 2024	185.189.25.5	slugger connects
+Sat Jul 20 17:51:52 2024	185.189.25.5	slugger quits
+Sat Jul 20 17:51:53 2024	185.189.25.5	opening connection
+Sat Jul 20 17:51:55 2024	<NO IP>		who disconnects
+Sat Jul 20 17:51:56 2024	68.55.160.244	opening connection
+Sat Jul 20 17:51:59 2024	68.55.160.244	n3tl0kr connects
+Sat Jul 20 19:07:22 2024	37.228.206.93	opening connection
+Sat Jul 20 19:07:22 2024	<NO IP>		who disconnects
+Sat Jul 20 19:08:20 2024	37.228.206.93	opening connection
+Sat Jul 20 19:16:22 2024	37.228.206.93	opening connection
+Sat Jul 20 19:17:12 2024	37.228.206.93	abi connects
+Sat Jul 20 19:22:15 2024	<NO IP>		abi disconnects
+Sat Jul 20 19:22:50 2024	37.228.206.93	opening connection
+Sat Jul 20 19:22:54 2024			abi LD quits
+Sat Jul 20 19:22:54 2024	37.228.206.93	abi reconnects
+Sat Jul 20 19:23:22 2024	<NO IP>		abi disconnects
+Sat Jul 20 19:43:22 2024			abi LD quits
+Sat Jul 20 20:04:23 2024	69.140.60.19	opening connection
+Sat Jul 20 20:04:29 2024	69.140.60.19	evilbotnet connects
+Sat Jul 20 20:07:16 2024	185.189.25.3	opening connection
+Sat Jul 20 20:07:19 2024	185.189.25.3	slugger connects
+Sat Jul 20 20:59:03 2024	<NO IP>		thedrak disconnects
+Sat Jul 20 21:00:26 2024	69.140.60.19	evilbotnet quits
+Sat Jul 20 21:00:32 2024	69.140.60.19	opening connection
+Sat Jul 20 21:00:38 2024	69.140.60.19	evilbotnet connects
+Sat Jul 20 21:06:32 2024	69.140.60.19	evilbotnet quits
+Sat Jul 20 21:10:27 2024	185.219.141.117	opening connection
+Sat Jul 20 21:19:03 2024			thedrak LD quits
+Sat Jul 20 21:26:54 2024	107.127.3.178	opening connection
+Sat Jul 20 21:29:07 2024	107.127.3.178	opening connection
+Sat Jul 20 21:40:04 2024	107.127.3.178	opening connection
+Sat Jul 20 21:40:19 2024	<NO IP>		who disconnects
+Sat Jul 20 21:40:21 2024	107.127.3.178	opening connection
+Sat Jul 20 21:47:24 2024	107.127.3.178	opening connection
+Sat Jul 20 21:48:19 2024	107.127.3.178	opening connection
+Sat Jul 20 21:49:34 2024	107.127.3.178	ill1 connects
+Sat Jul 20 21:56:17 2024	107.127.3.178	ill1 quits
+Sat Jul 20 21:56:21 2024	107.127.3.178	opening connection
+Sat Jul 20 21:56:25 2024	<NO IP>		who disconnects
+Sat Jul 20 21:56:51 2024	107.127.3.178	opening connection
+Sat Jul 20 21:57:06 2024	107.127.3.178	ill1 connects
+Sat Jul 20 22:41:41 2024	185.189.25.3	opening connection
+Sat Jul 20 22:41:47 2024	185.189.25.3	slugger quits
+Sat Jul 20 22:41:47 2024	185.189.25.3	slugger reconnects
+Sat Jul 20 22:49:09 2024	199.45.155.78	opening connection
+Sat Jul 20 22:49:09 2024	<NO IP>		who disconnects
+Sat Jul 20 22:49:13 2024	199.45.155.78	opening connection
+Sat Jul 20 22:49:28 2024	<NO IP>		who disconnects
+Sat Jul 20 23:12:26 2024	185.189.25.4	opening connection
+Sat Jul 20 23:12:32 2024	185.189.25.3	slugger quits
+Sat Jul 20 23:12:32 2024	185.189.25.4	slugger reconnects
+Sat Jul 20 23:40:15 2024	205.210.31.50	opening connection
+Sat Jul 20 23:40:15 2024	<NO IP>		who disconnects
+Sun Jul 21 01:38:07 2024	185.189.25.5	opening connection
+Sun Jul 21 01:38:16 2024	185.189.25.4	slugger quits
+Sun Jul 21 01:38:16 2024	185.189.25.5	slugger reconnects
+Sun Jul 21 02:22:30 2024	<NO IP>		ill1 disconnects
+Sun Jul 21 02:42:30 2024			ill1 LD quits
+Sun Jul 21 02:45:30 2024	<NO IP>		n3tl0kr disconnects
+Sun Jul 21 02:54:51 2024	205.210.31.173	opening connection
+Sun Jul 21 02:55:23 2024	<NO IP>		who disconnects
+Sun Jul 21 02:59:43 2024	75.60.184.94	opening connection
+Sun Jul 21 03:01:24 2024	75.60.184.94	blinkingthing connects
+Sun Jul 21 03:05:30 2024			n3tl0kr LD quits
+Sun Jul 21 03:11:43 2024	68.55.160.244	opening connection
+Sun Jul 21 03:11:46 2024	68.55.160.244	n3tl0kr connects
+Sun Jul 21 03:16:41 2024	185.216.231.144	opening connection
+Sun Jul 21 03:19:00 2024	185.216.231.144	opening connection
+Sun Jul 21 03:19:44 2024	185.216.231.144	andesstriker connects
+Sun Jul 21 03:32:09 2024	75.60.184.94	blinkingthing quits
+Sun Jul 21 03:37:07 2024	<NO IP>		andesstriker disconnects
+Sun Jul 21 03:57:07 2024			andesstriker LD quits
+Sun Jul 21 04:23:22 2024	209.38.164.51	opening connection
+Sun Jul 21 04:23:22 2024	<NO IP>		who disconnects
+Sun Jul 21 04:28:14 2024	75.155.43.240	opening connection
+Sun Jul 21 04:29:34 2024	75.155.43.240	mog connects
+Sun Jul 21 04:33:01 2024	75.155.43.240	mog quits
+Sun Jul 21 05:07:51 2024	185.189.25.5	slugger quits
+Sun Jul 21 05:07:53 2024	185.189.25.5	opening connection
+Sun Jul 21 05:07:56 2024	185.189.25.5	slugger connects
+Sun Jul 21 05:08:45 2024	185.189.25.5	slugger quits
+Sun Jul 21 05:08:55 2024	185.189.25.5	opening connection
+Sun Jul 21 05:08:58 2024	185.189.25.5	slugger connects
+Sun Jul 21 05:52:17 2024	<NO IP>		n3tl0kr disconnects
+Sun Jul 21 06:12:17 2024			n3tl0kr LD quits
+Sun Jul 21 06:22:36 2024	147.185.132.77	opening connection
+Sun Jul 21 06:22:36 2024	147.185.132.77	opening connection
+Sun Jul 21 06:22:36 2024	<NO IP>		who disconnects
+Sun Jul 21 06:22:36 2024	<NO IP>		who disconnects
+Sun Jul 21 06:49:39 2024	157.97.134.119	opening connection
+Sun Jul 21 06:49:52 2024	157.97.134.119	andesstriker connects
+Sun Jul 21 07:04:09 2024	185.189.25.5	slugger quits
+Sun Jul 21 07:04:21 2024	185.189.25.5	opening connection
+Sun Jul 21 07:04:24 2024	185.189.25.5	slugger connects
+Sun Jul 21 07:04:56 2024	185.189.25.5	slugger quits
+Sun Jul 21 07:16:55 2024	184.72.31.244	opening connection
+Sun Jul 21 07:17:05 2024	<NO IP>		who disconnects
+Sun Jul 21 07:20:49 2024	<NO IP>		andesstriker disconnects
+Sun Jul 21 07:40:49 2024			andesstriker LD quits
+Sun Jul 21 08:00:33 2024	154.212.141.182	opening connection
+Sun Jul 21 08:00:33 2024	<NO IP>		who disconnects
+Sun Jul 21 08:00:33 2024	154.212.141.182	opening connection
+Sun Jul 21 08:00:33 2024	<NO IP>		who disconnects
+Sun Jul 21 08:00:33 2024	154.212.141.182	opening connection
+Sun Jul 21 08:00:34 2024	<NO IP>		who disconnects
+Sun Jul 21 08:00:34 2024	154.212.141.182	opening connection
+Sun Jul 21 08:00:34 2024	<NO IP>		who disconnects
+Sun Jul 21 08:00:34 2024	154.212.141.182	opening connection
+Sun Jul 21 08:00:34 2024	<NO IP>		who disconnects
+Sun Jul 21 08:00:35 2024	154.212.141.182	opening connection
+Sun Jul 21 08:00:44 2024	<NO IP>		who disconnects
+Sun Jul 21 08:00:45 2024	154.212.141.182	opening connection
+Sun Jul 21 08:00:45 2024	<NO IP>		who disconnects
+Sun Jul 21 08:00:45 2024	154.212.141.182	opening connection
+Sun Jul 21 08:00:45 2024	<NO IP>		who disconnects
+Sun Jul 21 08:00:45 2024	154.212.141.182	opening connection
+Sun Jul 21 08:00:46 2024	<NO IP>		who disconnects
+Sun Jul 21 08:00:46 2024	154.212.141.182	opening connection
+Sun Jul 21 08:00:46 2024	<NO IP>		who disconnects
+Sun Jul 21 13:47:37 2024	68.55.160.244	opening connection
+Sun Jul 21 13:47:40 2024	68.55.160.244	n3tl0kr connects
+Sun Jul 21 15:20:04 2024	115.231.78.3	opening connection
+Sun Jul 21 15:20:05 2024	<NO IP>		who disconnects
+Sun Jul 21 17:34:39 2024	185.189.25.7	opening connection
+Sun Jul 21 17:34:42 2024	185.189.25.7	slugger connects
+Sun Jul 21 19:19:10 2024	185.189.25.11	opening connection
+Sun Jul 21 19:19:15 2024	185.189.25.7	slugger quits
+Sun Jul 21 19:19:15 2024	185.189.25.11	slugger reconnects
+Sun Jul 21 19:49:27 2024	147.185.132.183	opening connection
+Sun Jul 21 19:50:00 2024	<NO IP>		who disconnects
+Sun Jul 21 20:57:24 2024	68.6.183.70	opening connection
+Sun Jul 21 20:59:33 2024	68.6.183.70	opening connection
+Sun Jul 21 21:00:00 2024	68.6.183.70	tw0straws connects
+Sun Jul 21 21:03:37 2024	<NO IP>		tw0straws disconnects
+Sun Jul 21 21:16:33 2024	<NO IP>		n3tl0kr disconnects
+Sun Jul 21 21:23:37 2024			tw0straws LD quits
+Sun Jul 21 21:36:33 2024			n3tl0kr LD quits
+Sun Jul 21 22:15:13 2024	76.130.190.71	opening connection
+Sun Jul 21 22:16:51 2024	76.130.190.71	b1gd4wg connects
+Sun Jul 21 22:37:29 2024	76.130.190.71	b1gd4wg quits
+Sun Jul 21 22:55:56 2024	68.55.160.244	opening connection
+Sun Jul 21 22:55:59 2024	68.55.160.244	n3tl0kr connects
+Sun Jul 21 23:26:56 2024	205.210.31.108	opening connection
+Sun Jul 21 23:26:57 2024	<NO IP>		who disconnects
+Mon Jul 22 03:34:48 2024	<NO IP>		n3tl0kr disconnects
+Mon Jul 22 03:54:48 2024			n3tl0kr LD quits
+Mon Jul 22 05:03:10 2024	76.173.228.207	opening connection
+Mon Jul 22 05:03:10 2024	<NO IP>		who disconnects
+Mon Jul 22 05:03:25 2024	76.173.228.207	opening connection
+Mon Jul 22 05:03:25 2024	<NO IP>		who disconnects
+Mon Jul 22 05:04:11 2024	76.173.228.207	opening connection
+Mon Jul 22 05:06:19 2024	76.173.228.207	opening connection
+Mon Jul 22 05:07:09 2024	76.173.228.207	feath3rz connects
+Mon Jul 22 05:13:18 2024	167.94.146.49	opening connection
+Mon Jul 22 05:13:18 2024	<NO IP>		who disconnects
+Mon Jul 22 05:13:22 2024	167.94.146.49	opening connection
+Mon Jul 22 05:13:37 2024	<NO IP>		who disconnects
+Mon Jul 22 11:44:46 2024	185.189.25.11	slugger quits
+Mon Jul 22 14:46:41 2024	91.191.209.206	opening connection
+Mon Jul 22 14:46:41 2024	<NO IP>		who disconnects
+Mon Jul 22 15:49:41 2024	174.17.176.183	opening connection
+Mon Jul 22 15:50:27 2024	174.17.176.183	badmeatloaf connects
+Mon Jul 22 15:51:59 2024	174.17.176.183	badmeatloaf quits
+Mon Jul 22 16:56:28 2024	118.193.33.130	opening connection
+Mon Jul 22 16:56:28 2024	<NO IP>		who disconnects
+Mon Jul 22 17:16:03 2024	209.91.225.110	opening connection
+Mon Jul 22 17:17:25 2024	209.91.225.110	opening connection
+Mon Jul 22 17:18:55 2024	209.91.225.110	druid connects
+Mon Jul 22 17:24:42 2024	23.95.200.178	opening connection
+Mon Jul 22 17:24:42 2024	<NO IP>		who disconnects
+Mon Jul 22 17:27:09 2024	209.91.225.110	druid quits
+Mon Jul 22 18:03:11 2024	50.204.130.217	opening connection
+Mon Jul 22 18:05:23 2024	50.204.130.217	opening connection
+Mon Jul 22 18:06:28 2024	50.204.130.217	gonemuding connects
+Mon Jul 22 18:26:25 2024	185.189.25.11	opening connection
+Mon Jul 22 18:26:28 2024	185.189.25.11	slugger connects
+Mon Jul 22 18:41:58 2024	75.155.43.240	opening connection
+Mon Jul 22 18:42:04 2024	75.155.43.240	mog connects
+Mon Jul 22 20:23:29 2024	91.191.209.206	opening connection
+Mon Jul 22 20:23:29 2024	<NO IP>		who disconnects
+Mon Jul 22 20:32:26 2024	76.173.228.207	opening connection
+Mon Jul 22 20:32:51 2024	76.173.228.207	feath3rz connects
+Mon Jul 22 21:07:52 2024	50.204.130.217	gonemuding quits
+Mon Jul 22 21:08:01 2024	50.204.130.217	opening connection
+Mon Jul 22 21:08:12 2024	50.204.130.217	gonemuding connects
+Mon Jul 22 21:08:33 2024	50.204.130.217	gonemuding quits
+Mon Jul 22 21:14:46 2024	76.173.228.207	opening connection
+Mon Jul 22 21:15:00 2024	76.173.228.207	feath3rz quits
+Mon Jul 22 21:15:00 2024	76.173.228.207	feath3rz reconnects
+Mon Jul 22 21:15:04 2024	185.189.25.11	opening connection
+Mon Jul 22 21:15:09 2024	185.189.25.11	slugger quits
+Mon Jul 22 21:15:09 2024	185.189.25.11	slugger reconnects
+Mon Jul 22 22:37:27 2024	<NO IP>		vxstink disconnects
+Mon Jul 22 22:57:27 2024			vxstink LD quits
+Mon Jul 22 23:12:49 2024	<NO IP>		feath3rz disconnects
+Mon Jul 22 23:32:49 2024			feath3rz LD quits
+Tue Jul 23 01:12:47 2024	205.210.31.75	opening connection
+Tue Jul 23 01:12:47 2024	<NO IP>		who disconnects
+Tue Jul 23 01:16:23 2024	76.173.228.207	opening connection
+Tue Jul 23 01:16:47 2024	76.173.228.207	feath3rz connects
+Tue Jul 23 02:36:01 2024	198.235.24.120	opening connection
+Tue Jul 23 02:36:01 2024	<NO IP>		who disconnects
+Tue Jul 23 03:05:46 2024	185.189.25.11	slugger quits
+Tue Jul 23 03:05:58 2024	185.189.25.11	opening connection
+Tue Jul 23 03:06:01 2024	185.189.25.11	slugger connects
+Tue Jul 23 03:22:00 2024	<NO IP>		slugger disconnects
+Tue Jul 23 03:22:08 2024	185.189.25.11	opening connection
+Tue Jul 23 03:22:11 2024			slugger LD quits
+Tue Jul 23 03:22:11 2024	185.189.25.11	slugger reconnects
+Tue Jul 23 03:52:20 2024	184.170.252.148	opening connection
+Tue Jul 23 03:52:58 2024	184.170.252.148	blinkingthing connects
+Tue Jul 23 04:03:05 2024	75.155.43.240	opening connection
+Tue Jul 23 04:03:11 2024	75.155.43.240	mog quits
+Tue Jul 23 04:03:11 2024	75.155.43.240	mog reconnects
+Tue Jul 23 04:06:38 2024	75.155.43.240	opening connection
+Tue Jul 23 04:06:58 2024	75.155.43.240	steve connects
+Tue Jul 23 04:10:13 2024	75.155.43.240	opening connection
+Tue Jul 23 04:10:29 2024	75.155.43.240	mog connects
+Tue Jul 23 04:11:09 2024	75.155.43.240	mog quits
+Tue Jul 23 04:11:15 2024	75.155.43.240	opening connection
+Tue Jul 23 04:11:23 2024	75.155.43.240	mog connects
+Tue Jul 23 04:11:25 2024	75.155.43.240	mog quits
+Tue Jul 23 04:11:29 2024	75.155.43.240	opening connection
+Tue Jul 23 04:11:32 2024	75.155.43.240	mog connects
+Tue Jul 23 04:22:19 2024	185.189.25.11	slugger quits
+Tue Jul 23 04:25:48 2024	184.170.252.148	blinkingthing quits
+Tue Jul 23 04:38:36 2024	<NO IP>		mog disconnects
+Tue Jul 23 04:38:45 2024	75.155.43.240	opening connection
+Tue Jul 23 04:38:48 2024			mog LD quits
+Tue Jul 23 04:38:48 2024	75.155.43.240	mog reconnects
+Tue Jul 23 04:38:57 2024	75.155.43.240	steve quits
+Tue Jul 23 05:09:45 2024	75.155.43.240	opening connection
+Tue Jul 23 05:10:16 2024	75.155.43.240	mog connects
+Tue Jul 23 05:10:21 2024	75.155.43.240	mog quits
+Tue Jul 23 05:10:25 2024	75.155.43.240	opening connection
+Tue Jul 23 05:10:29 2024	75.155.43.240	mog connects
+Tue Jul 23 05:19:01 2024	75.155.43.240	mog quits
+Tue Jul 23 06:16:34 2024	147.185.132.153	opening connection
+Tue Jul 23 13:30:02 2024	75.155.43.240	opening connection
+Tue Jul 23 13:30:08 2024	75.155.43.240	mog connects
+Tue Jul 23 13:45:36 2024	<NO IP>		feath3rz disconnects
+Tue Jul 23 14:05:36 2024			feath3rz LD quits
+Tue Jul 23 14:58:02 2024	45.128.232.98	opening connection
+Tue Jul 23 14:58:02 2024	<NO IP>		who disconnects
+Tue Jul 23 15:05:41 2024	80.82.77.33	opening connection
+Tue Jul 23 15:05:47 2024	80.82.77.33	opening connection
+Tue Jul 23 15:05:47 2024	<NO IP>		who disconnects
+Tue Jul 23 15:05:47 2024	80.82.77.33	opening connection
+Tue Jul 23 15:05:48 2024	<NO IP>		who disconnects
+Tue Jul 23 15:05:49 2024	<NO IP>		who disconnects
+Tue Jul 23 15:15:01 2024	207.90.244.4	opening connection
+Tue Jul 23 15:15:07 2024	207.90.244.4	opening connection
+Tue Jul 23 15:15:07 2024	<NO IP>		who disconnects
+Tue Jul 23 15:15:07 2024	207.90.244.4	opening connection
+Tue Jul 23 15:15:08 2024	<NO IP>		who disconnects
+Tue Jul 23 15:15:14 2024	<NO IP>		who disconnects
+Tue Jul 23 15:34:47 2024	206.168.34.113	opening connection
+Tue Jul 23 15:35:02 2024	<NO IP>		who disconnects
+Tue Jul 23 16:27:46 2024	76.173.228.207	opening connection
+Tue Jul 23 16:27:58 2024	76.173.228.207	feath3rz connects
+Tue Jul 23 18:20:58 2024	167.94.145.100	opening connection
+Tue Jul 23 18:20:58 2024	<NO IP>		who disconnects
+Tue Jul 23 18:21:02 2024	167.94.145.100	opening connection
+Tue Jul 23 18:21:17 2024	<NO IP>		who disconnects
+Tue Jul 23 18:21:56 2024	172.212.61.226	opening connection
+Tue Jul 23 18:21:56 2024	<NO IP>		who disconnects
+Tue Jul 23 18:42:29 2024	198.235.24.53	opening connection
+Tue Jul 23 18:43:01 2024	<NO IP>		who disconnects
+Tue Jul 23 18:55:12 2024	45.128.232.171	opening connection
+Tue Jul 23 18:55:12 2024	<NO IP>		who disconnects
+Tue Jul 23 19:03:36 2024	<NO IP>		feath3rz disconnects
+Tue Jul 23 19:23:36 2024			feath3rz LD quits
+Tue Jul 23 20:50:47 2024	147.185.132.91	opening connection
+Tue Jul 23 20:50:47 2024	<NO IP>		who disconnects
+Tue Jul 23 21:53:53 2024	167.94.138.125	opening connection
+Tue Jul 23 21:53:53 2024	<NO IP>		who disconnects
+Tue Jul 23 21:54:00 2024	167.94.138.125	opening connection
+Tue Jul 23 21:54:16 2024	<NO IP>		who disconnects
+Tue Jul 23 22:48:07 2024	<NO IP>		mog disconnects
+Tue Jul 23 23:08:07 2024			mog LD quits
+Wed Jul 24 00:28:46 2024	45.128.232.116	opening connection
+Wed Jul 24 00:28:46 2024	<NO IP>		who disconnects
+Wed Jul 24 01:00:46 2024	47.251.88.50	opening connection
+Wed Jul 24 01:00:49 2024	<NO IP>		who disconnects
+Wed Jul 24 01:00:49 2024	47.251.88.50	opening connection
+Wed Jul 24 01:00:59 2024	<NO IP>		who disconnects
+Wed Jul 24 02:22:40 2024	174.17.176.183	opening connection
+Wed Jul 24 02:23:17 2024	<NO IP>		badmeatloaf disconnects
+Wed Jul 24 02:24:10 2024	174.17.176.183	opening connection
+Wed Jul 24 02:24:13 2024	174.17.176.183	badmeatloaf connects
+Wed Jul 24 02:29:24 2024	73.76.133.153	opening connection
+Wed Jul 24 02:31:27 2024	73.76.133.153	opening connection
+Wed Jul 24 03:54:09 2024	174.17.176.183	badmeatloaf quits
+Wed Jul 24 04:15:41 2024	76.130.190.71	opening connection
+Wed Jul 24 04:16:04 2024	76.130.190.71	b1gd4wg connects
+Wed Jul 24 05:34:19 2024	127.0.0.1	opening connection
+Wed Jul 24 05:34:21 2024	127.0.0.1	mog connects
+Wed Jul 24 05:40:29 2024	76.130.190.71	b1gd4wg quits
+Wed Jul 24 05:56:35 2024	76.173.228.207	opening connection
+Wed Jul 24 05:56:46 2024	76.173.228.207	feath3rz connects
+Wed Jul 24 08:28:26 2024	167.99.53.103	opening connection
+Wed Jul 24 08:28:58 2024	<NO IP>		who disconnects
+Wed Jul 24 08:38:18 2024	167.99.53.103	opening connection
+Wed Jul 24 08:38:18 2024	<NO IP>		who disconnects
+Wed Jul 24 10:09:46 2024	<NO IP>		feath3rz disconnects
+Wed Jul 24 10:29:46 2024			feath3rz LD quits
+Wed Jul 24 14:27:11 2024	45.128.232.171	opening connection
+Wed Jul 24 14:27:11 2024	<NO IP>		who disconnects
+Wed Jul 24 15:12:07 2024	185.242.226.47	opening connection
+Wed Jul 24 15:12:07 2024	<NO IP>		who disconnects
+Wed Jul 24 15:36:19 2024	76.173.228.207	opening connection
+Wed Jul 24 15:36:33 2024	76.173.228.207	feath3rz connects
+Wed Jul 24 17:07:29 2024	73.76.133.153	opening connection
+Wed Jul 24 17:07:36 2024	<NO IP>		who disconnects
+Wed Jul 24 18:47:18 2024	<NO IP>		feath3rz disconnects
+Wed Jul 24 19:07:18 2024			feath3rz LD quits
+Wed Jul 24 19:12:04 2024	64.227.116.4	opening connection
+Wed Jul 24 19:12:04 2024	<NO IP>		who disconnects
+Wed Jul 24 19:12:04 2024	64.227.116.4	opening connection
+Wed Jul 24 19:12:15 2024	<NO IP>		who disconnects
+Wed Jul 24 19:12:15 2024	64.227.116.4	opening connection
+Wed Jul 24 19:12:20 2024	<NO IP>		who disconnects
+Wed Jul 24 19:12:21 2024	64.227.116.4	opening connection
+Wed Jul 24 19:12:26 2024	<NO IP>		who disconnects
+Wed Jul 24 19:12:26 2024	64.227.116.4	opening connection
+Wed Jul 24 19:12:33 2024	<NO IP>		help disconnects
+Wed Jul 24 19:12:33 2024	64.227.116.4	opening connection
+Wed Jul 24 19:12:41 2024	<NO IP>		who disconnects
+Wed Jul 24 19:12:41 2024	64.227.116.4	opening connection
+Wed Jul 24 19:12:46 2024	<NO IP>		who disconnects
+Wed Jul 24 19:12:46 2024	64.227.116.4	opening connection
+Wed Jul 24 19:12:51 2024	<NO IP>		who disconnects
+Wed Jul 24 19:12:51 2024	46.101.225.195	opening connection
+Wed Jul 24 19:12:51 2024	46.101.225.195	opening connection
+Wed Jul 24 19:12:51 2024	<NO IP>		who disconnects
+Wed Jul 24 19:12:51 2024	46.101.225.195	opening connection
+Wed Jul 24 19:12:51 2024	<NO IP>		who disconnects
+Wed Jul 24 19:12:52 2024	46.101.225.195	opening connection
+Wed Jul 24 19:12:52 2024	<NO IP>		who disconnects
+Wed Jul 24 19:13:11 2024	<NO IP>		who disconnects
+Wed Jul 24 19:21:39 2024	46.101.161.99	opening connection
+Wed Jul 24 19:21:40 2024	<NO IP>		who disconnects
+Wed Jul 24 20:43:20 2024	73.76.133.153	opening connection
+Wed Jul 24 20:43:51 2024	73.76.133.153	goldshark connects
+Wed Jul 24 21:17:12 2024	73.76.133.153	goldshark quits
+Wed Jul 24 22:26:27 2024	73.76.133.153	opening connection
+Wed Jul 24 22:26:38 2024	73.76.133.153	goldshark connects
+Wed Jul 24 22:27:50 2024	<NO IP>		goldshark disconnects
+Wed Jul 24 22:32:57 2024	75.155.43.240	opening connection
+Wed Jul 24 22:33:05 2024	127.0.0.1	mog quits
+Wed Jul 24 22:33:05 2024	75.155.43.240	mog reconnects
+Wed Jul 24 22:47:50 2024			goldshark LD quits
+Wed Jul 24 22:56:37 2024	127.0.0.1	opening connection
+Wed Jul 24 22:56:43 2024	75.155.43.240	mog quits
+Wed Jul 24 22:56:43 2024	127.0.0.1	mog reconnects
+Wed Jul 24 23:53:25 2024	73.6.87.153	opening connection
+Wed Jul 24 23:54:19 2024	73.6.87.153	opening connection
+Wed Jul 24 23:54:26 2024	<NO IP>		who disconnects
+Wed Jul 24 23:54:26 2024	73.6.87.153	opening connection
+Wed Jul 24 23:54:38 2024	<NO IP>		who disconnects
+Wed Jul 24 23:56:02 2024	73.6.87.153	opening connection
+Wed Jul 24 23:59:11 2024	73.6.87.153	opening connection
+Wed Jul 24 23:59:42 2024	73.6.87.153	opening connection
+Thu Jul 25 00:00:39 2024	73.6.87.153	pirate1 connects
+Thu Jul 25 00:12:50 2024	198.235.24.54	opening connection
+Thu Jul 25 00:13:20 2024	<NO IP>		who disconnects
+Thu Jul 25 01:38:36 2024	174.17.176.183	opening connection
+Thu Jul 25 01:39:16 2024	<NO IP>		badmeatloaf disconnects
+Thu Jul 25 01:40:20 2024	174.17.176.183	opening connection
+Thu Jul 25 01:41:24 2024	174.17.176.183	badmeatl0af connects
+Thu Jul 25 02:54:05 2024	73.76.133.153	opening connection
+Thu Jul 25 02:54:19 2024	73.76.133.153	goldshark connects
+Thu Jul 25 03:01:37 2024	174.17.176.183	badmeatl0af quits
+Thu Jul 25 05:28:56 2024	206.189.114.121	opening connection
+Thu Jul 25 05:28:56 2024	<NO IP>		who disconnects
+Thu Jul 25 05:59:47 2024	<NO IP>		pirate1 disconnects
+Thu Jul 25 06:19:47 2024			pirate1 LD quits
+Thu Jul 25 06:57:01 2024	167.94.145.108	opening connection
+Thu Jul 25 06:57:02 2024	<NO IP>		who disconnects
+Thu Jul 25 06:57:05 2024	167.94.145.108	opening connection
+Thu Jul 25 06:57:21 2024	<NO IP>		who disconnects
+Thu Jul 25 08:06:38 2024	73.76.133.153	goldshark quits
+Thu Jul 25 08:53:15 2024	198.235.24.44	opening connection
+Thu Jul 25 08:53:16 2024	<NO IP>		who disconnects
+Thu Jul 25 09:29:43 2024	115.231.78.3	opening connection
+Thu Jul 25 09:29:43 2024	<NO IP>		who disconnects
+Thu Jul 25 15:00:45 2024	165.230.224.129	opening connection
+Thu Jul 25 15:02:15 2024	165.230.224.129	bokonon connects
+Thu Jul 25 16:17:40 2024	165.230.224.129	bokonon quits
+Thu Jul 25 16:18:21 2024	165.230.224.129	opening connection
+Thu Jul 25 16:18:42 2024	165.230.224.129	bokonon connects
+Thu Jul 25 16:21:38 2024	165.230.224.129	bokonon quits
+Thu Jul 25 16:32:52 2024	76.173.228.207	opening connection
+Thu Jul 25 16:33:04 2024	76.173.228.207	feath3rz connects
+Thu Jul 25 16:44:22 2024	127.0.0.1	opening connection
+Thu Jul 25 16:44:47 2024	127.0.0.1	mog connects
+Thu Jul 25 16:44:53 2024	127.0.0.1	mog quits
+Thu Jul 25 16:44:53 2024	127.0.0.1	opening connection
+Thu Jul 25 16:44:55 2024	127.0.0.1	mog connects
+Thu Jul 25 16:50:06 2024	199.45.154.112	opening connection
+Thu Jul 25 16:50:07 2024	<NO IP>		who disconnects
+Thu Jul 25 16:50:10 2024	199.45.154.112	opening connection
+Thu Jul 25 16:50:25 2024	<NO IP>		who disconnects
+Thu Jul 25 18:45:24 2024	73.76.133.153	opening connection
+Thu Jul 25 18:45:40 2024	73.76.133.153	goldshark connects
+Thu Jul 25 18:59:44 2024	75.155.43.240	opening connection
+Thu Jul 25 18:59:50 2024	127.0.0.1	mog quits
+Thu Jul 25 18:59:50 2024	75.155.43.240	mog reconnects
+Thu Jul 25 19:15:05 2024	75.155.43.240	mog quits
+Thu Jul 25 19:21:47 2024	127.0.0.1	opening connection
+Thu Jul 25 19:21:52 2024	127.0.0.1	mog connects
+Thu Jul 25 19:24:21 2024	73.76.133.153	opening connection
+Thu Jul 25 19:25:25 2024	73.76.133.153	shark connects
+Thu Jul 25 19:30:48 2024	73.76.133.153	shark quits
+Thu Jul 25 20:45:01 2024	216.147.121.179	opening connection
+Thu Jul 25 20:45:45 2024	216.147.121.179	jakarrl connects
+Thu Jul 25 20:49:32 2024	70.127.106.207	opening connection
+Thu Jul 25 20:51:01 2024	70.127.106.207	carriersignal connects
+Thu Jul 25 20:55:39 2024	70.127.106.207	opening connection
+Thu Jul 25 20:56:10 2024	70.127.106.207	carriersignal connects
+Thu Jul 25 21:03:42 2024	216.147.121.179	jakarrl quits
+Thu Jul 25 21:05:30 2024	70.127.106.207	opening connection
+Thu Jul 25 21:05:50 2024	70.127.106.207	csig connects
+Thu Jul 25 23:47:13 2024	181.214.226.8	opening connection
+Thu Jul 25 23:47:23 2024	181.214.226.8	pirate1 connects
+Fri Jul 26 00:15:19 2024	73.6.87.153	opening connection
+Fri Jul 26 00:15:34 2024	181.214.226.8	pirate1 quits
+Fri Jul 26 00:15:34 2024	73.6.87.153	pirate1 reconnects
+Fri Jul 26 00:52:06 2024	167.94.146.48	opening connection
+Fri Jul 26 00:52:06 2024	<NO IP>		who disconnects
+Fri Jul 26 00:52:10 2024	167.94.146.48	opening connection
+Fri Jul 26 00:52:25 2024	<NO IP>		who disconnects
+Fri Jul 26 01:50:22 2024	73.76.133.153	opening connection
+Fri Jul 26 01:50:40 2024	73.76.133.153	shark connects
+Fri Jul 26 01:56:24 2024	198.235.24.203	opening connection
+Fri Jul 26 01:56:24 2024	<NO IP>		who disconnects
+Fri Jul 26 03:06:31 2024	162.216.150.36	opening connection
+Fri Jul 26 03:06:31 2024	162.216.150.36	opening connection
+Fri Jul 26 03:06:31 2024	<NO IP>		who disconnects
+Fri Jul 26 03:06:31 2024	<NO IP>		who disconnects
+Fri Jul 26 03:45:53 2024	184.170.252.148	opening connection
+Fri Jul 26 03:46:14 2024	184.170.252.148	blinkingthing connects
+Fri Jul 26 04:03:15 2024	<NO IP>		feath3rz disconnects
+Fri Jul 26 04:03:27 2024	76.173.228.207	opening connection
+Fri Jul 26 04:03:37 2024			feath3rz LD quits
+Fri Jul 26 04:03:37 2024	76.173.228.207	feath3rz reconnects
+Fri Jul 26 04:04:59 2024	<NO IP>		feath3rz disconnects
+Fri Jul 26 04:05:56 2024	76.173.228.207	opening connection
+Fri Jul 26 04:06:05 2024			feath3rz LD quits
+Fri Jul 26 04:06:05 2024	76.173.228.207	feath3rz reconnects
+Fri Jul 26 04:16:33 2024	184.170.252.148	blinkingthing quits
+Fri Jul 26 04:35:29 2024	73.76.133.153	opening connection
+Fri Jul 26 04:37:40 2024	73.76.133.153	opening connection
+Fri Jul 26 04:38:04 2024	73.76.133.153	tiburon connects
+Fri Jul 26 05:01:38 2024	165.232.34.87	opening connection
+Fri Jul 26 05:01:39 2024	<NO IP>		who disconnects
+Fri Jul 26 05:48:30 2024	205.210.31.4	opening connection
+Fri Jul 26 05:48:30 2024	<NO IP>		who disconnects
+Fri Jul 26 06:26:13 2024	73.76.133.153	tiburon quits
+Fri Jul 26 06:39:24 2024	147.185.132.105	opening connection
+Fri Jul 26 06:39:24 2024	<NO IP>		who disconnects
+Fri Jul 26 06:53:21 2024	198.235.24.113	opening connection
+Fri Jul 26 06:53:21 2024	<NO IP>		who disconnects
+Fri Jul 26 08:30:46 2024	76.173.228.207	feath3rz quits
+Fri Jul 26 10:48:29 2024	198.235.24.49	opening connection
+Fri Jul 26 10:49:00 2024	<NO IP>		who disconnects
+Fri Jul 26 11:16:47 2024	206.168.34.120	opening connection
+Fri Jul 26 11:16:47 2024	<NO IP>		who disconnects
+Fri Jul 26 11:16:50 2024	206.168.34.120	opening connection
+Fri Jul 26 11:17:06 2024	<NO IP>		who disconnects
+Fri Jul 26 11:51:13 2024	104.152.52.214	opening connection
+Fri Jul 26 12:41:28 2024	216.147.122.3	opening connection
+Fri Jul 26 12:41:43 2024	216.147.122.3	opening connection
+Fri Jul 26 12:41:55 2024	216.147.122.3	opening connection
+Fri Jul 26 12:41:59 2024	216.147.122.3	jakarrl connects
+Fri Jul 26 13:12:23 2024	216.147.122.3	jakarrl quits
+Fri Jul 26 13:32:04 2024	128.62.172.96	opening connection
+Fri Jul 26 13:33:57 2024	128.62.172.96	senseirat connects
+Fri Jul 26 13:40:16 2024	170.52.14.166	opening connection
+Fri Jul 26 13:42:47 2024	170.52.14.166	opening connection
+Fri Jul 26 13:43:19 2024	170.52.14.166	bowphat connects
+Fri Jul 26 13:49:46 2024	128.62.172.96	opening connection
+Fri Jul 26 13:50:10 2024	128.62.172.96	senseirat connects
+Fri Jul 26 13:54:43 2024	170.52.14.166	bowphat quits
+Fri Jul 26 15:08:46 2024	23.125.161.8	opening connection
+Fri Jul 26 15:10:18 2024	23.125.161.8	kal connects
+Fri Jul 26 15:26:04 2024	128.62.172.96	opening connection
+Fri Jul 26 15:26:23 2024	128.62.172.96	senseirat connects
+Fri Jul 26 15:48:50 2024	<NO IP>		kal disconnects
+Fri Jul 26 16:08:50 2024			kal LD quits
+Fri Jul 26 17:34:50 2024	128.62.52.216	opening connection
+Fri Jul 26 17:35:04 2024	128.62.172.96	senseirat quits
+Fri Jul 26 17:35:04 2024	128.62.52.216	senseirat reconnects
+Fri Jul 26 18:06:50 2024	76.173.228.207	opening connection
+Fri Jul 26 18:07:03 2024	76.173.228.207	feath3rz connects
+Fri Jul 26 18:40:19 2024	<NO IP>		feath3rz disconnects
+Fri Jul 26 18:40:23 2024	76.173.228.207	opening connection
+Fri Jul 26 18:40:33 2024			feath3rz LD quits
+Fri Jul 26 18:40:33 2024	76.173.228.207	feath3rz reconnects
+Fri Jul 26 18:43:49 2024	<NO IP>		feath3rz disconnects
+Fri Jul 26 18:46:30 2024	76.173.228.207	opening connection
+Fri Jul 26 18:46:38 2024			feath3rz LD quits
+Fri Jul 26 18:46:38 2024	76.173.228.207	feath3rz reconnects
+Fri Jul 26 18:48:49 2024	<NO IP>		feath3rz disconnects
+Fri Jul 26 18:51:22 2024	76.173.228.207	opening connection
+Fri Jul 26 18:51:35 2024			feath3rz LD quits
+Fri Jul 26 18:51:35 2024	76.173.228.207	feath3rz reconnects
+Fri Jul 26 18:52:39 2024	<NO IP>		feath3rz disconnects
+Fri Jul 26 18:55:16 2024	76.173.228.207	opening connection
+Fri Jul 26 18:55:25 2024			feath3rz LD quits
+Fri Jul 26 18:55:25 2024	76.173.228.207	feath3rz reconnects
+Fri Jul 26 18:56:32 2024	<NO IP>		feath3rz disconnects
+Fri Jul 26 18:59:03 2024	76.173.228.207	opening connection
+Fri Jul 26 18:59:14 2024			feath3rz LD quits
+Fri Jul 26 18:59:14 2024	76.173.228.207	feath3rz reconnects
+Fri Jul 26 19:00:40 2024	<NO IP>		feath3rz disconnects
+Fri Jul 26 19:05:38 2024	76.173.228.207	opening connection
+Fri Jul 26 19:05:48 2024			feath3rz LD quits
+Fri Jul 26 19:05:48 2024	76.173.228.207	feath3rz reconnects
+Fri Jul 26 19:07:23 2024	<NO IP>		feath3rz disconnects
+Fri Jul 26 19:09:35 2024	76.173.228.207	opening connection
+Fri Jul 26 19:09:42 2024			feath3rz LD quits
+Fri Jul 26 19:09:42 2024	76.173.228.207	feath3rz reconnects
+Fri Jul 26 19:17:28 2024	172.169.207.62	opening connection
+Fri Jul 26 19:17:28 2024	<NO IP>		who disconnects
+Fri Jul 26 19:19:12 2024	73.76.133.153	opening connection
+Fri Jul 26 19:19:21 2024	73.76.133.153	tiburon connects
+Fri Jul 26 19:43:12 2024	76.173.228.207	feath3rz quits
+Fri Jul 26 19:59:09 2024	207.90.244.6	opening connection
+Fri Jul 26 19:59:14 2024	207.90.244.6	opening connection
+Fri Jul 26 19:59:14 2024	<NO IP>		who disconnects
+Fri Jul 26 19:59:14 2024	<NO IP>		who disconnects
+Fri Jul 26 19:59:14 2024	207.90.244.6	opening connection
+Fri Jul 26 19:59:15 2024	<NO IP>		who disconnects
+Fri Jul 26 20:11:59 2024	162.142.125.209	opening connection
+Fri Jul 26 20:11:59 2024	<NO IP>		who disconnects
+Fri Jul 26 20:12:03 2024	162.142.125.209	opening connection
+Fri Jul 26 20:12:18 2024	<NO IP>		who disconnects
+Fri Jul 26 21:42:47 2024	198.235.24.110	opening connection
+Fri Jul 26 21:43:19 2024	<NO IP>		who disconnects
+Fri Jul 26 22:05:13 2024	73.76.133.153	tiburon quits
+Fri Jul 26 22:21:54 2024	<NO IP>		senseirat disconnects
+Fri Jul 26 22:41:54 2024			senseirat LD quits
+Sat Jul 27 00:26:27 2024	80.82.70.133	opening connection
+Sat Jul 27 00:26:59 2024	<NO IP>		who disconnects
+Sat Jul 27 05:10:37 2024	209.38.165.124	opening connection
+Sat Jul 27 05:23:24 2024	184.73.83.196	opening connection
+Sat Jul 27 05:23:24 2024	<NO IP>		who disconnects
+Sat Jul 27 05:24:42 2024	3.82.38.198	opening connection
+Sat Jul 27 05:24:42 2024	<NO IP>		who disconnects
+Sat Jul 27 05:24:42 2024	50.19.22.204	opening connection
+Sat Jul 27 05:24:42 2024	<NO IP>		who disconnects
+Sat Jul 27 05:24:42 2024	50.19.22.204	opening connection
+Sat Jul 27 05:24:42 2024	<NO IP>		who disconnects
+Sat Jul 27 05:24:47 2024	37.187.151.141	opening connection
+Sat Jul 27 05:24:57 2024	<NO IP>		who disconnects
+Sat Jul 27 05:37:16 2024	147.185.132.43	opening connection
+Sat Jul 27 05:37:16 2024	<NO IP>		who disconnects
+Sat Jul 27 06:39:02 2024	144.126.193.177	opening connection
+Sat Jul 27 06:39:02 2024	<NO IP>		who disconnects
+Sat Jul 27 06:41:52 2024	159.223.196.175	opening connection
+Sat Jul 27 06:43:13 2024	159.223.196.175	artherck connects
+Sat Jul 27 06:49:24 2024	73.76.133.153	opening connection
+Sat Jul 27 06:50:18 2024	<NO IP>		tiburon550 disconnects
+Sat Jul 27 06:50:22 2024	73.76.133.153	opening connection
+Sat Jul 27 06:50:37 2024	<NO IP>		who disconnects
+Sat Jul 27 06:50:44 2024	73.76.133.153	opening connection
+Sat Jul 27 06:51:53 2024	73.76.133.153	tiburon connects
+Sat Jul 27 07:34:30 2024	167.99.193.185	opening connection
+Sat Jul 27 08:06:38 2024	73.76.133.153	tiburon quits
+Sat Jul 27 11:58:23 2024	76.173.228.207	opening connection
+Sat Jul 27 11:58:33 2024	76.173.228.207	feath3rz connects
+Sat Jul 27 12:06:28 2024	76.173.228.207	opening connection
+Sat Jul 27 12:06:46 2024	76.173.228.207	feath3rz connects
+Sat Jul 27 12:22:56 2024	<NO IP>		feath3rz disconnects
+Sat Jul 27 12:23:58 2024	76.173.228.207	opening connection
+Sat Jul 27 12:24:05 2024			feath3rz LD quits
+Sat Jul 27 12:24:05 2024	76.173.228.207	feath3rz reconnects
+Sat Jul 27 12:55:57 2024	76.173.228.207	opening connection
+Sat Jul 27 12:56:27 2024	76.173.228.207	feath3rz connects
+Sat Jul 27 12:57:38 2024	<NO IP>		feath3rz disconnects
+Sat Jul 27 12:59:13 2024	76.173.228.207	opening connection
+Sat Jul 27 12:59:36 2024	76.173.228.207	feath3rz connects
+Sat Jul 27 13:00:03 2024	76.173.228.207	opening connection
+Sat Jul 27 13:00:22 2024	76.173.228.207	feath3rz connects
+Sat Jul 27 13:08:21 2024	76.173.228.207	opening connection
+Sat Jul 27 13:08:33 2024	76.173.228.207	feath3rz connects
+Sat Jul 27 13:11:52 2024	76.173.228.207	opening connection
+Sat Jul 27 13:12:04 2024	76.173.228.207	feath3rz connects
+Sat Jul 27 13:12:22 2024	76.173.228.207	opening connection
+Sat Jul 27 13:12:39 2024	76.173.228.207	feath3rz connects
+Sat Jul 27 13:51:20 2024	76.173.228.207	feath3rz quits
+Sat Jul 27 15:29:55 2024	73.6.87.153	opening connection
+Sat Jul 27 15:30:25 2024	73.6.87.153	pirate1 connects
+Sat Jul 27 19:22:49 2024	198.235.24.77	opening connection
+Sat Jul 27 19:22:49 2024	<NO IP>		who disconnects
+Sat Jul 27 19:31:19 2024	76.173.228.207	opening connection
+Sat Jul 27 19:31:25 2024	76.173.228.207	feath3rz connects
+Sat Jul 27 19:32:14 2024	76.173.228.207	feath3rz quits
+Sat Jul 27 19:32:26 2024	76.173.228.207	opening connection
+Sat Jul 27 19:32:30 2024	76.173.228.207	feath3rz connects
+Sat Jul 27 19:32:33 2024	76.173.228.207	feath3rz quits
+Sat Jul 27 19:43:15 2024	170.52.14.166	opening connection
+Sat Jul 27 19:43:33 2024	170.52.14.166	bowphat connects
+Sat Jul 27 20:16:25 2024	207.34.93.1	opening connection
+Sat Jul 27 20:16:34 2024	207.34.93.1	steve connects
+Sat Jul 27 20:18:44 2024	207.34.93.1	steve quits
+Sat Jul 27 21:01:54 2024	<NO IP>		pirate1 disconnects
+Sat Jul 27 21:21:54 2024			pirate1 LD quits
+Sat Jul 27 22:29:33 2024	73.76.133.153	opening connection
+Sat Jul 27 22:30:09 2024	73.76.133.153	tiburon connects
+Sat Jul 27 22:44:38 2024	80.82.70.133	opening connection
+Sat Jul 27 22:45:11 2024	<NO IP>		who disconnects
+Sat Jul 27 23:09:11 2024	76.183.103.88	opening connection
+Sat Jul 27 23:09:19 2024	76.183.103.88	senseirat connects
+Sun Jul 28 01:39:20 2024	73.76.133.153	tiburon quits
+Sun Jul 28 04:08:06 2024	152.32.235.90	opening connection
+Sun Jul 28 04:08:06 2024	<NO IP>		who disconnects
+Sun Jul 28 04:08:06 2024	152.32.235.90	opening connection
+Sun Jul 28 04:08:24 2024	<NO IP>		who disconnects
+Sun Jul 28 04:08:24 2024	152.32.235.90	opening connection
+Sun Jul 28 04:08:42 2024	<NO IP>		who disconnects
+Sun Jul 28 04:08:42 2024	152.32.235.90	opening connection
+Sun Jul 28 04:09:00 2024	<NO IP>		who disconnects
+Sun Jul 28 04:31:10 2024	76.130.190.71	opening connection
+Sun Jul 28 04:32:04 2024	76.130.190.71	b1gd4wg connects
+Sun Jul 28 04:33:18 2024	165.22.127.14	opening connection
+Sun Jul 28 04:33:18 2024	<NO IP>		who disconnects
+Sun Jul 28 04:48:51 2024	<NO IP>		senseirat disconnects
+Sun Jul 28 05:08:51 2024			senseirat LD quits
+Sun Jul 28 05:52:55 2024	147.185.132.60	opening connection
+Sun Jul 28 06:43:26 2024	76.130.190.71	b1gd4wg quits
+Sun Jul 28 18:37:49 2024	167.94.145.109	opening connection
+Sun Jul 28 18:37:50 2024	<NO IP>		who disconnects
+Sun Jul 28 18:37:53 2024	167.94.145.109	opening connection
+Sun Jul 28 18:38:08 2024	<NO IP>		who disconnects
+Sun Jul 28 20:08:59 2024	206.168.34.119	opening connection
+Sun Jul 28 20:09:15 2024	<NO IP>		who disconnects
+Sun Jul 28 21:17:26 2024	76.130.190.71	opening connection
+Sun Jul 28 21:17:41 2024	76.130.190.71	b1gd4wg connects
+Sun Jul 28 21:39:52 2024	76.130.190.71	opening connection
+Sun Jul 28 21:40:43 2024	76.130.190.71	b1gd4wg connects
+Sun Jul 28 22:38:41 2024	147.185.132.81	opening connection
+Sun Jul 28 22:38:41 2024	<NO IP>		who disconnects
+Mon Jul 29 00:48:30 2024	198.235.24.113	opening connection
+Mon Jul 29 00:49:01 2024	<NO IP>		who disconnects
+Mon Jul 29 01:11:06 2024	76.130.190.71	opening connection
+Mon Jul 29 01:11:43 2024	76.130.190.71	b1gd4wg connects
+Mon Jul 29 03:17:05 2024	73.76.133.153	opening connection
+Mon Jul 29 03:27:16 2024	73.76.133.153	opening connection
+Mon Jul 29 03:27:31 2024	73.76.133.153	tiburon connects
+Mon Jul 29 04:04:31 2024	77.90.42.3	opening connection
+Mon Jul 29 04:04:31 2024	<NO IP>		who disconnects
+Mon Jul 29 04:11:00 2024	73.76.133.153	tiburon quits

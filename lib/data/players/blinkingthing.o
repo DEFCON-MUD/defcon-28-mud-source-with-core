@@ -1,33 +1,41 @@
-long_desc "A boring player without a description."
-level 1
-quests ({0|})
-base_stats ([6|"cha":20,"con":26,"dex":13,"int":30,"str":33,"wis":22,])
+banes ({0|})
+long_desc "whaaaaat"
+level 4
+experience 42218
+quests ({3|"NewbieVille","Woodland","Pottles",})
+coins 1800
+base_stats ([6|"cha":18,"con":31,"dex":14,"int":32,"str":26,"wis":16,])
 bonus_stats ([6|"cha":0,"con":0,"dex":0,"int":0,"str":0,"wis":0,])
-cur_hp 46
-max_hp 46
-cur_mana 52
-max_mana 42
-cur_end 59
-max_end 59
-player_age 154
+cur_hp 51
+max_hp 51
+cur_mana 36
+max_mana 36
+cur_end 44
+max_end 65
+player_age 5436
+kills 73
 killed_by ([0|])
 wimpy_dir ""
 gender "male"
 race "hacker"
 followers ({0|})
 living_name "blinkingthing"
-autoload_string "/domains/newbie/obj/stick.c:none^!*^!"
+autoload_string "/domains/core/objects/shop/armour/gorget4.c:wear^!/domains/core/objects/shop/armour/guantlets4.c:wear^!/domains/core/objects/shop/armour/helmet4.c:wear^!/domains/core/objects/shop/armour/ring4.c:wear^!/domains/newbie/obj/stick.c:wield^!/domains/core/objects/shop/armour/plate4.c:wear^!/domains/core/objects/shop/armour/boots4.c:wear^!/domains/core/objects/shop/armour/bracers4.c:wear^!/domains/core/objects/shop/armour/faulds4.c:wear^!/domains/core/objects/shop/armour/armour4.c:wear^!/domains/core/objects/shop/weapon/sword4.c:wield^!/domains/core/objects/shop/armour/gloves4.c:wear^!*^!"
+skills ([4|"combat/blunt/small":56,"combat/defense":96,"combat/sharp/small":61,"mining":3,])
 hit_skill "combat/unarmed"
 searchpath ({1|"/cmds/player/",})
-history ({16|"look ","who","look sign","read sign","look ","look","look ","go north ","read sign","look tree","break branch","look ","inventory ","look stick","go north ","read sign",})
+history ({20|"go south ","go southwest ","go south ","look pipe","open pipe","enter pipe","go south ","go southeast ","go southwest ","go southeast ","go up ","go east ","go west ","go south ","go east ","go southeast ","go east ","go south ","quests","who",})
 environment_variables ([1|"cwd":"/",])
-title "$N the newbie"
+title "$N the pottles Killer"
 channels ({2|"gossip","announce",})
 ignored ({0|})
 alias ([0|])
-last_login 1658648111
+last_login 1721965574
 ansi 1
+lastmined 1721966162
+minelocation "/domains/woodland/rooms/mine.c"
 custom_colors ([0|])
 autoload 1
-woodland_kills ({17|0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,})
+woodland_kills ({17|1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,})
 key_tracker ({8|0,0,0,0,0,0,0,0,})
+sequence 4

@@ -243,6 +243,7 @@ static int _new_user(string name, string secret, object u) {
    /* not used in CTF usually but might make this */
    /* in game toggleable, because that will always */
    /* make for some chaos */
+   
 #ifdef ALL_USERS_WIZ
    } else if (ALL_USERS_WIZ) {
       u->set_auto_wiz(1);
@@ -260,7 +261,6 @@ int new_user(string name, string secret) {
 
    secure();
    unguarded("_new_user", name, secret, previous_object());
-
    return 1;
 }
 
@@ -971,10 +971,10 @@ string *list_players(int long_flag) {
       line = "%^RESET%^";
       /* color for admins */
       if (query_admin(usr[i])) {
-        line += "%^GREY%^";
+        line += "%^BOLD%^%^BLUE%^";
       /* color for wizards */
       } else if (query_wizard(usr[i])) {
-        line += "%^GREY%^";
+        line += "%^BOLD%^%^BLUE%^";
       }
       /* look up the players title */
       /* $N doesn't get processed any more */

@@ -1,31 +1,31 @@
 long_desc "A boring player without a description."
 level 1
 quests ({0|})
-base_stats ([6|"cha":29,"con":8,"dex":25,"int":25,"str":10,"wis":3,])
+base_stats ([6|"cha":2,"con":27,"dex":19,"int":20,"str":17,"wis":30,])
 bonus_stats ([6|"cha":0,"con":0,"dex":0,"int":0,"str":0,"wis":0,])
-cur_hp 45
-max_hp 28
-cur_mana 47
-max_mana 23
-cur_end 52
-max_end 53
-player_age 24
+cur_hp 53
+max_hp 53
+cur_mana 50
+max_mana 50
+cur_end 66
+max_end 66
+player_age 476
 killed_by ([0|])
 wimpy_dir ""
 gender "male"
-race "human"
+race "fed"
 followers ({0|})
 living_name "mog"
 autoload_string "*^!"
 hit_skill "combat/unarmed"
 searchpath ({3|"/cmds/player/","/sys/cmds/wiz/","/sys/cmds/admin/",})
-history ({1|"who",})
+history ({13|"who","warmboot","who","home","who","eval USER_D->find_player(\"Feath3rz\")->query_level();","eval return USER_D->find_player(\"Feath3rz\")->query_level();","eval USER_D->find_player(\"Feath3rz\")->query_race();","eval USER_D->find_player(\"Feath3rz\")->query_difficulty();","eval return USER_D->find_player(\"Feath3rz\")->query_race();","eval return USER_D->find_player(\"Feath3rz\")","eval return USER_D->find_player(\"Feath3rz\")->query_difficulty();","who",})
 environment_variables ([1|"cwd":"/",])
 title "$N the newbie"
 channels ({3|"gossip","announce","dgd",})
 ignored ({0|})
 alias ([0|])
-last_login 1656798693
+last_login 1721935312
 ansi 1
 custom_colors ([0|])
 autoload 1

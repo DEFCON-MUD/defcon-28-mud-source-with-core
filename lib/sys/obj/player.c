@@ -76,6 +76,7 @@ int *woodland_kills;   /* Tracks killed woodland critters */
 int *cypher_codes; /* tracks entered cyphercon codes */
 int *key_tracker; /* tracks 8 keys from quest */
 mapping careers; /* tracks careers */
+int sequence;
 
 string query_name(void);
 
@@ -136,6 +137,16 @@ string gmcp_version(void) {
   return user->gmcp_version();
 }
 
+string json_quests_completed(void) {
+   mapping tmp_json_quests;
+   tmp_json_quests = ([ ]);
+   tmp_json_quests["name"] = this_user()->query_player()->query_name();
+   if (!find_object("/daemons/serialize/json")) {
+      compile_object("/daemons/serialize/json");
+   }
+   tmp_json_quests["quests"] = query_quests_completed();
+   return serialize("json", tmp_json_quests);
+}
 
 /* Restore the player */
 void restore_me(void) {
@@ -205,6 +216,10 @@ string *query_env_indices(void) {
 }
 
 int query_ansi(void) {
+   if(gmcp() == 1)
+   {
+      return 1;
+   }
    return ansi;
 }
 
@@ -226,9 +241,7 @@ void set_ga(int state) {
 }
 
 int query_difficulty(void) {
-  if (this_player()->query_race() == "fed") {
-    return 1;
-  } else if (this_player()->query_race() == "goon") {
+  if (this_object()->query_race() == "fed") {
     return 1;
   } else {
     return 0;
@@ -254,6 +267,7 @@ int increment_death(void) {
   name = this_object()->query_name();
   tmp_lives = this_object()->query_lives();
 
+  /*
   if (tmp_lives < 1) {
     this_object()->message("%^EXT_215%^2 lives remaining...%^RESET%^");
     this_object()->set_lives(1);
@@ -267,17 +281,18 @@ int increment_death(void) {
     this_object()->message("%^EXT_215%^no life remaining...%^RESET%^");
     this_object()->set_lives(3);
     this_object()->save_me();
-  } 
+  }
   tmp_lives = this_object()->query_lives();
   if (tmp_lives > 2) {
+  */ 
     this_object()->message("Game Over...");
     this_object()->message("Your account has been deleted...");
     this_object()->message("Better luck next time...");
     USER_D->delete_user(this_object()->query_name());
-    return 1;
+  /*  return 1;
   } else {
     return 1;
-  }
+  }*/
 }
 
 int re_arm(void) {
@@ -286,17 +301,19 @@ int re_arm(void) {
 }
 
 int query_mxp_support() {
-  if (this_player()->query_race() == "fed") {
-    return 0;
-  }
-  return user->mxp_support();
+   return user->mxp_support();
 }
 
 int query_mxp(void) {
-  if (this_player()->query_race() == "fed") {
-    return 0;
-  }
-   return mxp | user->mxp_support();
+   if(mxp == 1)
+   {
+      return 1;
+   }
+   if(user->mxp_support() == 1)
+   {
+      return 1;
+   }
+   return 0;
 }
 
 void set_mxp(int state) {
@@ -345,29 +362,39 @@ int query_deathproof(void) {
 }
 
 int cheater(void) {
-  if (user->cheat_override() > 0) {
-    return 0;
+   /* early abort if override */
+  /* early escape if a cheater */
+  if (cheater == 1)
+  {
+   return 1;
   }
-  if (cheater > 0) {
-    /* taint the user */
-    cheater = 1;
-    /* save the user */
-    save_me();
-    return 1;
-  } else {
-    return 0;
-  }
+
+  return 0;
 }
 
 void taint(void) {
-  cheater = 1;
-  save_me();
+   if(cheater == 1)
+   {
+      return;
+   }
+   /* because I'm an asshole we are going to delete you*/
+   increment_death();
+   cheater = 1;
+   save_me();
+}
+
+/* Remove BEFORE FLIGHT */
+/* Set to clear cheater status during testing */
+void untaint(void) {
+   cheater = 0;
+   save_me();
 }
 
 int query_cheat(void) {
   if (cheater != 1) {
-    return user->cheat();
+    return 0;
   } else {
+    increment_death();
     return 1;
   }
 }
@@ -1784,3 +1811,16 @@ void update_internal_weight(void) {
    set_internal_weight(w);
 }
 
+int query_sequence(void) {
+   if(!sequence) {
+      sequence = SCORE_D->issue_sequence();
+      save_me();
+   }
+   return sequence;
+}
+
+int reset_sequence(void) {
+   sequence = SCORE_D->issue_sequence();
+   save_me();
+   return sequence;
+}

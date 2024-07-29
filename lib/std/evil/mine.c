@@ -81,9 +81,14 @@ void do_crypto3(void) {
   int lvl, difficulty, payout, coins, pskill;
   object player;
   string message, rank;
+  int hardmode;
 
   difficulty = difficulty();
   player = this_player();
+  if(this_player()->query_race() == "fed")
+    hardmode = 1;
+  else
+    hardmode = 0;
   rank = player->get_career_rank("mining");
   pskill = (player->query_skill("mining") + 1);
   lvl = player->query_level();
@@ -91,7 +96,12 @@ void do_crypto3(void) {
   payout = (coins * difficulty);
 
   player->add_money("credit", payout);
-  player->increase_expr(payout / 2);
+
+  if(hardmode == 0)
+  {
+    player->increase_expr(payout / 2);
+  }
+
   message = "You mined %^MAGENTA%^" + coins + "%^RESET%^ "+ coin() + " Coin worth %^MAGENTA%^" + difficulty + " %^RESET%^each for a total of %^MAGENTA%^" + payout + "%^RESET%^ credits.";
   player->set_minestate(0);
   write(message);
@@ -143,7 +153,8 @@ int do_crypto(string arg) {
   if (pskill > 59) {
     minenew = random(10);
   }
-  minenew = (60 - pskill - random(10));
+  /* changed for DUMB Terminal Edition */
+  minenew = (10 - pskill - random(5));
 
   if (player->query_minestate() != 0) {
     int tmp_callout;
@@ -202,6 +213,7 @@ int do_crypto(string arg) {
 int do_mine(string args) {
   int varA, varB, varC, varD, varE, varF, total, chance, entry, answer, payout, pskill;
   object player;
+
   chance = random(6);
   varA = random(999) + 1;
   varB = random(999) + 1;
@@ -212,20 +224,24 @@ int do_mine(string args) {
   sscanf(args, "%d", entry);
 
   player = this_player();
+
   pskill = player->query_skill("crypto");
   answer = player->query_lastmined();
-  if (player->query_difficulty() > 0) {
+  /*if (player->query_difficulty() > 0) {
     write("Sorry you can't do crypto in hard mode...");
     return 1;
-  }
-  if (pskill > 1000 && pskill < 1500) {
-    write("flag{fMdWTPmFW5nwJQ5V}");
+  }*/
+  if (pskill > 1000) {
+    player->add_completed_quest("CryptoMines");
   }
 
   if (entry == answer || (entry == (answer + 1)) || (entry == (answer - 1))) {
     payout = (pskill + (10 * player->query_level()));
     player->add_money("credit", payout/20);
-    player->increase_expr(payout/20);
+    if(player->query_difficulty() == 0)
+    {
+      player->increase_expr(payout/20);
+    }
     player->set_mined(random(0));
     player->learn_skill("crypto");
     write("%^GREEN%^You earned %^HCYAN%^" + (payout/20) + "%^GREEN%^ credits....%^RESET%^");

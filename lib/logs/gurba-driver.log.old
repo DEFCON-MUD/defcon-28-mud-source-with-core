@@ -1,160 +1,94 @@
-Jul  2 21:43:15 ** DGD 1.6.20 running GurbaLib v0.52.
-Jul  2 21:43:15 ** State restored.
-Jul  2 21:43:43 ** New telnet connection from <unknown>:0
-Jul  2 21:48:16 ** Sat Jul  2 21:48:16 2022: DRIVER :/sys/obj/user.c, 208: syntax error
-Jul  2 21:48:16 ** Sat Jul  2 21:48:16 2022: DRIVER :/sys/obj/user.c, 212: declaration after statement
-Jul  2 21:48:16 ** Sat Jul  2 21:48:16 2022: DRIVER :/sys/obj/user.c, 213: declaration after statement
-Jul  2 21:48:16 ** :Failed to compile "/sys/obj/user.c"
-Jul  2 21:48:16 ** Sat Jul  2 21:48:16 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
-Jul  2 21:48:16 **   21 _F_call_out       /kernel/lib/auto (/sys/cmds/admin/warmboot)
-Jul  2 21:48:16 **   13 _F_call_out2      /kernel/lib/auto (/sys/cmds/admin/warmboot)
-Jul  2 21:48:16 **  231 next_stage        /sys/cmds/admin/warmboot
-Jul  2 21:48:16 **  197 rebuild_world     /sys/cmds/admin/warmboot
-Jul  2 21:48:16 **  143 upgrade_uobj      /sys/cmds/admin/warmboot
-Jul  2 21:48:16 **   33 compile_object    /kernel/lib/auto (/sys/cmds/admin/warmboot)
-Jul  2 21:48:16 **  184 compile_object    /kernel/sys/driver
-Jul  2 21:48:35 ** Sat Jul  2 21:48:35 2022:evilmog:/sys/obj/user.c, 208: syntax error
-Jul  2 21:48:35 ** Sat Jul  2 21:48:35 2022:evilmog:/sys/obj/user.c, 212: declaration after statement
-Jul  2 21:48:35 ** Sat Jul  2 21:48:35 2022:evilmog:/sys/obj/user.c, 213: declaration after statement
-Jul  2 21:48:35 ** :Failed to compile "/sys/obj/user.c"
-Jul  2 21:48:35 ** Sat Jul  2 21:48:35 2022:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
-Jul  2 21:48:35 **  554 receive_message   /sys/obj/user (#120)
-Jul  2 21:48:35 **  169 receive           /sys/lib/telnet (/sys/obj/user#120)
-Jul  2 21:48:35 **  549 _receive_message  /sys/obj/user (#120)
-Jul  2 21:48:35 ** 1644 receive_message   /sys/obj/player (#269)
-Jul  2 21:48:35 **  155 command           /sys/lib/modules/m_cmds (/sys/obj/player#269)
-Jul  2 21:48:35 **  156 exec_command      /sys/daemons/command_d
-Jul  2 21:48:35 **   14 _main             /sys/lib/modules/m_command (/sys/cmds/wiz/update)
-Jul  2 21:48:35 **  160 main              /sys/cmds/wiz/update
-Jul  2 21:48:35 **   71 recompile_object  /sys/cmds/wiz/update
-Jul  2 21:48:35 **   33 compile_object    /kernel/lib/auto (/sys/cmds/wiz/update)
-Jul  2 21:48:35 **  184 compile_object    /kernel/sys/driver
-Jul  2 21:50:01 ** New telnet connection from <unknown>:0
-Jul  2 21:51:12 ** New telnet connection from <unknown>:0
-Jul  2 21:51:40 ** New telnet connection from <unknown>:0
-Jul  2 21:55:23 ** New telnet connection from <unknown>:0
-Jul  2 22:01:30 ** New telnet connection from <unknown>:0
-Jul  2 22:01:30 ** New telnet connection from <unknown>:0
-Jul  2 22:01:59 ** New telnet connection from <unknown>:0
-Jul  2 22:02:14 ** New telnet connection from <unknown>:0
-Jul  2 22:05:17 ** New telnet connection from <unknown>:0
-Jul  2 22:05:56 ** New telnet connection from <unknown>:0
-Jul  3 16:38:48 ** New telnet connection from <unknown>:0
-Jul  3 16:57:05 ** New telnet connection from <unknown>:0
-Jul  3 18:40:22 ** New telnet connection from <unknown>:0
-Jul  3 18:42:32 ** New telnet connection from <unknown>:0
-Jul  3 19:22:27 ** New telnet connection from <unknown>:0
-Jul  3 19:22:40 ** New telnet connection from <unknown>:0
-Jul  3 19:23:10 ** New telnet connection from <unknown>:0
-Jul  3 19:40:57 ** Bad argument 1 for kfun call_other
-Jul  3 19:40:57 ** Sun Jul  3 19:40:57 2022:Object: /domains/core/rooms/city/x-10y-40z0, program: /domains/core/rooms/city/x-10y-40z0, line 12
-Jul  3 19:40:57 **   21 _F_call_out       /kernel/lib/auto (/daemons/schedule_d)
-Jul  3 19:40:57 **   15 _F_call_out2      /kernel/lib/auto (/daemons/schedule_d)
-Jul  3 19:40:57 **  150 micro_beat        /daemons/schedule_d
-Jul  3 19:40:57 **  135 second_tick       /daemons/schedule_d
-Jul  3 19:40:57 **   85 heart_beat        /daemons/schedule_d
-Jul  3 19:40:57 **  126 event             /daemons/event_d
-Jul  3 19:40:57 **   89 dispatch_event    /daemons/event_d
-Jul  3 19:40:57 **   66 event_heart_beat  /std/body/heart_beat (/sys/obj/player#212)
-Jul  3 19:40:57 **  290 die               /std/body/heart_beat (/sys/obj/player#212)
-Jul  3 19:40:57 **  225 move              /std/object (/sys/obj/player#212)
-Jul  3 19:40:57 **   99 _F_create         /kernel/lib/auto (/domains/core/rooms/city/x-10y-40z0)
-Jul  3 19:40:57 ** 1017 create            /std/room (/domains/core/rooms/city/x-10y-40z0)
-Jul  3 19:40:57 **   12 setup             /domains/core/rooms/city/x-10y-40z0
-Jul  3 19:40:57 ** Access to /logs/errors/runtime would have been denied, ignoring...
-Jul  3 19:46:25 ** New telnet connection from <unknown>:0
-Jul  3 19:46:28 ** New telnet connection from <unknown>:0
-Jul  3 19:50:30 ** Access to /daemons/data/evil/lock_d.o would have been denied, ignoring...
-Jul  3 20:17:46 ** New telnet connection from <unknown>:0
-Jul  4 04:27:06 ** New telnet connection from <unknown>:0
-Jul  4 04:27:09 ** New telnet connection from <unknown>:0
-Jul  4 09:04:57 ** New telnet connection from <unknown>:0
-Jul  4 09:05:00 ** New telnet connection from <unknown>:0
-Jul  4 17:19:07 ** New telnet connection from <unknown>:0
-Jul  4 17:19:07 ** New telnet connection from <unknown>:0
-Jul  4 19:02:13 ** New telnet connection from <unknown>:0
-Jul  5 09:28:36 ** New telnet connection from <unknown>:0
-Jul  5 10:20:28 ** New telnet connection from <unknown>:0
-Jul  5 10:20:31 ** New telnet connection from <unknown>:0
-Jul  5 19:18:23 ** New telnet connection from <unknown>:0
-Jul  6 06:30:58 ** New telnet connection from <unknown>:0
-Jul  6 07:08:22 ** New telnet connection from <unknown>:0
-Jul  6 07:34:39 ** New telnet connection from <unknown>:0
-Jul  6 07:59:21 ** New telnet connection from <unknown>:0
-Jul  6 08:25:12 ** New telnet connection from <unknown>:0
-Jul  6 09:20:30 ** New telnet connection from <unknown>:0
-Jul  6 10:23:24 ** New telnet connection from <unknown>:0
-Jul  6 17:11:35 ** New telnet connection from <unknown>:0
-Jul  6 17:11:38 ** New telnet connection from <unknown>:0
-Jul  7 00:40:10 ** New telnet connection from <unknown>:0
-Jul  7 00:40:10 ** New telnet connection from <unknown>:0
-Jul  7 00:40:32 ** New telnet connection from <unknown>:0
-Jul  7 03:05:19 ** New telnet connection from <unknown>:0
-Jul  7 03:35:04 ** New telnet connection from <unknown>:0
-Jul  7 03:35:16 ** Bad argument 1 to write (needs string)
-Jul  7 03:35:16 ** Thu Jul  7 03:35:16 2022:Object: /sys/cmds/wiz/last, program: /sys/cmds/wiz/last, line 56
-Jul  7 03:35:16 **  559 receive_message   /sys/obj/user (#102)
-Jul  7 03:35:16 **  169 receive           /sys/lib/telnet (/sys/obj/user#102)
-Jul  7 03:35:16 **  554 _receive_message  /sys/obj/user (#102)
-Jul  7 03:35:16 ** 1644 receive_message   /sys/obj/player (#216)
-Jul  7 03:35:16 **  155 command           /sys/lib/modules/m_cmds (/sys/obj/player#216)
-Jul  7 03:35:16 **  156 exec_command      /sys/daemons/command_d
-Jul  7 03:35:16 **   14 _main             /sys/lib/modules/m_command (/sys/cmds/wiz/last)
-Jul  7 03:35:16 **   56 main              /sys/cmds/wiz/last
-Jul  7 09:47:00 ** New telnet connection from <unknown>:0
-Jul  7 09:47:03 ** New telnet connection from <unknown>:0
-Jul  7 11:34:35 ** New telnet connection from <unknown>:0
-Jul  7 11:35:14 ** New telnet connection from <unknown>:0
-Jul  7 16:53:56 ** New telnet connection from <unknown>:0
-Jul  7 18:41:40 ** New telnet connection from <unknown>:0
-Jul  7 18:41:40 ** New telnet connection from <unknown>:0
-Jul  7 18:41:40 ** New telnet connection from <unknown>:0
-Jul  7 22:05:36 ** New telnet connection from <unknown>:0
-Jul  7 22:06:08 ** New telnet connection from <unknown>:0
-Jul  7 22:06:11 ** New telnet connection from <unknown>:0
-Jul  8 03:17:28 ** New telnet connection from <unknown>:0
-Jul  8 11:49:56 ** New telnet connection from <unknown>:0
-Jul  8 11:49:56 ** New telnet connection from <unknown>:0
-Jul  8 11:50:02 ** New telnet connection from <unknown>:0
-Jul  8 11:50:02 ** New telnet connection from <unknown>:0
-Jul  8 16:54:01 ** New telnet connection from <unknown>:0
-Jul  8 20:57:41 ** New telnet connection from <unknown>:0
-Jul  8 20:57:52 ** New telnet connection from <unknown>:0
-Jul  8 20:57:57 ** New telnet connection from <unknown>:0
-Jul  8 20:58:02 ** New telnet connection from <unknown>:0
-Jul  8 20:58:10 ** New telnet connection from <unknown>:0
-Jul  8 20:58:18 ** New telnet connection from <unknown>:0
-Jul  8 20:58:23 ** New telnet connection from <unknown>:0
-Jul  8 20:58:40 ** New telnet connection from <unknown>:0
-Jul  8 20:59:05 ** New telnet connection from <unknown>:0
-Jul  9 00:12:11 ** New telnet connection from <unknown>:0
-Jul  9 01:02:18 ** New telnet connection from <unknown>:0
-Jul  9 01:34:03 ** New telnet connection from <unknown>:0
-Jul  9 08:37:04 ** New telnet connection from <unknown>:0
-Jul  9 08:37:07 ** New telnet connection from <unknown>:0
-Jul  9 11:16:07 ** New telnet connection from <unknown>:0
-Jul  9 11:16:07 ** New telnet connection from <unknown>:0
-Jul  9 11:16:07 ** New telnet connection from <unknown>:0
-Jul  9 13:37:08 ** New telnet connection from <unknown>:0
-Jul  9 14:17:23 ** New telnet connection from <unknown>:0
-Jul  9 14:17:23 ** New telnet connection from <unknown>:0
-Jul  9 14:17:23 ** New telnet connection from <unknown>:0
-Jul  9 14:32:50 ** New telnet connection from <unknown>:0
-Jul  9 14:32:50 ** New telnet connection from <unknown>:0
-Jul  9 14:32:50 ** New telnet connection from <unknown>:0
-Jul  9 14:48:55 ** New telnet connection from <unknown>:0
-Jul  9 15:06:39 ** New telnet connection from <unknown>:0
-Jul  9 15:07:22 ** New telnet connection from <unknown>:0
-Jul  9 15:30:00 ** New telnet connection from <unknown>:0
-Jul  9 15:41:41 ** New telnet connection from <unknown>:0
-Jul  9 17:17:53 ** New telnet connection from <unknown>:0
-Jul  9 18:12:09 ** New telnet connection from <unknown>:0
-Jul  9 20:05:49 ** New telnet connection from <unknown>:0
-Jul  9 22:12:22 ** New telnet connection from <unknown>:0
-Jul 10 01:08:52 ** New telnet connection from <unknown>:0
-Jul 10 05:25:38 ** New telnet connection from <unknown>:0
-Jul 10 05:25:41 ** New telnet connection from <unknown>:0
-Jul 10 05:30:52 ** New telnet connection from <unknown>:0
-Jul 10 17:23:53 ** New telnet connection from <unknown>:0
-Jul 10 17:23:56 ** New telnet connection from <unknown>:0
-Jul 10 18:23:29 ** Shutting down.
+Sep  3 23:30:21 ** DGD 1.7.1 running GurbaLib v0.52.
+Sep  3 23:30:21 ** Initializing...
+Sep  3 23:30:21 ** BOOT: loading /kernel/daemons/secure_d
+Sep  3 23:30:21 ** Registering security daemon : /kernel/daemons/secure_d
+Sep  3 23:30:21 ** BOOT: loading /kernel/daemons/compiler_d
+Sep  3 23:30:21 ** Registering compiler daemon : /kernel/daemons/compiler_d
+Sep  3 23:30:21 ** BOOT: loading /kernel/daemons/error_d
+Sep  3 23:30:21 ** Registering error daemon    : /kernel/daemons/error_d
+Sep  3 23:30:21 ** Starting init_d
+Sep  3 23:30:21 ** BOOT: loading /sys/daemons/init_d
+Sep  3 23:30:21 ** Setting up events
+Sep  3 23:30:21 ** BOOT: loading /daemons/event_d
+Sep  3 23:30:21 ** Loading daemons
+Sep  3 23:30:21 ** init: loading /daemons/schedule_d
+Sep  3 23:30:21 ** BOOT: loading /daemons/schedule_d
+Sep  3 23:30:21 ** init: loading /daemons/time_d
+Sep  3 23:30:21 ** BOOT: loading /daemons/time_d
+Sep  3 23:30:21 ** BOOT: loading /sys/daemons/domain_d
+Sep  3 23:30:21 ** init: loading /sys/daemons/user_d
+Sep  3 23:30:21 ** BOOT: loading /sys/daemons/user_d
+Sep  3 23:30:21 ** init: loading /sys/daemons/command_d
+Sep  3 23:30:21 ** BOOT: loading /sys/daemons/command_d
+Sep  3 23:30:21 ** Rehashing command paths
+Sep  3 23:30:21 ** /cmds/guild/fighter/		: 1
+Sep  3 23:30:21 ** /cmds/monster/		: 2
+Sep  3 23:30:21 ** /cmds/player/		: 75
+Sep  3 23:30:21 ** /cmds/spells/		: 2
+Sep  3 23:30:21 ** /sys/cmds/admin/		: 15
+Sep  3 23:30:21 ** /sys/cmds/wiz/		: 59
+Sep  3 23:30:21 ** Rehash done.
+Sep  3 23:30:21 ** init: loading /daemons/channel_d
+Sep  3 23:30:21 ** BOOT: loading /daemons/channel_d
+Sep  3 23:30:21 ** init: loading /daemons/object_d
+Sep  3 23:30:21 ** BOOT: loading /daemons/object_d
+Sep  3 23:30:21 ** init: loading /daemons/skill_d
+Sep  3 23:30:21 ** BOOT: loading /daemons/skill_d
+Sep  3 23:30:21 ** init: loading /daemons/race_d
+Sep  3 23:30:21 ** BOOT: loading /daemons/race_d
+Sep  3 23:30:21 ** BOOT: loading /domains/required/objects/races/fed
+Sep  3 23:30:21 ** BOOT: loading /domains/required/objects/races/goon
+Sep  3 23:30:21 ** BOOT: loading /domains/required/objects/races/hacker
+Sep  3 23:30:21 ** BOOT: loading /domains/required/objects/races/human
+Sep  3 23:30:21 ** BOOT: loading /domains/required/objects/races/monsters/bear
+Sep  3 23:30:21 ** BOOT: loading /domains/required/objects/races/monsters/beaver
+Sep  3 23:30:21 ** BOOT: loading /domains/required/objects/races/monsters/chickadee
+Sep  3 23:30:21 ** BOOT: loading /domains/required/objects/races/monsters/child
+Sep  3 23:30:21 ** BOOT: loading /domains/required/objects/races/monsters/chipmunk
+Sep  3 23:30:21 ** BOOT: loading /domains/required/objects/races/monsters/coyote
+Sep  3 23:30:21 ** BOOT: loading /domains/required/objects/races/monsters/fox
+Sep  3 23:30:21 ** BOOT: loading /domains/required/objects/races/monsters/gerbil
+Sep  3 23:30:21 ** BOOT: loading /domains/required/objects/races/monsters/grouse
+Sep  3 23:30:21 ** BOOT: loading /domains/required/objects/races/monsters/mole
+Sep  3 23:30:21 ** BOOT: loading /domains/required/objects/races/monsters/nympho
+Sep  3 23:30:21 ** BOOT: loading /domains/required/objects/races/monsters/porcupine
+Sep  3 23:30:21 ** BOOT: loading /domains/required/objects/races/monsters/rabbit
+Sep  3 23:30:21 ** BOOT: loading /domains/required/objects/races/monsters/raccoon
+Sep  3 23:30:21 ** BOOT: loading /domains/required/objects/races/monsters/rodent
+Sep  3 23:30:21 ** BOOT: loading /domains/required/objects/races/monsters/skunk
+Sep  3 23:30:21 ** BOOT: loading /domains/required/objects/races/monsters/spectre
+Sep  3 23:30:21 ** BOOT: loading /domains/required/objects/races/monsters/squirrel
+Sep  3 23:30:21 ** BOOT: loading /domains/required/objects/races/monsters/unicorn
+Sep  3 23:30:21 ** BOOT: loading /domains/required/objects/races/monsters/vuln
+Sep  3 23:30:21 ** BOOT: loading /domains/required/objects/races/monsters/wolf
+Sep  3 23:30:21 ** BOOT: loading /domains/required/objects/races/monsters/zombie
+Sep  3 23:30:21 ** init: loading /daemons/ansi_d
+Sep  3 23:30:21 ** BOOT: loading /daemons/ansi_d
+Sep  3 23:30:21 ** init: loading /daemons/money_d
+Sep  3 23:30:21 ** BOOT: loading /daemons/money_d
+Sep  3 23:30:21 ** init: loading /sys/daemons/banish_d
+Sep  3 23:30:21 ** BOOT: loading /sys/daemons/banish_d
+Sep  3 23:30:21 ** init: loading /daemons/siteban_d
+Sep  3 23:30:21 ** BOOT: loading /daemons/siteban_d
+Sep  3 23:30:21 ** init: loading /daemons/guild_d
+Sep  3 23:30:21 ** BOOT: loading /daemons/guild_d
+Sep  3 23:30:21 ** init: loading /daemons/language_d
+Sep  3 23:30:21 ** BOOT: loading /daemons/language_d
+Sep  3 23:30:21 ** init: loading /daemons/emote_d
+Sep  3 23:30:21 ** BOOT: loading /daemons/emote_d
+Sep  3 23:30:21 ** init: loading /daemons/parse_d
+Sep  3 23:30:21 ** BOOT: loading /daemons/parse_d
+Sep  3 23:30:21 ** init: loading /daemons/quest_d
+Sep  3 23:30:21 ** BOOT: loading /daemons/quest_d
+Sep  3 23:30:21 ** init: loading /sys/daemons/linkdead_d
+Sep  3 23:30:21 ** BOOT: loading /sys/daemons/linkdead_d
+Sep  3 23:30:21 ** init: loading /domains/required/rooms/start
+Sep  3 23:30:21 ** BOOT: loading /domains/required/rooms/start
+Sep  3 23:30:21 ** BOOT: loading /domains/dungeon/objects/sign
+Sep  3 23:30:21 ** BOOT: loading /sys/daemons/log_d
+Sep  3 23:30:21 ** Done.
+Sep  3 23:30:29 ** New telnet connection from <unknown>:0
+Sep  3 23:30:40 ** Access to /daemons/data/evil/dark_d.o would have been denied, ignoring...
+Sep  3 23:30:40 ** Access to /daemons/data/evil/color_d.o would have been denied, ignoring...
+Sep  3 23:30:59 ** State dumped.
+Sep  3 23:30:59 ** Shutting down.

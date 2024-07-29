@@ -101,6 +101,7 @@ void set_level(int lvl) {
    obj->set_end(obj->query_max_end());
    obj->set_mana(obj->query_max_mana());
    obj->set_internal_max_weight((15 + this_object()->query_base_stat("str")) * 100);
+   SCORE_D->set_score(this_player()->query_name());
 }
 
 void reset_title(void) {
@@ -124,6 +125,7 @@ void increase_level(void) {
    obj->set_mana(obj->query_max_mana());
    obj->set_internal_max_weight((15 + this_object()->query_base_stat("str")) * 100);
    CHANNEL_D->chan_send_string("announce", "", this_object()->query_name() +" has advanced to " + obj->query_level_title(level), 1);
+   SCORE_D->set_score(this_player()->query_name());
 }
 
 void increase_expr(int expr) {

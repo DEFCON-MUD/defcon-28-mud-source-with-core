@@ -220,16 +220,18 @@ void die2(void) {
             player->set_hp(1);
             write("%^RED%^%^BOLD%^You are no longer deathproof!!!%^RESET%^");
             call_other(this_object(), "do_look", this_environment());
-            player->increment_death();
          } else {
-            write("%^BOLD%^%^RED%^Since you are not deathproof you have been reset to level 1 with no experience, maybe you should buy insurance.%^RESET%^");
+            CHANNEL_D->chan_send_string("announce", "", this_object()->query_name() + " has been erased from existence.", 1);
+            this_object()->message("Game Over...");
+            this_object()->message("Your account has been deleted...");
+            this_object()->message("Better luck next time...");
+            USER_D->delete_user(this_object()->query_name());
             player->set_hp(1);
             player->set_dead(0);
             if (player->query_level() > 2) {
                player->set_level(1);
             }
             call_other(this_object(), "do_look", this_environment());
-            player->increment_death();
          }
 
       return;
@@ -297,16 +299,18 @@ void die(void) {
          this_object()->set_hp(1);
          this_object()->message("%^RED%^%^BOLD%^You are no longer deathproof!!!%^RESET%^");
          call_other(this_object(), "do_look", this_environment());
-         this_object()->increment_death();
          } else {
-            this_object()->message("%^BOLD%^%^RED%^Since you are not deathproof you have been reset to level 1 with no experience, maybe you should buy insurance.%^RESET%^");
+            CHANNEL_D->chan_send_string("announce", "", this_object()->query_name() + " has been erased from existence.", 1);
+            this_object()->message("Game Over...");
+            this_object()->message("Your account has been deleted...");
+            this_object()->message("Better luck next time...");
+            USER_D->delete_user(this_object()->query_name());
             this_object()->set_hp(1);
             this_object()->set_dead(0);
             if (this_object()->query_level() > 2) {
                this_object()->set_level(1);
             }
             call_other(this_object(), "do_look", this_environment());
-            this_object()->increment_death();
          }
 
       return;

@@ -1,0 +1,33 @@
+long_desc "A boring player without a description."
+level 1
+quests ({0|})
+base_stats ([6|"cha":24,"con":25,"dex":28,"int":16,"str":20,"wis":15,])
+bonus_stats ([6|"cha":0,"con":0,"dex":0,"int":0,"str":0,"wis":0,])
+cur_hp 49
+max_hp 45
+cur_mana 42
+max_mana 35
+cur_end 75
+max_end 73
+player_age 502
+killed_by ([0|])
+wimpy_dir ""
+gender "male"
+race "hacker"
+followers ({0|})
+living_name "druid"
+autoload_string "*^!"
+hit_skill "combat/unarmed"
+searchpath ({1|"/cmds/player/",})
+history ({18|"read sign","read wooden sign","go core","say hello","say what about newbie?","say Who is vxstink?","say who is the newbie?","search area","go back","go north","search area","go west","say hello","help","help newbie","cmds","say hello","quack",})
+environment_variables ([1|"cwd":"/",])
+title "$N the newbie"
+channels ({2|"gossip","announce",})
+ignored ({0|})
+alias ([0|])
+last_login 1721668735
+ansi 1
+custom_colors ([0|])
+autoload 1
+woodland_kills ({17|0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,})
+key_tracker ({8|0,0,0,0,0,0,0,0,})

@@ -1,0 +1,44 @@
+banes ({0|})
+long_desc "A boring player without a description."
+level 2
+experience 6500
+quests ({1|"NewbieVille",})
+stocks ([0|])
+minerals ([0|])
+base_stats ([6|"cha":33,"con":17,"dex":29,"int":27,"str":24,"wis":25,])
+bonus_stats ([6|"cha":0,"con":0,"dex":0,"int":0,"str":0,"wis":0,])
+cur_hp 37
+max_hp 37
+cur_mana 45
+max_mana 45
+cur_end 66
+max_end 66
+player_age 2942
+kills 33
+killed_by ([0|])
+wimpy_dir ""
+gender "male"
+race "hacker"
+followers ({0|})
+living_name "jakarrl"
+autoload_string "/domains/core/objects/shop/weapon/sword1.c:wield^!/domains/core/objects/shop/armour/helmet1.c:wear^!/domains/core/objects/shop/armour/gorget1.c:wear^!/domains/newbie/obj/stick.c:wield^!/domains/core/objects/shop/armour/ring1.c:wear^!/domains/core/objects/shop/armour/armour1.c:wear^!/domains/core/objects/shop/armour/boots1.c:wear^!/domains/core/objects/shop/armour/gauntlets1.c:wear^!/domains/core/objects/shop/armour/plate1.c:wear^!/domains/core/objects/shop/armour/bracers1.c:wear^!/domains/core/objects/shop/armour/faulds1.c:wear^!/domains/core/objects/shop/armour/gloves1.c:wear^!*^!"
+skills ([4|"combat/blunt/small":26,"combat/defense":40,"combat/sharp/small":25,"mining":1,])
+hit_skill "combat/unarmed"
+searchpath ({1|"/cmds/player/",})
+history ({20|"go north ","go east ","go south ","go west ","go east ","go west ","go south ","go southeast ","go north ","go south ","go east ","go south ","quests","go north ","go west ","go northwest ","go south ","advance","claim","look ",})
+environment_variables ([1|"cwd":"/",])
+title "$N %^EXT_202%^Recruit%^RESET%^"
+channels ({2|"gossip","announce",})
+ignored ({0|})
+alias ([0|])
+last_login 1721997719
+ansi 1
+lastmined 1721941137
+minelocation "/domains/woodland/rooms/mine.c"
+minestate 1
+q7_tracker 1
+custom_colors ([0|])
+autoload 1
+woodland_kills ({17|1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,})
+key_tracker ({8|0,0,0,0,0,0,0,1,})
+sequence 14

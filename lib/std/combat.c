@@ -339,7 +339,13 @@ void attack_with(string skill, object weapon, object target) {
    if (race == "fed") {
       hardmode = 1;
    } else {
-      hardmode = 1;
+      hardmode = 0;
+   }
+
+   if(target->query_level() < this_object()->query_level() && hardmode == 1)
+   {
+      target->set_level(this_object()->query_level() + 1);
+      target->initialize_stat_dependant_variables();
    }
 
    if ( (wimpy == 1) &&

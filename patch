@@ -1,0 +1,43 @@
+diff --git a/lib/kernel/sys/driver.c b/lib/kernel/sys/driver.c
+index 87f00d0d..45447e56 100644
+--- a/lib/kernel/sys/driver.c
++++ b/lib/kernel/sys/driver.c
+@@ -36,7 +36,7 @@
+ ])
+ 
+ int tls_size, count, ocount, ident, shutting_down, boot_complete;
+-object compiler_d, error_d, secure_d, syslog_d, *users;
++object compiler_d, error_d, secure_d, syslog_d, virtual_d, *users;
+ 
+ #ifdef SYS_NETWORKING
+ object *ports;
+@@ -234,6 +234,14 @@ void register_secure_d(void) {
+    }
+ }
+ 
++void register_virtual_d(void) {
++   if (KERNEL()) {
++      message("Registering virtual daemon : " +
++         object_name(previous_object()) + "\n");
++      virtual_d = previous_object();
++   }
++}
++
+ /*
+  *
+  * auto_config.h contains a number of (un)defines
+@@ -407,7 +415,13 @@ object call_object(string name) {
+       if (ob = find_object(name)) {
+          return ob;
+       }
+-      ob = compile_object(name);
++      try {
++         ob = compile_object(name);
++      } catch (err) {
++         if (sscanf(err, "Could not compile %*s") != 0 && virtual_d) {
++            ob = virtual_d->call_object(name);
++         }
++      }
+       return ob;
+    }
+ }

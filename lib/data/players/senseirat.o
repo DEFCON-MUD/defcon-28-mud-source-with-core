@@ -1,0 +1,40 @@
+long_desc "A boring player without a description."
+level 1
+quests ({1|"Woodland",})
+base_stats ([6|"cha":30,"con":28,"dex":21,"int":19,"str":10,"wis":12,])
+bonus_stats ([6|"cha":0,"con":0,"dex":0,"int":0,"str":0,"wis":0,])
+cur_hp 48
+max_hp 48
+cur_mana 32
+max_mana 32
+cur_end 69
+max_end 69
+player_age 18498
+kills 29
+killed_by ([0|])
+wimpy 1
+wimpy_hp 15
+wimpy_dir ""
+gender "male"
+race "hacker"
+living_name "senseirat"
+autoload_string "/domains/core/objects/shop/armour/bracers2.c:wear^!/domains/sewer/objects/int_potion.c:none^!/domains/sewer/objects/wis_potion.c:none^!/domains/core/objects/shop/armour/ring2.c:wear^!/domains/core/objects/shop/armour/faulds2.c:wear^!/domains/newbie/obj/stick.c:none^!/domains/core/objects/shop/armour/armour2.c:wear^!/domains/newbie/obj/potion.c:none^!/domains/core/objects/shop/weapon/sword2.c:wield^!/domains/core/objects/shop/armour/boots2.c:wear^!/domains/core/objects/shop/armour/gloves2.c:wear^!/domains/sewer/objects/cha_potion.c:none^!/domains/sewer/objects/wis_potion.c:none^!/domains/core/objects/shop/armour/guantlets2.c:wear^!/domains/core/objects/shop/armour/gorget2.c:wear^!/domains/core/objects/shop/armour/helmet2.c:wear^!*^!"
+skills ([4|"combat/defense":70,"combat/sharp/small":37,"crypto":5,"mining":0,])
+hit_skill "combat/unarmed"
+searchpath ({1|"/cmds/player/",})
+history ({20|"crypto","score","crypto","score","go east ","go south ","go west ","advance","go east ","go north ","go west ","crypto","look ","crypto","score","who","levels","crypto","score","crypto",})
+environment_variables ([1|"cwd":"/",])
+title "$N the %^EXT_196%^Clone%^RESET%^"
+channels ({2|"gossip","announce",})
+ignored ({0|})
+alias ([0|])
+last_login 1722121759
+ansi 1
+lastmined 1722133198
+minelocation "/domains/woodland/rooms/mine.c"
+minestate 1
+custom_colors ([0|])
+autoload 1
+woodland_kills ({17|1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,})
+key_tracker ({8|0,0,0,0,0,0,0,0,})
+sequence 19

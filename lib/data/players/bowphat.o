@@ -1,0 +1,42 @@
+long_desc "A boring player without a description."
+level 1
+experience 686
+quests ({1|"NewbieVille",})
+coins 800
+minerals ([0|])
+base_stats ([6|"cha":30,"con":31,"dex":14,"int":9,"str":28,"wis":26,])
+bonus_stats ([6|"cha":0,"con":0,"dex":0,"int":0,"str":0,"wis":0,])
+cur_hp 51
+max_hp 51
+cur_mana 46
+max_mana 46
+cur_end 65
+max_end 65
+player_age 1880
+kills 1
+killed_by ([0|])
+wimpy_dir ""
+gender "male"
+race "human"
+hit_string "hit"
+followers ({0|})
+living_name "bowphat"
+autoload_string "*^!"
+skills ([3|"combat/defense":5,"combat/unarmed":7,"mining":7,])
+hit_skill "combat/unarmed"
+searchpath ({1|"/cmds/player/",})
+history ({20|"listen","look","go south","push button","go out","go north","eat fountain","eat water","look","read sign","claim","woodland","go west","crypto","minerals","crypto","inventory","crypto","search","crypto",})
+environment_variables ([1|"cwd":"/",])
+title "$N the newbie"
+channels ({2|"gossip","announce",})
+ignored ({0|})
+alias ([0|])
+last_login 1722109413
+ansi 1
+lastmined 1722111359
+minelocation "/domains/woodland/rooms/mine.c"
+custom_colors ([0|])
+autoload 1
+woodland_kills ({17|0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,})
+key_tracker ({8|0,0,0,0,0,0,0,0,})
+sequence 27

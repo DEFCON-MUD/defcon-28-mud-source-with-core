@@ -21,7 +21,7 @@ void setup( void ) {
   "northeast" : DIR+"/rooms/city/x10y10z0.c",
   "northwest" : DIR+"/rooms/city/x-10y10z0.c",
   "southeast" : DIR+"/rooms/city/x10y-10z0.c",
-  "southwest" : DIR+"/rooms/city/x-10y-10z0.c",
-  "up" : DIR+"/rooms/city/x0y0z10.c"
+  "southwest" : DIR+"/rooms/city/x-10y-10z0.c"
+/*  "up" : DIR+"/rooms/city/x0y0z10.c"*/
   ]) );
 }

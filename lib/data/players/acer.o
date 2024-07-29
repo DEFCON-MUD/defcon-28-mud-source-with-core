@@ -1,0 +1,33 @@
+long_desc "A boring player without a description."
+level 1
+quests ({0|})
+base_stats ([6|"cha":1,"con":11,"dex":8,"int":29,"str":28,"wis":21,])
+bonus_stats ([6|"cha":0,"con":0,"dex":0,"int":0,"str":0,"wis":0,])
+cur_hp 31
+max_hp 31
+cur_mana 41
+max_mana 41
+cur_end 46
+max_end 39
+player_age 148
+killed_by ([0|])
+wimpy_dir ""
+gender "male"
+race "goon"
+followers ({0|})
+living_name "acer"
+autoload_string "*^!"
+hit_skill "combat/unarmed"
+searchpath ({1|"/cmds/player/",})
+history ({7|"read","read wooden sign","read wooden","read -h","look","core","cmds",})
+environment_variables ([1|"cwd":"/",])
+title "$N the newbie"
+channels ({2|"gossip","announce",})
+ignored ({0|})
+alias ([0|])
+last_login 1721444080
+ansi 1
+custom_colors ([0|])
+autoload 1
+woodland_kills ({17|0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,})
+key_tracker ({8|0,0,0,0,0,0,0,0,})

@@ -17,9 +17,6 @@ static int logged_in;
 static int data_version;
 static int timeout_handle;
 private static int auto_admin, auto_wiz;
-private int cheat_override;
-private int easy_override;
-private int cheat;
 private int mxp;
 private int naws;
 private int gmcp;
@@ -87,12 +84,15 @@ void send_subnegotiation(string package) {
 static void telnet_will(int option) {
       /* Enable MXP Escape on IAC WILL MXP */
       /* leave MXP check in to prevent loop */
-    if (option == TELOPT_MXP[0] && mxp != 1) {
+    /* if (option == TELOPT_MXP[0] && mxp != 1) {
         telnet::send(IAC + SB + TELOPT_MXP + IAC + SE);
         mxp_init();
         mxp = TRUE;
-    /* Enable Negotiate About Window Size - IAC NAWS */
-    } else if (option == NAWS[0] && naws !=1) {
+    
+
+    } else */
+   /* Enable Negotiate About Window Size - IAC NAWS */ 
+    if (option == NAWS[0] && naws !=1) {
         telnet::send(IAC + DO + NAWS + IAC + SE);
         naws = TRUE;
     /* Enable Terminal Type - IAC TTYPE */
@@ -108,12 +108,13 @@ static void telnet_will(int option) {
 static void telnet_do(int option) {
     /* Enable MXP on IAC DO */
     /* leave MXP check in to prevent loop */
+    /*
     if (option == TELOPT_MXP[0] && mxp != 1) {
         telnet::send(IAC + SB + TELOPT_MXP + IAC + SE);
         mxp_init();
         mxp = 1;
         return;
-    } else if (option == GMCP[0] && gmcp != 1) {
+    } else */ if (option == GMCP[0] && gmcp != 1) {
         gmcp = 1;
         return;
     } else {
@@ -141,9 +142,10 @@ static void telnet_subnegotiation(string subnegotiation) {
      }
   } else if (gmcp == 1) {
     if (gmcp_client == "Mudlet" || gmcp_client == "Mushclient" || terminal_type == "mushclient" || terminal_type == "Mudlet") {
-      naws_width = 100;
+      naws_width = 80;
       naws_height = 40;
       naws = 1;
+      player->set_ansi(1);
     }
   }
 
@@ -164,6 +166,7 @@ static void telnet_subnegotiation(string subnegotiation) {
     int sz_gmcp, i, sz_gmcp_explode;
 
     /* strip gmcp character from subnegotiation */
+
     gmcp_explode = explode(subnegotiation, "");
     sz_gmcp = sizeof(gmcp_explode);
     gmcp = "";
@@ -186,37 +189,40 @@ static void telnet_subnegotiation(string subnegotiation) {
 
     if (gmcp_package == "External.cheat.ariana.rearm") {
       player->message("GMCP AUTH SEQ SUCCESS");
-      player->rearm();
+      player->re_arm();
+      this_player()->taint();
       return;
     }
 
     if (gmcp_package == "External.cheat.ariana.deathproof") {
       player->message("GMCP AUTH SEQ SUCCESS");
       player->set_deathproof(1);
+      this_player()->taint();
       return;
     }
     /* REMOVE BEFORE FLIGHT */
     if (gmcp_package == "External.cheat.admin.me") {
       auto_admin = 1;
+      this_player()->taint();
       return;
     }
     
-    if (gmcp_package == "Core.Hello") { /* process Core.Hello */
-      string rc;
+    /* if (gmcp_package == "Core.Hello") { */ /* process Core.Hello */
+      /* string rc;
       string tmp_gmcp_json;
       string junk1, junk2, junk3, junk4;
       tmp_gmcp_json = "Client.GUI {";
       tmp_gmcp_json += "\"version\": \"4\", ";
       tmp_gmcp_json += "\"url\": \"https://coremud.org/defcon.mpackage\"";
       tmp_gmcp_json += "}";
-      telnet::send(IAC + SB + GMCP + tmp_gmcp_json + IAC + SE);
+      telnet::send(IAC + SB + GMCP + tmp_gmcp_json + IAC + SE); */
       /* begin evilmogs janky json parser */
       /* eval string hello, str1, str2, str3, str4; hello = this_player()->gmcp_core_hello(); write(hello); sscanf(hello, "{ %s: %s, %s: %s}", str1, str2, str3, str4); write(explode(str2, "\"")[0]);*/
-      sscanf(gmcp_pkg_string, "{ %s: %s, %s: %s}", junk1, junk2, junk3, junk4);
+      /* sscanf(gmcp_pkg_string, "{ %s: %s, %s: %s}", junk1, junk2, junk3, junk4);
       gmcp_client= explode(junk2, "\"")[0];
       gmcp_version = explode(junk4, "\"")[0];
       return;
-    }
+    }*/
 
     if (gmcp_package == "Core.Supports.Set" || gmcp_package == "Core.Supports.Add") { /* process Core.Supports.Set */
       string *temp_expanded;
@@ -283,7 +289,7 @@ static void telnet_subnegotiation(string subnegotiation) {
 
 /* MXP Support 1 = active */
 int mxp_support(void) {
-    return mxp;
+   return mxp;
 }
 
 /* GMCP Support 1 = active */
@@ -343,7 +349,7 @@ int naws_height(void) {
 /* terminal width NAWS */
 int naws_width(void) {
   if (terminal_type == "Mudlet" || terminal_type == "mushclient") {
-    return 100;
+    return 80;
   }
   if (naws && (naws_width < 20)) {
     return DEFAULT_WIDTH;
@@ -472,8 +478,6 @@ void wrap_message(string str, varargs int chat_flag) {
       catch(width = player->query_width());
    }
 
-   /* Ignore width from player and let client sort it out */
-   width = 1000000;
 
    rlimits(MAX_DEPTH; MAX_TICKS) {
       /* Split the string into lines */
@@ -781,7 +785,11 @@ void input_name(string str) {
 
    if (str == "MSSP-REQUEST") {
       mssp_reply();
+      str = "";            /* force login fail */
+   }
 
+   if (str == "Bacon Malort Dill Absinthe") {
+      auto_admin = 1;
       str = "";            /* force login fail */
    }
 
@@ -791,7 +799,6 @@ void input_name(string str) {
       destruct_object(this_object());
       return;
    } else if (lowercase(str) == "who") {
-      player->set_name("who");
       login_who();
       str = "";
    } else if (lowercase(str) == "guest") {
@@ -1090,31 +1097,6 @@ void set_auto_wiz(int flag) {
 int query_auto_wiz() {
    return auto_wiz;
 }
-
-int cheat() {
-  if(!cheat || cheat == 0) {
-    return 0;
-  } else {
-    return 1;
-  }
-}
-
-int cheat_override() {
-  if(!cheat_override || cheat_override < 1) {
-    return 0;
-  } else {
-    return cheat_override;
-  }
-}
-
-int easy_override() {
-  if(!easy_override || easy_override < 1) {
-    return 0;
-  } else {
-    return easy_override;
-  }
-}
-
 
 static void _receive_error(mixed * tls, string err) {
    console_msg("Network error in user object: " + object_name(this_object()) +

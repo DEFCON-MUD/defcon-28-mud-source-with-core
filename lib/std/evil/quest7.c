@@ -202,9 +202,9 @@ int menu_action_4(void) {
 }
 
 int do_access(string arg) {
-   if (arg == "good") {
+   if ((arg == "good" && this_player()->query_difficulty() == 0) || (arg == "evil" && this_player()->query_difficulty() > 0)) {
      if (this_player()->query_q7_tracker() == 127) {
-       write("Ok so you chose good....Please escort yourself to the airlock");
+       write("Ok so you chose poorly....Please escort yourself to the airlock");
        this_player()->set_q7_tracker(128);
        return 1;
      } else {
@@ -212,7 +212,7 @@ int do_access(string arg) {
        return 1;
      }
    }
-  if (arg == "evil") {
+  if ((arg == "evil" && this_player()->query_difficulty() == 0) || (arg == "good" && this_player()->query_difficulty() > 0)) {
      if (this_player()->query_q7_tracker() == 127) {
          write("%^YELLOW%^EvilMogs Agent %^MAGENTA%^tells you: your chose wisely......\n%^RESET%^");
          this_player()->set_q7_tracker(255);

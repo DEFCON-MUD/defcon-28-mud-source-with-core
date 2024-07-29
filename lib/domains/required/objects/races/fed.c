@@ -5,7 +5,7 @@ void create(void) {
    ::create();
 
    set_race_short_desc("Feds are boring people in suits...");
-   set_race_long_desc("This is a boring and stuff fed, they have no imagination and are otherwise completely unremarkable.");
+   set_race_long_desc("This is a boring and stuff fed, they have no imagination and are otherwise completely unremarkable. This enables hardmode.");
    set_language("english");
 
    base_stat_minimum["str"] = 1;

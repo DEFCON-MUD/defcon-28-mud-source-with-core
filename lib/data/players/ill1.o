@@ -1,0 +1,33 @@
+long_desc "A boring player without a description."
+level 1
+quests ({0|})
+base_stats ([6|"cha":2,"con":17,"dex":4,"int":13,"str":26,"wis":29,])
+bonus_stats ([6|"cha":0,"con":0,"dex":0,"int":0,"str":0,"wis":0,])
+cur_hp 43
+max_hp 43
+cur_mana 49
+max_mana 49
+cur_end 41
+max_end 41
+player_age 1636
+killed_by ([0|])
+wimpy_dir ""
+gender "male"
+race "fed"
+followers ({0|})
+living_name "ill1"
+autoload_string "*^!"
+hit_skill "combat/unarmed"
+searchpath ({1|"/cmds/player/",})
+history ({20|"dungeon","go south ","southeast","go east ","go north ","go east ","go west ","go south ","go west ","go south ","get","get dirty cow","look","go east ","go west ","look","get oil","look","go north ","look",})
+environment_variables ([1|"cwd":"/",])
+title "$N the newbie"
+channels ({2|"gossip","announce",})
+ignored ({0|})
+alias ([0|])
+last_login 1721512626
+ansi 1
+custom_colors ([0|])
+autoload 1
+woodland_kills ({17|0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,})
+key_tracker ({8|0,0,0,0,0,0,0,0,})

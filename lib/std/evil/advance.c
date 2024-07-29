@@ -113,6 +113,10 @@ int do_quests(mixed args) {
     if(!player->is_completed_quest("Woodland")) {
       write("| %^MAGENTA%^Woodland%^RESET%^     - Kill all the creature types in woodland");
     }
+
+    if(!player->is_completed_quest("CryptoMines")) {
+      write("| %^MAGENTA%^CryptoMines%^RESET%^     - Mine 1000 times in the core north crypto mines");
+    }
     write("-----------------------------------------------------------------\n");
   }
   return 1;

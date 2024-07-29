@@ -21,13 +21,13 @@ string *usage(void) {
       lines += ({ "\tautoload\tSet to 1 if you want to save your equipment " +
          "on quit." });
    }
-   if (query_wizard(this_player() ) ) {
       lines += ({ "\tstart\t\tyour starting room." });
       lines += ({ "\thidden\t\tSet to 1 if you want to hide your login from " +
          "users." });
 
       lines += ({ "\tsave_on_quit\tSet to 1 if you want to start where you " +
          "last quit." });
+   if (query_wizard(this_player() ) ) {
       lines += ({ "\tquit_message\tSet your quit message.  " +
          "Example: $N $vquit." });
       lines += ({ "\tdebug_commands\tSet to 1 if you want debugging of " +
@@ -62,13 +62,14 @@ void list_vars(void) {
   if (!query_guest(this_player()->query_name() ) ) {
     names += ({ "realname", "email", "website" });
   }
-  if (this_player()->query_difficulty() == 0) {
-    names += ({ "autoload", "save_on_quit" });
+  if (this_player()->query_difficulty() >  0 || 
+      query_wizard(this_player())) {
+    names += ({ "autoload", "save_on_quit", "start_room"});
   }
   if (query_wizard(this_player() ) ) {
     names += ({ "hidden", 
          "quit_message", "debug_commands", "verbose_errors",
-         "display_caught", "start_room" });
+         "display_caught" });
   }
   for (i = 0; i < sizeof(names); i++) {
     out_unmod(names[i] + "=" + call_other(this_player(), "query_" +
@@ -78,20 +79,23 @@ void list_vars(void) {
 
 static void main(string str) {
    string name, value;
+   object player;
    int i;
 
    if (!alsos) {
       setup_alsos();
    }
 
+   player = this_player();
+
    if (empty_str(str)) {
       list_vars();
    } else if (sscanf(str, "-%s", str)) {
-      this_player()->more(usage());
+      player->more(usage());
       return;
    } else if ((sscanf(str, "%s %s", name, value) != 2) &&
       (sscanf(str, "%s=%s", name, value) != 2)) {
-      this_player()->more(usage());
+      player->more(usage());
       return;
    } else {
         if (value == "on") {
@@ -100,44 +104,48 @@ static void main(string str) {
            value = "0";
          }
         switch(name) {
-           case "height":
-           case "width":
-           case "prompt":
-              break;
-           case "realname":
-		   case "gender":
-           case "email":
-           case "website":
-              if (query_guest(this_player()->query_name() ) ) {
+           case "height": break;
+           case "width": break;
+           case "prompt": break;
+           case "realname": break;
+		   case "gender": break;
+           case "email": break;
+           case "website": break;
+              if (query_guest(player->query_name() ) ) {
                  write("You must be logged in with a character.");
               return;
               }
               break;
            case "hidden":
-              if (query_wizard(this_player() ) )  {
+            if (query_wizard(player) )  {
                  break;
-              } else if (this_player()->query_difficulty() == 0) {
-                break;
+              } else if (player->query_difficulty() > 0) {
+               player->taint();
+               return;
               } 
            case "autoload":
               if (query_wizard(this_player() ) )  {
                  break;
-              } else if (this_player()->query_difficulty() == 0) {
-                break;
+              } else if (this_player()->query_difficulty() > 0) {
+                  player->taint();
+                  return;
               } 
            case "save_on_quit":
               if (query_wizard(this_player() ) )  {
                  break;
-              } else if (this_player()->query_difficulty() == 0) {
-                break;
+              } else if (this_player()->query_difficulty() > 0) {
+               player->taint();
+                return;
               } 
            case "debug_commands":
+              player->taint();
               if (query_wizard(this_player() ) )  {
                  break;
-              } else if (this_player()->query_difficulty() == 0) {
-                break;
+              } else if (this_player()->query_difficulty() > 0) {
+               player->taint();
+               return;
               }
-           case "verbose_errors":
+           case "verbose_errors": break;
            case "display_caught":
               if (value != "0" && value != "1") {
                  write("The argument for " + name + " must be 1 or 0.");
@@ -147,8 +155,9 @@ static void main(string str) {
            case "start_room":
               if (query_wizard(this_player() ) )  {
                  break;
-              } else if (this_player()->query_difficulty() == 0) {
-                break;
+              } else if (this_player()->query_difficulty() > 0) {
+               player->taint();
+                return;
               }
            default:
               write("Invalid setting name \"" + name + "\".\n\n");

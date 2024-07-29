@@ -5,7 +5,7 @@ string *banished_names;
 #ifndef SYS_RESERVED_NAMES                                 
 #define SYS_RESERVED_NAMES ({ "kernel", "system", "network", "wizard", "wiz",\
     "game", "2.4.5", "boothill", "required", "gurba", "test", "nokicliffs",\
-    "newbie"})
+    "newbie", "admin", "defcon", "goon", "fuck"})
 #endif               
 
 void create(void) {

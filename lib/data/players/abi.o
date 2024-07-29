@@ -1,0 +1,32 @@
+long_desc "A boring player without a description."
+level 1
+quests ({0|})
+base_stats ([6|"cha":31,"con":24,"dex":28,"int":15,"str":28,"wis":22,])
+bonus_stats ([6|"cha":0,"con":0,"dex":0,"int":0,"str":0,"wis":0,])
+cur_hp 44
+max_hp 44
+cur_mana 42
+max_mana 42
+cur_end 72
+max_end 72
+player_age 458
+killed_by ([0|])
+wimpy_dir ""
+gender "male"
+race "hacker"
+living_name "abi"
+autoload_string "*^!"
+hit_skill "combat/unarmed"
+searchpath ({1|"/cmds/player/",})
+history ({20|"north","look sign","read sign","look tree","north","read sign","south","go south ","sewer","kick rat","go northeast ","go north ","go south ","go southeast ","go southwest ","go up ","core","go north ","go east ","look",})
+environment_variables ([1|"cwd":"/",])
+title "$N the newbie"
+channels ({2|"gossip","announce",})
+ignored ({0|})
+alias ([0|])
+last_login 1721503032
+ansi 1
+custom_colors ([0|])
+autoload 1
+woodland_kills ({17|0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,})
+key_tracker ({8|0,0,0,0,0,0,0,0,})

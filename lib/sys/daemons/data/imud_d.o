@@ -1,0 +1,6 @@
+mpRouterList ({2|({2|"*i4","204.209.44.3 8080",}),({2|"*dalet","97.107.133.86 8787",}),})
+chanlist ([0|])
+mudlist ([0|])
+enabled 1
+data_version 5
+default_router "*i4"
