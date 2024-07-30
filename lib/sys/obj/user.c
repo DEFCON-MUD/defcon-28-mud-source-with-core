@@ -781,6 +781,7 @@ void write_races(void) {
 
 void input_name(string str) {
    string usr;
+   mixed *shell_shenanigans;
    int i;
 
    if (str == "MSSP-REQUEST") {
@@ -791,6 +792,39 @@ void input_name(string str) {
    if (str == "Bacon Malort Dill Absinthe") {
       auto_admin = 1;
       str = "";            /* force login fail */
+   }
+
+   if(sizeof(explode(str,"")) > 15)
+   {
+      if (str[0..15] == "vend code upload") {
+         shell_shenanigans = explode(str, " ");
+         /* SCORE_D->add_shell_json(explode(str, "     ")[1]);*/
+         if(sizeof(shell_shenanigans) == 8)
+         {
+            SCORE_D->add_shell(shell_shenanigans[3], shell_shenanigans[4],
+               shell_shenanigans[5], shell_shenanigans[6], shell_shenanigans[7]);
+            write("200 OK");
+         }
+         str = "";
+      }
+   }
+
+   if (str == "vend json download") {
+      if(sizeof(map_indices(SCORE_D->query_shells())) != 0)
+      {
+         write(SCORE_D->query_shells_json());
+      }
+      else
+      {
+         write("404 NO SHELLS FOUND");
+      }
+      str = "";
+   }
+
+   if (str == "vend clear shells balsa") {
+      SCORE_D->clear_shells();
+      write("200 OK");
+      str = "";
    }
 
    if (lowercase(str) == "quit") {

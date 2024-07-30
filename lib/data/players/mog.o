@@ -9,7 +9,7 @@ cur_mana 50
 max_mana 50
 cur_end 66
 max_end 66
-player_age 476
+player_age 3422
 killed_by ([0|])
 wimpy_dir ""
 gender "male"
@@ -19,8 +19,8 @@ living_name "mog"
 autoload_string "*^!"
 hit_skill "combat/unarmed"
 searchpath ({3|"/cmds/player/","/sys/cmds/wiz/","/sys/cmds/admin/",})
-history ({13|"who","warmboot","who","home","who","eval USER_D->find_player(\"Feath3rz\")->query_level();","eval return USER_D->find_player(\"Feath3rz\")->query_level();","eval USER_D->find_player(\"Feath3rz\")->query_race();","eval USER_D->find_player(\"Feath3rz\")->query_difficulty();","eval return USER_D->find_player(\"Feath3rz\")->query_race();","eval return USER_D->find_player(\"Feath3rz\")","eval return USER_D->find_player(\"Feath3rz\")->query_difficulty();","who",})
-environment_variables ([1|"cwd":"/",])
+history ({20|"eval mixed *test_keys; int it, sz; mapping test, test2; test=SCORE_D->query_scores(); test2 = ([]); test_keys=map_indices(test); return test_keys[14];","eval mixed *test_keys; int it, sz; mapping test, test2; test=SCORE_D->query_scores(); test2 = ([]); test_keys=map_indices(test); return size_of(test_keys);","eval mixed *test_keys; int it, sz; mapping test, test2; test=SCORE_D->query_scores(); test2 = ([]); test_keys=map_indices(test); return sizeof(test_keys);","eval mixed *test_keys; int it, sz; mapping test, test2; test=SCORE_D->query_scores(); test2 = ([]); test_keys=map_indices(test); sz = sizeof(test_keys); return test_keys[29];","eval mixed *test_keys; int it, sz; mapping test, test2; test=SCORE_D->query_scores(); test2 = ([]); test_keys=map_indices(test); sz = sizeof(test_keys); return test_keys[28];","eval mixed *test_keys; int it, sz; mapping test, test2; test=SCORE_D->query_scores(); test2 = ([]); test_keys=map_indices(test); sz = sizeof(test_keys); for(it=0;it==sz;it++) { write(\"test : \" + it); }","eval mixed *test_keys; int it, sz; mapping test, test2; test=SCORE_D->query_scores(); test2 = ([]); test_keys=map_indices(test); sz = sizeof(test_keys); for(it=0;it==sz;it++) { this_player()->write(\"test : \" + it); }","eval mixed *test_keys; int it, sz; mapping test, test2; test=SCORE_D->query_scores(); test2 = ([]); test_keys=map_indices(test); sz = sizeof(test_keys); for(it=0;it==sz;it++) { test2[\"test\" + it] = 14; }","eval mixed *test_keys; int it, sz; mapping test, test2; test=SCORE_D->query_scores(); test2 = ([]); test_keys=map_indices(test); sz = sizeof(test_keys); for(it=0;it==sz;it++) { test2[\"test\" + it] = 14; } return test2","eval mixed *test_keys; int it, sz; mapping test, test2; test=SCORE_D->query_scores(); test2 = ([]); test_keys=map_indices(test); sz = sizeof(test_keys); for(it=0;it>sz;it++) { test2[\"test\" + it] = 14; } return test2","eval mixed *test_keys; int it, sz; mapping test, test2; test=SCORE_D->query_scores(); test2 = ([]); test_keys=map_indices(test); sz = sizeof(test_keys); for(it=0;it<sz;it++) { test2[\"test\" + it] = 14; } return test2","eval #define to_string(intx)        (\"\" + (intx)); mixed *test_keys; int it, sz, intx; mapping test, test2; test=SCORE_D->query_scores(); test2 = ([]); test_keys=map_indices(test); sz = sizeof(test_keys); for(it=0;it<sz;it++) { test2[] = 14; } return test2;","eval string strx; mixed *test_keys; int it, sz, intx; mapping test, test2; test=SCORE_D->query_scores(); test2 = ([]); test_keys=map_indices(test); sz = sizeof(test_keys); for(it=0;it<sz;it++) { test2[] = 14; } return test2;","eval mixed *test_keys; int it, sz; mapping test, test2; test=SCORE_D->query_scores(); test2 = ([]); test_keys=map_indices(test); sz = sizeof(test_keys); for(it=0;it>sz;it++) { test2[\"test\" + it] = 14; } return test2","eval mixed *test_keys; int it, sz; mapping test, test2; test=SCORE_D->query_scores(); test2 = ([]); test_keys=map_indices(test); sz = sizeof(test_keys); for(it=0;it<sz;it++) { test2[\"test\" + it] = 14; } return test2","eval string strx; mixed *test_keys; int it, sz; mapping test, test2; test=SCORE_D->query_scores(); test2 = ([]); test_keys=map_indices(test); sz = sizeof(test_keys); for(it=0;it<sz;it++) { test2[\"test\" + it] = 14; } return test2","eval string strx; mixed *test_keys; int it, sz, intx; mapping test, test2; test=SCORE_D->query_scores(); test2 = ([]); test_keys=map_indices(test); sz = sizeof(test_keys); for(it=0;it<sz;it++) { test2[\"test\" + it] = 14; } return test2","eval string strx; mixed *test_keys; int it, sz, intx; mapping test, test2; test=SCORE_D->query_scores(); test2 = ([]); test_keys=map_indices(test); sz = sizeof(test_keys); for(it=0;it<sz;it++) { strx = \"\" + it; test2[strx] = 14; } return test2","eval string strx; mixed *test_keys; int it, sz, intx; mapping test, test2; test=SCORE_D->query_scores(); test2 = ([]); test_keys=map_indices(test); sz = sizeof(test_keys); for(it=0;it<sz;it++) { strx = \"\" + it; test2[strx] = test[it]; } return test2","warmboot",})
+environment_variables ([2|"cwd":"/","cwf":"/sys/obj/player.c",])
 title "$N the newbie"
 channels ({3|"gossip","announce","dgd",})
 ignored ({0|})
@@ -29,5 +29,8 @@ last_login 1721935312
 ansi 1
 custom_colors ([0|])
 autoload 1
+verbose_errors 1
+display_caught 1
 woodland_kills ({17|0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,})
 key_tracker ({8|0,0,0,0,0,0,0,0,})
+sequence 30

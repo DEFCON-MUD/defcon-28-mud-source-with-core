@@ -22278,3 +22278,57 @@ enter: /domains/woodland/rooms/5_15.c:/domains/woodland/npc/chipmunk.c
 enter: /domains/woodland/rooms/5_14.c:/domains/woodland/npc/mouse.c
 killed: /domains/woodland/npc/mouse.c by Tiburon(/sys/obj/player.c):1722225731
 enter: /domains/woodland/rooms/5_14.c:/domains/required/objects/corpse.c
+enter: /domains/required/rooms/start.c:/domains/dungeon/objects/sign.c
+enter: /domains/required/rooms/start.c:/domains/dungeon/objects/sign.c
+enter: /domains/core/rooms/city/x40y-90z0.c:/domains/core/monsters/magnus.c
+enter: /domains/newbie/rooms/tree.c:/domains/newbie/obj/sign.c
+enter: /domains/newbie/rooms/tree.c:/domains/newbie/obj/tree.c
+enter: /domains/core/rooms/city/x30y-80z0.c:/domains/core/monsters/lulams.c
+enter: /domains/core/rooms/city/x30y-70z0.c:/domains/core/monsters/bartender.c
+enter: /domains/core/monsters/bartender.c:/domains/core/objects/shop/beer/blue.c
+enter: /domains/core/monsters/bartender.c:/domains/core/objects/shop/beer/orange.c
+enter: /domains/core/monsters/bartender.c:/domains/core/objects/shop/beer/purple.c
+enter: /domains/core/monsters/bartender.c:/domains/core/objects/shop/beer/red.c
+enter: /domains/core/monsters/bartender.c:/domains/core/objects/shop/beer/white.c
+enter: /domains/core/monsters/bartender.c:/domains/core/objects/shop/beer/yellow.c
+enter: /domains/core/rooms/city/x60y-40z0.c:/domains/core/monsters/lrak.c
+enter: /domains/core/rooms/city/x70y-40z0.c:/domains/core/monsters/fern.c
+enter: /domains/core/rooms/city/x70y-40z0.c:/domains/core/monsters/fireant.c
+enter: /domains/core/rooms/city/x50y-40z0.c:/domains/core/monsters/mosquito.c
+killed: /domains/core/monsters/mosquito.c by Heckseven(/sys/obj/player.c):1722308702
+enter: /domains/core/rooms/city/x50y-40z0.c:/domains/required/objects/corpse.c
+enter: /domains/core/rooms/city/x40y-40z0.c:/domains/core/monsters/carrierpigeon.c
+enter: /domains/core/rooms/city/x70y-20z0.c:/domains/core/monsters/tawny.c
+enter: /domains/core/rooms/city/x60y-10z0.c:/domains/core/monsters/billy.c
+enter: /domains/core/rooms/city/x50y-40z0.c:/domains/core/monsters/mosquito.c
+enter: /domains/core/rooms/city/x50y-10z0.c:/domains/core/monsters/hans.c
+enter: /domains/core/rooms/city/x40y-10z0.c:/domains/core/monsters/freddy.c
+enter: /domains/core/rooms/city/x30y-10z0.c:/domains/core/monsters/biddleman.c
+enter: /domains/core/rooms/city/x20y-10z0.c:/domains/core/monsters/manny.c
+enter: /domains/core/rooms/city/x10y-20z0.c:/domains/core/monsters/clerk.c
+enter: /domains/core/rooms/city/x10y-20z0.c:/domains/core/monsters/officer.c
+enter: /domains/core/rooms/city/x10y-30z0.c:/domains/core/monsters/rachel.c
+enter: /domains/core/rooms/city/x10y-40z0.c:/domains/core/monsters/valerie.c
+enter: /domains/core/rooms/city/x10y-50z0.c:/domains/core/monsters/norman.c
+enter: /domains/core/rooms/city/x10y-60z0.c:/domains/core/monsters/jacob.c
+enter: /domains/core/rooms/city/x20y-70z0.c:/domains/core/monsters/wendall.c
+enter: /domains/core/rooms/city/x10y-70z0.c:/domains/core/monsters/antoinnete.c
+killed: /domains/core/monsters/mosquito.c by Heckseven(/sys/obj/player.c):1722310785
+enter: /domains/core/rooms/city/x50y-40z0.c:/domains/required/objects/corpse.c
+enter: /domains/core/rooms/city/x50y-40z0.c:/domains/core/monsters/mosquito.c
+killed: /domains/core/monsters/mosquito.c by Heckseven(/sys/obj/player.c):1722310845
+enter: /domains/core/rooms/city/x50y-40z0.c:/domains/required/objects/corpse.c
+enter: /domains/core/rooms/city/x30y-50z0.c:/domains/core/monsters/rattlesnake.c
+enter: /domains/core/rooms/city/x30y-40z0.c:/domains/core/monsters/ferret.c
+enter: /domains/core/rooms/city/x30y-30z0.c:/domains/core/monsters/fieldmouse.c
+enter: /domains/core/rooms/city/x40y-30z0.c:/domains/core/monsters/japanesebeetle.c
+enter: /domains/core/rooms/city/x50y-30z0.c:/domains/core/monsters/sparrow.c
+enter: /domains/core/rooms/city/x50y-30z0.c:/domains/core/monsters/treelizard.c
+enter: /domains/core/rooms/city/x50y-40z0.c:/domains/core/monsters/mosquito.c
+enter: /domains/core/rooms/city/x50y-50z0.c:/domains/core/monsters/fireant.c
+enter: /domains/core/rooms/city/x40y-50z0.c:/domains/core/monsters/iguana.c
+killed: /domains/core/monsters/mosquito.c by Heckseven(/sys/obj/player.c):1722311312
+enter: /domains/core/rooms/city/x50y-40z0.c:/domains/required/objects/corpse.c
+enter: /domains/required/rooms/start.c:/domains/dungeon/objects/sign.c
+enter: /domains/core/rooms/city/x50y-50z0.c:/domains/required/objects/corpse.c
+enter: /domains/core/rooms/city/x50y-40z0.c:/domains/core/monsters/mosquito.c
