@@ -77,6 +77,7 @@ int *cypher_codes; /* tracks entered cyphercon codes */
 int *key_tracker; /* tracks 8 keys from quest */
 mapping careers; /* tracks careers */
 int sequence;
+int shells_issued;
 
 string query_name(void);
 
@@ -1823,4 +1824,91 @@ int reset_sequence(void) {
    sequence = SCORE_D->issue_sequence();
    save_me();
    return sequence;
+}
+
+int query_shells_issued(){
+   if(!shells_issued)
+   {
+      shells_issued = 0;
+      save_me();
+   }
+   return shells_issued;
+}
+
+int issue_shell() {
+   mapping score_shells;
+   string uuid;
+   if(!shells_issued || shells_issued == 0)
+   {
+      if(sizeof(map_indices(SCORE_D->query_shells())) > 0 && level > 1)
+      {
+         shells_issued = 1;
+         save_me();
+         score_shells = SCORE_D->query_shells();
+         write("You have been issued a shell.");
+         uuid = map_indices(score_shells)[0];
+         
+         write("   This SHELL ON DEMAND APPLIANCE");
+         write("   S.O.D.A. MACHINE is the property of");
+         write("   NATIONAL UPCYCLED COMPUTING COLLECTIVE INC");
+         write("   NUCC");
+         write(" ");
+         write("   NUCC is a 501c3 nonprofit organization");
+         write("   EIN 82-1177433 as determined by the");
+         write("   Internal Revenue Service with a");
+         write("   National Taxonomy of Exempt Entities");
+         write("   U41 Classification as a Computer Science,");
+         write("   Technology and Engineering,");
+         write("   Research Institute.");
+         write(" ");
+         write("   S.O.D.A. MACHINE services are provided by");
+         write("   NUCC at DEF CON as a NUCC Fundraiser");
+         write("   and as such fall under the");
+         write("   established DEF CON policies.");
+         write(" ");
+         write("   Use of the services distributed by this");
+         write("   S.O.D.A. MACHINE indicate your awareness");
+         write("   of and consent to ALL DEF CON policies.");
+         write(" ");
+         write("   www.defcon.org/html/links/dc-policy.html");
+         write(" ");
+         write("   Unauthorized or improper use of these");
+         write("   services may result in disciplinary");
+         write("   action and civil/criminal penalties.");
+         write(" ");
+         write("UUID: " + uuid);
+         write("USERNAME: " + score_shells[uuid]["username"]);
+         write("PASSWORD: " + score_shells[uuid]["password"]);
+         write("IP: " + score_shells[uuid]["ip"]);
+         write("SHELL TYPE: " + score_shells[uuid]["shell_type"]);
+         write("ssh -J ssh@sodashell.com " + score_shells[uuid]["username"]+"@"+score_shells[uuid]["ip"]);
+
+         SCORE_D->issue_shell(uuid);
+         /*
+         eval mapping test; test = ([]);
+         test["test"] = "fuckme";
+         test["test"] = nil;
+         return test;
+         return test[map_indices(test)[0]];
+         */
+         return 1;
+      }
+      else
+      {
+         write("No Shells available or you are not atleast level 2");
+         return 0;
+      }
+   }
+   else
+   {
+      write("You have been issued a shell already");
+      return 0;
+   }
+}
+
+void clear_shells()
+{
+   shells_issued = 0;
+   save_me();
+   return;
 }

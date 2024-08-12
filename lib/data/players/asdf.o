@@ -1,0 +1,39 @@
+long_desc "A boring player without a description."
+level 5
+experience 33227
+quests ({1|"NewbieVille",})
+coins 100
+base_stats ([6|"cha":1,"con":24,"dex":8,"int":20,"str":28,"wis":13,])
+bonus_stats ([6|"cha":0,"con":0,"dex":0,"int":0,"str":0,"wis":0,])
+cur_hp 50
+max_hp 50
+cur_mana 33
+max_mana 33
+cur_end 52
+max_end 52
+player_age 2072
+kills 15
+killed_by ([0|])
+wimpy_dir ""
+gender "male"
+race "fed"
+followers ({0|})
+living_name "asdf"
+autoload_string "/domains/core/objects/shop/armour/gorget2.c:wear^!/domains/core/objects/shop/armour/faulds2.c:wear^!/domains/core/objects/shop/armour/boots2.c:wear^!/domains/core/objects/shop/weapon/sword2.c:wield^!/domains/core/objects/shop/armour/bracers2.c:wear^!/domains/core/objects/shop/armour/gauntlets2.c:wear^!/domains/core/objects/shop/armour/gloves2.c:wear^!/domains/core/objects/shop/armour/armour2.c:wear^!*^!"
+skills ([3|"combat/defense":51,"combat/sharp/small":31,"mining":2,])
+hit_skill "combat/unarmed"
+searchpath ({1|"/cmds/player/",})
+history ({20|"go south ","go southwest ","go south ","go southeast ","go east ","go south ","XJPjsdTiSP6HK3eRu37","go north ","go south ","go west ","quests","go east ","go north ","read sign","go north ","read sign","go south ","read sign","woodland","claim",})
+environment_variables ([1|"cwd":"/",])
+title "$N the %^EXT_220%^Apprentice%^RESET%^"
+channels ({2|"gossip","announce",})
+ignored ({0|})
+alias ([0|])
+last_login 1723112620
+ansi 1
+lastmined 1723112972
+minelocation "/domains/woodland/rooms/mine.c"
+custom_colors ([0|])
+autoload 1
+woodland_kills ({17|1,1,1,1,1,1,0,1,1,0,0,1,1,1,1,0,0,})
+key_tracker ({8|0,0,0,0,0,0,0,0,})

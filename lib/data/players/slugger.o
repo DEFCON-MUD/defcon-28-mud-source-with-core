@@ -1,9 +1,9 @@
 banes ({0|})
 long_desc "\"I thought what I'd do was, I'd pretend I was one of those deaf-mutes.\""
 level 20
-experience 878774
-quests ({5|"NewbieVille","Pottles","Woodland","Parrot","Wizard",})
-coins 442450
+experience 1075577
+quests ({7|"NewbieVille","Pottles","Woodland","Parrot","Wizard","CryptoMines","Sewer",})
+coins 608078
 stocks ([0|])
 minerals ([0|])
 base_stats ([6|"cha":12,"con":11,"dex":24,"int":17,"str":31,"wis":22,])
@@ -14,8 +14,8 @@ cur_mana 42
 max_mana 42
 cur_end 55
 max_end 55
-player_age 97440
-kills 135
+player_age 131436
+kills 206
 killed_by ([1|1721440020:"/domains/woodland/npc/chipmunk.c",])
 wimpy 1
 wimpy_hp 10
@@ -26,25 +26,25 @@ hit_string "hit"
 followers ({0|})
 following ""
 living_name "slugger"
-autoload_string "/domains/core/objects/shop/armour/helmet20.c:wear^!/domains/core/objects/shop/armour/gauntlets20.c:wear^!/domains/core/objects/shop/armour/boots20.c:wear^!/domains/core/objects/shop/armour/armour20.c:wear^!/domains/core/objects/shop/weapon/sword20.c:wield^!/domains/core/objects/shop/armour/ring20.c:wear^!/domains/core/objects/shop/armour/plate20.c:wear^!/domains/core/objects/lockpick.c:none^!/domains/core/objects/tracker.c:none^!/domains/core/objects/shop/armour/gorget20.c:wear^!/domains/core/objects/shop/armour/bracers20.c:wear^!*^!"
-skills ([4|"combat/defense":152,"combat/sharp/small":85,"combat/unarmed":14,"mining":329,])
+autoload_string "/domains/core/objects/shop/armour/gloves20.c:wear^!/domains/core/objects/shop/weapon/sword20.c:wield^!/domains/core/objects/shop/armour/armour20.c:wear^!/domains/core/objects/shop/armour/gauntlets20.c:wear^!/domains/core/objects/lockpick.c:none^!/domains/core/objects/shop/armour/bracers20.c:wear^!/domains/core/objects/shop/armour/boots20.c:wear^!/domains/core/objects/shop/armour/helmet20.c:wear^!/domains/core/objects/tracker.c:none^!/domains/core/objects/shop/armour/gorget20.c:wear^!/domains/core/objects/shop/armour/plate20.c:wear^!*^!"
+skills ([5|"combat/defense":207,"combat/sharp/small":98,"combat/unarmed":40,"crypto":2022,"mining":329,])
 hit_skill "combat/unarmed"
 searchpath ({1|"/cmds/player/",})
-history ({20|"south","dungeon","who","look","east","west","go up ","gossip  ooooo","who","look","look steve","look","core","north","west","east","south","ok","south","up",})
+history ({20|"north","south","west","east","south","east","west","east","west","east","north","west","look reports","look table","look tables","east","who","gossip  what's up!","gossip  did you beat the game with FED already?","gossip  I'm stuck... I can't find Key 1 or the way into underneath the prison.",})
 last_tell "mog"
 environment_variables ([1|"cwd":"/",])
 title "$N the Parrot Killer"
 channels ({2|"gossip","announce",})
 ignored ({0|})
 alias ([0|])
-last_login 1721703961
+last_login 1723091887
 ansi 1
-lastmined 1721539236
+lastmined 1599175150
 minelocation "/domains/core/rooms/southmine/x0y-630z0.c"
 deathproof 1
+q7_tracker 1
 custom_colors ([0|])
 autoload 1
 woodland_kills ({17|1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,})
-key_tracker ({8|0,1,0,1,0,1,1,1,})
+key_tracker ({8|0,1,1,1,1,1,1,1,})
 careers ([1|"mining":"A",])
-sequence "3"

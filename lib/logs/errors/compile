@@ -1,7 +1,2 @@
 
-Tue Jul 30 05:02:50 2024: DRIVER :/sys/obj/user.c, 813: syntax error
-Tue Jul 30 05:04:41 2024:mog:/wiz/mog/obj/eval_ob, 9: undefined function keys
-Tue Jul 30 05:04:41 2024:mog:/wiz/mog/obj/eval_ob, 9: syntax error
-Tue Jul 30 05:04:43 2024:mog:/wiz/mog/obj/eval_ob, 9: undefined function keys
-Tue Jul 30 05:05:07 2024:mog:/wiz/mog/obj/eval_ob, 9: syntax error
-Tue Jul 30 05:05:09 2024:mog:/wiz/mog/obj/eval_ob, 9: syntax error
+Thu Aug  8 18:14:33 2024: DRIVER :/sys/obj/player.c, 1856: syntax error

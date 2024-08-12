@@ -1,0 +1,32 @@
+long_desc "A boring player without a description."
+level 1
+quests ({0|})
+base_stats ([6|"cha":28,"con":17,"dex":32,"int":28,"str":18,"wis":23,])
+bonus_stats ([6|"cha":0,"con":0,"dex":0,"int":0,"str":0,"wis":0,])
+cur_hp 44
+max_hp 37
+cur_mana 43
+max_mana 43
+cur_end 69
+max_end 69
+player_age 234
+killed_by ([0|])
+wimpy_dir ""
+gender "male"
+race "hacker"
+living_name "coosh"
+autoload_string "*^!"
+hit_skill "combat/unarmed"
+searchpath ({1|"/cmds/player/",})
+history ({6|"help","look","north","look","south","north",})
+environment_variables ([1|"cwd":"/",])
+title "$N the newbie"
+channels ({2|"gossip","announce",})
+ignored ({0|})
+alias ([0|])
+last_login 1722380230
+ansi 1
+custom_colors ([0|])
+autoload 1
+woodland_kills ({17|0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,})
+key_tracker ({8|0,0,0,0,0,0,0,0,})

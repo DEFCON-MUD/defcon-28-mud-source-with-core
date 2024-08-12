@@ -10,7 +10,7 @@ cur_mana 46
 max_mana 46
 cur_end 62
 max_end 62
-player_age 7620
+player_age 7718
 kills 7
 killed_by ([8|1721447370:"/domains/sewer/monsters/uninitiated_lizard_1.c",1721448672:"/domains/sewer/monsters/uninitiated_lizard_1.c",1721458314:"/domains/core/monsters/japanesebeetle.c",1721458689:"/domains/woodland/npc/chipmunk.c",1721459437:"/domains/woodland/npc/unicorn.c",1721459549:"/domains/dungeon/monsters/rowhammer.c",1721459853:"/domains/dungeon/monsters/ms08-067.c",1721604308:"/domains/woodland/npc/mouse.c",])
 wimpy_dir ""
@@ -22,16 +22,16 @@ autoload_string "/domains/newbie/obj/stick.c:wield^!/domains/newbie/obj/stick.c:
 skills ([3|"combat/blunt/small":28,"combat/defense":49,"combat/unarmed":12,])
 hit_skill "combat/unarmed"
 searchpath ({1|"/cmds/player/",})
-history ({20|"inventory","wield stick","inventory","score","look","east","west","attack a mouse","attack mouse","look","search","west","look","northwest","look","north","attack fox","score","search","look",})
+history ({20|"look","east","west","attack a mouse","attack mouse","look","search","west","look","northwest","look","north","attack fox","score","search","look","north","gossip yo","search tree","read sign",})
 environment_variables ([1|"cwd":"/",])
 title "$N the newbie"
 channels ({2|"gossip","announce",})
 ignored ({0|})
 alias ([0|])
-last_login 1721602559
+last_login 1722481269
 ansi 1
 custom_colors ([0|])
 autoload 1
 woodland_kills ({17|1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,})
 key_tracker ({8|0,0,0,0,0,0,0,0,})
-sequence "2"
+sequence 2

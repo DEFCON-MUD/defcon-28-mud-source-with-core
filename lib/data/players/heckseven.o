@@ -1,0 +1,45 @@
+banes ({0|})
+long_desc "A boring player without a description."
+level 11
+experience 249554
+quests ({2|"Woodland","Pottles",})
+coins 267100
+stocks ([0|])
+minerals ([0|])
+base_stats ([6|"cha":15,"con":17,"dex":17,"int":27,"str":30,"wis":33,])
+bonus_stats ([6|"cha":0,"con":0,"dex":0,"int":0,"str":0,"wis":0,])
+cur_hp 37
+max_hp 37
+cur_mana 53
+max_mana 53
+cur_end 53
+max_end 54
+player_age 32192
+kills 146
+killed_by ([0|])
+wimpy_dir ""
+gender "other"
+race "hacker"
+hit_string "hit"
+followers ({0|})
+living_name "heckseven"
+autoload_string "/domains/core/objects/shop/armour/gorget9.c:wear^!/domains/core/objects/shop/armour/boots9.c:wear^!/domains/core/objects/shop/armour/bracers9.c:wear^!/domains/core/objects/shop/armour/armour9.c:wear^!/domains/core/objects/tracker.c:none^!/domains/core/objects/shop/armour/gorget1.c:none^!/domains/core/objects/shop/armour/armour1.c:none^!/domains/core/objects/shop/armour/gloves1.c:none^!/domains/core/objects/shop/armour/faulds1.c:none^!/domains/core/objects/shop/weapon/sword1.c:none^!/domains/core/objects/shop/armour/gauntlets1.c:wear^!/domains/core/objects/shop/armour/gauntlets9.c:none^!/domains/core/objects/shop/weapon/sword9.c:wield^!/domains/core/objects/shop/weapon/sword3.c:wield^!/domains/core/objects/shop/armour/boots1.c:none^!/domains/core/objects/shop/armour/bracers1.c:none^!/domains/core/objects/shop/armour/faulds9.c:wear^!/domains/core/objects/shop/armour/gloves9.c:wear^!*^!"
+skills ([4|"combat/defense":81,"combat/sharp/small":87,"combat/unarmed":6,"mining":166,])
+hit_skill "combat/unarmed"
+searchpath ({1|"/cmds/player/",})
+history ({20|"crypto","score","crypto","score","levels","look ","go east ","go south ","dungeon","look ms08-067","look ","go up ","look ","core","go up ","dungeon","look ","get ms08-067","attack ms08-067","look ",})
+environment_variables ([1|"cwd":"/",])
+title "$N %^EXT_171%^Boss%^RESET%^"
+channels ({2|"gossip","announce",})
+ignored ({0|})
+alias ([0|])
+last_login 1722563261
+ansi 1
+lastmined 1722483017
+minelocation "/domains/woodland/rooms/mine.c"
+deathproof 1
+custom_colors ([0|])
+autoload 1
+woodland_kills ({17|1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,})
+key_tracker ({8|0,0,0,0,0,0,0,0,})
+careers ([1|"mining":"B",])

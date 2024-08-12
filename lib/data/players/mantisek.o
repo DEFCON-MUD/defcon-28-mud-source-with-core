@@ -1,0 +1,36 @@
+long_desc "11111"
+level 1
+experience 58
+quests ({0|})
+base_stats ([6|"cha":27,"con":10,"dex":9,"int":30,"str":24,"wis":7,])
+bonus_stats ([6|"cha":0,"con":0,"dex":0,"int":0,"str":0,"wis":0,])
+cur_hp 36
+max_hp 30
+cur_mana 39
+max_mana 27
+cur_end 60
+max_end 39
+player_age 1462
+kills 1
+killed_by ([0|])
+wimpy_dir ""
+gender "male"
+race "human"
+hit_string "hit"
+living_name "mantisek"
+autoload_string "*^!"
+skills ([2|"combat/defense":2,"combat/unarmed":2,])
+hit_skill "combat/unarmed"
+searchpath ({1|"/cmds/player/",})
+history ({20|"query","help query","query mantisek","identify","identify mantisek","value","close","close all","top","help top","score","junk","cmds","wizcall","who","cmds","time","set","show","look ",})
+environment_variables ([1|"cwd":"/",])
+title "$N the newbie"
+channels ({2|"gossip","announce",})
+ignored ({0|})
+alias ([0|])
+last_login 1722333519
+ansi 1
+custom_colors ([0|])
+autoload 1
+woodland_kills ({17|0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,})
+key_tracker ({8|0,0,0,0,0,0,0,0,})

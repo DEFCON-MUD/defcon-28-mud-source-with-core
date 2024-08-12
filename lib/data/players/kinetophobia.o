@@ -1,0 +1,32 @@
+long_desc "A boring player without a description."
+level 1
+quests ({0|})
+base_stats ([6|"cha":27,"con":33,"dex":33,"int":24,"str":22,"wis":25,])
+bonus_stats ([6|"cha":0,"con":0,"dex":0,"int":0,"str":0,"wis":0,])
+cur_hp 53
+max_hp 53
+cur_mana 45
+max_mana 45
+cur_end 86
+max_end 86
+player_age 630
+killed_by ([0|])
+wimpy_dir ""
+gender "female"
+race "hacker"
+living_name "kinetophobia"
+autoload_string "*^!"
+hit_skill "combat/unarmed"
+searchpath ({1|"/cmds/player/",})
+history ({20|"east","north","look at sign","read sign","south","look at large dead tree","west","east","south","cmds","remove flower","south","look at small table","look at table","wield red potion","inventory red potion","get red potion","get red potion from table","help","help newbie",})
+environment_variables ([1|"cwd":"/",])
+title "$N the newbie"
+channels ({2|"gossip","announce",})
+ignored ({0|})
+alias ([0|])
+last_login 1722649951
+ansi 1
+custom_colors ([0|])
+autoload 1
+woodland_kills ({17|0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,})
+key_tracker ({8|0,0,0,0,0,0,0,0,})

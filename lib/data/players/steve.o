@@ -9,7 +9,7 @@ cur_mana 52
 max_mana 35
 cur_end 83
 max_end 48
-player_age 400
+player_age 412
 killed_by ([0|])
 wimpy_dir ""
 gender "male"
@@ -19,13 +19,13 @@ living_name "steve"
 autoload_string "*^!"
 hit_skill "combat/unarmed"
 searchpath ({1|"/cmds/player/",})
-history ({7|"set","look","set","set set","set","who","gossip howdy all",})
+history ({8|"set","look","set","set set","set","who","gossip howdy all","who",})
 environment_variables ([1|"cwd":"/",])
 title "$N the newbie"
 channels ({2|"gossip","announce",})
 ignored ({0|})
 alias ([0|])
-last_login 1722111394
+last_login 1722928736
 ansi 1
 custom_colors ([0|])
 autoload 1

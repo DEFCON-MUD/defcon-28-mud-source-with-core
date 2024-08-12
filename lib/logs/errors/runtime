@@ -99,3 +99,771 @@ Tue Jul 30 05:03:15 2024:Object: /daemons/evil/score_d, program: /sys/lib/auto, 
  725 json_encode       /std/json (/daemons/evil/score_d)
  445 sprintf           /sys/lib/auto (/daemons/evil/score_d)
 
+Bad argument 1 for kfun call_other
+Tue Jul 30 09:15:45 2024:Object: /sys/obj/player#2863, program: /std/body/heart_beat, line 308
+  21 _F_call_out       /kernel/lib/auto (/daemons/schedule_d)
+  15 _F_call_out2      /kernel/lib/auto (/daemons/schedule_d)
+ 150 micro_beat        /daemons/schedule_d
+ 135 second_tick       /daemons/schedule_d
+  85 heart_beat        /daemons/schedule_d
+ 126 event             /daemons/event_d
+  89 dispatch_event    /daemons/event_d
+  66 event_heart_beat  /std/body/heart_beat (/sys/obj/player#2863)
+ 308 die               /std/body/heart_beat (/sys/obj/player#2863)
+
+Bad argument 1 for kfun call_other
+Tue Jul 30 16:02:10 2024:Object: /sys/obj/user#1865, program: /sys/obj/user, line 549
+ 560 receive_message   /sys/obj/user (#1865)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#1865)
+ 549 _receive_message  /sys/obj/user (#1865)
+
+Bad argument 1 for kfun call_other
+Tue Jul 30 16:13:36 2024:Object: /sys/obj/user#2459, program: /sys/obj/user, line 549
+ 560 receive_message   /sys/obj/user (#2459)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#2459)
+ 549 _receive_message  /sys/obj/user (#2459)
+
+Format error in "/data/players/slugger.o", line 50: value has wrong type
+Wed Jul 31 02:40:24 2024:Object: /sys/obj/player#2564, program: /kernel/lib/auto, line 11
+ 560 receive_message   /sys/obj/user (#2567)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#2567)
+ 555 _receive_message  /sys/obj/user (#2567)
+1520 receive_message   /sys/obj/player (#2564)
+ 878 input_name        /sys/obj/user (#2567)
+ 153 restore_me        /sys/obj/player (#2564)
+  14 unguarded         /kernel/lib/auto (/sys/obj/player#2564)
+  11 restore_object    /kernel/lib/auto (/sys/obj/player#2564)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 02:40:25 2024:Object: /sys/obj/player#2564, program: /sys/obj/player, line 1694
+ 560 receive_message   /sys/obj/user (#2567)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#2567)
+ 555 _receive_message  /sys/obj/user (#2567)
+1694 receive_message   /sys/obj/player (#2564)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 02:41:20 2024:Object: /sys/obj/player#2564, program: /sys/obj/player, line 1694
+ 560 receive_message   /sys/obj/user (#2567)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#2567)
+ 555 _receive_message  /sys/obj/user (#2567)
+1694 receive_message   /sys/obj/player (#2564)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 02:41:46 2024:Object: /sys/obj/player#2564, program: /sys/obj/player, line 1694
+ 560 receive_message   /sys/obj/user (#2567)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#2567)
+ 555 _receive_message  /sys/obj/user (#2567)
+1694 receive_message   /sys/obj/player (#2564)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 02:41:50 2024:Object: /sys/obj/player#2564, program: /sys/obj/player, line 1694
+ 560 receive_message   /sys/obj/user (#2567)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#2567)
+ 555 _receive_message  /sys/obj/user (#2567)
+1694 receive_message   /sys/obj/player (#2564)
+
+Format error in "/data/players/slugger.o", line 50: value has wrong type
+Wed Jul 31 02:42:37 2024:Object: /sys/obj/player#2567, program: /kernel/lib/auto, line 11
+ 560 receive_message   /sys/obj/user (#2564)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#2564)
+ 555 _receive_message  /sys/obj/user (#2564)
+1520 receive_message   /sys/obj/player (#2567)
+ 878 input_name        /sys/obj/user (#2564)
+ 153 restore_me        /sys/obj/player (#2567)
+  14 unguarded         /kernel/lib/auto (/sys/obj/player#2567)
+  11 restore_object    /kernel/lib/auto (/sys/obj/player#2567)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 02:42:38 2024:Object: /sys/obj/player#2567, program: /sys/obj/player, line 1694
+ 560 receive_message   /sys/obj/user (#2564)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#2564)
+ 555 _receive_message  /sys/obj/user (#2564)
+1694 receive_message   /sys/obj/player (#2567)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 02:42:43 2024:Object: /sys/obj/player#2567, program: /sys/obj/player, line 1694
+ 560 receive_message   /sys/obj/user (#2564)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#2564)
+ 555 _receive_message  /sys/obj/user (#2564)
+1694 receive_message   /sys/obj/player (#2567)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 02:43:28 2024:Object: /sys/obj/player#2567, program: /sys/obj/player, line 1694
+ 560 receive_message   /sys/obj/user (#2564)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#2564)
+ 555 _receive_message  /sys/obj/user (#2564)
+1694 receive_message   /sys/obj/player (#2567)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 02:43:29 2024:Object: /sys/obj/player#2567, program: /sys/obj/player, line 1694
+ 560 receive_message   /sys/obj/user (#2564)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#2564)
+ 555 _receive_message  /sys/obj/user (#2564)
+1694 receive_message   /sys/obj/player (#2567)
+
+Format error in "/data/players/tiburon.o", line 43: value has wrong type
+Wed Jul 31 07:39:12 2024:Object: /sys/obj/player#2692, program: /kernel/lib/auto, line 11
+ 560 receive_message   /sys/obj/user (#2485)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#2485)
+ 555 _receive_message  /sys/obj/user (#2485)
+1520 receive_message   /sys/obj/player (#2692)
+ 878 input_name        /sys/obj/user (#2485)
+ 153 restore_me        /sys/obj/player (#2692)
+  14 unguarded         /kernel/lib/auto (/sys/obj/player#2692)
+  11 restore_object    /kernel/lib/auto (/sys/obj/player#2692)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 07:43:16 2024:Object: /sys/obj/player#2485, program: /std/body/heart_beat, line 308
+  21 _F_call_out       /kernel/lib/auto (/daemons/schedule_d)
+  15 _F_call_out2      /kernel/lib/auto (/daemons/schedule_d)
+ 150 micro_beat        /daemons/schedule_d
+ 135 second_tick       /daemons/schedule_d
+  85 heart_beat        /daemons/schedule_d
+ 126 event             /daemons/event_d
+  89 dispatch_event    /daemons/event_d
+  66 event_heart_beat  /std/body/heart_beat (/sys/obj/player#2485)
+ 308 die               /std/body/heart_beat (/sys/obj/player#2485)
+
+Bad argument 1 for kfun query_editor
+Wed Jul 31 07:47:37 2024:Object: /sys/obj/player#2692, program: /sys/lib/editor, line 14
+ 560 receive_message   /sys/obj/user (#2485)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#2485)
+ 555 _receive_message  /sys/obj/user (#2485)
+1710 receive_message   /sys/obj/player (#2692)
+  14 is_editing        /sys/lib/editor (/sys/obj/player#2692)
+
+Format error in "/data/players/feath3rz.o", line 42: value has wrong type
+Wed Jul 31 20:30:58 2024:Object: /sys/obj/player#2449, program: /kernel/lib/auto, line 11
+ 560 receive_message   /sys/obj/user (#2254)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#2254)
+ 555 _receive_message  /sys/obj/user (#2254)
+1520 receive_message   /sys/obj/player (#2449)
+ 878 input_name        /sys/obj/user (#2254)
+ 153 restore_me        /sys/obj/player (#2449)
+  14 unguarded         /kernel/lib/auto (/sys/obj/player#2449)
+  11 restore_object    /kernel/lib/auto (/sys/obj/player#2449)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 20:31:11 2024:Object: /sys/obj/player#2449, program: /sys/obj/player, line 1694
+ 560 receive_message   /sys/obj/user (#2254)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#2254)
+ 555 _receive_message  /sys/obj/user (#2254)
+1694 receive_message   /sys/obj/player (#2449)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 20:31:18 2024:Object: /cmds/player/go, program: /cmds/player/go, line 56
+ 560 receive_message   /sys/obj/user (#2254)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#2254)
+ 555 _receive_message  /sys/obj/user (#2254)
+1668 receive_message   /sys/obj/player (#2449)
+ 155 command           /sys/lib/modules/m_cmds (/sys/obj/player#2449)
+ 156 exec_command      /sys/daemons/command_d
+  14 _main             /sys/lib/modules/m_command (/cmds/player/go)
+  56 main              /cmds/player/go
+
+String index out of range
+Wed Jul 31 20:54:29 2024:Object: /cmds/player/chan, program: /cmds/player/chan, line 245
+ 560 receive_message   /sys/obj/user (#899)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#899)
+ 555 _receive_message  /sys/obj/user (#899)
+1687 receive_message   /sys/obj/player (#921)
+ 155 command           /sys/lib/modules/m_cmds (/sys/obj/player#921)
+ 156 exec_command      /sys/daemons/command_d
+  14 _main             /sys/lib/modules/m_command (/cmds/player/chan)
+ 245 main              /cmds/player/chan
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:06:13 2024:Object: /sys/obj/player#2610, program: /std/body/snoop, line 55
+ 560 receive_message   /sys/obj/user (#243)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#243)
+ 555 _receive_message  /sys/obj/user (#243)
+1520 receive_message   /sys/obj/player (#540)
+ 929 input_old_passwd  /sys/obj/user (#243)
+ 641 login_user        /sys/obj/user (#243)
+ 572 login_player      /sys/obj/player (#540)
+ 126 event             /daemons/event_d
+  87 dispatch_event    /daemons/event_d
+ 672 event_player_login /daemons/channel_d
+ 369 chan_send_string  /daemons/channel_d
+ 965 message           /sys/obj/player (#2610)
+  55 do_snoop          /std/body/snoop (/sys/obj/player#2610)
+
+String index out of range
+Wed Jul 31 21:06:33 2024:Object: /cmds/player/chan, program: /cmds/player/chan, line 245
+ 560 receive_message   /sys/obj/user (#243)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#243)
+ 555 _receive_message  /sys/obj/user (#243)
+1687 receive_message   /sys/obj/player (#540)
+ 155 command           /sys/lib/modules/m_cmds (/sys/obj/player#540)
+ 156 exec_command      /sys/daemons/command_d
+  14 _main             /sys/lib/modules/m_command (/cmds/player/chan)
+ 245 main              /cmds/player/chan
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:06:40 2024:Object: /sys/obj/player#2610, program: /std/body/snoop, line 55
+ 560 receive_message   /sys/obj/user (#243)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#243)
+ 555 _receive_message  /sys/obj/user (#243)
+1668 receive_message   /sys/obj/player (#540)
+ 155 command           /sys/lib/modules/m_cmds (/sys/obj/player#540)
+ 156 exec_command      /sys/daemons/command_d
+  14 _main             /sys/lib/modules/m_command (/cmds/player/tell)
+  85 main              /cmds/player/tell
+ 965 message           /sys/obj/player (#2610)
+  55 do_snoop          /std/body/snoop (/sys/obj/player#2610)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:06:44 2024:Object: /sys/obj/player#540, program: /sys/obj/player, line 1694
+ 560 receive_message   /sys/obj/user (#243)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#243)
+ 555 _receive_message  /sys/obj/user (#243)
+1694 receive_message   /sys/obj/player (#540)
+
+String index out of range
+Wed Jul 31 21:06:52 2024:Object: /cmds/player/chan, program: /cmds/player/chan, line 245
+ 560 receive_message   /sys/obj/user (#243)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#243)
+ 555 _receive_message  /sys/obj/user (#243)
+1687 receive_message   /sys/obj/player (#540)
+ 155 command           /sys/lib/modules/m_cmds (/sys/obj/player#540)
+ 156 exec_command      /sys/daemons/command_d
+  14 _main             /sys/lib/modules/m_command (/cmds/player/chan)
+ 245 main              /cmds/player/chan
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:08:26 2024:Object: /sys/obj/player#2610, program: /std/body/snoop, line 55
+ 560 receive_message   /sys/obj/user (#540)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#540)
+ 555 _receive_message  /sys/obj/user (#540)
+1520 receive_message   /sys/obj/player (#243)
+ 929 input_old_passwd  /sys/obj/user (#540)
+ 641 login_user        /sys/obj/user (#540)
+ 572 login_player      /sys/obj/player (#243)
+ 126 event             /daemons/event_d
+  87 dispatch_event    /daemons/event_d
+ 672 event_player_login /daemons/channel_d
+ 369 chan_send_string  /daemons/channel_d
+ 965 message           /sys/obj/player (#2610)
+  55 do_snoop          /std/body/snoop (/sys/obj/player#2610)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:09:46 2024:Object: /sys/obj/player#2610, program: /std/body/snoop, line 55
+ 560 receive_message   /sys/obj/user (#2622)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#2622)
+ 555 _receive_message  /sys/obj/user (#2622)
+1513 receive_message   /sys/obj/player (#2610)
+  55 do_snoop          /std/body/snoop (/sys/obj/player#2610)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:09:48 2024:Object: /sys/obj/player#2610, program: /std/body/snoop, line 55
+ 560 receive_message   /sys/obj/user (#2622)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#2622)
+ 555 _receive_message  /sys/obj/user (#2622)
+1711 receive_message   /sys/obj/player (#2610)
+1080 write_prompt      /sys/obj/player (#2610)
+   8 out               /sys/lib/auto (/sys/obj/player#2610)
+ 982 message_orig      /sys/obj/player (#2610)
+  55 do_snoop          /std/body/snoop (/sys/obj/player#2610)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:09:48 2024:Object: /sys/obj/player#2610, program: /std/body/snoop, line 55
+ 560 receive_message   /sys/obj/user (#2622)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#2622)
+ 555 _receive_message  /sys/obj/user (#2622)
+1711 receive_message   /sys/obj/player (#2610)
+1080 write_prompt      /sys/obj/player (#2610)
+   8 out               /sys/lib/auto (/sys/obj/player#2610)
+ 982 message_orig      /sys/obj/player (#2610)
+  55 do_snoop          /std/body/snoop (/sys/obj/player#2610)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:09:48 2024:Object: /sys/obj/player#2610, program: /std/body/snoop, line 55
+ 560 receive_message   /sys/obj/user (#2622)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#2622)
+ 555 _receive_message  /sys/obj/user (#2622)
+1711 receive_message   /sys/obj/player (#2610)
+1080 write_prompt      /sys/obj/player (#2610)
+   8 out               /sys/lib/auto (/sys/obj/player#2610)
+ 982 message_orig      /sys/obj/player (#2610)
+  55 do_snoop          /std/body/snoop (/sys/obj/player#2610)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:09:48 2024:Object: /sys/obj/player#2610, program: /std/body/snoop, line 55
+ 560 receive_message   /sys/obj/user (#2622)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#2622)
+ 555 _receive_message  /sys/obj/user (#2622)
+1711 receive_message   /sys/obj/player (#2610)
+1080 write_prompt      /sys/obj/player (#2610)
+   8 out               /sys/lib/auto (/sys/obj/player#2610)
+ 982 message_orig      /sys/obj/player (#2610)
+  55 do_snoop          /std/body/snoop (/sys/obj/player#2610)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:09:49 2024:Object: /sys/obj/player#2610, program: /std/body/snoop, line 55
+ 560 receive_message   /sys/obj/user (#2622)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#2622)
+ 555 _receive_message  /sys/obj/user (#2622)
+1711 receive_message   /sys/obj/player (#2610)
+1080 write_prompt      /sys/obj/player (#2610)
+   8 out               /sys/lib/auto (/sys/obj/player#2610)
+ 982 message_orig      /sys/obj/player (#2610)
+  55 do_snoop          /std/body/snoop (/sys/obj/player#2610)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:09:49 2024:Object: /sys/obj/player#2610, program: /std/body/snoop, line 55
+ 560 receive_message   /sys/obj/user (#2622)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#2622)
+ 555 _receive_message  /sys/obj/user (#2622)
+1711 receive_message   /sys/obj/player (#2610)
+1080 write_prompt      /sys/obj/player (#2610)
+   8 out               /sys/lib/auto (/sys/obj/player#2610)
+ 982 message_orig      /sys/obj/player (#2610)
+  55 do_snoop          /std/body/snoop (/sys/obj/player#2610)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:09:50 2024:Object: /sys/obj/player#2610, program: /std/body/snoop, line 55
+ 560 receive_message   /sys/obj/user (#2622)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#2622)
+ 555 _receive_message  /sys/obj/user (#2622)
+1513 receive_message   /sys/obj/player (#2610)
+  55 do_snoop          /std/body/snoop (/sys/obj/player#2610)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:09:50 2024:Object: /sys/obj/player#2610, program: /std/body/snoop, line 55
+ 560 receive_message   /sys/obj/user (#2622)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#2622)
+ 555 _receive_message  /sys/obj/user (#2622)
+1711 receive_message   /sys/obj/player (#2610)
+1080 write_prompt      /sys/obj/player (#2610)
+   8 out               /sys/lib/auto (/sys/obj/player#2610)
+ 982 message_orig      /sys/obj/player (#2610)
+  55 do_snoop          /std/body/snoop (/sys/obj/player#2610)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:09:50 2024:Object: /sys/obj/player#2610, program: /std/body/snoop, line 55
+ 560 receive_message   /sys/obj/user (#540)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#540)
+ 555 _receive_message  /sys/obj/user (#540)
+1668 receive_message   /sys/obj/player (#243)
+ 155 command           /sys/lib/modules/m_cmds (/sys/obj/player#243)
+ 156 exec_command      /sys/daemons/command_d
+  14 _main             /sys/lib/modules/m_command (/cmds/player/quit)
+ 126 main              /cmds/player/quit
+1368 do_quit           /sys/obj/player (#243)
+ 126 event             /daemons/event_d
+  87 dispatch_event    /daemons/event_d
+ 682 event_player_logout /daemons/channel_d
+ 369 chan_send_string  /daemons/channel_d
+ 965 message           /sys/obj/player (#2610)
+  55 do_snoop          /std/body/snoop (/sys/obj/player#2610)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:09:50 2024:Object: /sys/obj/player#2610, program: /std/body/snoop, line 55
+ 560 receive_message   /sys/obj/user (#2622)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#2622)
+ 555 _receive_message  /sys/obj/user (#2622)
+1711 receive_message   /sys/obj/player (#2610)
+1080 write_prompt      /sys/obj/player (#2610)
+   8 out               /sys/lib/auto (/sys/obj/player#2610)
+ 982 message_orig      /sys/obj/player (#2610)
+  55 do_snoop          /std/body/snoop (/sys/obj/player#2610)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:09:56 2024:Object: /sys/obj/player#2610, program: /std/body/snoop, line 55
+ 560 receive_message   /sys/obj/user (#1058)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#1058)
+ 555 _receive_message  /sys/obj/user (#1058)
+1520 receive_message   /sys/obj/player (#938)
+ 929 input_old_passwd  /sys/obj/user (#1058)
+ 627 login_user        /sys/obj/user (#1058)
+1080 write_prompt      /sys/obj/player (#2610)
+   8 out               /sys/lib/auto (/sys/obj/player#2610)
+ 982 message_orig      /sys/obj/player (#2610)
+  55 do_snoop          /std/body/snoop (/sys/obj/player#2610)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:09:57 2024:Object: /sys/obj/player#2610, program: /std/body/snoop, line 55
+ 560 receive_message   /sys/obj/user (#1058)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#1058)
+ 555 _receive_message  /sys/obj/user (#1058)
+1711 receive_message   /sys/obj/player (#2610)
+1080 write_prompt      /sys/obj/player (#2610)
+   8 out               /sys/lib/auto (/sys/obj/player#2610)
+ 982 message_orig      /sys/obj/player (#2610)
+  55 do_snoop          /std/body/snoop (/sys/obj/player#2610)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:09:58 2024:Object: /sys/obj/player#2610, program: /std/body/snoop, line 55
+ 560 receive_message   /sys/obj/user (#1058)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#1058)
+ 555 _receive_message  /sys/obj/user (#1058)
+1711 receive_message   /sys/obj/player (#2610)
+1080 write_prompt      /sys/obj/player (#2610)
+   8 out               /sys/lib/auto (/sys/obj/player#2610)
+ 982 message_orig      /sys/obj/player (#2610)
+  55 do_snoop          /std/body/snoop (/sys/obj/player#2610)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:09:59 2024:Object: /sys/obj/player#2610, program: /std/body/snoop, line 55
+ 560 receive_message   /sys/obj/user (#1058)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#1058)
+ 555 _receive_message  /sys/obj/user (#1058)
+1513 receive_message   /sys/obj/player (#2610)
+  55 do_snoop          /std/body/snoop (/sys/obj/player#2610)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:10:00 2024:Object: /sys/obj/player#2610, program: /std/body/snoop, line 55
+ 560 receive_message   /sys/obj/user (#1058)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#1058)
+ 555 _receive_message  /sys/obj/user (#1058)
+1513 receive_message   /sys/obj/player (#2610)
+  55 do_snoop          /std/body/snoop (/sys/obj/player#2610)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:10:00 2024:Object: /sys/obj/player#2610, program: /std/body/snoop, line 55
+ 560 receive_message   /sys/obj/user (#1058)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#1058)
+ 555 _receive_message  /sys/obj/user (#1058)
+1711 receive_message   /sys/obj/player (#2610)
+1080 write_prompt      /sys/obj/player (#2610)
+   8 out               /sys/lib/auto (/sys/obj/player#2610)
+ 982 message_orig      /sys/obj/player (#2610)
+  55 do_snoop          /std/body/snoop (/sys/obj/player#2610)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:10:00 2024:Object: /sys/obj/player#2610, program: /std/body/snoop, line 55
+ 560 receive_message   /sys/obj/user (#1058)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#1058)
+ 555 _receive_message  /sys/obj/user (#1058)
+1711 receive_message   /sys/obj/player (#2610)
+1080 write_prompt      /sys/obj/player (#2610)
+   8 out               /sys/lib/auto (/sys/obj/player#2610)
+ 982 message_orig      /sys/obj/player (#2610)
+  55 do_snoop          /std/body/snoop (/sys/obj/player#2610)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:10:00 2024:Object: /sys/obj/player#2610, program: /std/body/snoop, line 55
+ 560 receive_message   /sys/obj/user (#1058)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#1058)
+ 555 _receive_message  /sys/obj/user (#1058)
+1711 receive_message   /sys/obj/player (#2610)
+1080 write_prompt      /sys/obj/player (#2610)
+   8 out               /sys/lib/auto (/sys/obj/player#2610)
+ 982 message_orig      /sys/obj/player (#2610)
+  55 do_snoop          /std/body/snoop (/sys/obj/player#2610)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:10:01 2024:Object: /sys/obj/player#2610, program: /std/body/snoop, line 55
+ 560 receive_message   /sys/obj/user (#1058)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#1058)
+ 555 _receive_message  /sys/obj/user (#1058)
+1711 receive_message   /sys/obj/player (#2610)
+1080 write_prompt      /sys/obj/player (#2610)
+   8 out               /sys/lib/auto (/sys/obj/player#2610)
+ 982 message_orig      /sys/obj/player (#2610)
+  55 do_snoop          /std/body/snoop (/sys/obj/player#2610)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:10:01 2024:Object: /sys/obj/player#2610, program: /std/body/snoop, line 55
+ 560 receive_message   /sys/obj/user (#1058)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#1058)
+ 555 _receive_message  /sys/obj/user (#1058)
+1711 receive_message   /sys/obj/player (#2610)
+1080 write_prompt      /sys/obj/player (#2610)
+   8 out               /sys/lib/auto (/sys/obj/player#2610)
+ 982 message_orig      /sys/obj/player (#2610)
+  55 do_snoop          /std/body/snoop (/sys/obj/player#2610)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:10:19 2024:Object: /sys/obj/player#2610, program: /std/body/snoop, line 55
+ 560 receive_message   /sys/obj/user (#938)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#938)
+ 555 _receive_message  /sys/obj/user (#938)
+1520 receive_message   /sys/obj/player (#2707)
+ 929 input_old_passwd  /sys/obj/user (#938)
+ 641 login_user        /sys/obj/user (#938)
+ 572 login_player      /sys/obj/player (#2707)
+ 126 event             /daemons/event_d
+  87 dispatch_event    /daemons/event_d
+ 672 event_player_login /daemons/channel_d
+ 369 chan_send_string  /daemons/channel_d
+ 965 message           /sys/obj/player (#2610)
+  55 do_snoop          /std/body/snoop (/sys/obj/player#2610)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:10:20 2024:Object: /sys/obj/player#2610, program: /std/body/snoop, line 55
+ 560 receive_message   /sys/obj/user (#1058)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#1058)
+ 555 _receive_message  /sys/obj/user (#1058)
+1513 receive_message   /sys/obj/player (#2610)
+  55 do_snoop          /std/body/snoop (/sys/obj/player#2610)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:10:20 2024:Object: /sys/obj/player#2610, program: /std/body/snoop, line 55
+ 560 receive_message   /sys/obj/user (#1058)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#1058)
+ 555 _receive_message  /sys/obj/user (#1058)
+1711 receive_message   /sys/obj/player (#2610)
+1080 write_prompt      /sys/obj/player (#2610)
+   8 out               /sys/lib/auto (/sys/obj/player#2610)
+ 982 message_orig      /sys/obj/player (#2610)
+  55 do_snoop          /std/body/snoop (/sys/obj/player#2610)
+
+Bad argument 1 for kfun call_other
+Wed Jul 31 21:10:33 2024:Object: /sys/obj/player#2610, program: /std/body/snoop, line 55
+ 586 interrupt         /kernel/sys/driver
+ 576 _interrupt        /kernel/sys/driver
+1368 do_quit           /sys/obj/player (#2707)
+ 126 event             /daemons/event_d
+  87 dispatch_event    /daemons/event_d
+ 682 event_player_logout /daemons/channel_d
+ 369 chan_send_string  /daemons/channel_d
+ 965 message           /sys/obj/player (#2610)
+  55 do_snoop          /std/body/snoop (/sys/obj/player#2610)
+
+Bad argument 1 for kfun call_other
+Mon Aug  5 16:28:05 2024:Object: /sys/obj/player#984, program: /std/body/experience, line 104
+  21 _F_call_out       /kernel/lib/auto (/daemons/schedule_d)
+  15 _F_call_out2      /kernel/lib/auto (/daemons/schedule_d)
+ 150 micro_beat        /daemons/schedule_d
+ 135 second_tick       /daemons/schedule_d
+  85 heart_beat        /daemons/schedule_d
+ 126 event             /daemons/event_d
+  89 dispatch_event    /daemons/event_d
+ 117 event_heart_beat  /std/body/heart_beat (/domains/woodland/npc/skunk#1066)
+ 539 do_fight          /std/combat (/domains/woodland/npc/skunk#1066)
+ 347 attack_with       /std/combat (/domains/woodland/npc/skunk#1066)
+ 104 set_level         /std/body/experience (/sys/obj/player#984)
+
+Bad argument 1 for kfun query_editor
+Mon Aug  5 16:30:49 2024:Object: /sys/obj/player#984, program: /sys/lib/editor, line 14
+ 560 receive_message   /sys/obj/user (#227)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#227)
+ 555 _receive_message  /sys/obj/user (#227)
+1710 receive_message   /sys/obj/player (#984)
+  14 is_editing        /sys/lib/editor (/sys/obj/player#984)
+
+Bad argument 1 for kfun call_other
+Mon Aug  5 16:32:08 2024:Object: /sys/obj/player#984, program: /std/body/experience, line 104
+  21 _F_call_out       /kernel/lib/auto (/daemons/schedule_d)
+  15 _F_call_out2      /kernel/lib/auto (/daemons/schedule_d)
+ 150 micro_beat        /daemons/schedule_d
+ 135 second_tick       /daemons/schedule_d
+  85 heart_beat        /daemons/schedule_d
+ 126 event             /daemons/event_d
+  89 dispatch_event    /daemons/event_d
+ 117 event_heart_beat  /std/body/heart_beat (/domains/woodland/npc/skunk#877)
+ 539 do_fight          /std/combat (/domains/woodland/npc/skunk#877)
+ 347 attack_with       /std/combat (/domains/woodland/npc/skunk#877)
+ 104 set_level         /std/body/experience (/sys/obj/player#984)
+
+Bad argument 1 for kfun call_other
+Mon Aug  5 16:34:50 2024:Object: /sys/obj/player#984, program: /std/body/experience, line 104
+  21 _F_call_out       /kernel/lib/auto (/daemons/schedule_d)
+  15 _F_call_out2      /kernel/lib/auto (/daemons/schedule_d)
+ 150 micro_beat        /daemons/schedule_d
+ 135 second_tick       /daemons/schedule_d
+  85 heart_beat        /daemons/schedule_d
+ 126 event             /daemons/event_d
+  89 dispatch_event    /daemons/event_d
+ 117 event_heart_beat  /std/body/heart_beat (/domains/woodland/npc/chipmunk#1161)
+ 539 do_fight          /std/combat (/domains/woodland/npc/chipmunk#1161)
+ 347 attack_with       /std/combat (/domains/woodland/npc/chipmunk#1161)
+ 104 set_level         /std/body/experience (/sys/obj/player#984)
+
+Bad argument 1 for kfun call_other
+Mon Aug  5 16:35:46 2024:Object: /sys/obj/player#984, program: /std/body/experience, line 104
+  21 _F_call_out       /kernel/lib/auto (/daemons/schedule_d)
+  15 _F_call_out2      /kernel/lib/auto (/daemons/schedule_d)
+ 150 micro_beat        /daemons/schedule_d
+ 135 second_tick       /daemons/schedule_d
+  85 heart_beat        /daemons/schedule_d
+ 126 event             /daemons/event_d
+  89 dispatch_event    /daemons/event_d
+ 117 event_heart_beat  /std/body/heart_beat (/domains/core/monsters/pottles#1035)
+ 539 do_fight          /std/combat (/domains/core/monsters/pottles#1035)
+ 347 attack_with       /std/combat (/domains/core/monsters/pottles#1035)
+ 104 set_level         /std/body/experience (/sys/obj/player#984)
+
+Bad argument 1 for kfun call_other
+Mon Aug  5 16:38:47 2024:Object: /sys/obj/player#984, program: /std/body/experience, line 104
+  21 _F_call_out       /kernel/lib/auto (/daemons/schedule_d)
+  15 _F_call_out2      /kernel/lib/auto (/daemons/schedule_d)
+ 150 micro_beat        /daemons/schedule_d
+ 135 second_tick       /daemons/schedule_d
+  85 heart_beat        /daemons/schedule_d
+ 126 event             /daemons/event_d
+  89 dispatch_event    /daemons/event_d
+ 117 event_heart_beat  /std/body/heart_beat (/domains/core/monsters/sewerboss#660)
+ 539 do_fight          /std/combat (/domains/core/monsters/sewerboss#660)
+ 347 attack_with       /std/combat (/domains/core/monsters/sewerboss#660)
+ 104 set_level         /std/body/experience (/sys/obj/player#984)
+
+Bad argument 1 for kfun call_other
+Mon Aug  5 16:39:23 2024:Object: /sys/obj/player#984, program: /std/body/experience, line 104
+  21 _F_call_out       /kernel/lib/auto (/daemons/schedule_d)
+  15 _F_call_out2      /kernel/lib/auto (/daemons/schedule_d)
+ 150 micro_beat        /daemons/schedule_d
+ 135 second_tick       /daemons/schedule_d
+  85 heart_beat        /daemons/schedule_d
+ 126 event             /daemons/event_d
+  89 dispatch_event    /daemons/event_d
+ 117 event_heart_beat  /std/body/heart_beat (/domains/sewer/monsters/parrot#572)
+ 539 do_fight          /std/combat (/domains/sewer/monsters/parrot#572)
+ 347 attack_with       /std/combat (/domains/sewer/monsters/parrot#572)
+ 104 set_level         /std/body/experience (/sys/obj/player#984)
+
+Bad argument 1 for kfun call_other
+Thu Aug  8 06:16:45 2024:Object: /sys/obj/player#1196, program: /std/body/heart_beat, line 308
+  21 _F_call_out       /kernel/lib/auto (/daemons/schedule_d)
+  15 _F_call_out2      /kernel/lib/auto (/daemons/schedule_d)
+ 150 micro_beat        /daemons/schedule_d
+ 135 second_tick       /daemons/schedule_d
+  85 heart_beat        /daemons/schedule_d
+ 126 event             /daemons/event_d
+  89 dispatch_event    /daemons/event_d
+  66 event_heart_beat  /std/body/heart_beat (/sys/obj/player#1196)
+ 308 die               /std/body/heart_beat (/sys/obj/player#1196)
+
+Bad argument 1 for kfun call_other
+Thu Aug  8 06:24:54 2024:Object: /sys/obj/player#1200, program: /std/body/heart_beat, line 308
+  21 _F_call_out       /kernel/lib/auto (/daemons/schedule_d)
+  15 _F_call_out2      /kernel/lib/auto (/daemons/schedule_d)
+ 150 micro_beat        /daemons/schedule_d
+ 135 second_tick       /daemons/schedule_d
+  85 heart_beat        /daemons/schedule_d
+ 126 event             /daemons/event_d
+  89 dispatch_event    /daemons/event_d
+  66 event_heart_beat  /std/body/heart_beat (/sys/obj/player#1200)
+ 308 die               /std/body/heart_beat (/sys/obj/player#1200)
+
+Bad argument 1 for kfun call_other
+Thu Aug  8 06:25:22 2024:Object: /sys/obj/player#1211, program: /std/body/heart_beat, line 308
+  21 _F_call_out       /kernel/lib/auto (/daemons/schedule_d)
+  15 _F_call_out2      /kernel/lib/auto (/daemons/schedule_d)
+ 150 micro_beat        /daemons/schedule_d
+ 135 second_tick       /daemons/schedule_d
+  85 heart_beat        /daemons/schedule_d
+ 126 event             /daemons/event_d
+  89 dispatch_event    /daemons/event_d
+  66 event_heart_beat  /std/body/heart_beat (/sys/obj/player#1211)
+ 308 die               /std/body/heart_beat (/sys/obj/player#1211)
+
+Bad argument 1 for kfun call_other
+Thu Aug  8 10:22:35 2024:Object: /sys/obj/player#1205, program: /std/body/experience, line 104
+  21 _F_call_out       /kernel/lib/auto (/daemons/schedule_d)
+  15 _F_call_out2      /kernel/lib/auto (/daemons/schedule_d)
+ 150 micro_beat        /daemons/schedule_d
+ 135 second_tick       /daemons/schedule_d
+  85 heart_beat        /daemons/schedule_d
+ 126 event             /daemons/event_d
+  89 dispatch_event    /daemons/event_d
+ 117 event_heart_beat  /std/body/heart_beat (/domains/woodland/npc/chipmunk#1130)
+ 539 do_fight          /std/combat (/domains/woodland/npc/chipmunk#1130)
+ 347 attack_with       /std/combat (/domains/woodland/npc/chipmunk#1130)
+ 104 set_level         /std/body/experience (/sys/obj/player#1205)
+
+Bad argument 1 for kfun call_other
+Thu Aug  8 10:22:53 2024:Object: /sys/obj/player#1205, program: /std/body/heart_beat, line 308
+  21 _F_call_out       /kernel/lib/auto (/daemons/schedule_d)
+  15 _F_call_out2      /kernel/lib/auto (/daemons/schedule_d)
+ 150 micro_beat        /daemons/schedule_d
+ 135 second_tick       /daemons/schedule_d
+  85 heart_beat        /daemons/schedule_d
+ 126 event             /daemons/event_d
+  89 dispatch_event    /daemons/event_d
+  66 event_heart_beat  /std/body/heart_beat (/sys/obj/player#1205)
+ 308 die               /std/body/heart_beat (/sys/obj/player#1205)
+
+Bad argument 1 for kfun call_other
+Thu Aug  8 10:30:42 2024:Object: /sys/obj/player#1206, program: /std/body/experience, line 104
+  21 _F_call_out       /kernel/lib/auto (/daemons/schedule_d)
+  15 _F_call_out2      /kernel/lib/auto (/daemons/schedule_d)
+ 150 micro_beat        /daemons/schedule_d
+ 135 second_tick       /daemons/schedule_d
+  85 heart_beat        /daemons/schedule_d
+ 126 event             /daemons/event_d
+  89 dispatch_event    /daemons/event_d
+ 117 event_heart_beat  /std/body/heart_beat (/domains/woodland/npc/chipmunk#1130)
+ 539 do_fight          /std/combat (/domains/woodland/npc/chipmunk#1130)
+ 347 attack_with       /std/combat (/domains/woodland/npc/chipmunk#1130)
+ 104 set_level         /std/body/experience (/sys/obj/player#1206)
+
+:Failed to compile "/sys/obj/player.c"
+Thu Aug  8 17:48:50 2024:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/sys/cmds/admin/warmboot)
+  13 _F_call_out2      /kernel/lib/auto (/sys/cmds/admin/warmboot)
+ 231 next_stage        /sys/cmds/admin/warmboot
+ 197 rebuild_world     /sys/cmds/admin/warmboot
+ 143 upgrade_uobj      /sys/cmds/admin/warmboot
+  33 compile_object    /kernel/lib/auto (/sys/cmds/admin/warmboot)
+ 184 compile_object    /kernel/sys/driver
+
+:Failed to compile "/sys/obj/player.c"
+Thu Aug  8 18:13:39 2024:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/sys/cmds/admin/warmboot)
+  13 _F_call_out2      /kernel/lib/auto (/sys/cmds/admin/warmboot)
+ 231 next_stage        /sys/cmds/admin/warmboot
+ 197 rebuild_world     /sys/cmds/admin/warmboot
+ 143 upgrade_uobj      /sys/cmds/admin/warmboot
+  33 compile_object    /kernel/lib/auto (/sys/cmds/admin/warmboot)
+ 184 compile_object    /kernel/sys/driver
+
+:Failed to compile "/sys/obj/player.c"
+Thu Aug  8 18:14:18 2024:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/sys/cmds/admin/warmboot)
+  13 _F_call_out2      /kernel/lib/auto (/sys/cmds/admin/warmboot)
+ 231 next_stage        /sys/cmds/admin/warmboot
+ 197 rebuild_world     /sys/cmds/admin/warmboot
+ 143 upgrade_uobj      /sys/cmds/admin/warmboot
+  33 compile_object    /kernel/lib/auto (/sys/cmds/admin/warmboot)
+ 184 compile_object    /kernel/sys/driver
+
+:Failed to compile "/sys/obj/player.c"
+Thu Aug  8 18:14:33 2024:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+  21 _F_call_out       /kernel/lib/auto (/sys/cmds/admin/warmboot)
+  13 _F_call_out2      /kernel/lib/auto (/sys/cmds/admin/warmboot)
+ 231 next_stage        /sys/cmds/admin/warmboot
+ 197 rebuild_world     /sys/cmds/admin/warmboot
+ 143 upgrade_uobj      /sys/cmds/admin/warmboot
+  33 compile_object    /kernel/lib/auto (/sys/cmds/admin/warmboot)
+ 184 compile_object    /kernel/sys/driver
+
+Bad argument 1 for kfun call_other
+Fri Aug  9 00:08:29 2024:Object: /sys/obj/player#1204, program: /std/body/experience, line 104
+  21 _F_call_out       /kernel/lib/auto (/daemons/schedule_d)
+  15 _F_call_out2      /kernel/lib/auto (/daemons/schedule_d)
+ 150 micro_beat        /daemons/schedule_d
+ 135 second_tick       /daemons/schedule_d
+  85 heart_beat        /daemons/schedule_d
+ 126 event             /daemons/event_d
+  89 dispatch_event    /daemons/event_d
+ 117 event_heart_beat  /std/body/heart_beat (/domains/woodland/npc/chipmunk#442)
+ 539 do_fight          /std/combat (/domains/woodland/npc/chipmunk#442)
+ 347 attack_with       /std/combat (/domains/woodland/npc/chipmunk#442)
+ 104 set_level         /std/body/experience (/sys/obj/player#1204)
+
+Bad argument 1 for kfun call_other
+Fri Aug  9 00:09:28 2024:Object: /sys/obj/player#1204, program: /std/body/heart_beat, line 308
+  21 _F_call_out       /kernel/lib/auto (/daemons/schedule_d)
+  15 _F_call_out2      /kernel/lib/auto (/daemons/schedule_d)
+ 150 micro_beat        /daemons/schedule_d
+ 135 second_tick       /daemons/schedule_d
+  85 heart_beat        /daemons/schedule_d
+ 126 event             /daemons/event_d
+  89 dispatch_event    /daemons/event_d
+  66 event_heart_beat  /std/body/heart_beat (/sys/obj/player#1204)
+ 308 die               /std/body/heart_beat (/sys/obj/player#1204)
+
+Bad argument 1 for kfun call_other
+Fri Aug  9 14:08:25 2024:Object: /sys/obj/player#443, program: /std/body/heart_beat, line 308
+  21 _F_call_out       /kernel/lib/auto (/daemons/schedule_d)
+  15 _F_call_out2      /kernel/lib/auto (/daemons/schedule_d)
+ 150 micro_beat        /daemons/schedule_d
+ 135 second_tick       /daemons/schedule_d
+  85 heart_beat        /daemons/schedule_d
+ 126 event             /daemons/event_d
+  89 dispatch_event    /daemons/event_d
+  66 event_heart_beat  /std/body/heart_beat (/sys/obj/player#443)
+ 308 die               /std/body/heart_beat (/sys/obj/player#443)
+

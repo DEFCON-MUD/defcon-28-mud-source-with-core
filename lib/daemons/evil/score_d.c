@@ -56,9 +56,7 @@ void set_score(string playername) {
     player_sequence = tp->query_sequence();
     scores[player_sequence] = ([]);
     scores[player_sequence]["name"] = playername; 
-    if(sizeof(tp->query_quests_completed()) > 0); {
-      scores[player_sequence]["quests"] = tp->query_quests_completed();
-    }
+    scores[player_sequence]["quests"] = tp->query_quests_completed();
     scores[player_sequence]["age"] = tp->query_age_in_seconds();
     scores[player_sequence]["level"] = tp->query_level();
     scores[player_sequence]["admin"] = query_admin(tp);
@@ -133,5 +131,11 @@ void add_shell_json(string json_input_string)
    shells[shell_input["uuid"]]["password"] = shell_input["password"];
    shells[shell_input["uuid"]]["ip"] = shell_input["ip"];
    shells[shell_input["uuid"]]["shell_type"] = shell_input["shell_type"];
+   save_me();
+}
+
+void issue_shell(string uuid)
+{
+   shells[uuid] = nil;
    save_me();
 }

@@ -6,13 +6,13 @@ quests ({9|"NewbieVille","Woodland","Wizard","Pottles","Sewer","Evil","Ticket","
 coins 83020
 base_stats ([6|"cha":2,"con":15,"dex":26,"int":15,"str":29,"wis":21,])
 bonus_stats ([6|"cha":0,"con":0,"dex":0,"int":0,"str":0,"wis":0,])
-cur_hp 122
+cur_hp 137
 max_hp 137
 cur_mana 41
 max_mana 41
-cur_end 56
+cur_end 61
 max_end 61
-player_age 2388
+player_age 4460
 kills 48
 killed_by ([0|])
 wimpy_dir ""
@@ -20,17 +20,17 @@ gender "female"
 race "fed"
 followers ({0|})
 living_name "feath3rz"
-autoload_string "/domains/core/objects/shop/armour/faulds2.c:wear^!/domains/core/objects/shop/armour/gorget2.c:wear^!/domains/core/objects/shop/armour/boots2.c:wear^!/domains/core/objects/shop/armour/helmet2.c:wear^!/domains/core/objects/secard.c:none^!/domains/core/objects/shop/armour/bracers2.c:wear^!/domains/core/objects/shop/weapon/sword2.c:wield^!/domains/core/objects/shop/armour/plate2.c:wear^!/domains/core/objects/shop/armour/gloves2.c:wear^!/domains/core/objects/tracker.c:none^!/domains/core/objects/shop/armour/ring2.c:wear^!/domains/core/objects/shop/armour/guantlets2.c:wear^!/domains/core/objects/shop/weapon/sword2.c:wield^!/domains/core/objects/shop/armour/armour2.c:wear^!*^!"
+autoload_string "/domains/core/objects/tracker.c:none^!/domains/core/objects/secard.c:none^!/domains/core/objects/shop/weapon/sword2.c:wield^!/domains/core/objects/shop/weapon/sword2.c:wield^!/domains/core/objects/shop/armour/plate2.c:wear^!/domains/core/objects/shop/armour/armour2.c:wear^!/domains/core/objects/shop/armour/boots2.c:wear^!/domains/core/objects/shop/armour/ring2.c:wear^!/domains/core/objects/shop/armour/bracers2.c:wear^!/domains/core/objects/shop/armour/faulds2.c:wear^!/domains/core/objects/shop/armour/gloves2.c:wear^!/domains/core/objects/shop/armour/gorget2.c:wear^!/domains/core/objects/shop/armour/guantlets2.c:wear^!/domains/core/objects/shop/armour/helmet2.c:wear^!*^!"
 skills ([3|"combat/defense":87,"combat/sharp/small":106,"crypto":1295,])
 hit_skill "combat/unarmed"
-searchpath ({1|"/cmds/player/",})
-history ({20|"attack parrot","go up ","go east ","go north ","go northeast ","go northwest ","go west ","go northwest ","go south ","go southwest ","go up ","go north ","go west ","go east ","go north ","go west ","go south ","go west ","quests","score",})
-environment_variables ([1|"cwd":"/",])
+searchpath ({3|"/cmds/player/","/sys/cmds/wiz/","/sys/cmds/admin/",})
+history ({20|"go east ","go west ","remove all","drop all","go east ","order sword","order armour","order boots","order bracers","order faulds","order gloves","order gorget","order guantlets","order helmet","order plate","order ring","wear all","wield sword","wield sword 2","who",})
+environment_variables ([1|"cwd":"/domains/dungeon/rooms",])
 title "$N the Parrot Killer"
-channels ({2|"gossip","announce",})
+channels ({3|"gossip","announce","dgd",})
 ignored ({0|})
 alias ([0|])
-last_login 1722108750
+last_login 1722876593
 ansi 1
 lastmined 368
 deathproof 1
@@ -39,4 +39,4 @@ custom_colors ([0|])
 autoload 1
 woodland_kills ({17|1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,})
 key_tracker ({8|1,1,1,1,1,1,1,1,})
-sequence "25"
+sequence 25

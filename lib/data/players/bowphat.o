@@ -39,4 +39,4 @@ custom_colors ([0|])
 autoload 1
 woodland_kills ({17|0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,})
 key_tracker ({8|0,0,0,0,0,0,0,0,})
-sequence "27"
+sequence 27
